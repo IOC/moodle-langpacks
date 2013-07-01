@@ -108,9 +108,9 @@ $string['basicideasofquiz'] = 'Les concepts de base pour créer des tests';
 $string['bestgrade'] = 'Meilleure note';
 $string['bothattempts'] = 'Afficher aussi les étudiants n\'ayant pas fait le test';
 $string['browsersecurity'] = 'Sécurité du navigateur';
-$string['browsersecurity_help'] = 'Si vous sélectionnez l\'option « Nouvelle fenêtre plein écran avec un peu de sécurité JavaScript »,
+$string['browsersecurity_help'] = 'Si vous sélectionnez l\'option « Nouvelle fenêtre plein écran avec un peu de sécurité Javascript »,
 
-* le test démarre uniquement si l\'étudiant possède un navigateur qui accepte le JavaScript ;
+* le test démarre uniquement si l\'étudiant possède un navigateur qui accepte le Javascript ;
 * le test démarre dans une nouvelle fenêtre qui couvre entièrement les autres fenêtres et qui ne possède pas de boutons de navigation ;
 * les fonctions telles que copier-coller sont, autant que possible, bloquées pour l\'étudiant.';
 $string['calculated'] = 'Calculée';
@@ -170,7 +170,7 @@ $string['confignavmethod'] = 'En mode navigation libre, les questions peuvent ê
 $string['confignewpageevery'] = 'Lors de l\'ajout de questions, des sauts de pages seront insérés automatiquement d\'après ce réglage.';
 $string['configoutcomesadvanced'] = 'Si ce réglage est activé, les objectifs seront des réglages avancés dans le formulaire de modification des tests.';
 $string['configpenaltyscheme'] = 'Pénalité soustraite pour chaque mauvaise réponse dans les tests en mode adaptatif.';
-$string['configpopup'] = 'Forcer l\'affichage du test dans une nouvelle fenêtre et utiliser des astuces JavaScript pour essayer d\'empêcher le copier/coller, etc. durant les tentatives de tests.';
+$string['configpopup'] = 'Forcer l\'affichage du test dans une nouvelle fenêtre et utiliser des astuces Javascript pour essayer d\'empêcher le copier/coller, etc. durant les tentatives de tests.';
 $string['configrequirepassword'] = 'Les participants doivent saisir ce mot de passe avant de pouvoir effectuer des tentatives.';
 $string['configrequiresubnet'] = 'Les participants me peuvent effectuer des tentatives que depuis les ordinateurs sur ces réseaux.';
 $string['configreviewoptions'] = 'Ces options déterminent les informations que les participants peuvent voir lorsqu\'ils relisent une tentative de test ou quand ils consultent les rapports de tests.';
@@ -514,7 +514,7 @@ $string['noreviewattempt'] = 'Vous n\'êtes pas autorisé à relire cette tentat
 $string['noreviewshort'] = 'Non autorisé';
 $string['noreviewuntil'] = 'Vous n\'êtes pas autorisé à relire ce test avant le {$a}';
 $string['noreviewuntilshort'] = 'Disponible le {$a}';
-$string['noscript'] = 'JavaScript doit être activé pour continuer !';
+$string['noscript'] = 'Javascript doit être activé pour continuer !';
 $string['notavailabletostudents'] = 'Ce test n\'est actuellement pas disponible pour vos étudiants';
 $string['notenoughrandomquestions'] = 'Il n\'y a pas assez de questions dans la catégorie {$a->category} pour créer la question {$a->name} ({$a->id}).';
 $string['notenoughsubquestions'] = 'Vous n\'avez pas défini assez de sous-questions !<br />Souhaitez-vous revenir en arrière pour corriger cela ?';

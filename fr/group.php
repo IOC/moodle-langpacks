@@ -131,7 +131,7 @@ $string['importgroups_help'] = 'Les groupes peuvent être importés depuis un fi
 * le seul champ requis est groupname ;
 * les champs optionnels sont description, enrolmentkey, picture, hidepicture ;
 * les noms des champs ne doivent pas être traduits.';
-$string['javascriptrequired'] = 'Cette page requiert l\'activation de JavaScript.';
+$string['javascriptrequired'] = 'Cette page requiert l\'activation de Javascript.';
 $string['members'] = 'Membres par groupe';
 $string['membersofselectedgroup'] = 'Membres de :';
 $string['namingscheme'] = 'Schéma de dénomination';

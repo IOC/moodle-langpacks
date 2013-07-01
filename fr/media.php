@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['flashanimation'] = 'Animation Flash';
 $string['flashanimation_desc'] = 'Fichiers avec l\'extension .swf. Pour des raisons de sécurité, ce filtre n\'est utilisé que dans des textes fiables.';
 $string['flashvideo'] = 'Vidéo Flash';
-$string['flashvideo_desc'] = 'Fichiers avec l\'extension .flv ou .f4v. Permet la lecture de séquences vidéos au moyen du lecteur Flowplayer, qui requiert le plugin Flash et l\'activation de JavaScript. Si plusieurs sources sont spécifiées, utilise la vidéo en HTML5.';
+$string['flashvideo_desc'] = 'Fichiers avec l\'extension .flv ou .f4v. Permet la lecture de séquences vidéos au moyen du lecteur Flowplayer, qui requiert le plugin Flash et l\'activation de Javascript. Si plusieurs sources sont spécifiées, utilise la vidéo en HTML5.';
 $string['html5audio'] = 'Audio HTML 5';
 $string['html5audio_desc'] = 'Fichiers audio avec l\'extension *.ogg, *.acc et autres. Ce plugin n\'est compatible qu\'avec les navigateurs les plus récents. Aucun format n\'est malheureusement supporté par tous les navigateurs.
 Pour contourner ce problème, on indiquera des fichiers alternatifs, séparés par # (exemple : http://exemple.fr/audio.ogg#http://exemple.fr/audio.acc#http://exemple.fr/audio.mp3#). Le lecteur QuickTime est utilisé comme solution de remplacement avec d\'anciens navigateurs. Les formats alternatifs peuvent être de n\'importe quel type de fichier audio.';

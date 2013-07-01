@@ -56,4 +56,4 @@ $string['ratinginvalid'] = 'L\'évaluation n\'est pas valide';
 $string['ratings'] = 'Évaluations';
 $string['ratingtime'] = 'Restreindre l\'évaluation aux éléments dont les dates sont dans cet intervalle :';
 $string['rolewarning'] = 'Rôles avec autorisation d\'évaluer';
-$string['rolewarning_help'] = 'Pour donner des évaluations, les utilisateurs ont besoin de la capacité moodle/rating:rate, ainsi que de capacités spécifiques des modules. Les utilisateurs avec les rôles suivants peuvent évaluer des éléments. Cette liste peut être modifiée via le lien droits d\'accès dans le bloc administration.';
+$string['rolewarning_help'] = 'Pour donner des évaluations, les utilisateurs ont besoin de la capacité moodle/rating:rate, ainsi que de capacités spécifiques des modules. Les utilisateurs avec les rôles suivants peuvent évaluer des éléments. Cette liste peut être modifiée via le lien permissions dans le bloc administration.';

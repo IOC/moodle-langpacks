@@ -16,15 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qformat_giftmedia', language 'fr', branch 'MOODLE_25_STABLE'
+ * Strings for component 'theme_aaradyha', language 'fr', branch 'MOODLE_23_STABLE'
  *
- * @package   qformat_giftmedia
+ * @package   theme_aaradyha
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['nogiftfile'] = 'Impossible de trouver un fichier au format Gift dans l\'archive zip. Vérifiez que votre archive zip contient bien un fichier texte au format Gift avec l\'extension .txt au niveau racine.';
-$string['pluginname'] = 'Format Gift avec des fichiers média';
-$string['pluginname_help'] = 'Similaire au format Gift mais permet l\'import d\'une archive zip contenant un fichier texte avec des références à des fichiers médias et ces fichiers média';
+$string['footnote'] = 'Pied de page';
+$string['footnotedesc'] = 'Le contenu de ce champ sera affiché dans le pied-de-page de chaque page.';
