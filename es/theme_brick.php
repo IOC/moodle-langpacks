@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['headingcolordesc'] = 'Color de la cabecera para cabeceras grandes (noticias del sitio, mis cursos) y otras cabeceras.';
 $string['linkcolor'] = 'enlace';
 $string['linkcolordesc'] = 'Establece el color de los enlaces en el tema, utilice el código HTML hexadecimal.';
 $string['linkhover'] = 'linkhover';

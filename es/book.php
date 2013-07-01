@@ -73,5 +73,5 @@ $string['subchapter'] = 'Subcapítulo';
 $string['subchapternotice'] = '(Disponible una vez que el primer capítulo se haya creado)';
 $string['subplugintype_booktool'] = 'Herramienta Libro';
 $string['subplugintype_booktool_plural'] = 'Herramientas Libro';
-$string['toc'] = 'Tabla de Contenido';
+$string['toc'] = 'Tabla de contenidos';
 $string['top'] = 'arriba';

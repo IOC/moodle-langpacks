@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['badges:addinstance'] = 'Añadir un nuevo bloque Mis últimas insisgnias';
-$string['badges:myaddinstance'] = 'Añadir un nuevo bloque Mis últimas insisgnias a la página Mi Moodle';
+$string['badges:myaddinstance'] = 'Añadir un nuevo bloque Mis últimas insisgnias al Área personal';
 $string['nothingtodisplay'] = 'No tiene insignias que mostrar';
 $string['numbadgestodisplay'] = 'Número de últimas insignias que mostrar';
 $string['pluginname'] = 'Mis últimas insignias';

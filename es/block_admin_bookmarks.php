@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['admin_bookmarks:addinstance'] = 'Añadir un nuevo bloque de marcas del administrador';
-$string['admin_bookmarks:myaddinstance'] = 'Añadir un nuevo bloque de marcas del administrador en la página Mi Moodle';
+$string['admin_bookmarks:myaddinstance'] = 'Añadir un nuevo bloque de marcas del administrador al Área personal';
 $string['pluginname'] = 'Marcas del administrador';

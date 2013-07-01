@@ -72,6 +72,6 @@ $string['showcoursetagsdef'] = 'Mostrar las características de marcado en el bl
 $string['suggestedtagthisunit'] = 'Marca (tag) sugerida para este curso:';
 $string['tags'] = 'marcas';
 $string['tags:addinstance'] = 'Añadir un nuevo bloque de marcas';
-$string['tags:myaddinstance'] = 'Añadir un nuevo bloque de marcas en la página Mi Moodle';
+$string['tags:myaddinstance'] = 'Añadir un nuevo bloque de marcas al Área personal';
 $string['tagthisunit'] = 'Marcar este curso:';
 $string['tagunits'] = 'marcar sus cursos favoritos';

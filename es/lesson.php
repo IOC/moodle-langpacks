@@ -133,7 +133,7 @@ $string['credit'] = 'Crédito';
 $string['customscoring'] = 'Puntuación personalizada';
 $string['customscoring_help'] = 'Si está habilitada, se puede dar a cada respuesta una puntuación numérica (positiva o negativa).';
 $string['deadline'] = 'Fecha final';
-$string['defaultessayresponse'] = 'Su ensayo será calificado por su profesor';
+$string['defaultessayresponse'] = 'Su ensayo será calificado por su profesor.';
 $string['deleteallattempts'] = 'Eliminar todos los intentos de resolver la lección';
 $string['deletedefaults'] = 'Eliminada {$a} x lección por defecto';
 $string['deletedpage'] = 'Página eliminada';
@@ -279,7 +279,7 @@ $string['maximumnumberofattemptsreached'] = 'Se ha alcanzado el número máximo 
 $string['maxtime'] = 'Límite de tiempo (minutos)';
 $string['maxtimewarning'] = 'Dispone de {$a} minuto(s) para terminar la lección.';
 $string['mediaclose'] = 'Mostrar botón de cierre:';
-$string['mediafile'] = 'Archivo pop-up';
+$string['mediafile'] = 'Archivo en ventana emergente';
 $string['mediafile_help'] = '<p>Esta opción crea una ventana emergente al comienzo de la lección a un archivo (e.g., mp3) o página web. Asimismo, en cada página de la lección aparecerá un enlace que abre de nuevo la ventana emergente si fuera necesario.</p>
 
 <p>Opcionalmente aparecerá un botón de "Cerrar ventana" al final de la ventana emergente; pueden ajustarse asimismo la altura y anchura de la ventana.</p>';
@@ -395,6 +395,7 @@ $string['postsuccess'] = 'Mensaje exitoso';
 $string['practice'] = 'Lección de práctica';
 $string['practice_help'] = '<p>Las lecciones de práctica no se mostrarán en el libro de calificaciones.</p>';
 $string['preprocesserror'] = 'Ha ocurrido un error durante el pre-procesamiento';
+$string['prerequisitelesson'] = 'Lección previa requerida';
 $string['preview'] = 'Previsualizar';
 $string['previewlesson'] = 'Previsualizar {$a}';
 $string['previouspage'] = 'Página anterior';

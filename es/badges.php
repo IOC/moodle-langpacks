@@ -57,7 +57,7 @@ $string['anymethodmanual'] = 'Cualquiera de los roles seleccionados otorga la in
 $string['anymethodprofile'] = 'Cualquiera de los campos de perfil seleccionados ha sido cumplimentado';
 $string['attachment'] = 'Adjuntar insignia al mensaje';
 $string['attachment_help'] = 'Si se selecciona, se adjuntará una insignia al correo electrónico para su descarga';
-$string['award'] = 'Insignia otorgada';
+$string['award'] = 'Otorgar insignia';
 $string['awardedtoyou'] = 'Emitida para mi';
 $string['awardoncron'] = 'El acceso a las insignias se activó con éxito. Muchos usuarios pueden ganar simultáneamente esta insignia. Para garantizar el funcionamiento del sitio, esta acción llevará un cierto tiempo de proceso.';
 $string['awards'] = 'Destinatarios';
@@ -259,10 +259,10 @@ $string['makeprivate'] = 'hacer privado';
 $string['makepublic'] = 'Hacer público';
 $string['managebadges'] = 'Gestionar insignias';
 $string['message'] = 'Cuerpo del mensaje';
-$string['messagebody'] = '<p> ¡Se le ha otorgado una insignia "% badgename"! </p>
+$string['messagebody'] = '<p> ¡Se le ha otorgado la insignia "%badgename"!</p>
 <p> Puede encontrar más información sobre esta insignia en %badgelink%. </p>
-<p> Si no encuentra la insignia adjunta a este correo electrónico, puede gestionarla y descargarla de la página {$a}. </p>';
-$string['messagesubject'] = '¡Felicitaciones, acaba de ganar una insignia!';
+<p> Si no encuentra la insignia adjunta a este correo electrónico, puede gestionarla y descargarla desde la página {$a}. </p>';
+$string['messagesubject'] = '¡Enhorabuena, acaba de ganar una insignia!';
 $string['method'] = 'Este criterio se cumple cuando...';
 $string['mingrade'] = 'Calificación mínima requerida';
 $string['month'] = 'Mes(es)';
@@ -313,7 +313,7 @@ $string['reviewconfirm'] = '<p> ¿En esta acción se realizará una comprobació
 <p> ¿Desea continuar? </p>';
 $string['save'] = 'Guardar';
 $string['searchname'] = 'Ordenar por nombre';
-$string['selectaward'] = 'Por favor, seleccione el rol que le gustaría usar paa otorgar esta insignia:';
+$string['selectaward'] = 'Por favor, seleccione el rol que le gustaría usar para otorgar esta insignia:';
 $string['selectgroup_end'] = 'Sólo se muestran las colecciones públicas, <a href="http://backpack.openbadges.org">visite su mochila</a> para crear más colecciones públicas.';
 $string['selectgroup_start'] = 'Seleccione las colecciones de la mochila que se mostrarán en este sitio:';
 $string['selecting'] = 'Con insignias seleccionadas ...';
