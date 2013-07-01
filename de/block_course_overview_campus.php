@@ -37,7 +37,6 @@ $string['course_overview_campus:addinstance'] = 'Neuen Block \'Kursübersicht (C
 $string['course_overview_campus:myaddinstance'] = 'Neuen Block \'Kursübersicht (Campus)\' für \'Meine Startseite\' hinzufügen';
 $string['defaultterm'] = 'Zeitraum automatisch belegen';
 $string['defaultterm_desc'] = 'Falls der Nutzer noch keinen Filter nach Zeitraum ausgewählt hat, wird dieser automatisch belegt. Zunächst wird die Belegung mit dem aktuellen Zeitraum versucht. Falls der Nutzer im aktuellen Zeitraum in keinem Kurs eingeschrieben ist, wird der jüngste vorangehende Zeitraum gewählt.<br /><em>Diese Einstellung wird nur verwendet, wenn der Filter nach Zeitraum aktiviert ist.</em>';
-$string['filtersettingheading'] = 'Filter aktivieren';
 $string['hiddencourses'] = 'verborgene Kurse';
 $string['hidecourse'] = 'Kurs verbergen';
 $string['hidenews'] = 'Kurs-News verbergen';

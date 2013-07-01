@@ -88,7 +88,7 @@ $string['forceformat'] = 'Vorgegebenes Format';
 $string['forceformat_help'] = 'Wenn das Format vorgegeben wird, gibt es keine Möglichkeit, bei der Bearbeitung das Format zu verändern.';
 $string['format'] = 'Format';
 $string['formatcreole'] = 'Creole-Format';
-$string['formatcreole_help'] = 'Creole ist eine übliche Markup-Sprache für Wikis mit einer Werkzeugleiste zum Einfügen der entsprechenden Formatierungszeichen.
+$string['formatcreole_help'] = 'Creole ist eine Markup-Sprache für Wikis mit einer Werkzeugleiste zum Einfügen der entsprechenden Formatierungszeichen.
 
 Um eine neue Seite zu erstellen, geben Sie den neuen Seitennamen in doppelte Eckige Klammern ein, z.B. [[Neue Seite]].';
 $string['format_help'] = 'Format zur Bearbeitung von Wikiseiten
