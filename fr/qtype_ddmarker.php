@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'fr', branch 'MOODLE_24_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'fr', branch 'MOODLE_25_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -77,7 +77,6 @@ $string['pluginnameediting'] = 'Modifier des marqueurs à glisser-déposer';
 $string['pluginname_help'] = 'Sélectionner un fichier pour l\'image de fond, entrez des labels pour les marqueurs et définissez des zones de dépôt pour ces marqueurs sur l\'image de fond.';
 $string['pluginname_link'] = 'question/type/ddmarker';
 $string['pluginnamesummary'] = 'Des marqueurs sont glissés et déposés sur une image de fond.';
-$string['previewarea'] = 'Zone de prévisualisation -';
 $string['previewareaheader'] = 'Aperçu';
 $string['previewareamessage'] = 'Sélectionner un fichier pour l\'image de fond, entrez des labels pour les marqueurs et définissez des zones de dépôt pour ces marqueurs sur l\'image de fond.';
 $string['refresh'] = 'Rafraîchir l\'aperçu';

@@ -379,7 +379,7 @@ $string['courserequestdetails'] = 'Informations du cours que vous demandez';
 $string['courserequestfailed'] = 'Votre demande n\'a pas pu être enregistrée pour une raison inconnue';
 $string['courserequestintro'] = 'Utiliser ce formulaire pour demander l\'ouverture d\'un cours pour vous.<br />Veuillez remplir toutes les informations possibles pour permettre aux<br />administrateurs de comprendre les raisons de votre demande.';
 $string['courserequestreason'] = 'Pourquoi voulez-vous créer ce cours ?';
-$string['courserequestsuccess'] = 'Votre requête a été enregistrée. Vous recevrez prochainement un courriel pour vous informer du résultat de votre demande';
+$string['courserequestsuccess'] = 'Votre requête a été enregistrée. Vous recevrez prochainement un courriel pour vous informer du résultat de votre demande.';
 $string['courserequestsupport'] = 'Informations supplémentaires pour aider l\'administrateur à évaluer cette demande';
 $string['courserestore'] = 'Restauration du cours';
 $string['courses'] = 'Cours';
@@ -1178,7 +1178,7 @@ Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître c
 Si vous avez besoin d\'aide, veuillez contacter l\'administrateur du site {$a->sitename},
 {$a->signoff}';
 $string['newusers'] = 'Nouveaux utilisateurs';
-$string['newwindow'] = 'nouvelle fenêtre';
+$string['newwindow'] = 'Nouvelle fenêtre';
 $string['next'] = 'Suivant';
 $string['nextsection'] = 'Section suivante';
 $string['no'] = 'Non';

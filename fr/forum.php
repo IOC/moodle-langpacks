@@ -443,7 +443,9 @@ $string['subscriptionmode_help'] = 'Lorsqu\'un participant est abonné à un for
 * Abonnement facultatif : les participants peuvent décider de s\'abonner ou non à chaque forum.
 * Abonnement imposé : tous les participants du cours sont abonnés et ne peuvent pas se désabonner.
 * Abonnement automatique : tous les participants du cours sont initialement abonnés, mais peuvent choisir de se désabonner quand ils le veulent.
-* Abonnement désactivé : l\'abonnement n\'est pas autorisé.';
+* Abonnement désactivé : l\'abonnement n\'est pas autorisé.
+
+Les changements effectués au type d\'abonnement n\'affectent que les futurs inscrits au cours.';
 $string['subscriptionoptional'] = 'Abonnement facultatif';
 $string['subscriptions'] = 'Abonnements';
 $string['thisforumisthrottled'] = 'Ce forum a une limite du nombre de messages que vous pouvez poster durant une période donnée. Cette limite est actuellement de {$a->blockafter} message(s) durant {$a->blockperiod}';
