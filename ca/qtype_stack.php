@@ -16,14 +16,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_wikipedia', language 'ca', branch 'MOODLE_24_STABLE'
+ * Strings for component 'qtype_stack', language 'ca', branch 'MOODLE_25_STABLE'
  *
- * @package   block_wikipedia
+ * @package   qtype_stack
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Wikipedia';
-$string['search'] = 'Cerca';
+$string['defaultprtpartiallycorrectfeedback'] = 'La teva resposta és parcialment correcta.';

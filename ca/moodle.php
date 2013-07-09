@@ -194,6 +194,7 @@ $string['backuptakealook'] = 'Si us plau doneu una ullada als registres de la c�
 {$a}';
 $string['backupuserfileshelp'] = 'Trieu si voleu que els fitxers dels usuaris (p. e. la imatge del perfil) s\'incloguin a les còpies de seguretat automàtiques';
 $string['backupversion'] = 'Versió de la còpia de seguretat';
+$string['badges'] = 'Insígnies';
 $string['block'] = 'Bloc';
 $string['blockconfiga'] = 'S\'està configurant un bloc {$a}';
 $string['blockconfigbad'] = 'Aquest bloc no s\'ha implementat correctament i no pot proporcionar una interfície de configuració.';
