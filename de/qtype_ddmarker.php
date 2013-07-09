@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qtype_ddmarker', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'qtype_ddmarker', language 'de', branch 'MOODLE_25_STABLE'
  *
  * @package   qtype_ddmarker
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -76,7 +76,6 @@ $string['pluginnameadding'] = 'Füge "Drag and Drop" Markierungen hinzu';
 $string['pluginnameediting'] = 'Bearbeite "Drag and Drop" Markierungen';
 $string['pluginname_help'] = 'Wählen Sie ein Hintergrundbild. Geben Sie Beschriftungstexte für Markierungen ein und legen Sie die Ablagebereiche auf dem Hintergrundbild fest, auf welche die Markierungen gezogen werden müssen.';
 $string['pluginnamesummary'] = 'Markierungen werden per "Drag and Drop" auf ein Hintergrundbild gezogen.';
-$string['previewarea'] = 'Vorschaubereich -';
 $string['previewareaheader'] = 'Vorschau';
 $string['previewareamessage'] = 'Wählen Sie ein Hintergrundbild, geben Sie Beschriftungstexte für die Markierungen ein und legen Sie die Ablagebereiche auf dem Hintergrundbild fest, auf welche die Markierungen gezogen werden müssen.';
 $string['refresh'] = 'Vorschau aktualisieren';
