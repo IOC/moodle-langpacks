@@ -39,8 +39,7 @@ $string['displayselectexplain'] = 'Anzeigetyp auswählen, aber leider nicht sind
 $string['displayselect_help'] = 'Diese Einstellung bestimmt zusammen mit dem URL-Dateityp (und den Fähigkeiten des Browsers), wie die URL angezeigt wird. Folgende Optionen sind möglich:
 
 * Automatisch - Die beste Anzeigeoption für die URL wird automatisch ausgewählt
-* Eingebettet - Die URL wird innerhalb der Seite unterhalb der Navigationsleiste angezeigt, zusammen mit der URL-Beschreibung und allen Blöcken
-* Download erzwingen - Die URL-Datei wird zum Download angeboten
+* Eingebettet - Die URL wird innerhalb der Seite unterhalb der Navigationsleiste angezeigt, zusammen mit der Beschreibung und allen Blöcken
 * Öffnen - Die URL wird alleine im Browserfenster angezeigt
 * Als Popup - Die URL wird in einem Popup-Fenster ohne Menüs und ohne Adressleiste angezeigt
 * Im Frame - Die URL wird in einem Frame unterhalb der Navigationsleiste angezeigt, zusammen mit der URL-Beschreibung

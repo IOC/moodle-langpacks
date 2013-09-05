@@ -30,9 +30,9 @@ $string['addgrades'] = '{no} Bewertungsbedingungen hinzufügen';
 $string['adduserfields'] = '{no} Nutzerbedingungen zum Formular hinzufügen';
 $string['availabilityconditions'] = 'Bedingte Verfügbarkeit';
 $string['availablefrom'] = 'Verfügbar ab';
-$string['availablefrom_help'] = 'Die Verfügbarkeitsdauer (von/bis) bestimmt den Zeitraum, in dem im Kurs auf die Aktivität zugegriffen werden kann.
+$string['availablefrom_help'] = 'Die Verfügbarkeitsdauer (von/bis) bestimmt den Zeitraum, in dem die Aktivität im Kurs verfügbar ist.
 
-Im Gegensatz zu den Verfügbarkeitsbedingungen, die den Teilnehmerzugriff an die Erfüllung von Lernfortschritten oder Bewertungen knüpfen, verhindert eine eingestellte  Verfügbarkeitsdauer (von/bis) den Zugriff außerhalb des gesetzten Zeitraums vollständig.';
+Im Gegensatz zu den Zugangsbedingungen, die an die Lernfortschritte oder Bewertungen von Teilnehmer/innen geknüpft sind, verhindert die Verfügbarkeitsdauer (von/bis) den Zugriff außerhalb des gesetzten Zeitraums vollständig.';
 $string['availableuntil'] = 'Verfügbar bis';
 $string['badavailabledates'] = 'Ungültige Daten! Wenn Sie beide Daten eintragen, muss der Eintrag \'Verfügbar ab\' zeitlich vor dem Eintrag \'Verfügbar bis\' liegen.';
 $string['badgradelimits'] = 'Wenn Sie eine obere und eine untere Bewertungsgrenze festlegen, muss die obere Grenze größer als die untere sein.';

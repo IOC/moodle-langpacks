@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['answeroptions'] = 'Auswahloptionen';
+$string['answeroptions_help'] = 'Die vorgeschlagene Formelauswahl ist ...<strong>{={x}+..}</strong>...';
 $string['pluginname'] = 'Berechnete Multiple-Choice-Frage';
 $string['pluginnameadding'] = 'Berechnete Multiple-Choice-Frage hinzufügen';
 $string['pluginnameediting'] = 'Berechnete Multiple-Choice-Frage bearbeiten';

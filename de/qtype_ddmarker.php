@@ -69,6 +69,7 @@ $string['marker'] = 'Markierung';
 $string['marker_n'] = 'Markierung {no}';
 $string['markers'] = 'Markierungen';
 $string['nolabel'] = 'Kein Beschriftungstext';
+$string['noofdrags'] = 'Nummer';
 $string['noquestionsfound'] = 'Keine Fragen zum Umwandeln gefunden.';
 $string['pleasedragatleastonemarker'] = 'Ihre Antwort ist nicht komplett. Sie müssen mindestens eine Markierung auf dem Bild platzieren.';
 $string['pluginname'] = '"Drag and Drop" Markierungen';

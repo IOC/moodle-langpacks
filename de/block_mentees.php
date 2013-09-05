@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['configtitle'] = 'Blocktitel';
 $string['configtitleblankhides'] = 'Blocktitel (Ohne Titel bei leerem Feld)';
-$string['leaveblanktohide'] = 'Kein Titel bei leerem Feld';
+$string['leaveblanktohide'] = 'Ohne Titel bei leerem Feld';
 $string['mentees:addinstance'] = 'Block \'Mentoren\' hinzufügen';
 $string['mentees:myaddinstance'] = 'Block \'Mentoren\' für \'Meine Startseite\' hinzufügen';
 $string['newmenteesblock'] = '(Mentoren)';

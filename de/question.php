@@ -326,6 +326,7 @@ $string['noquestions'] = 'Es wurden keine Fragen gefunden, die exportiert werden
 $string['noquestionsinfile'] = 'In der Importdatei sind keine Fragen enthalten.';
 $string['noresponse'] = '[Keine Antwort]';
 $string['notanswered'] = 'Nicht beantwortet';
+$string['notchanged'] = 'Seit dem letzten Versuch nicht geändert';
 $string['notenoughanswers'] = 'Dieser Fragetyp erfordert mindestens {$a} Antworten.';
 $string['notenoughdatatoeditaquestion'] = 'Weder eine Frage-ID, noch Kategorie-ID oder Fragetyp sind angegeben.';
 $string['notenoughdatatomovequestions'] = 'Sie müssen die Frage-ID der Fragen angeben, die Sie verschieben wollen.';

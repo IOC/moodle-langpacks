@@ -26,10 +26,18 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check_backup'] = 'Automatische Sicherung';
+$string['check_backup_comment_disable'] = 'Die Leistung kann während des Sicherungsvorgangs beeinträchtigt sein. Wenn die Option aktiviert ist, sollten die Sicherungen in verkehrarmen Zeiten eingeplant werden.';
+$string['check_backup_comment_enable'] = 'Die Leistung kann während des Sicherungsvorgangs beeinträchtigt sein. Die Sicherungen sollten in verkehrarmen Zeiten eingeplant werden.';
+$string['check_backup_details'] = 'Wenn automatische Sicherungen aktiviert sind, werden zum angegebenen Zeitpunkt automatisch von allen Kursen Sicherungen angelegt. Während dieses Vorgangs werden Serverressourcen benötigt und die Leistung beeinträchtigt.';
+$string['check_debugmsg_comment_developer'] = 'Wenn diese Option nicht auf DEVELOPER gesetzt ist, kann die Leistung geringfügig verbessert werden.';
+$string['check_debugmsg_comment_nodeveloper'] = 'Wenn diese Option auf DEVELOPER gesetzt ist, kann die Leistung geringfügig beeinträchtigt sein.';
 $string['comments'] = 'Kommentare';
 $string['disabled'] = 'Deaktiviert';
 $string['edit'] = 'Bearbeiten';
 $string['enabled'] = 'Aktiviert';
 $string['issue'] = 'Ausgabe';
 $string['morehelp'] = 'weitere Hilfe';
+$string['performancereportdesc'] = 'Diese Übersicht zeigt Faktoren auf, die sich auf die Leistung der Website {$a} auswirken könnten.';
+$string['performance:view'] = 'Leistungsübersicht anzeigen';
+$string['pluginname'] = 'Leistungsübersicht';
 $string['value'] = 'Wert';

@@ -26,12 +26,12 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['completed'] = 'Vielen Dank. Sie haben bereits eine Bewertung abgegeben.';
-$string['courserating'] = 'Kurs Bewertung';
-$string['giverating'] = 'Bitte bewerten Sie';
-$string['intro'] = 'Bitte geben Sie an, wie hoch Sie bewerten.';
+$string['courserating'] = 'Kursbewertung';
+$string['giverating'] = 'Bewerten Sie';
+$string['intro'] = 'Bitte geben Sie an, wie hoch Sie den Kurs bewerten.';
 $string['noguestuseage'] = 'Um diesen Kurs bewerten zu können, müssen Sie eingeloggt sein.';
-$string['rate_course:rate'] = 'Bewerten Sie bitte den Kurs';
+$string['rate_course:rate'] = 'Bewerten Sie den Kurs';
 $string['rating_alt0'] = 'Bewertung: Keine Bewertungen abgegeben';
 $string['rating_altnum'] = 'Bewertung: {$a} Sterne.';
-$string['rating_users'] = 'Bewertet von {$a} Nutzer(n)';
+$string['rating_users'] = 'Bewertet von {$a} Nutzer/innen';
 $string['submit'] = 'Meine Bewertung abschicken';

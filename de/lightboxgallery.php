@@ -25,22 +25,23 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['acceptablefiletypebriefing'] = 'Sie können mehrere Bilder zusammen als ZIP-Archiv packen und hochladen. Die Bilder werden automatisch im Galerieverzeichnis entpackt.';
+$string['acceptablefiletypebriefing'] = 'Sie können mehrere Bilder als ZIP-Archiv packen und hochladen. Die Bilder werden automatisch im Galerieverzeichnis entpackt.';
 $string['addcomment'] = 'Kommentar hinzufügen';
 $string['addimage'] = 'Bilder hinzufügen';
 $string['addimage_help'] = 'Wählen Sie ein Bild aus, das Sie zur aktuellen Galerie hinzufügen möchten.
 
-Sie können mehrere Bilder zusammen als ZIP-Archiv packen und hochladen. Die Bilder werden automatisch im Galerieverzeichnis entpackt.';
+Sie können mehrere Bilder als ZIP-Archiv packen und hochladen. Die Bilder werden automatisch im Galerieverzeichnis entpackt.';
 $string['allowcomments'] = 'Kommentare';
 $string['allowrss'] = 'RSS Feeds';
 $string['allpluginsdisabled'] = 'Alle Bearbeitungswerkzeuge sind deaktiviert.';
 $string['autoresize'] = 'Größe automatisch';
-$string['autoresize_help'] = 'Sie können bestimmen, ob und wie Bilder in ihrer Größe verändert werden. Folgende Optionen sind möglich:
+$string['autoresize_help'] = 'Bilder können in ihrer Größe angepasst werden.
+Folgende Optionen sind möglich:
 
 * Vollbild: Bilder, die größer als der Anzeigebildschirm sind, werden bei der Darstellung entsprechend verkleinert.
-* Hochladen: Bilder werden beim Hochladen über die Option \'Bilder hinzufügen\' auf die angegebene Größe angepasst und dann gespeichert.
+* Hochladen: Bilder werden beim Hochladen über die Option \'Bilder hinzufügen\' auf die angegebene Größe angepasst.
 
-Zusätzlich ist eine Option zur manuellen Größenänderung in der Bildbearbeitung vorhanden.';
+Zusätzlich ist eine manuelle Größenänderung in der Bildbearbeitung vorhanden.';
 $string['backtogallery'] = 'Zurück zur Galerie';
 $string['captionfull'] = 'Titeltext zeigen';
 $string['captionpos'] = 'Titelposition';
@@ -56,7 +57,7 @@ $string['configimagelifetimedesc'] = 'Zeitdauer (in Sekunden), während der die 
 $string['configoverwritefiles'] = 'Dateien überschreiben';
 $string['configoverwritefilesdesc'] = 'Dateien überschreiben, wenn neue Bilder mit gleichem Namen hochgeladen werden.';
 $string['configstrictfilenames'] = 'Strenge Dateinamen verwenden';
-$string['configstrictfilenamesdesc'] = 'Dateinamen entsprechend der Konventionen korrigieren';
+$string['configstrictfilenamesdesc'] = 'Dateinamen korrigieren';
 $string['currentsize'] = 'Aktuelle Größe';
 $string['dimensions'] = 'Größe';
 $string['dirdown'] = 'Runter';
@@ -75,7 +76,7 @@ $string['edit_resizescale'] = 'Darstellung';
 $string['edit_rotate'] = 'Drehen';
 $string['edit_tag'] = 'Schlagworte';
 $string['edit_thumbnail'] = 'Vorschau';
-$string['errornofile'] = 'Das angeforderte Bild wurde nicht gefunden: {$a}';
+$string['errornofile'] = 'Das Bild wurde nicht gefunden: {$a}';
 $string['errornoimages'] = 'Keine Bilder in der Galerie gefunden';
 $string['errornosearchresults'] = 'Bei der Suche wurden keine Bilder gefunden';
 $string['erroruploadimage'] = 'Die hochzuladende Datei muss ein Bild sein';
@@ -103,11 +104,9 @@ $string['makepublic'] = 'Öffentlich machen';
 $string['metadata'] = 'Metadaten';
 $string['modulename'] = 'Lightbox Galerie';
 $string['modulenameadd'] = 'Lightbox Galerie';
-$string['modulename_help'] = 'Das Modul \'Lightbox Galerie\' erlaubt die Präsentation von Bildern in einer Galerie.
+$string['modulename_help'] = 'Die Lightbox Galerie erlaubt die Präsentation von Bildern. Bilder können einzeln oder als Paket hochgeladen werden. Vorschaubilder werden automatisch erzeugt. Ein Klick auf ein Vorschaubild bringt das Bild in vergrößerter Darstellung in den Vordergrund. Die Lightbox Scripts zeigen fließende Überblendeffekte beim Öffnen und Blättern.
 
-Eine Lightbox Galerie kann innerhalb eines Kurses angelegt werden. Bilder können einzeln oder als Paket hochgeladen werden. Die Vorschaubilder werden automatisch erzeugt. Mit dem Klick auf ein Vorschaubild erscheint das Bild in vergrößerter Darstellung. Die Lightbox steuert den Bildfluss und zeigt Überblendeffekte beim Öffnen und Blättern.
-
-In der Galerie können Kommentare geschrieben werden, wenn die entsprechende Option aktiviert ist.';
+In der Lightbox Galerie können Kommentare geschrieben werden, wenn die entsprechende Option aktiviert ist.';
 $string['modulenameplural'] = 'Lightbox Galerien';
 $string['modulenameshort'] = 'Galerie';
 $string['newgallerycomments'] = 'Neue Kommentare';
@@ -128,7 +127,7 @@ $string['showall'] = 'Alle anzeigen';
 $string['tagscurrent'] = 'Aktuelle Schlagworte';
 $string['tagsdisabled'] = 'Schlagworte deaktiviert';
 $string['tagsimport'] = 'Schlagworte importieren';
-$string['tagsimportconfirm'] = 'Möchten Sie Schlagworte für jedes Bild in dieser Galerie importieren?';
+$string['tagsimportconfirm'] = 'Möchten Sie Schlagworte für alle Bild in dieser Galerie importieren?';
 $string['tagsimportfinish'] = 'Import von {$a->tags} Schlagworten für {$a->images} Bilder beendet';
 $string['tagsiptc'] = 'IPTC Schlagworte';
 $string['tagspopular'] = 'Beliebte Schlagworte';

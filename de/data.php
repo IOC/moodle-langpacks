@@ -287,7 +287,7 @@ $string['recordssaved'] = 'Datensätze gespeichert';
 $string['requireapproval'] = 'Freigabe erforderlich?';
 $string['requireapproval_help'] = 'Wenn diese Option aktiviert ist, müssen die Einträge von Trainer/innen erst bestätigt werden, bevor sie für alle anderen angezeigt werden?';
 $string['requiredentries'] = 'Erforderliche Einträge';
-$string['requiredentries_help'] = 'Die erforderliche Zahl der Einträge gibt die Zahl der eigenen Einträge an, die Teilnehmer/innen liefern müssen, bevor die Aktivität als unvollständig bearbeitet gewertet wird.';
+$string['requiredentries_help'] = 'Die erforderliche Zahl der Einträge gibt die Zahl der eigenen Einträge an, die Teilnehmer/innen speichern müssen, bevor die Aktivität als vollständig bearbeitet gewertet wird.';
 $string['requiredentriestoview'] = 'Erforderliche Einträge vor der Ansicht aller Daten';
 $string['requiredentriestoview_help'] = 'Die erforderliche Zahl der Einträge gibt die Zahl der eigenen Einträge an, die Teilnehmer/innen liefern müssen, bevor sie Einträge anderer Teilnehmer/innen einsehen dürfen.
 

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['blockedpath'] = 'Rootpfad geblockt';
-$string['configplugin'] = 'Repository \'Dateisystem\' einrichten';
+$string['configplugin'] = 'Einstellungen für Repository \'Dateisystem\'';
 $string['donotusesysdir'] = 'Verwenden Sie nicht das Systemverzeichnis für das Dateisystem verwenden, einschließlich';
 $string['enablecourseinstances'] = 'Nutzer/innen erlauben, ein Repository zu einem Kurs hinzuzufügen (kann nur von Admins konfiguriert werden)';
 $string['enableuserinstances'] = 'Nutzer/innen erlauben, ein Repository im Nutzerkontext hinzuzufügen (kann nur von Admins konfiguriert werden)';

@@ -105,15 +105,15 @@ $string['futureaassignment'] = 'Diese Aufgabe ist noch nicht verfügbar.';
 $string['graded'] = 'Bewertet';
 $string['guestnosubmit'] = 'Gäste dürfen keine Aufgaben abgeben. Sie müssen sich zuerst registrieren und einloggen, um Ihre Antwort abgeben zu können.';
 $string['guestnoupload'] = 'Gäste dürfen keine Dateien hochladen.';
-$string['helpoffline'] = '<p><b>Das Modul ist veraltet. <br />Benutzen Sie bitte das Modul \'Aufgabe\'.</b></p>
+$string['helpoffline'] = '<p><b>Dieses Modul ist veraltet. <br />Benutzen Sie das Modul \'Aufgabe\'.</b></p>
 <p>Bei diesem Aufgabentyp soll die Erledigung der Aufgabe außerhalb von Moodle erfolgen, z.B. in der persönlichen Unterrichtssituation oder mit der Erstellung einer Facharbeit. Die Teilnehmer/innen bekommen in Moodle die Aufgabenstellung und später die Bewertung.</p>';
-$string['helponline'] = '<p><b>Das Modul ist veraltet. <br />Benutzen Sie bitte das Modul \'Aufgabe\'.</b></p>
+$string['helponline'] = '<p><b>Dieses Modul ist veraltet. <br />Benutzen Sie das Modul \'Aufgabe\'.</b></p>
 <p>Bei diesem Aufgabentyp soll die Lösung in einem Eingabefenster eingetragen werden. Die Trainer/innen können die Lösung online bewerten und dabei direkt Kommentare in den Text einarbeiten oder Korrekturen vornehmen.</p>';
-$string['helpupload'] = '<p><b>Das Modul ist veraltet. <br />Benutzen Sie bitte das Modul \'Aufgabe\'.</b></p>
+$string['helpupload'] = '<p><b>Dieses Modul ist veraltet. <br />Benutzen Sie das Modul \'Aufgabe\'.</b></p>
 <p>Bei diesem Aufgabentyp werden eine oder mehrere Dateien als Lösung hochgeladen (z.B. Text-, Bild- oder andere Dateien). Bitte geben Sie in der Aufgabenstellung an, welche Art von Lösungsdateien Sie erwarten.</p>
 <p>Trainer/innen können über diesen Aufgabentyp auch individuelle Dateien zur Bearbeitung zur Verfügung stellen.</p>
-<p>Dieses Aufgabentyps muss von den Teilnehmer/innen manuell beendet werden. Aufgabenlösungen, die noch nicht fertig sind, werden als "Entwurf" gekennzeichnet.</p>';
-$string['helpuploadsingle'] = '<p><b>Das Modul ist veraltet. <br />Benutzen Sie bitte das Modul \'Aufgabe\'.</b></p>
+<p>Dieser Aufgabentyps muss von den Teilnehmer/innen manuell abgeschlossen werden. Aufgabenlösungen, die noch nicht fertig sind, werden als "Entwurf" gekennzeichnet.</p>';
+$string['helpuploadsingle'] = '<p><b>Dieses Modul ist veraltet. <br />Benutzen Sie das Modul \'Aufgabe\'.</b></p>
 <p>Bei diesem Aufgabentyp wird eine Datei als Lösung hochgeladen (z.B. Text-, Bild- oder andere Datei). Bitte geben Sie in der Aufgabenstellung an, welche Art von Lösungsdatei Sie erwarten.</p>';
 $string['hideintro'] = 'Beschreibung vor der Veröffentlichung verbergen';
 $string['hideintro_help'] = 'Wenn diese Option aktiviert ist, wird die Aufgabenbeschreibung bis zum Bearbeitungsstart verborgen. Lediglich der Name der Aufgabe wird angezeigt.</p>';

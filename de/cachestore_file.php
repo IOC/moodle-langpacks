@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['autocreate'] = 'Verzeichnis automatisch anlegen';
 $string['path'] = 'Cache-Pfad';
 $string['pluginname'] = 'Datei-Cache';
+$string['prescan'] = 'Verzeichnis vorher durchsuchen';

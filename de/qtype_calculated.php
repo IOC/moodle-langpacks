@@ -29,6 +29,7 @@ $string['additem'] = 'Eintrag hinzufügen';
 $string['addmoreanswerblanks'] = 'Weiteres Antwortfeld hinzufügen';
 $string['addsets'] = 'Datensatz/-sätze hinzufügen';
 $string['answerdisplay'] = 'Antwort anzeigen';
+$string['answerformula'] = 'Antwortformel {$a}';
 $string['answerhdr'] = 'Antwort';
 $string['answerstoleranceparam'] = 'Antworttoleranzen';
 $string['answerwithtolerance'] = '{$a->answer} (±{$a->tolerance} {$a->tolerancetype})';

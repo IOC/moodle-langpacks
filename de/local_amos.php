@@ -28,14 +28,14 @@ defined('MOODLE_INTERNAL') || die();
 $string['about'] = '<p>AMOS bedeutet <b>Automated Manipulation Of Strings</b> und steht für die automatisierte Bearbeitung und Verwaltung der Moodle-Sprachpakete.</p>
 <p>AMOS ist das zentrale Repository für die Moodle-Texte. AMOS protokolliert alle Veränderungen bei den englischen Originaltexten und ermöglicht die Übersetzung in die jeweiligen Sprachen. AMOS koordiniert die gemeinschaftliche Übersetzung und erzeugt die offiziellen Sprachpakete automatisch.</p>
 <p>Weitere Informationen: <a href="http://docs.moodle.org/en/AMOS">AMOS documentation</a></p>';
-$string['amos'] = '<h2>AMOS - Werkzeug zur Moodle-Übersetzung</h2>';
+$string['amos'] = '<h1>AMOS - Werkzeug zur Moodle-Übersetzung</h1>';
 $string['amos:commit'] = 'Texte aus dem Arbeitsspeicher ins Sprachpaket übertragen';
 $string['amos:execute'] = 'Vorgegebenes AMOScript ausführen';
 $string['amos:importfile'] = 'Übersetzung hochladen und im Arbeitsspeicher zeigen';
 $string['amos:importstrings'] = 'Übersetzte Texte (inclusive der englischen Originale) in das Hauptrepository importieren';
 $string['amos:manage'] = 'AMOS-Portal verwalten';
 $string['amos:stage'] = 'Texte im Arbeitsspeicher übersetzen';
-$string['amos:stash'] = 'Arbeitsspeicher in einer Ablage sichern';
+$string['amos:stash'] = 'Arbeitsspeicher als Ablage sichern';
 $string['amos:usegoogle'] = 'Mit Google übersetzen';
 $string['commitbutton'] = 'Übernehmen und Arbeitsspeicher leeren';
 $string['commitbutton2'] = 'Übernehmen und Arbeitsspeicher behalten';
@@ -43,24 +43,25 @@ $string['commitmessage'] = 'Mitteilung';
 $string['commitstage'] = 'Arbeitsspeicher ins Sprachpaket übertragen';
 $string['commitstage_help'] = 'Alle Übersetzungen werden aus dem Arbeitsspeicher in das AMOS Repository gespeichert und ins Sprachpaket übertragen. Alle übertragbaren Übersetzungen sind in der Übersicht grün unterlegt. Der Arbeitsspeicher wird anschließend geleert.';
 $string['committableall'] = 'Alle Sprachen';
-$string['committablenone'] = 'Keine Sprache erlaubt - wenden Sie sich an den AMOS-Verwalter';
+$string['committablenone'] = 'Keine Sprache zugewiesen - wenden Sie sich an den AMOS-Verwalter';
 $string['componentsall'] = 'Alle';
+$string['componentsenlarge'] = 'Vergrößern';
 $string['componentsnone'] = 'Keine';
 $string['componentsstandard'] = 'Standard';
 $string['confirmaction'] = 'Möchten Sie diesen Vorgang wirklich ausführen?';
-$string['contribaccept'] = 'Akzeptieren';
+$string['contribaccept'] = 'Annehmen';
 $string['contribactions'] = 'Bereitgestellte Übersetzungen';
 $string['contribactions_help'] = 'Abhängig von Ihren Rechten und dem Arbeitsablauf haben Sie folgende Möglichkeiten:
 
-* Aufnehmen - Kopieren Sie die eingesandte Übersetzung in Ihren Arbeitsspeicher, wobei nichts verändert wird.
-* Mir zuweisen - sich selber als Prüfer eintragen, um die eingesandte Übersetzung zu prüfen und ins Sprachpaket einzubinden
-* Weiterleiten - jemand anders zur Prüfung zuweisen
-* Prüfung beginnen - Weisen Sie den neuen Beitrag zu sich selbst, setzen Sie den Status auf "In Bearbeitung" und kopieren Sie die eingereichten Übersetzung in Ihre Bühne
-* Akzeptieren - markieren Sie die Beitrag als akzeptiert
+* Verwenden - Kopieren Sie die eingesandte Übersetzung in Ihren Arbeitsspeicher, ohne etwas zu verändern
+* Mir zuweisen - sich selbst als Prüfer/in eintragen, die eingesandte Übersetzung prüfen und ins Sprachpaket einbinden
+* Abgeben - niemanden zur Prüfung zuweisen
+* Prüfung beginnen - Weisen Sie den Beitrag sich selbst zu, setzen Sie den Status auf "In Bearbeitung" und kopieren Sie die eingereichten Übersetzung in den Arbeitsspeicher
+* Annehmen - markieren Sie die Beitrag als angenommen
 * Ablehnen - markieren den Beitrag als abgelehnt. Bitte schreiben Sie die Gründe in einem Kommentar.
 
 Der Einsender wird per E-Mail informiert, wenn sich der Status seines Beitrags ändert.';
-$string['contribapply'] = 'Aufnehmen';
+$string['contribapply'] = 'Verwenden';
 $string['contribassignee'] = 'Prüfer/in';
 $string['contribassigneenone'] = '-';
 $string['contribassigntome'] = 'Mir zuweisen';
@@ -73,22 +74,22 @@ $string['contribincomingnone'] = 'Keine gegangenen Vorschläge';
 $string['contribincomingsome'] = 'Eingegangene Vorschläge ({$a})';
 $string['contriblanguage'] = 'Sprache';
 $string['contribreject'] = 'Ablehnen';
-$string['contribresign'] = 'Weiterleiten';
+$string['contribresign'] = 'Abgeben';
 $string['contribstaged'] = 'Vorschlag im Arbeitsspeicher <a href="contrib.php?id={$a->id}">#{$a->id}</a> von {$a->author}';
 $string['contribstagedinfo'] = 'Vorschlag im Arbeitsspeicher';
-$string['contribstagedinfo_help'] = 'Die Texte im Arbeitsspeicher wurden von einem  Mitglied der Community vorgeschlagen. Die Betreuer des Sprachpakets sollen die Übersetzung prüfen. Die Texte erhalten den Status \'akzeptiert\' und werden ins Sprachpaket übernommen. Oder sie werden \'abgelehnt\', weil sie aus irgendeinem Grund nicht akzeptiert werden können.';
+$string['contribstagedinfo_help'] = 'Die Texte im Arbeitsspeicher wurden von einem Community-Mitglied vorgeschlagen. Die Betreuer des Sprachpakets werden gebeten, die Übersetzung zu prüfen. Die Texte erhalten den Status \'angenommen\' und werden ins Sprachpaket eingebunden. Oder die Texte werden \'abgelehnt\', weil sie aus einem bestimmten Grund nicht annehmbar sind.';
 $string['contribstartreview'] = 'Prüfung beginnen';
 $string['contribstatus'] = 'Status';
 $string['contribstatus0'] = 'Neu';
 $string['contribstatus10'] = 'In Bearbeitung';
 $string['contribstatus20'] = 'Abgelehnt';
-$string['contribstatus30'] = 'Akzeptiert';
+$string['contribstatus30'] = 'Angenommen';
 $string['contribstatus_help'] = 'Die Arbeitsphasen einer eingesandten Übersetzung sehen folgendermaßen aus:
 
 * Neu - der Vorschlag wurde eingereicht, wartet aber noch auf seine Überprüfung
 * In Bearbeitung - der Vorschlag wurde einem Betreuer des Sprachpakets zugewiesen und wird gerade bearbeitet
 * Abgelehnt - ein Betreuer des Sprachpakets hat den Vorschlag abgelehnt und wahrscheinlich einen klärenden Kommentar geschrieben
-* Akzeptiert - der Vorschlag wurde akzeptiert und ins Sprachpaket eingebunden';
+* Angenommen - der Vorschlag wurde angenommen und ins Sprachpaket eingebunden';
 $string['contribstrings'] = 'Texte';
 $string['contribstringseq'] = '{$a->orig} neu';
 $string['contribstringsnone'] = '{$a->orig} (alle Texte sind übersetzt)';
@@ -98,14 +99,24 @@ $string['contribsubmittednone'] = 'Keine eingesandten Vorschläge';
 $string['contribsubmittedsome'] = 'Ihre Vorschläge ({$a})';
 $string['contribtimemodified'] = 'Geändert';
 $string['contributions'] = 'Vorschläge';
+$string['creditscontact'] = 'Mitteilung senden';
+$string['creditscontributors'] = 'Weitere Mitwirkende';
+$string['creditsmaintainedby'] = 'Betreut von';
+$string['creditsnomaintainer'] = 'Aktuell ohne Betreuer/in. <a href="{$a->url}">Haben Sie Interesse?</a>';
+$string['creditsthanks'] = 'Auf dieser Seite möchten wir uns bei allen bedanken, die an den Moodle-Übersetzungen mitgewirkt haben. Deren Arbeit hat die weltweite Verbreitung möglich gemacht.';
+$string['creditstitlelong'] = 'Betreuer und Mitwirkende beim Sprachpaket';
+$string['creditstitleshort'] = 'Mitwirkende';
 $string['diff'] = 'Vergleichen';
+$string['diffaction'] = 'Wenn ein Unterschied besteht';
+$string['diffaction1'] = 'Beide Übersetzungen in ihren Zweigen anwenden';
+$string['diffaction2'] = 'Neuere Übersetzung auf beide Zweige anwenden';
 $string['diffmode'] = 'Suche';
 $string['diffmode1'] = 'Englische Texte wurden gerändert, aber nicht die Übersetzung';
 $string['diffmode2'] = 'Englische Texte wurden nicht gerändert, aber die Übersetzung';
 $string['diffmode3'] = 'Entweder wurden englische Texte oder die Übersetzung geändert (aber nicht beides)';
 $string['diffmode4'] = 'Sowohl englische Texte wie auch die Übersetzung wurden geändert';
 $string['diffprogress'] = 'Ausgewählte Versionen werden verglichen';
-$string['diffprogressdone'] = 'Insgesamt {$a} Unterschiede gefunden';
+$string['diffprogressdone'] = 'Gefundene Unterschiede: {$a}';
 $string['diffstaged'] = 'diff';
 $string['diffstrings'] = 'Texte aus zwei Zweigen vergleichen';
 $string['diffstrings_help'] = 'Alle Texte der beiden ausgewählten Zweige werden verglichen. Sollten Unterschiede vorhanden sein, werden beide Texte in den Arbeitsspeicher übernommen. Über die Option "Arbeitsspeicher bearbeiten" können Sie eventuell nötige Änderungen vornehmen.';
@@ -114,22 +125,22 @@ $string['emailacceptbody'] = '{$a->assignee} betreut das Sprachpaket und hat die
 #{$a->id} {$a->subject}
 
 Weitere Details: {$a->url}';
-$string['emailacceptsubject'] = '[AMOS] - Vorschlag angenommen';
+$string['emailacceptsubject'] = '[AMOS Vorschlag] angenommen';
 $string['emailcontributionbody'] = '{$a->author} hat eine neue Übersetzung eingesandt:
 #{$a->id} {$a->subject}
 
 Weitere Details: {$a->url}';
-$string['emailcontributionsubject'] = '[AMOS] - Neue Übersetzung';
+$string['emailcontributionsubject'] = '[AMOS Vorschlag] Neue Übersetzung';
 $string['emailrejectbody'] = '{$a->assignee} betreut das Sprachpakets und hat die eingesandte Übersetzung abgelehnt:
 #{$a->id} {$a->subject}
 
 Weitere Details: {$a->url}';
-$string['emailrejectsubject'] = '[AMOS] - Vorschlag abgelehnt';
+$string['emailrejectsubject'] = '[AMOS Vorschlag] abgelehnt';
 $string['emailreviewbody'] = '{$a->assignee} betreut das Sprachpaket und hat begonnen, die eingereichte Übersetzung zu prüfen.
 #{$a->id} {$a->subject}
 
 Weitere Details: {$a->url}';
-$string['emailreviewsubject'] = '[AMOS] - Prüfung begonnen';
+$string['emailreviewsubject'] = '[AMOS Vorschlag] Prüfung begonnen';
 $string['err_exception'] = 'Fehler: {$a}';
 $string['err_invalidlangcode'] = 'Ungültiger Sprachcode';
 $string['err_parser'] = 'Parsingfehler: {$a}';
@@ -178,8 +189,13 @@ $string['logfilterlang'] = 'Sprachen';
 $string['logfiltershow'] = 'Gefilterte Abgaben und Texte zeigen';
 $string['logfiltersource'] = 'Quelle';
 $string['logfiltersourceamos'] = 'AMOS (Webbasierter Übersetzer)';
-$string['logfiltersourcecommitscript'] = 'commitscript (AMOScript in der Mitteilung)';
-$string['logfiltersourcegit'] = 'git (git-Server für Moodle-Quelltexte und 1.x-Pakete)';
+$string['logfiltersourceautomerge'] = 'Automerge (Übersetzung aus anderem Zweig kopiert)';
+$string['logfiltersourcebot'] = 'Bot (Mengenverarbeitung über ein Script)';
+$string['logfiltersourcecommitscript'] = 'Commitscript (Übergabemitteilung mit AMOScript)';
+$string['logfiltersourcefixdrift'] = 'Fixdrift (korrigierter Git-Vorgang)';
+$string['logfiltersourcegit'] = 'Git (Git-Server für Quelltexte und Pakete)';
+$string['logfiltersourceimport'] = 'Import (importierte Texte für nicht standardmäßiges Plugin)';
+$string['logfiltersourcerevclean'] = 'Revclean (nachträglicher Aufräumprozess)';
 $string['logfilterstringid'] = 'Text-ID';
 $string['logfilterstrings'] = 'Textfilter';
 $string['logfilterusergrp'] = 'Abgabe durch';
@@ -199,13 +215,15 @@ $string['nostringsfoundonpage'] = 'Keine Texte auf Seite {$a} gefunden';
 $string['nostringtoimport'] = 'Es wurde keine gültige Textzeile in der Datei gefunden. Stellen Sie sicher, dass Sie den richtige Datei gewählt haben und dass die Datei richtig formatiert ist.';
 $string['nothingtomerge'] = 'Der Quellzweig enthält keine neuen Textzeilen, die im Zielzweig fehlen. Es gibt nichts hinzuzufügen.';
 $string['nothingtostage'] = 'Bei der Ausführung konnte kein Text gefunden und in den Arbeitsspeicher geholt werden.';
+$string['novalidzip'] = 'ZIP-Datei kann nicht entpackt werden';
 $string['numofcommitsabovelimit'] = '{$a->found} zum Filter passende Einreichungen gefunden, {$a->limit} werden gezeigt';
 $string['numofcommitsunderlimit'] = '{$a->found} zum Filter passende Einreichungen gefunden';
 $string['outdatednotcommitted'] = 'Geänderter Text';
 $string['outdatednotcommitted_help'] = 'AMOS hat einen Text als \'Geändert\' markiert, weil die englische Version des Textes nach der Übersetzung verändert wurde. Bitte prüfen Sie die Übersetzung.';
 $string['outdatednotcommittedwarning'] = 'Geändert';
+$string['ownstashactions'] = 'Ablageaktionen';
 $string['ownstashes'] = 'Ihre Ablagen';
-$string['ownstashes_help'] = 'Liste von allen Ihren Ablagen';
+$string['ownstashes_help'] = 'Liste aller Ablagen';
 $string['ownstashesnone'] = 'Keine eigenen Ablagen';
 $string['permalink'] = 'Dauerlink';
 $string['placeholder'] = 'Platzhalter';
@@ -222,6 +240,10 @@ $string['presetcommitmessage2'] = 'Fehlende Textzeilen von {$a->source} nach {$a
 $string['presetcommitmessage3'] = 'Unterschiede zwischen {$a->versiona} und {$a->versionb} werden behoben';
 $string['privileges'] = 'Ihre Berechtigungen';
 $string['privilegesnone'] = 'Sie haben Leserecht für öffentliche Informationen.';
+$string['propagate'] = 'Übersetzungen übertragen';
+$string['propagatednone'] = 'Keine Übersetzung übertragbar';
+$string['propagatedsome'] = 'Übertragbare Übersetzungen: {$a}';
+$string['propagaterun'] = 'Übertragen';
 $string['requestactions'] = 'Aktion';
 $string['savefilter'] = 'Filtereinstellungen sichern';
 $string['script'] = 'AMOScript';
@@ -244,7 +266,7 @@ $string['stagetranslation'] = 'Übersetzung';
 $string['stageunstageall'] = 'Alle verwerfen';
 $string['stashactions'] = 'Aktionen in den Ablagen';
 $string['stashactions_help'] = 'Eine Ablage ist eine Momentaufnahme des aktuellen Arbeitsspeichers. Eine solche Ablage kann als Vorschlag an die Maintainer des Sprachpakets geschickt werden.';
-$string['stashapply'] = 'Anwenden';
+$string['stashapply'] = 'Verwenden';
 $string['stashautosave'] = 'Automatische Sicherungsablage';
 $string['stashcomponents'] = '<span>Komponenten:</span> {$a}';
 $string['stashdrop'] = 'Weglegen';
@@ -258,7 +280,7 @@ $string['stashsubmitdetails'] = 'Kurze Mitteilung';
 $string['stashsubmitmessage'] = 'Nachricht';
 $string['stashsubmitsubject'] = 'Betreff';
 $string['stashtitle'] = 'Name der Ablage';
-$string['stashtitledefault'] = 'Stand {$a->time}';
+$string['stashtitledefault'] = 'In Bearbeitung {$a->time}';
 $string['stringhistory'] = 'Verlauf';
 $string['strings'] = 'Texte';
 $string['submitting'] = 'Vorschlag einreichen';

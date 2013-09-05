@@ -58,13 +58,13 @@ Kein Element';
 $string['defaultlayoutstructure'] = 'Standard Anzeigeformat';
 $string['defaultlayoutstructure_desc'] = 'Standard Anzeigeformat wählen:
 
-Themen
+Thema
 
 Woche
 
-Aktuelle Woche Oben
+Aktuelle Woche oben
 
-Aktuelles Thema Oben';
+Aktuelles Thema oben';
 $string['defaulttgbgcolour'] = 'Standard Hintergrundfarbe';
 $string['defaulttgbgcolour_desc'] = 'Standard Hintergrundfarbe Hexadezimal';
 $string['defaulttgbghvrcolour'] = 'Standard Hintergrundfarbe bei Mauskontakt';
@@ -75,6 +75,7 @@ $string['defaulttogglealignment'] = 'Standard Textausrichtung';
 $string['defaulttogglealignment_desc'] = '\'Links\', \'Zentriert\' oder \'Rechts\'';
 $string['defaulttoggleallhover'] = 'Anzeige bei Mauskontakt';
 $string['defaulttoggleallhover_desc'] = '\'Ja\' oder \'Nein\'';
+$string['defaulttoggleiconposition'] = 'Position des Symbols';
 $string['defaulttoggleiconset'] = 'Standard Symbole';
 $string['defaulttoggleiconset_desc'] = 'Pfeil: abgerundeter Pfeil
 Punkt: punktgenauer Pfeil
@@ -161,8 +162,13 @@ Aktuelles Thema Oben  - wie Themen, aber das aktuelle Thema wird ganz oben darge
 
 Tag  - Jeder abschnitt wird als Tag dargestellt.Zuerst wird der Abschnitt mit dem Startdatum des Kurses dargestellt und alle weiteren Tage aufsteigend sortiert.';
 $string['setlayoutstructurelatweekfirst'] = 'Aktuelle Woche zuerst';
-$string['setlayoutstructuretopic'] = 'Themen';
+$string['setlayoutstructuretopic'] = 'Thema';
 $string['setlayoutstructureweek'] = 'Woche';
+$string['setlayout_toggle_section_x'] = 'Thema x / Woche x / Tag x';
+$string['setlayout_toggle_section_x_section_number'] = 'Thema x / Woche x / Tag x und Abschnittsnummer';
+$string['setlayout_toggle_word'] = 'Wort';
+$string['setlayout_toggle_word_section_number'] = 'Wort und Abschnittsnummer';
+$string['setlayout_toggle_word_section_x'] = 'Wort und Thema x / Woche x / Tag x';
 $string['settogglealignment'] = 'Textausrichtung';
 $string['settogglealignment_help'] = 'Der Abschnittstitel kann linksbündig, mittig oder rechtsbündig angezeigt werden.';
 $string['settoggleallhover'] = 'Anzeige bei Mauskontakt';
@@ -173,15 +179,16 @@ $string['settogglebackgroundhovercolour'] = 'Hintergrundfarbe bei Mauskontakt';
 $string['settogglebackgroundhovercolour_help'] = 'Auswahl der Hintergrundfarbe bei Mauskontakt';
 $string['settoggleforegroundcolour'] = 'Textfarbe';
 $string['settoggleforegroundcolour_help'] = 'Auswahl der Textfarbe';
+$string['settoggleiconposition'] = 'Position des Symbol';
 $string['settoggleiconset'] = 'Symbol';
-$string['settoggleiconset_help'] = 'Auswhal des Schaltsymbols';
+$string['settoggleiconset_help'] = 'Auswahl des Symbols';
 $string['showfromothers'] = 'Abschnitt zeigen';
 $string['three'] = '3';
 $string['topcollall'] = 'Abschnitte.';
-$string['topcoll:changecolour'] = 'Farbe Ändern';
-$string['topcoll:changelayout'] = 'Anzeige Ändern';
-$string['topcoll:changetogglealignment'] = 'Ausrichtung Ändern';
-$string['topcoll:changetoggleiconset'] = 'Symbol Ändern';
+$string['topcoll:changecolour'] = 'Farbe ändern';
+$string['topcoll:changelayout'] = 'Anzeige ändern';
+$string['topcoll:changetogglealignment'] = 'Ausrichtung ändern';
+$string['topcoll:changetoggleiconset'] = 'Symbol ändern';
 $string['topcollclosed'] = 'Alle schließen';
 $string['topcollopened'] = 'Alle aufklappen';
 $string['topcollsidewidth'] = '28px';

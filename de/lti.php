@@ -113,7 +113,7 @@ Drei Icons erscheinen in der Liste
 $string['external_tool_types'] = 'Typen des externen Tools';
 $string['failedtoconnect'] = 'Moodle konnte nicht mit dem System \'{$a}\' kommunizieren';
 $string['filter_basiclti_configlink'] = 'Konfigurieren Sie die bevorzugte Seiten und deren Kennworte';
-$string['filter_basiclti_password'] = 'Passwort ist erforderlich';
+$string['filter_basiclti_password'] = 'Kennwort ist erforderlich';
 $string['filterconfig'] = 'LTI Administration';
 $string['filtername'] = 'LTI';
 $string['fixexistingconf'] = 'Verwenden Sie eine bestehende Konfiguration für die fehlerhafte Instanz';

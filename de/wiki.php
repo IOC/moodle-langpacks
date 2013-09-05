@@ -56,12 +56,11 @@ $string['createpage'] = 'Seite erstellen';
 $string['creating'] = 'Wikiseite wird erstellt';
 $string['creole'] = 'Creole';
 $string['defaultformat'] = 'Standardformat';
-$string['defaultformat_help'] = 'Diese Einstellung bestimmt das vorgegebene Format beim Bearbeiten von Wikiseiten.
+$string['defaultformat_help'] = 'Diese Option legt das standardmäßige Format zum Bearbeiten von Wikiseiten fest.
 
 * HTML - Der Texteditor ist verfügbar
 * Creole - Eine übliche Markup-Sprache für Wikis ist zusammen mit einer kleinen Bearbeitungsleiste verfügbar
-* NWiki - Die spezifische Markup-Sprache des verwendeten NWiki ist verfügbar
-';
+* NWiki - Die spezifische Markup-Sprache des verwendeten NWiki ist verfügbar';
 $string['deletecomment'] = 'Kommentar wird gelöscht';
 $string['deletecommentcheck'] = 'Kommentar löschen';
 $string['deletecommentcheckfull'] = 'Möchten Sie den Kommentar wirklich löschen?';
@@ -210,7 +209,7 @@ $string['savingerror'] = 'Fehler beim Speichern';
 $string['searchcontent'] = 'Im Seiteninhalt suchen';
 $string['searchresult'] = 'Suchergebnisse:';
 $string['searchterms'] = 'Suchbegriffe';
-$string['searchwikis'] = 'Wikis suchen';
+$string['searchwikis'] = 'Wiki durchsuchen';
 $string['special'] = 'Spezial';
 $string['tableofcontents'] = 'Inhaltsübersicht';
 $string['tagsdeleted'] = 'Wikischlagworte wurden gelöscht';

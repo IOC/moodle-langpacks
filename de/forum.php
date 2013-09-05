@@ -384,6 +384,7 @@ $string['subscribersto'] = 'Abonnent/innen für \'{$a}\'';
 $string['subscribestart'] = 'Beiträge per E-Mail an mich senden';
 $string['subscribestop'] = 'Keine Beiträge als E-Mail an mich senden';
 $string['subscription'] = 'Abonnement';
+$string['subscriptionandtracking'] = 'Abonnement';
 $string['subscriptionauto'] = 'Automatisch';
 $string['subscriptiondisabled'] = 'Deaktiviert';
 $string['subscriptionforced'] = 'Verpflichtend';
@@ -391,16 +392,14 @@ $string['subscription_help'] = 'Wenn Sie ein Forum abonnieren, werden alle Beitr
 
 Normalerweise dürfen Sie auswählen, ob Sie dieses Abonnement wünschen. Manche Foren sind allerdings so eingestellt, dass ein Abonnement verpflichtend ist und jeder alle Beiträge per E-Mail bekommt.';
 $string['subscriptionmode'] = 'Abonnement';
-$string['subscriptionmode_help'] = 'Alle, die ein Forum abonnieren, bekommen die Beiträge dieses Forums per E-Mail zugesandt.
-
-Es gibt 4 Modi für ein Abonnement:
+$string['subscriptionmode_help'] = 'Alle Abonnent/innen dieses Forums bekommen die Beiträge per E-Mail zugesandt. Es gibt unterschiedliche Modi für ein Abonnement:
 
 * Optional - alle dürfen auswählen, ob sie das Forum abonnieren möchten oder nicht
 * Verpflichtend - alle haben das Forum abonniert und niemand kann es abbestellen
 * Automatisch - alle haben das Forum abonniert, dürfen es aber jederzeit abbestellen
 * Deaktiviert - Das Forum kann von niemandem abonniert werden
 
-Bei einer nachträglichen Änderung des Abonnementtyps, ist es erforderlich, manuell in der Abonnementliste  die Einstellungen für bestehende Nutzer zu ändern.';
+Änderungen des Abonnements haben nur Einfluss auf Nutzer/innen, die zukünftig in den Kurs eingeschrieben werden. Für bestehende Nutzer/innen muss die Abonnementliste manuell angepasst werden.';
 $string['subscriptionoptional'] = 'Optional';
 $string['subscriptions'] = 'Abonnements';
 $string['thisforumisthrottled'] = 'Für dieses Forum ist eine Höchstzahl von Beiträgen innerhalb eines bestimmten Zeitraums festgelegt worden. Dies gilt nach {$a->blockafter} Beiträgen innerhalb von {$a->blockperiod}';

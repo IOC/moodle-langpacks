@@ -27,9 +27,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['contentheader'] = 'Inhalt';
 $string['display'] = 'Verzeichnisinhalt anzeigen';
-$string['display_help'] = 'Wenn Sie den Verzeichnisinhalt auf Ihrer Kursseite anzeigen lassen, erscheint kein Link zu einer neuen Seite. Außerdem wird kein Titel angezeigt. Die Beschreibung wird nur gezeigt, wenn "Bescheibung auf der Kursseite anzeigen" ausgewählt wurde.
+$string['display_help'] = 'Wenn der Verzeichnisinhalt auf der Kursseite dargestellt werden soll, erscheint kein Link zu einer neuen Seite. Die Beschreibung wird nur gezeigt, wenn "Bescheibung auf der Kursseite anzeigen" ausgewählt wurde.
 
-Beachten Sie, dass keine Teilnehmerzugriffe geloggt werden können, wenn der Verzeichnisinhalt offen auf der Kursseite gezeigt wird.';
+Beachten Sie, dass keine Zugriffe geloggt werden können, wenn der Verzeichnisinhalt offen auf der Kursseite dargestellt ist.';
 $string['displayinline'] = 'Auf der Kursseite';
 $string['displaypage'] = 'Auf separater Seite';
 $string['dnduploadmakefolder'] = 'Dateien entpacken und Verzeichnisse anlegen';
@@ -49,3 +49,4 @@ $string['page-mod-folder-x'] = 'Jede Verzeichnisseite';
 $string['pluginadministration'] = 'Verzeichnis-Administration';
 $string['pluginname'] = 'Verzeichnis';
 $string['showexpanded'] = 'Unterverzeichnisse aufgeklappt anzeigen';
+$string['showexpanded_help'] = 'Wenn diese Option aktiviert ist, werden Unterverzeichnisse standardmäßig geöffnet dargestellt.';

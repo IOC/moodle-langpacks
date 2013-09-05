@@ -16,16 +16,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_wikipedia', language 'de', branch 'MOODLE_25_STABLE'
+ * Strings for component 'cachelock_file', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   block_wikipedia
+ * @package   cachelock_file
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Wikipedia';
-$string['search'] = 'Suchen';
-$string['wikipedia:addinstance'] = 'Neuen Block \'Wikipedia\' hinzufügen';
-$string['wikipedia:myaddinstance'] = 'Neuen Block \'Wikipedia\' für \'Meine Startseite\' hinzufügen';
+$string['pluginname'] = 'Dateisperre';

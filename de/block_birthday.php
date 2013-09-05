@@ -16,16 +16,23 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_wikipedia', language 'de', branch 'MOODLE_25_STABLE'
+ * Strings for component 'block_birthday', language 'de', branch 'MOODLE_23_STABLE'
  *
- * @package   block_wikipedia
+ * @package   block_birthday
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Wikipedia';
-$string['search'] = 'Suchen';
-$string['wikipedia:addinstance'] = 'Neuen Block \'Wikipedia\' hinzufügen';
-$string['wikipedia:myaddinstance'] = 'Neuen Block \'Wikipedia\' für \'Meine Startseite\' hinzufügen';
+$string['birthday'] = 'Geburtstag';
+$string['birthday:viewlist'] = 'Geburtstagsblock anzeigen';
+$string['blockhide'] = 'Block verbergen, wenn es gibt keine Geburtstage gibt';
+$string['blockname'] = 'Geburtstag';
+$string['blockshow'] = 'Block anzeigen, auch wenn es gibt keine Geburtstage gibt';
+$string['blocktitle'] = 'Heutige Geburtstage';
+$string['blockvisible'] = 'Blockverfügbarkeit';
+$string['blockvisible_info'] = 'Diese Option legt fest, ob der Block sichtbar oder verborgen ist, auch wenn es keine Geburtstage gibt. Sandardmäßig ist der Block in diesem Fall verborgen.';
+$string['daysahead'] = 'Tage voraus';
+$string['happybirthday'] = 'Glückwunsch zum Geburtstag!';
+$string['periodnminutes'] = 'letzte {$a} Minuten';
