@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Corrector ortográfico';
+$string['pluginname'] = 'Corrector ortográfico heredado';

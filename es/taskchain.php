@@ -16,16 +16,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodlemedia', language 'es', branch 'MOODLE_25_STABLE'
+ * Strings for component 'taskchain', language 'es', branch 'MOODLE_25_STABLE'
  *
- * @package   tinymce_moodlemedia
+ * @package   taskchain
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodlemedia:browsemedia'] = 'Buscar o cargar un audio, vídeo o applet...';
-$string['moodlemedia:desc'] = 'Insertar media Moodle';
-$string['nopreview'] = 'No se puede previsualizar media.';
-$string['pluginname'] = 'Insertar media';
+$string['hints'] = 'Pistas';
+$string['next2task'] = 'Pasar por alto la siguiente tarea';
+$string['next3task'] = 'Pasar por alto 2 tareas';
+$string['next4task'] = 'Pasar por alto 3 tareas';
+$string['next5task'] = 'Pasar por alto 4 tareas';

@@ -16,16 +16,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodlemedia', language 'es', branch 'MOODLE_25_STABLE'
+ * Strings for component 'stampcoll', language 'es', branch 'MOODLE_25_STABLE'
  *
- * @package   tinymce_moodlemedia
+ * @package   stampcoll
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodlemedia:browsemedia'] = 'Buscar o cargar un audio, vídeo o applet...';
-$string['moodlemedia:desc'] = 'Insertar media Moodle';
-$string['nopreview'] = 'No se puede previsualizar media.';
-$string['pluginname'] = 'Insertar media';
+$string['modulename_help'] = 'El módulo de colección de sellos permite darle los llamados sellos (imágenes con comentario) a usuarios que pueden coleccionar estos sellos. Se puede permitir que los estudiantes les den sellos a otros estudiantes y también se les puede dar sellos a los profesores.
+
+Los profesores pueden configurar el módulo para que muestre todos los sellos a todos los estudiantes, que solamente los muestre al estudiante quien los recibe o que se oculten por completo.
+
+La actividad puede usarse en varias formas, como:
+
+* Puntos extra motivacionales
+* Puntos por faltas
+* Registros de certificación';

@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ctrlhelp:desc'] = 'CTRL + click botón derecho,  para más opciones';
-$string['pluginname'] = 'Ayuda CTRL + click botón derecho';
+$string['ctrlhelp:desc'] = 'CTRL + botón derecho para más opciones';
+$string['pluginname'] = 'Ayuda CTRL + botón derecho';

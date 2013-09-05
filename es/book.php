@@ -59,11 +59,10 @@ $string['numbering0'] = 'Nada';
 $string['numbering1'] = 'Númerica';
 $string['numbering2'] = 'Viñetas';
 $string['numbering3'] = 'Sangrado';
-$string['numbering_help'] = '* Ninguno - los títulos de capítulos y subcapítulos no tienen formato alguno, utilicelos si desea definir estilos especiales de numeración. Por ejemplo, letras: escriba en el título del capítulo "Un Primer Capítulo", "A.1 Algún Subcapítulo",...
+$string['numbering_help'] = '* Ninguno - los títulos de capítulos y subcapítulos no tienen formato
 * Números - los capítulos y subcapítulos son numerados (1, 1.1, 1.2, 2, ...)
 * Viñetas - los subcapítulos son indentados y son mostrados con viñetas
-* Sangría - los subcapítulos son indentados
-';
+* Sangría - los subcapítulos son indentados';
 $string['numberingoptions'] = 'Opciones de formato de capítulos disponibles';
 $string['numberingoptions_desc'] = 'Seleccionar opciones de numeración que estaran disponibles al crear nuevos libros.';
 $string['page-mod-book-x'] = 'Cualquier página del módulo Libro';

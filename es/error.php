@@ -481,6 +481,7 @@ $string['sslonlyaccess'] = 'Por razones de seguridad sólo se permiten las conex
 $string['statscatchupmode'] = 'La estadística está en este momento en modo \'catchup\'. Hasta el momento se ha(n) procesado {$a->daysdone} día(s) y {$a->dayspending} están pendientes de procesamiento. Por favor, vuelva a comprobarlo más tarde.';
 $string['statsdisable'] = 'Las estadísticas no están habilitadas.';
 $string['statsnodata'] = 'No hay datos disponibles para esa combinación de curso y período de tiempo';
+$string['storedfilecannotcreatefile'] = 'No se puede crear el archivo local, verifique los permisos del área de datos y el espacio en disco disponible.';
 $string['storedfilecannotcreatefiledirs'] = 'No se puede crear directorios \'pool\' de archivos locales, por favor verifique los permisos en dataroot.';
 $string['storedfilecannotread'] = 'No se puede leer el archivo, ya sea el archivo no existe o hay problemas de permisos';
 $string['storedfilenotcreated'] = 'No se puede crear el archivo "{$a->contextid}/{$a->component}/{$a->filearea}/{$a->itemid}/{$a->filepath}/{$a->filename}"';

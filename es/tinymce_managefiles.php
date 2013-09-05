@@ -16,16 +16,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodlemedia', language 'es', branch 'MOODLE_25_STABLE'
+ * Strings for component 'tinymce_managefiles', language 'es', branch 'MOODLE_25_STABLE'
  *
- * @package   tinymce_moodlemedia
+ * @package   tinymce_managefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodlemedia:browsemedia'] = 'Buscar o cargar un audio, vídeo o applet...';
-$string['moodlemedia:desc'] = 'Insertar media Moodle';
-$string['nopreview'] = 'No se puede previsualizar media.';
-$string['pluginname'] = 'Insertar media';
+$string['allfilesok'] = 'No hay archivos perdidos o sin usar';
+$string['deleteselected'] = 'Eliminar archivos seleccionados';
+$string['hasmissingfiles'] = '¡Advertencia! Los siguientes archivos a los que se hace referencia en el área de texto parece que no existen:';
+$string['manageareafiles'] = 'Gestionar archivos incrustados en el editor de texto';
+$string['managefiles:desc'] = 'Gestionar archivos incrustados';
+$string['pluginname'] = 'Gestionar archivos incrustados';
+$string['refreshfiles'] = 'Actualizar las listas de archivos perdidos y sin usar';
+$string['unusedfilesdesc'] = 'Los siguientes archivos incrustados no se usan en el área de texto:';
+$string['unusedfilesheader'] = 'Archivos sin usar';

@@ -16,16 +16,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'tinymce_moodlemedia', language 'es', branch 'MOODLE_25_STABLE'
+ * Strings for component 'format_singleactivity', language 'es', branch 'MOODLE_25_STABLE'
  *
- * @package   tinymce_moodlemedia
+ * @package   format_singleactivity
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['moodlemedia:browsemedia'] = 'Buscar o cargar un audio, vídeo o applet...';
-$string['moodlemedia:desc'] = 'Insertar media Moodle';
-$string['nopreview'] = 'No se puede previsualizar media.';
-$string['pluginname'] = 'Insertar media';
+$string['activitytype'] = 'Tipo de actividad';
+$string['activitytype_help'] = 'Elija el tipo de actividad o recurso para utilizar en este curso';
+$string['defactivitytype'] = 'Tipo de actividad por defecto';
+$string['defactivitytypedesc'] = 'Especifique el tipo de actividad que se selecciona de forma predeterminada al crear un nuevo curso';
+$string['erroractivitytype'] = 'El tipo de actividad no se encuentra en la configuración del curso';
+$string['errornotsetup'] = 'Este curso no está configurado aún';
+$string['orphaned'] = 'Huérfano';
+$string['orphanedwarning'] = 'Estas actividades son inaccesibles para los usuarios';
+$string['pluginname'] = 'Formato de actividad única';

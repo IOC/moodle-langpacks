@@ -201,6 +201,7 @@ $string['donotaward'] = 'En este momento, esta insignia no está activa, por lo 
 $string['editsettings'] = 'Editar configuración';
 $string['enablebadges'] = 'Habilitar insignias';
 $string['error:backpacknotavailable'] = 'Su sitio no es accesible a través de Internet, por lo que cualquier insignia emitida en este sitio no puede ser verificada por los servicios de mochila externos';
+$string['error:backpackproblem'] = 'Hay un problema al conectar a su proveedor de servicios de mochila. Por favor, inténtelo de nuevo más tarde.';
 $string['error:cannotact'] = 'No se puede activar la insignia.';
 $string['error:cannotawardbadge'] = 'No se puede conceder la insignia a un usuario.';
 $string['error:clone'] = 'No se puede clonar la insignia';

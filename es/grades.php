@@ -81,17 +81,7 @@ $string['aggregationcoefextra_help'] = '<h2>Para Agregación de Suma de Califica
     <li>La calificación total del estudiante para la Categoría 1 será de 95/100 debido a que 20*2 + (40 + 70)/2 = 95</li>
 </ul>';
 $string['aggregationcoefextrasum'] = 'Actuar como puntos extra';
-$string['aggregationcoefextrasum_help'] = '<p>Cuando se usa la estrategia de agregación "Suma de calificaciones", un elemento de calificación puede actuar como crédito extra en la categoría. Esto significa que la calificación máxima del elemento no se añadirá a la calificación máxima del total de la categoría, sino a la calificación del elemento. Por ejemplo:</p>
-
-<ul>
-    <li>El elemento 1 se califica de 0 a 100</li>
-    <li>El elemento 2 se califica de0 a 75</li>
-    <li>El elemento 1 tiene marcada la casilla "Actuar como crédito extra", pero el elemento 2 no la tiene marcada.</li>
-    <li>Ambos elementos pertenecen a la Categoría 1, que tiene como estrategia de agregación "Suma de calificaciones"</li>
-    <li>El total de la Categoría 1 será calificado de 0 a 75</li>
-    <li>Un estudiante es calificado con 20 en el elemento 1 y con 70 en el elemento 2</li>
-    <li>El total del estudiante en la Categoría 1 será de 75/75 (20+70 = 90 pero el elemento 1 actúa sólo como crédito extra, de modo que lleva al total a su máximo valor)</li>
-</ul>';
+$string['aggregationcoefextrasum_help'] = 'Si está marcada la casilla de verificación Crédito extra, la calificación máxima del elemento de calificación no se agrega a la calificación máxima de la categoría, con el resultado de que es posible alcanzar la calificación máxima en la categoría (o una calificación superior a la máxima si lo ha habilitado el administrador) sin tener la calificación máxima en todos los elementos de calificación.';
 $string['aggregationcoefextraweight'] = 'Ponderación del crédito extra';
 $string['aggregationcoefextraweight_help'] = '<p>Un valor mayor que 0 trata las calificaciones de este elemento de calificación como crédito extra durante la agregación. El número es un factor por el cual se multiplicará el valor de la calificación antes de agregarse a la suma de todas las calificaciones, pero el elemento en sí mismo no será contado en la división. Por ejemplo:</p>
 

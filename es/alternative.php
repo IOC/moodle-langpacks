@@ -25,4 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['alternative'] = 'alternativa';
+$string['alternativename'] = 'Nombre de la actividad';
+$string['alternativeoptions'] = 'Opciones para esta alternativa';
+$string['changeallowed'] = 'Cambio permitido';
 $string['chooseteammembers'] = 'Por favor, seleccione a los miembros de su equipo';
+$string['chooseuser'] = 'Por favor, seleccione el usuario a registrar';
+$string['csv'] = 'Importar CSV';
+$string['csvunableopen'] = 'No se puede abrir el archivo CSV.';
+$string['datecomment'] = 'Fecha';
+$string['fieldsetcsv'] = 'Opciones de importación de archivos CSV';
+$string['fieldsetteam'] = 'Configuración de equipos';
+$string['individual'] = 'Individual';
+$string['modulename_help'] = 'El módulo Alternativa permite a los estudiantes que registren una o varias opciones en una lista dada.';
+$string['modulenameplural'] = 'alternativas';
+$string['viewsynthesis'] = 'Ver síntesis';
+$string['viewteams'] = 'Ver equipos';
+$string['wrongteamsize'] = 'El tamaño de su equipo no se encuentra entre los límites permitidos.';

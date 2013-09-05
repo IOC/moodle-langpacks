@@ -380,5 +380,5 @@ $string['usedate'] = 'Incluir en la búsqueda';
 $string['usestandard'] = 'Use un ajuste previo';
 $string['usestandard_help'] = 'Para utilizar un ajuste previo disponible en todo el sitio, selecciónelo de la lista. (Si ha agregado un ajuste previo de la lista mediante la función guardar como predeterminado entonces usted tiene la opción de eliminarlo.)';
 $string['viewfromdate'] = 'Solo lectura desde';
-$string['viewtodate'] = 'Solo lectura para';
+$string['viewtodate'] = 'Solo lectura hasta';
 $string['wrongdataid'] = 'Datos de id erróneos';
