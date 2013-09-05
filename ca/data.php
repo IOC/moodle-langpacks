@@ -316,7 +316,7 @@ $string['requireapproval'] = 'Requereix aprovació?';
 $string['requireapproval_help'] = '<p align="center"><strong>Requerir aprovació</strong></p>
 
 <p>Cal que el professorat aprovi les entrades abans que l\'estudiantat pugui visualitzar-les? Això és útil per moderar continguts potencialment ofensius o inadequats.</p>';
-$string['requiredentries'] = 'Entrades requerides';
+$string['requiredentries'] = 'Entrades requerides per a la compleció';
 $string['requiredentries_help'] = '<p align="center"><strong>Entrades requerides</strong></p>
 
 <p>El nombre d\'entrades que cal que trameti cada participant. Als usuaris que no hagin tramès aquest nombre d\'entrades se\'ls mostrarà un recordatori quan visualitzin la base de dades.</p>

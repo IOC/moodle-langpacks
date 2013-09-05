@@ -16,14 +16,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_progress', language 'ca', branch 'MOODLE_25_STABLE'
+ * Strings for component 'block_calendar_month', language 'ca', branch 'MOODLE_25_STABLE'
  *
- * @package   block_progress
+ * @package   block_calendar_month
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activity_completion'] = 'compleció de l\'activitat';
-$string['completed'] = 'completat';
+$string['calendar_month:addinstance'] = 'Afegeix un bloc de calendari';
+$string['calendar_month:myaddinstance'] = 'Afegeix un bloc de calendari a la pàgina del «meu Moodle»';
+$string['pluginname'] = 'Calendari';

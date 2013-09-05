@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addevent'] = 'Afegeix esdeveniments';
 $string['advancedoptions'] = 'Opcions avançades';
 $string['allday'] = 'Tot el dia';
 $string['annually'] = 'Anual';
@@ -44,6 +45,7 @@ $string['course'] = 'Curs';
 $string['courseevent'] = 'Esdeveniment de curs';
 $string['courseevents'] = 'Esdeveniments del curs';
 $string['courses'] = 'Cursos';
+$string['customexport'] = 'Rang personalitzat ({$a->timestart} - {$a->timeend})';
 $string['daily'] = 'Diàriament';
 $string['dayview'] = 'Vista del dia';
 $string['dayviewtitle'] = 'Vista del dia: {$a}';
@@ -127,6 +129,7 @@ $string['monthly'] = 'Mensual';
 $string['monthlyview'] = 'Vista mensual';
 $string['monthnext'] = 'Més següent';
 $string['monththis'] = 'Aquest mes';
+$string['namewithsource'] = '{$a->name}({$a->source})';
 $string['never'] = 'Mai';
 $string['newevent'] = 'Esdeveniment nou';
 $string['nocalendarsubscriptions'] = 'No teniu subscripcions a calendaris';
@@ -169,6 +172,7 @@ $string['subscriptionname'] = 'Nom del calendari';
 $string['subscriptionremoved'] = 'S\'ha suprimit la subscripció al calendari {$a}';
 $string['subscriptions'] = 'Subscripcions';
 $string['subscriptionupdated'] = 'S\'ha actualitzat la subscripció al calendari {$a}';
+$string['subsource'] = 'Font de l\'esdeveniment: {$a->name}';
 $string['sun'] = 'dg';
 $string['sunday'] = 'diumenge';
 $string['thu'] = 'dj';

@@ -35,6 +35,7 @@ $string['pluginname'] = 'MongoDB';
 $string['replicaset'] = 'Rèplica';
 $string['replicaset_help'] = 'El nom de la rèplica per connectar-si. Si això es dóna el mestre es determinarà mitjançant ordres en la base de dades en l\'alimentació, de manera que el controlador pot tancar la connexió a un servidor que ni tan sols és a la llista.';
 $string['server'] = 'Servidor';
+$string['server_help'] = 'Aquesta és la cadena de connexió per al servidor que voleu utilitzar. Es poden especificar múltiples servidors utilitzant una llista separada per comes.';
 $string['testserver'] = 'Servidor de prova';
 $string['testserver_desc'] = 'Aquesta és la cadena de connexió per al servidor de prova que voleu utilitzar. Els servidors de prova són totalment opcionals, per especificar un servidor de prova es podeu executar proves PHPUnit d\'aquesta botiga i podeu executar les proves de rendiment.';
 $string['username'] = 'Nom d\'usuari';

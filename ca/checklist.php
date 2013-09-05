@@ -16,14 +16,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_progress', language 'ca', branch 'MOODLE_25_STABLE'
+ * Strings for component 'checklist', language 'ca', branch 'MOODLE_25_STABLE'
  *
- * @package   block_progress
+ * @package   checklist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activity_completion'] = 'compleció de l\'activitat';
-$string['completed'] = 'completat';
+$string['autoupdate'] = 'Marca quan es completen els mòduls';
+$string['gradetocomplete'] = 'Qualificació per a complet:';
+$string['itemcomplete'] = 'Completat';
+$string['updatecompletescore'] = 'Desa les qualificacions de la compleció';

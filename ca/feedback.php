@@ -213,6 +213,7 @@ $string['preview_help'] = 'En la vista prèvia podeu canviar l\'ordre de les pre
 $string['previous_page'] = 'Pàgina anterior';
 $string['public'] = 'Públic';
 $string['question'] = 'Pregunta';
+$string['questionandsubmission'] = 'Paràmetres de la pregunta i de la tramesa.';
 $string['questions'] = 'Preguntes';
 $string['radio'] = 'Opcions múltiples - una resposta';
 $string['radiobutton'] = 'Opcions múltiples - una resposta permesa (botons d\'opció)';
