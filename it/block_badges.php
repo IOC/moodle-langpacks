@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['badges:addinstance'] = 'Aggiungere blocco I miei nuovi badge';
 $string['badges:myaddinstance'] = 'Aggiungere blocco I miei nuovi badge alla pagina My home';
-$string['nothingtodisplay'] = 'No hai badge da visualizzare';
+$string['nothingtodisplay'] = 'Non hai badge da visualizzare';
 $string['numbadgestodisplay'] = 'Numero di nuovi badge da visualizzare';
 $string['pluginname'] = 'I miei nuovi badge';

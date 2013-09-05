@@ -165,6 +165,7 @@ $string['gradebelowzero'] = 'La valutazione deve essere maggiore o uguale a zero
 $string['graded'] = 'Valutata';
 $string['gradedby'] = 'Valutatore';
 $string['gradedon'] = 'Data di valutazione';
+$string['gradelocked'] = 'Questa valutazione è bloccata oppure modificata nel registro del valutatore.';
 $string['gradeoutof'] = 'Punteggio (su {$a})';
 $string['gradeoutofhelp'] = 'Valutazione';
 $string['gradeoutofhelp_help'] = 'Inserisci la valutazione da assegnare al compito dello studente. Puoi anche usare cifre decimali.';

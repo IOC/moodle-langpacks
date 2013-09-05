@@ -397,9 +397,11 @@ $string['subscriptionmode'] = 'Modalità sottoscrizione';
 $string['subscriptionmode_help'] = 'La sottoscrizione di un forum consente di ricevere copie degli interventi via email. Sono disponibili 4 modalità di sottoscrizione:
 
 * Facoltativa - I partecipanti possono scegliere se sottoscrivere il forum o meno
-* Obbligatoria - Tutti i partecipanti sottoscrivono il forum e non possono rimuovere la propria sottoscrizione
-* Automatica - Tutti i partecipanti sottoscrivono il forum ma possono rimuovere la propria sottoscrizione se lo desiderano
-* Disabilitata - Non è possibile sottoscrivere il forum';
+* Obbligatoria - La sottoscrizione è attiva per tutti i partecipanti sottoscrivono il forum e non è possibile rimuoverla.
+* Automatica - La sottoscrizione è attiva per tutti i partecipanti ma ciascuno può rimuovere la propria sottoscrizione se lo desidera
+* Disabilitata - Non è possibile sottoscrivere il forum
+
+Nota: eventuali modifiche alla modalità di sottoscrizione influenzerà gli utenti che verranno iscritti al corso dopo la modifica e non gli utenti iscritti in precedenza.';
 $string['subscriptionoptional'] = 'Facoltativa';
 $string['subscriptions'] = 'Sottoscrizioni';
 $string['thisforumisthrottled'] = 'Questo forum ha una soglia massima di interventi che è possibile effettuare in un dato intervallo di tempo - la soglia al momento è impostata a {$a->blockafter} interventi in {$a->blockperiod}';

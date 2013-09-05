@@ -60,7 +60,7 @@ $string['security'] = 'Sicurezza';
 $string['selectallornone'] = 'Seleziona tutti/nessuno';
 $string['selected'] = 'Selezionati';
 $string['showadvanced'] = 'Visualizza impostazioni avanzate';
-$string['showeditortoolbar'] = 'Visualizza strumento di modifica';
+$string['showeditortoolbar'] = 'Visualizza editor';
 $string['showless'] = 'Visualizza meno elementi...';
 $string['showmore'] = 'Visualizza più elementi...';
 $string['somefieldsrequired'] = '{$a} = campi a compilazione obbligatoria';

@@ -376,7 +376,7 @@ $string['courserequestdetails'] = 'Dettagli del corso che desideri sia attivato'
 $string['courserequestfailed'] = 'Per qualche motivo, non è stato possibile salvare la tua richiesta';
 $string['courserequestintro'] = 'Utilizzare questo modulo per richiedere la creazione di un corso.<br /> Fornire più informazioni possibili per consentire agli amministratori di capire la motivazione della richiesta.';
 $string['courserequestreason'] = 'Motivazione della richiesta';
-$string['courserequestsuccess'] = 'La tua richiesta di attivazione è stata salvata. L\'esito della richiesta vi sarà inviato tramite email.';
+$string['courserequestsuccess'] = 'La tua richiesta di corso è stata salvata. L\'esito della richiesta vi sarà inviato tramite email.';
 $string['courserequestsupport'] = 'Informazioni aggiuntive per consentire agli Amministratori di valutare al meglio la richiesta';
 $string['courserestore'] = 'Recupera corso';
 $string['courses'] = 'Corsi';
@@ -639,12 +639,9 @@ Se hai bisogno di aiuto, contatta l\'amministratore del sito: {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}: Conferma cambiamento password';
 $string['emailpasswordconfirmmaybesent'] = '<p> Se hai fornito uno username corretto o un indirizzo corretto, dovresti ricevere una email.</p>
 <p>Nel messaggio troverai le istruzioni per confermare e completare la modifica della password. Se continui ad avere difficoltà, contatta l\'amministratore del sito.</p>';
-$string['emailpasswordconfirmsent'] = 'Una email sarà spedita al tuo indirizzo <b>{$a}</b>.
-
-<p>Essa contiene facili istruzioni per confermare e completare il cambiamento della password.
-
-Se continui ad avere difficoltà, contatta l\'amministratore del sito.</p>';
-$string['emailpasswordsent'] = 'Grazie per aver confermato il cambiamento della password. Riceverai la nuova password su <br /><b>{$a->email}</b>.<br />
+$string['emailpasswordconfirmsent'] = 'E\' stata spedita un\'email  al tuo indirizzo <b>{$a}</b>.
+<br />Nel messaggio troverai le istruzioni per confermare e completare la modifica della password. Se continui ad avere difficoltà, contatta l\'amministratore del sito.';
+$string['emailpasswordsent'] = 'Grazie per aver confermato il cambiamento della password. Riceverai la nuova password su br /><b>{$a->email}</b>.<br />
 
 La nuova password è stata generata automaticamente, <a href="{$a->link}">se vuoi puoi cambiarla con una di tua scelta</a>.';
 $string['enable'] = 'Abilita';
@@ -702,8 +699,8 @@ $string['forcelanguage'] = 'Forza lingua';
 $string['forceno'] = 'Non forzare';
 $string['forcepasswordchange'] = 'Forza il cambiamento della password';
 $string['forcepasswordchangecheckfull'] = 'Sei sicuro di voler obbligare {$a} a cambiare la password ?';
-$string['forcepasswordchange_help'] = '<p>Richiede che l\'utente cambi la propria password al suo primo login.</p>';
-$string['forcepasswordchangenot'] = 'Non è stato possibile obbligare il cambio di password per {$a}';
+$string['forcepasswordchange_help'] = 'Obbliga l\'utente a cambiare la propria password al suo primo login.';
+$string['forcepasswordchangenot'] = 'Non è stato possibile obbligare il cambio della password per {$a}';
 $string['forcepasswordchangenotice'] = 'È necessario cambiare la password per proseguire.';
 $string['forcetheme'] = 'Tema obbligato';
 $string['forgotaccount'] = 'Hai dimenticato la password?';
@@ -1084,7 +1081,7 @@ $string['newaccount'] = 'Nuovo account';
 $string['newcourse'] = 'Nuovo corso';
 $string['newpassword'] = 'Nuova password';
 $string['newpasswordfromlost'] = '<strong>NOTA:</strong> La tua  <strong>Password </strong> ti verrà spedita nella <strong>seconda</strong> delle due mail spedite dalla procedura di recupero password. Accertati di aver ricevuto la nuova passowrd prima di proseguire.';
-$string['newpassword_help'] = '<p>Lasciare vuoto per mantenere la password attuale.</p>';
+$string['newpassword_help'] = 'Inserisci una password oppure lascia vuoto per mantenere la password attuale.';
 $string['newpasswordtext'] = 'Gentile {$a->firstname},
 
 la password del tuo account su \'{$a->sitename}\' è stata reimpostata.
@@ -1148,7 +1145,7 @@ Se il link non dovesse essere attivo, copia e incolla l\'indirizzo nella barra d
 Saluti dall\'amministratore del sito \'{$a->sitename}\',
 {$a->signoff}';
 $string['newusers'] = 'Nuovi utenti';
-$string['newwindow'] = 'nuova finestra';
+$string['newwindow'] = 'Nuova finestra';
 $string['next'] = 'Successivo';
 $string['nextsection'] = 'Sezione successiva';
 $string['no'] = 'No';
@@ -1254,7 +1251,7 @@ $string['participationreport'] = 'Report della Partecipazione';
 $string['password'] = 'Password';
 $string['passwordchanged'] = 'La password è stata modificata';
 $string['passwordconfirmchange'] = 'Conferma il cambiamento di password';
-$string['passwordextlink'] = 'Il link seguente è stato fornito per recuperare la password smarrita. Questo vi porterà fuori da Moodle.';
+$string['passwordextlink'] = 'Il link seguente è stato fornito per recuperare la password dimenticata. Questo vi porterà fuori da Moodle.';
 $string['passwordforgotten'] = 'Password dimenticata';
 $string['passwordforgotteninstructions'] = 'I tuoi dati devono essere reperiti nel database di Moodle. Inserisci il tuo username <strong>oppure</strong> la tua email nelle caselle corrispondenti. Non è necessario inserirli entrambi.';
 $string['passwordforgotteninstructions2'] = 'Per recuperare la tua password, inserisci lo username oppure la email nei campi sottostanti. Se Moodle troverà il dato nel database, invierà una email con le istruzioni per completare il recupero.';
@@ -1699,7 +1696,7 @@ $string['unfinished'] = 'Non terminato';
 $string['unknowncategory'] = 'Categoria sconosciuta';
 $string['unlimited'] = 'Nessun limite';
 $string['unpacking'] = 'Decompressione {$a}';
-$string['unsafepassword'] = 'Password insicura - provarne un\'altra';
+$string['unsafepassword'] = 'Password non sicura - utilizzane un\'altra';
 $string['untilcomplete'] = 'Fino al completamento';
 $string['unusedaccounts'] = 'Gli account inutilizzati per più di {$a} giorni saranno rimossi automaticamente dal corso.';
 $string['unzip'] = 'Decomprimi';

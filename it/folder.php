@@ -27,8 +27,8 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['contentheader'] = 'Contenuto';
 $string['display'] = 'Visualizzazione del contenuto';
-$string['display_help'] = 'Scegliendo di visualizzare il contenuto del folder nella home page del corso, non sarà disponibile il link ad una pagina separata della risorsa e non sarà visualizzato il titolo. La descrizione sarà visualizzata solo se è stata selezionata l\'impostazione "Visualizza descrizione nella home del corso".<br />
-Da notare che con l\'impostazione di visualizzazione nella home page del corso non sarà possibile avere nel log l\'azione di visualizzazione della risorsa.';
+$string['display_help'] = 'Scegliendo di visualizzare il contenuto del folder nella home page del corso, non sarà disponibile il link ad una pagina separata della risorsa. La descrizione sarà visualizzata solo se è stata selezionata l\'impostazione "Visualizza descrizione nella home del corso".<br />
+Da notare che con questa impostazione la visualizzazione della risorsa da parte dei partecipanti non potrà essere inserita nel log.';
 $string['displayinline'] = 'Nella home page del corso';
 $string['displaypage'] = 'In una pagina separata';
 $string['dnduploadmakefolder'] = 'Decomprimi i file e crea le cartelle';

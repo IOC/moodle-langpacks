@@ -25,8 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['aim'] = 'Tool amministrativo per aiutare sviluppatori e tester a creare file .feature che descrivono le funzionalità di Moodle. I file potranno essere eseguiti automaticamente.';
 $string['allavailablesteps'] = 'Tutte le definizioni di passi disponibili';
 $string['giveninfo'] = 'Fornito. Procedure per impostare l\'ambiente';
+$string['infoheading'] = 'Informazioni';
 $string['installinfo'] = 'Leggere {$a} per iformazioni sull\'installazione e lo svolgimento di test';
 $string['moreinfoin'] = 'Per maggiori informazioni: {$a}';
 $string['newstepsinfo'] = 'Leggere {$a} per maggiori informazioni su come aggiungere definizioni di passi.';
@@ -42,6 +44,5 @@ $string['theninfo'] = 'Poi. Verifiche per assicurarsi che i risultati ottenuti s
 $string['viewsteps'] = 'Filtro';
 $string['wheninfo'] = 'Quando. Azioni che generano un evento';
 $string['wrongbehatsetup'] = 'Il setup bheat presenta dei problemi. E\' necessario accertarsi che:<ul>
-<li>è possibile eseguire il comando "curl http://getcomposer.org/installer | php"</li>
-<li>è possibile eseguire il comando "php composer.phar install --dev"</li>
-<li>il file vendor/bin/behat ha i permessi per essere eseguito </li></ul>';
+<li>sia possibile eseguire il comando   possibile eseguire il comando "php admin/tool/behat/cli/init.php" dalla cartella radice di Moodle</li>
+<li>il file vendor/bin/behat abbia i permessi per essere eseguito </li></ul>';
