@@ -99,7 +99,7 @@ $string['attemptstate'] = 'État';
 $string['attemptstillinprogress'] = 'Tentative encore en cours';
 $string['attemptsunlimited'] = 'Nombre illimité de tentatives';
 $string['autosaveperiod'] = 'Période d\'enregistrement automatique';
-$string['autosaveperiod_desc'] = 'Durant les tests, les réponses des participants peuvent être enregistrées automatiquement toutes les quelques minutes. Il y a cependant une contrepartie : cet enregistrement augment la charge sur le serveur. Elle réduit en revanche les risques de perte du travail des participants.';
+$string['autosaveperiod_desc'] = 'Durant les tests, les réponses des participants peuvent être enregistrées automatiquement toutes les quelques minutes. Il y a cependant une contrepartie : cet enregistrement augmente la charge sur le serveur. Elle réduit en revanche les risques de perte du travail des participants.';
 $string['back'] = 'Retour à la question précédente';
 $string['backtocourse'] = 'Retour au cours';
 $string['backtoquestionlist'] = 'Retour à la liste des questions';
@@ -470,7 +470,7 @@ $string['moveselectedonpage'] = 'Déplacer les questions sélectionnées vers la
 $string['multichoice'] = 'Choix multiples';
 $string['multipleanswers'] = 'Veuillez choisir au moins une réponse.';
 $string['multiplier'] = 'Coefficient';
-$string['mustbesubmittedby'] = 'Cette tentative doit être envoyée par {$a}.';
+$string['mustbesubmittedby'] = 'Cette tentative doit être envoyée avant {$a}.';
 $string['name'] = 'Nom';
 $string['navmethod'] = 'Méthode de navigation';
 $string['navmethod_free'] = 'Libre';
@@ -548,23 +548,7 @@ $string['outof'] = '{$a->grade} sur un maximum de {$a->maxgrade}';
 $string['outofpercent'] = '{$a->grade} sur un maximum de {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Feedback global';
-$string['overallfeedback_help'] = '<!-- $Id$ -->
-
-
-<p>Le feedback général est un texte qui montré à l\'étudiant lorsqu\'il a terminé une tentative d\'un test. Le texte affiché peut différer suivant la note obtenue par l\'étudiant.</p>
-
-<p>Par exemple, admettons que vous tapiez :</p>
-
-<p>Limite de note 100%<br />
-Feedback Bien joué<br />
-Limite de note 40%<br />
-Feedback Merci d\'étudier encore cette matière<br />
-etc.<br />
-Limite de note 0%</p>
-
-<p>Dans ce cas, le message « Bien joué » sera affiché pour les étudiants obtenant un résultat entre 100% et 40%, et les étudiants obtenant entre 39.99% et 0% verront l\'autre message. Les limites de note définissent les plages de notes pour lesquelles afficher le feedback correspondant.</p>
-
-<p>Les limites de note doivent être indiquées soit sous la forme d\'un pourcentage, par exemple « 31.41% », soit sous la forme d\'un nombre, par exemple « 7 ». Si la note maximale de votre test est de 10, une limite de 7 signifie 7 sur 10 ou plus.</p>';
+$string['overallfeedback_help'] = 'Le feedback global est un texte qui montré à l\'étudiant lorsqu\'il a terminé une tentative d\'un test. En spécifiant des limites de notes supplémentaires (sous forme de nombre ou de pourcentage), le texte affiché peut différer suivant la note obtenue par l\'étudiant.';
 $string['overdue'] = 'En retard';
 $string['overduehandling'] = 'Lorsque le temps imparti échoit';
 $string['overduehandlingautoabandon'] = 'La tentative doit être envoyée avant l\'échéance, sans quoi elle n\'est pas comptabilisée';
@@ -792,7 +776,7 @@ $string['reviewoptionsheading_help'] = 'Ces options permettent de décider les i
 **Plus tard, alors que le test est encore ouvert** veut dire après ces deux minutes, mais avant que le test soit fermé.
 
 **Après la fermeture du test** veut dire après la date de fermeture du test. Si le test n\'a pas de date de fermeture, cet état n\'est jamais atteint.';
-$string['reviewoverallfeedback'] = 'Feedback général';
+$string['reviewoverallfeedback'] = 'Feedback global';
 $string['reviewoverallfeedback_help'] = 'Le feedback donné au terme d\'une tentative, en fonction du total des points obtenu par le participant.';
 $string['reviewresponse'] = 'Relire la réponse';
 $string['reviewresponsetoq'] = 'Relire la réponse (question {$a})';

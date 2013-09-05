@@ -197,6 +197,7 @@ $string['donotaward'] = 'Ce badge n\'est actuellement pas actif et ne peut donc 
 $string['editsettings'] = 'Modifier les réglages';
 $string['enablebadges'] = 'Activer les badges';
 $string['error:backpacknotavailable'] = 'Votre site ne peut pas être atteint via l\'internet. Tous les badges décernés sur ce site ne pourront pas être vérifiés par des services de sacs à badges externes.';
+$string['error:backpackproblem'] = 'Un problème est survenu lors de la connexion avec votre fournisseur de sac à badges. Veuillez ré-essayer plus tard.';
 $string['error:cannotact'] = 'Impossible d\'activer le badge.';
 $string['error:cannotawardbadge'] = 'Impossible de décerner le badge à un utilisateur.';
 $string['error:clone'] = 'Impossible de dupliquer le badge.';

@@ -16,13 +16,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpotsource_hp', language 'fr', branch 'MOODLE_24_STABLE'
+ * Strings for component 'block_attendance', language 'fr', branch 'MOODLE_25_STABLE'
  *
- * @package   hotpotsource_hp
+ * @package   block_attendance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Fichiers source Hot Potatoes';
+$string['blockname'] = 'Présence';
+$string['needactivity'] = 'Ce bloc ne peut fonctionner qu\'avec l\'activité Présence. Merci d\'ajouter l\'activité dans ce cours.';
+$string['pluginname'] = 'Présence';

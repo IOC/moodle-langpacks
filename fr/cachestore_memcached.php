@@ -41,6 +41,7 @@ $string['hash_murmur'] = 'Murmur';
 $string['pluginname'] = 'Memcached';
 $string['prefix'] = 'Préfixe de clef';
 $string['prefix_help'] = 'Ce réglage peut être utilisé pour créer un « domaine » pour vos clefs, permettant de disposer de plusieurs dépôts memcached sur une unique installation memcached. La chaîne indiquée ne doit pas dépasser 16 caractères.';
+$string['prefixinvalid'] = 'Préfixe non valide. Vous ne pouvez utiliser que les caractères a-z A-Z 0-9-_.';
 $string['serialiser_igbinary'] = 'Le serialiseur igbinary';
 $string['serialiser_json'] = 'Le serialiseur JSON';
 $string['serialiser_php'] = 'Le serialiseur par défaut PHP';

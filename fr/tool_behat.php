@@ -25,8 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['aim'] = 'Cet outil d\'administration aide les développeurs et les personnes qui créent les tests à composer des fichiers .feature décrivant les fonctionnalités de Moodle et à lancer les tests automatiquement.';
 $string['allavailablesteps'] = 'Toutes les définitions d\'étape disponibles';
 $string['giveninfo'] = 'Donné. Processus pour mettre en place l\'environnement';
+$string['infoheading'] = 'Info';
 $string['installinfo'] = 'Lire {$a} pour des informations sur l\'installation et l\'exécution des tests.';
 $string['moreinfoin'] = 'Plus d\'info dans {$a}';
 $string['newstepsinfo'] = 'Lire {$a} pour des informations sur l\'ajout de définitions d\'étapes';
@@ -42,6 +44,5 @@ $string['theninfo'] = 'Alors. Vérifications assurant que les résultats sont bi
 $string['viewsteps'] = 'Filtre';
 $string['wheninfo'] = 'Quand. Actions qui provoquent un événement';
 $string['wrongbehatsetup'] = 'Quelque chose n\'est pas correct dans vos réglages behat. Assurez-vous que<ul>
-<li>vous avez lancé « curl http://getcomposer.org/installer | php »</li>
-<li>vous avez lancé « php composer.phar install --dev »</li>
-<li>le fichier vendor/bin/behat possède l\'autorisation d\'être lancé.</li></ul>';
+<li>vous avez lancé « php admin/tool/behat/cli/init.php » depuis votre dossier moodle ;</li>
+<li>le fichier vendor/bin/behat possède les droits pour être lancé.</li></ul>';

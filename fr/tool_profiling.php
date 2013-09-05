@@ -50,5 +50,5 @@ $string['referencerun'] = 'Profilage de référence/commentaire';
 $string['runid'] = 'Identifiant de profilage';
 $string['summaryof'] = 'Résumé de {$a}';
 $string['viewdetails'] = 'Afficher les détails du profilage';
-$string['viewdiff'] = 'Voir les différences avec le dernier profilage de référence';
+$string['viewdiff'] = 'Voir les différences de profilage avec :';
 $string['viewdiffdetails'] = 'Voir les détails de différences de profilage';

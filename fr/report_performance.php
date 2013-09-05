@@ -26,8 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check_backup'] = 'Sauvegarde automatique';
-$string['check_backup_comment_disable'] = 'La performance peut être détériorée durant le processus de sauvegarde. Si les sauvegardes automatiques sont activées, elles devraient être planifiées en dehors de heures de pointe.';
-$string['check_backup_comment_enable'] = 'La performance peut être détériorée durant le processus de sauvegarde. Elles doivent être planifiées en dehors de heures de pointe.';
+$string['check_backup_comment_disable'] = 'La performance peut être détériorée durant le processus de sauvegarde. Si les sauvegardes automatiques sont activées, elles devraient être planifiées en dehors des heures de pointe.';
+$string['check_backup_comment_enable'] = 'La performance peut être détériorée durant le processus de sauvegarde. Elles doivent être planifiées en dehors des heures de pointe.';
 $string['check_backup_details'] = 'L\'activation des sauvegardes automatiques créera des archives de tous les cours de ce site à l\'heure que vous indiquez.<p>Durant cette opération, des ressources serveur supplémentaires seront utilisées, qui pourraient affecter négativement la performance.</p>';
 $string['check_cachejs_comment_disable'] = 'Si ce réglage est activé, la performance de chargement des pages est améliorée.';
 $string['check_cachejs_comment_enable'] = 'Si ce réglage est désactivé, les pages pourraient se charger lentement.';
@@ -38,7 +38,7 @@ $string['check_debugmsg_details'] = 'Il ne sert généralement à rien de régle
 $string['check_enablestats_comment_disable'] = 'La performance peut être affectée par le traitement des statistiques. Si les statistiques sont activées, leurs réglages doivent être choisis avec soin.';
 $string['check_enablestats_comment_enable'] = 'La performance peut être affectée par le traitement des statistiques. Les réglages de statistique doivent être choisis avec soin.';
 $string['check_enablestats_details'] = 'L\'activation de ce réglage aura pour effet le traitement des historiques et la récolte de statistiques. Suivant la quantité de trafic sur votre site, ceci peut prendre du temps.<p>Durant cette opération, des ressources serveur supplémentaires seront utilisées, qui pourraient affecter négativement la performance.</p>';
-$string['check_themedesignermode_comment_disable'] = 'Si ce réglage est activé, les images et feuilles de style ne seront pas mise ne cache, et la performance sera dégradée de manière sensible.';
+$string['check_themedesignermode_comment_disable'] = 'Si ce réglage est activé, les images et feuilles de style ne seront pas mises en cache, et la performance sera dégradée de manière sensible.';
 $string['check_themedesignermode_comment_enable'] = 'Si ce réglage est désactivé, les images et feuilles de style sont mise ne cache, et la performance sera améliorée de manière sensible.';
 $string['check_themedesignermode_details'] = 'Ce réglage est souvent la cause de sites Moodle lents.<p>En moyenne, un site Moodle avec le mode concepteur de thème activé consomme au moins deux fois plus de temps CPU.</p>';
 $string['comments'] = 'Commentaires';

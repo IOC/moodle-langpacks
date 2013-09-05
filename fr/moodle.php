@@ -870,7 +870,7 @@ $string['htmlformat'] = 'Format HTML';
 $string['icon'] = 'Icône';
 $string['icqnumber'] = 'Identifiant ICQ';
 $string['idnumber'] = 'Numéro d\'identification';
-$string['idnumbercourse'] = 'No d\'identification du cours';
+$string['idnumbercourse'] = 'N° d\'identification du cours';
 $string['idnumbercoursecategory'] = 'Numéro d\'identifiant de catégorie';
 $string['idnumbercoursecategory_help'] = 'L\'identifiant de catégorie de cours n\'est utilisé que lors de la vérification de correspondance avec des systèmes externes et n\'est affiché nulle part sur le site. Si la catégorie est codée de manière officielle, celui-ce devrait être renseigné ici. Sinon, le champ peut être laissé vide.';
 $string['idnumbercourse_help'] = '<!-- Version: $Id$ -->
@@ -885,7 +885,7 @@ $string['idnumbermod'] = 'Numéro d\'identification';
 $string['idnumbermod_help'] = 'En définissant un numéro d\'identification (ID number), vous fournissez un moyen d\'identifier une activité, si vous voulez effectuer des calculs avec les notes. Si l\'activité n\'est utilisée dans aucun calcul de note, le numéro d\'identification peut être laissé vide.
 
 Ce numéro d\'identification peut aussi être renseigné dans le carnet de notes. Il ne peut cependant être modifié que sur la page de modification de l\'activité.';
-$string['idnumbertaken'] = 'Ce no d\'identification est déjà utilisé';
+$string['idnumbertaken'] = 'Ce n° d\'identification est déjà utilisé';
 $string['imagealt'] = 'Description de l\'image';
 $string['import'] = 'Importation';
 $string['importdata'] = 'Importer les données d\'un cours';
@@ -1569,16 +1569,7 @@ $string['showonly'] = 'Afficher uniquement';
 $string['showperpage'] = 'Afficher {$a} par page';
 $string['showrecent'] = 'Afficher les événements récents';
 $string['showreports'] = 'Afficher les rapports d\'activités';
-$string['showreports_help'] = '<!-- $Id$ -->
-
-
-<p>Vous pouvez obtenir des rapports d\'activités pour chaque participant à votre cours. Ces rapports contiennent les contributions des participants et la liste des accès aux différentes activités et ressources du cours.</p>
-
-<p>Les enseignants peuvent visualiser ces rapports à l\'aide d\'un bouton dans le profil de l\'utilisateur.</p>
-
-<p>Vous pouvez permettre à vos étudiants de voir leurs propres rapports d\'activités à un des paramètres du cours. Dans certains cours, il peut être pertinent d\'offrir cette possibilité aux étudiants pour les aider dans la participation au cours ; dans d\'autres cas, cela n\'est pas nécessaire.</p>
-
-<p>Remarque : la production de ces rapports peut ralentir le serveur Moodle lorsqu\'il y a beaucoup d\'étudiants et d\'enseignants qui en font la demande.  Pour augmenter les performances du serveur, on peut désactiver ce paramètre.<p>';
+$string['showreports_help'] = 'Les rapports d\'activité sont disponibles pour chaque participant qui affiche ses activités dans le cours. En plus d\'une liste de ses contributions, comme les messages d\'un forum ou les soumissions d\'un devoir, ces rapports incluent également des journaux d\'accès. Ce paramètre détermine si un étudiant peut consulter ses propres rapports d\'activité via sa page de profil.';
 $string['showsettings'] = 'Afficher les réglages';
 $string['showtheselogs'] = 'Afficher cet historique';
 $string['showthishelpinlanguage'] = 'Afficher cette aide dans la langue : {$a}';

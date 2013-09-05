@@ -30,6 +30,7 @@ $string['prefix'] = 'Préfixe de clef';
 $string['prefix_help'] = 'Ce préfixe est utilisé pour tous les noms de clef sur le serveur memcache.
 * Si vous n\'avez qu\'une instance de Moodle qui tourne sur ce serveur, vous pouvez laisser la valeur par défaut.
 * Un maximum de 5 caractères est autorisé.';
+$string['prefixinvalid'] = 'Préfixe non valide. Vous ne pouvez utiliser que les caractères a-z A-Z 0-9-_.';
 $string['servers'] = 'Serveurs';
 $string['servers_help'] = 'Ce réglage permet de spécifier les serveurs devant être utilisés par cet adaptateur memcache.
 Les adresses des serveurs doivent être indiquées un par ligne, avec optionnellement un port et une pondération.

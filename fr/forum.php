@@ -261,7 +261,7 @@ $string['maxattachmentsize_help'] = '<!-- $Id$ -->
 <p>Il est cependant parfois possible de déposer un fichier de taille supérieure à cette valeur. Dans ce cas, le fichier n\'est pas enregistré sur le serveur et un message d\'erreur est affiché.</p>';
 $string['maxtimehaspassed'] = 'Le délai pour modifier ce message ({$a}) est échu';
 $string['message'] = 'Message';
-$string['messageprovider:digests'] = 'Abonnements aux digests de forum';
+$string['messageprovider:digests'] = 'Abonnements aux courriels quotidiens de forum';
 $string['messageprovider:posts'] = 'Abonnements aux messages de forum';
 $string['missingsearchterms'] = 'Le terme recherché suivant n\'apparaît que dans le code HTML de ce message :';
 $string['modeflatnewestfirst'] = 'Réponses en ligne, la plus récente en premier';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addmoreitems'] = 'Vides pour {no} marqueurs supplémentaires';
-$string['alttext'] = 'Tout le texte';
+$string['alttext'] = 'Étiquette';
 $string['answer'] = 'Réponse';
 $string['bgimage'] = 'Image de fond';
 $string['clearwrongparts'] = 'Déplacer les marqueurs qui ne sont pas à la bonne place à leur position de départ, en-dessous de l\'image';
@@ -41,7 +41,7 @@ $string['draggableitemtype'] = 'Type';
 $string['draggableword'] = 'Texte déplaçable';
 $string['dropbackground'] = 'Image de fond pouvant être recouverte de marqueurs déplaçables';
 $string['dropzone'] = 'Zone de dépôt {$a}';
-$string['dropzoneheader'] = 'Zones de dépôt';
+$string['dropzoneheader'] = 'Zone de dépôt';
 $string['followingarewrong'] = 'Les marqueurs suivants ont été placés dans la mauvaise zone : {$a}.';
 $string['followingarewrongandhighlighted'] = 'Les marqueurs suivants étaient placés de manière incorrecte : {$a}. Les marqueurs en surbrillance sont à présent à leur place.<br /> Cliquez sur le marqueur pour mettre la zone autorisée en surbrillance.';
 $string['formerror_nobgimage'] = 'Vous devez sélectionner une image à utiliser comme fond pour cette aire de glisser-déposer.';

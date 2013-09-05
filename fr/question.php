@@ -276,6 +276,7 @@ $string['noquestions'] = 'Aucune question à exporter. Assurez-vous que vous ave
 $string['noquestionsinfile'] = 'Il n\'y a aucune question dans le fichier d\'importation';
 $string['noresponse'] = '[Pas de réponse]';
 $string['notanswered'] = 'Non répondue';
+$string['notchanged'] = 'Non modifiée depuis la dernière tentative';
 $string['notenoughanswers'] = 'Ce type de question requiert au moins {$a} réponses';
 $string['notenoughdatatoeditaquestion'] = 'L\'identifiant de la question, l\'identifiant de la catégorie et le type de question n\'ont pas été spécifiés.';
 $string['notenoughdatatomovequestions'] = 'Vous devez fournir les identifiants des questions que vous voulez déplacer.';

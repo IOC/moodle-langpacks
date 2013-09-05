@@ -169,20 +169,20 @@ $string['launch_url_help'] = 'L\'URL de lancement indique l\'adresse web de l\'o
 
 Si vous avez choisi un type d\'outil spécifique, il ne sera peut-être pas nécessaire de saisir une URL. Si le lien n\'est utilisé que pour lancer l\'outil dans le système du fournisseur et n\'envoie pas vers une ressource spécifique, ce sera vraisemblablement le cas.';
 $string['lti'] = 'LTI';
-$string['lti:addcoursetool'] = 'Évaluer les activités LTI';
-$string['lti:addinstance'] = 'Ajouter une activité LTI';
+$string['lti:addcoursetool'] = 'Ajouter des configurations d\'outils externes propres à un cours';
+$string['lti:addinstance'] = 'Ajouter des activités d\'outils externes';
 $string['lti_administration'] = 'Administration LTI';
 $string['lti_errormsg'] = 'L\'outil a retourné le message d\'erreur suivant : « {$a} »';
-$string['lti:grade'] = 'Évaluer des activités LTI';
+$string['lti:grade'] = 'Voir les notes retournées par un outil externe';
 $string['lti_launch_error'] = 'Une erreur est survenue lors du lancement de l\'outil externe :';
 $string['lti_launch_error_tool_request'] = '<p>Pour demander à un administrateur de terminer la configuration de cet outil, cliquez <a href="{$a->admin_request_url}" target="_top">ici</a>.</p>';
 $string['lti_launch_error_unsigned_help'] = '<p>Cette erreur est vraisemblablement le résultat du manque de la clef client et du secret partagé pour ce fournisseur d\'outil.</p>
 <p>Si vous êtes en possession de la clef utilisateur et du secret partagé, veuillez les saisir lors de la mise en place de l\'instance de l\'outil externe (assurez-vous que les réglages avancés sont affichés).<br />AutreSinonment, vous pouvez <a href="{$a->course_tool_editor}">créer une configuration</a> du fournisseur d\'outil au niveau du cours.</p>';
-$string['lti:manage'] = 'Modifier des activités LTI';
-$string['lti:requesttooladd'] = 'Envoyer une demande de configuration d\'outil aux administrateurs';
+$string['lti:manage'] = 'Être formateur lors qu\'un outil externe est lancé';
+$string['lti:requesttooladd'] = 'Demander la configuration d\'outils externes pour tout le site';
 $string['lti_tool_request_added'] = 'La demande de configuration a été envoyée correctement. Vous pouvez contacter un administrateur pour terminer la configuration de l\'outil.';
 $string['lti_tool_request_existing'] = 'Une demande de configuration a déjà été envoyée pour cet outil.';
-$string['lti:view'] = 'Afficher les activités LTI';
+$string['lti:view'] = 'Lancer des activités d\'outils externes';
 $string['main_admin'] = 'Aide générale';
 $string['main_admin_help'] = 'Les outils externes permettent aux utilisateurs de Moodle d\'interagir de manière transparente avec des ressources d\'apprentissage distantes. Au moyen d\'un protocole de lancement spécial, l\'outil externe aura accès à des informations sur l\'utilisateur qui lance l\'outil, par exemple le nom de l\'institution, l\'identifiant du cours, l\'identifiant de l\'utilisateur et d\'autres informations comme le nom d\'utilisateur ou son adresse de courriel.
 
