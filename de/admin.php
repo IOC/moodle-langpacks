@@ -134,7 +134,7 @@ $string['commonfiltersettings'] = 'Einstellungen';
 $string['commonsettings'] = 'Grundeinstellungen';
 $string['componentinstalled'] = 'Komponente installiert';
 $string['computedfromlogs'] = 'Logdaten seit {$a}';
-$string['condifmodeditdefaults'] = 'Die eingegebenen Werte legen die Standardwerte fest, die beim Hinzufügen einer Aktivität im Einstellungsformular vorgegeben werden. Zusätzlich kann angegeben werden, welche der Einstellungen als \'optionale Felder\' bezeichnet werden.';
+$string['condifmodeditdefaults'] = 'Diese Einträge werden standardmäßig benutzt, wenn eine Aktivität oder ein Material neu angelegt wird.';
 $string['confeditorhidebuttons'] = 'Wählen Sie die Optionen, die im HTML-Editor verborgen sein sollen.';
 $string['configallcountrycodes'] = 'Diese Länderliste wird an unterschiedlichen Stellen benutzt, z.B. im Nutzerprofil.
 Falls das Feld leer bleibt, wird standardmäßig die gesamte Liste aus der Datei countries.php im englischen Sprachpaket benutzt.
@@ -184,23 +184,22 @@ $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php n
 http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
 $string['configcurlcache'] = 'Speicherzeit für cURL Cache (in Sekunden)';
-$string['configcustommenuitems'] = 'Sie können ein eigenes Menü einrichten. Jede Zeile besteht aus
-<ul>
-<li>dem Menütext,</li>
-<li>einer URL, </li>
-<li>einem Tooltipp (optional) und </li>
-<li>der Zuweisung zu einer Sprache (optional).</li>
-</ul>
-Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Ein Untermenü wird über einen Bindestrich (-) eingeleitet. Für die Sprachzuordnung geben Sie nach dem dritten senkrechten Strich das Sprachkürzel des gewünschten Sprachpaketes an (oder eine kommagetrennte Liste der Sprachcodes). Der zugeordnete Menüeintrag wird nur in der Sprache angezeigt, wenn der Nutzer genau diese ausgewählt hat.<br />
-Zum  Beispiel:<br />
+$string['configcustommenuitems'] = 'Sie können ein eigenes Menü einrichten. Jede Zeile besteht aus dem Menütext, einer URL (optional), einem Tooltipp (optional) und der Einschränkung auf eine Sprache (optional). Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Ein Untermenü wird mit einem Bindestrich (-) eingeleitet.
 
-Oberster Menüeintrag|http://mein.menue.de|hier klicken|de<br />
--1. Untermenü|http://mein.untermenue1.de||de,de_du<br />
--My first submenu|http://submenu1.uk||en<br />
--2. Untermenü|http://mein.untermenue2.de||de,de_du<br />
--My sec. submenu|http://submenu2.uk||en<br />
---Unteruntermenu|http://www.dritte_ebene.de|beliebig viele Untermenüs sind möglich|de<br />
---2. Unteruntermenu| http://www.dritte_ebene.de|many submenus are possible|en<br />';
+Für die Sprachzuordnung geben Sie nach einem dritten senkrechten Strich das Sprachkürzel der Sprache an (oder eine kommagetrennte Liste der Sprachcodes). Ein solcher Menüeintrag wird nur angezeigt, wenn der Nutzer genau diese Sprache ausgewählt hat.
+
+Beispiel:
+<pre>
+Moodle Community|http://moodle.org
+-Moodle Support|http://moodle.org/support
+-Moodle Entwickler|http://moodle.org/development
+--Moodle Tracker|http://tracker.moodle.org
+--Moodle Docs|http://docs.moodle.org|Moodle-Dokumentation
+--Deutsche Moodle Docs|http://docs.moodle.org/de|Moodle-Dokumentation in Deutsch|de
+-Moodle News|http://moodle.org/Nachrichten von Moodle
+-Moodle Commercial Hosting|http://moodle.com/hosting
+-Moodle Commercial Support|http://moodle.com/support
+</pre>';
 $string['configdbsessions'] = 'Bei der Aktivierung dieser Einstellung wird die Datenbank unter anderem dazu verwendet, um Informationen über aktuelle Sitzungen abzuspeichern. Das ist sinnvoll bei sehr großen Anwendungen oder Anwendungen, die über mehrere Cluster von Servern verteilt arbeiten. Meist kann die Einstellung deaktiviert bleiben. Bei einer Einstellungsänderung werden alle aktuellen Nutzer/innen ausgeloggt (auch die Administrator/innen). Falls Sie MySQL benutzen, stellen Sie sicher, dass \'max_allowed_packet\' in der Datei my.cnf (oder my.ini) mindestens 4M ist.';
 $string['configdebug'] = 'Wenn Sie diese Funktion einschalten, werden die Fehlermeldungen von PHP erweitert, so dass mehr Warnungen ausgegeben werden. Dies ist nur für Entwickler nützlich.';
 $string['configdebugdisplay'] = 'Wenn diese Option aktiviert ist, werden Fehlermeldungen direkt auf der HTML-Seite angezeigt. Auftretende Fehler stören dann aber XHTML, JavaScript, Cookies und HTTP-Header. Wenn die Option deaktiviert ist, werden alle Fehlermeldungen in die Logdaten des Webservers geschrieben. Die PHP-Variable error_log enthält den Pfad zur Logdatei.';
@@ -566,7 +565,7 @@ $string['filtersettings'] = 'Übersicht';
 $string['filtersettingsgeneral'] = 'Generelle Filtereinstellungen';
 $string['filteruploadedfiles'] = 'Filter für hochgeladene Dateien';
 $string['forcelogin'] = 'Anmeldung notwendig';
-$string['forceloginforprofileimage'] = 'Profilbilder nur für eingeloggte Nutzer/innen anzeigen';
+$string['forceloginforprofileimage'] = 'Anmeldung notwendig, um Profilbilder sehen zu können';
 $string['forceloginforprofileimage_help'] = 'Wenn diese Option aktiviert ist, müssen Nutzer/innen eingeloggt sein, um Profilbilder sehen zu können. Bei allen E-Mail-Mitteilungen wird nur das Standardbild benutzt.';
 $string['forceloginforprofiles'] = 'Anmeldung notwendig, um Profile sehen zu können';
 $string['forcetimezone'] = 'Vorgegebene Zeitzone';
@@ -1045,6 +1044,7 @@ $string['tablenosave'] = 'Änderungen in der obigen Tabelle werden automatisch g
 $string['tablesnosave'] = 'Änderungen in den obigen Tabellen werden automatisch gesichert';
 $string['tabselectedtofront'] = 'Tabellen mit Tabs: Soll die Reihe mit dem aktiven Tabulator im Vordergrund platziert werden?';
 $string['tabselectedtofronttext'] = 'Bringe die ausgewählte Reihe in den Vordergrund';
+$string['testsiteupgradewarning'] = '';
 $string['themedesignermode'] = 'Modus zur Designbearbeitung';
 $string['themelist'] = 'Designliste';
 $string['themenoselected'] = 'Kein Design ausgewählt';

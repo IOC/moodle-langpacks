@@ -100,7 +100,7 @@ $string['badgeprivacysetting_help'] = 'Sie können Ihre erworbenen Auszeichnunge
 Sie können die Sichtbarkeit einer einzelnen Auszeichnung jederzeit auf der Seite \'\'Navigation > Meine Profil > Auszeichnungen\'\' ändern.';
 $string['badgeprivacysetting_str'] = 'Meine Auszeichnungen automatisch im Nutzerprofil anzeigen';
 $string['badgesalt'] = 'Salt für das Hashing der Empfänger-E-Mail-Adresse';
-$string['badgesalt_desc'] = 'Wenn Sie hier einen Hash eintragen, dann können Backpack-Dienste Empfänger/innen einer Auszeichnung bestätigen, ohne deren E-Mail-Adresse offen zu legen. Verwenden Sie nur Ziffern und Buchstaben für den Hash.';
+$string['badgesalt_desc'] = 'Mit Hilfe eines Hash können Backpack-Diensten die Empfänger/innen einer Auszeichnung bestätigen, ohne deren E-Mail-Adresse zu kennen. Verwenden Sie für den Hash ausschließlich Ziffern und Buchstaben.';
 $string['badgesdisabled'] = 'Auszeichnungen sind auf dieser Moodle-Site nicht aktiviert.';
 $string['badgesearned'] = 'Anzahl der erworbenen Auszeichnungen: {$a}';
 $string['badgesettings'] = 'Einstellungen';
@@ -202,6 +202,7 @@ $string['error:cannotact'] = 'Die Auszeichnung kann nicht aktiviert werden.';
 $string['error:cannotawardbadge'] = 'Die Auszeichnung kann nicht an Nutzer/innen verliehen werden.';
 $string['error:clone'] = 'Die Auszeichnung kann nicht dupliziert werden.';
 $string['error:duplicatename'] = 'Eine Auszeichnung mit diesem Namen existiert bereits.';
+$string['error:externalbadgedoesntexist'] = 'Auszeichnung nicht gefunden';
 $string['error:invalidbadgeurl'] = 'Unzulässige URL für Auszeichnungsverleiher';
 $string['error:invalidcriteriatype'] = 'Falscher Kriteriumstyp';
 $string['error:invalidexpiredate'] = 'Das Ablaufdatum muss in der Zukunft liegen.';
@@ -302,7 +303,10 @@ $string['numawards'] = 'Diese Auszeichnung wurde an <a href="{$a->link}">{$a->co
 $string['numawardstat'] = 'Diese Auszeichnung wurde an {$a} Nutzer/innen verliehen.';
 $string['overallcrit'] = 'gewählten Kriterien erfüllt sind.';
 $string['potentialrecipients'] = 'Mögliche Empfänger/innen';
+$string['recipientdetails'] = 'Empfängerdetails';
+$string['recipientidentificationproblem'] = 'Empfänger/in dieser Auszeichnung kann unter den vorhandenen Nutzer/innen nicht gefunden werden';
 $string['recipients'] = 'Auszeichnungsempfänger/innen';
+$string['recipientvalidationproblem'] = 'Nutzer/in kann nicht als Empfänger/in dieser Auszeichnung überprüft werden';
 $string['relative'] = 'Relative Zeit';
 $string['requiredcourse'] = 'Sie müssen mindestens einen Kurs für dieses Kriterium auswählen.';
 $string['reviewbadge'] = 'Kriterien überprüfen';

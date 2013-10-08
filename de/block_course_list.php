@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['adminview'] = 'Administratoransicht';
 $string['allcourses'] = 'Administrator sieht alle Kurse';
 $string['configadminview'] = 'Was soll dem Administrator im Kursblock angezeigt werden?';
-$string['confighideallcourseslink'] = 'Wenn Sie den Link "Alle Kurse" am Ende des Blocks verbergen, hat dies keinen Einfluss auf die Administratoransicht.';
+$string['confighideallcourseslink'] = 'Wenn diese Option aktiviert ist, wird der Link \'Alle Kurse\' am Ende der Kursliste entfernt (außer für Administrator/innen).';
 $string['course_list:addinstance'] = 'Block \'Kurse\' hinzufügen';
 $string['course_list:myaddinstance'] = 'Block \'Kurse\' für \'Meine Startseite\' hinzufügen';
 $string['hideallcourseslink'] = '\'Alle Kurse\' verbergen';

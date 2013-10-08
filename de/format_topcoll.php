@@ -55,6 +55,21 @@ Abschnittsnummer und "Thema/Woche/Tag X"
 Abschnittsnummer
 
 Kein Element';
+$string['defaultlayoutelement_descpositive'] = 'Anzeigeeinstellungen wählen:
+
+Alle Elemente (Abschnittsnummer, "Umschalten",  "Thema/Woche/Tag X")
+
+Abschnittsnummer und "Umschalten"
+
+"Umschalten" und "Thema/Woche/Tag X"
+
+"Umschalten"
+
+Abschnittsnummer und "Thema/Woche/Tag X"
+
+Abschnittsnummer
+
+Kein Element anzeigen';
 $string['defaultlayoutstructure'] = 'Standard Anzeigeformat';
 $string['defaultlayoutstructure_desc'] = 'Standard Anzeigeformat wählen:
 
@@ -76,6 +91,7 @@ $string['defaulttogglealignment_desc'] = '\'Links\', \'Zentriert\' oder \'Rechts
 $string['defaulttoggleallhover'] = 'Anzeige bei Mauskontakt';
 $string['defaulttoggleallhover_desc'] = '\'Ja\' oder \'Nein\'';
 $string['defaulttoggleiconposition'] = 'Position des Symbols';
+$string['defaulttoggleiconposition_desc'] = 'Standardeinstellung für die Position des Umschalticons. Darstellung ist  links oder rechts vom Text möglich.';
 $string['defaulttoggleiconset'] = 'Standard Symbole';
 $string['defaulttoggleiconset_desc'] = 'Pfeil: abgerundeter Pfeil
 Punkt: punktgenauer Pfeil
@@ -131,6 +147,7 @@ $string['sectionname'] = 'Abschnitt';
 $string['setcolour'] = 'Farbe festlegen';
 $string['setcolour_help'] = 'Farbeinstellung für Text, Hintergrund und Hintergrund bei Mauskontakt';
 $string['setlayout'] = 'Layout festlegen';
+$string['setlayout_all'] = 'Anzeigen von Thema X / Woche X /Tag X';
 $string['setlayoutcolumnorientation'] = 'Spaltenrichtung festlegen';
 $string['setlayoutcolumnorientation_help'] = 'Senkrecht - Abschnitte werden von oben nach unten angeordnet
 
@@ -141,12 +158,14 @@ $string['setlayout_default'] = 'Standard (Alle Elemente)';
 $string['setlayoutelements'] = 'Elemente festlegen';
 $string['setlayoutelements_help'] = 'Welche Informationen sollen zusätzlich angezeigt werden?';
 $string['setlayout_help'] = 'Auswahl der Informationen, die zusätzlich zum Abschnittstitel angezeigt werden sollen.';
+$string['setlayout_no_additions'] = 'Kein Element anzeigen';
 $string['setlayout_no_section_no'] = '"Umschalten" und "Thema/Woche/Tag X"';
 $string['setlayout_no_toggle_section_x'] = 'Abschnittsnummer und "Umschalten"';
 $string['setlayout_no_toggle_section_x_section_no'] = '"Umschalten"';
 $string['setlayout_no_toggle_word'] = 'Abschnittsnummer und "Thema/Woche/Tag X"';
 $string['setlayout_no_toggle_word_toggle_section_x'] = 'Abschnittsnummer';
 $string['setlayout_no_toggle_word_toggle_section_x_section_no'] = 'Kein Element';
+$string['setlayout_section_number'] = 'Abschnittsnummer';
 $string['setlayoutstructure'] = 'Struktur festlegen';
 $string['setlayoutstructurecurrenttopicfirst'] = 'Aktuelles Thema zuerst';
 $string['setlayoutstructureday'] = 'Tag';
@@ -180,6 +199,7 @@ $string['settogglebackgroundhovercolour_help'] = 'Auswahl der Hintergrundfarbe b
 $string['settoggleforegroundcolour'] = 'Textfarbe';
 $string['settoggleforegroundcolour_help'] = 'Auswahl der Textfarbe';
 $string['settoggleiconposition'] = 'Position des Symbol';
+$string['settoggleiconposition_help'] = 'Legt fest, ob das Umschalticon links oder rechts vom Text dargestellt wird.';
 $string['settoggleiconset'] = 'Symbol';
 $string['settoggleiconset_help'] = 'Auswahl des Symbols';
 $string['showfromothers'] = 'Abschnitt zeigen';

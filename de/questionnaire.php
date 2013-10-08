@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'questionnaire', language 'de', branch 'MOODLE_25_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -62,16 +62,12 @@ $string['couldnotdelresp'] = 'Antwort konnte nicht gelöscht werden';
 $string['createcontent'] = 'Neuen Inhalt festlegen';
 $string['createcontent_help'] = 'Wählen Sie eine Option für die Radio-Buttons ("neu erstellen" ist der Standard).';
 $string['createnew'] = 'Neuen Inhalt festlegen';
-$string['crossanalyze'] = 'Kreuzanalyse';
-$string['crosstabulate'] = 'Krueuztabelle';
-$string['crosstabulation'] = 'Kreuztabellierung';
 $string['date'] = 'Datum';
 $string['dateformatting'] = 'Verwenden Sie das Format tag/monat/jahr z.B. für den 14. März 1945: <strong>14/3/1945</strong>';
 $string['date_help'] = 'Verwenden Sie diesen Fragetyp, wenn die Antwort in einem korrekten Datumsformat vorliegen soll.';
 $string['deleteallresponses'] = 'Alle Antworten löschen';
 $string['deletecurrentquestion'] = 'Frage {$a} löschen';
 $string['deletedallgroupresp'] = 'Alle Antworten in der Gruppe  {$a} löschen';
-$string['deletedallresp'] = 'Alle Antworten löschen';
 $string['deletedresp'] = 'Antwort löschen';
 $string['deleteresp'] = 'Diese Antwort löschen';
 $string['deletingresp'] = 'Antort wird gelöscht';
@@ -84,7 +80,6 @@ $string['editingquestionnaire'] = 'Einstellungen der Befragung bearbeiten';
 $string['editquestion'] = 'Frage {$a} bearbeiten';
 $string['email'] = 'E-Mail';
 $string['errnewname'] = 'Sorry. Dieser Name wird bereits genutzt. Wählen Sie einen neuen Namen.';
-$string['errorcross'] = 'Fehler aufgrund Kreuzanalyse. Fragetyp nicht erlaubt.';
 $string['erroropening'] = 'Fehler beim Öffnen der Befragung.';
 $string['errortable'] = 'Fehler. Befragungstabelle beschädigt.';
 $string['essaybox'] = 'Freitextfeld';
@@ -105,7 +100,6 @@ $string['invalidresponse'] = 'Falsche Antwort angegeben';
 $string['invalidresponserecord'] = 'Falscher Antwortdatensatz angegeben';
 $string['invalidsurveyid'] = 'Falsche Befragungs-ID';
 $string['kindofratescale'] = 'Typ der Bewertungsskala';
-$string['kindofratescale_help'] = 'Beachten Sie die Moodle-Dokumentation';
 $string['length'] = 'Länge';
 $string['maxdigitsallowed'] = 'Max. erlaubte Ziffern';
 $string['maxforcedresponses'] = 'Max. geforderte Antworten';
@@ -117,15 +111,9 @@ Falls nur Minimum bzw. Maximum gewünscht ist, einfach den andern Wert auf dem S
 Wenn **Min.** bzw. **Max.** anders als 0 gesetzt sind, wird der User eine Warnmeldung erhalten, wenn er sich nicht an die geforderte Anzahl Antworten hält.
 Es ist wichtig, die Anforderungen an den Nutzer auch explizit zu verdeutlichen, sei es in allgemeinen Hinweisen zur Befragung oder im Text zur je spezifischen Frage.';
 $string['misconfigured'] = 'Der Kurs ist falsch konfiguriert';
-$string['missingquestion'] = 'Fehler, bitte beantworten Sie die Frage:';
-$string['missingquestions'] = 'Fehler, bitte beantworten Sie die Fragen:';
 $string['modulename'] = 'Befragung';
 $string['modulename_help'] = 'Das Questionnaire-Modul ermöglicht es Ihnen Fragebögen zu erstellen, die die Nutzer anschließend beantworten sollen.';
 $string['modulenameplural'] = 'Befragungen';
-$string['move'] = 'Frage verschieben';
-$string['movedn'] = 'Frage nach unten';
-$string['movehere'] = 'Frage hierher verschieben';
-$string['moveup'] = 'Frage nach oben';
 $string['myresponses'] = 'Alle Ihre Antworten';
 $string['myresponsetitle'] = 'Ihre {$a} Antworten';
 $string['myresults'] = 'Ihre Ergebnisse';
@@ -135,7 +123,6 @@ $string['nextpage'] = 'Nächste Seite';
 $string['noanswer'] = 'Keine Antwort';
 $string['nodata'] = 'Keine Daten angegeben.';
 $string['noduplicates'] = 'Keine doppelte Auswahl';
-$string['noneinuse'] = 'Kein Inhalt definiert.';
 $string['nopublicsurveys'] = 'Keine öffentlichen Befragungen';
 $string['noresponsedata'] = 'Keine Antworten zu dieser Frage';
 $string['noresponses'] = 'Keine Antworten';
@@ -182,7 +169,6 @@ $string['posteddata'] = 'Letzte Seite mit bereits gesendeten Daten';
 $string['preview'] = 'Dies ist eine Vorschau, wie die Befragung aussehen wird. Um die Vorschau zu beenden, wählen Sie <strong>Schliessen</strong> unten auf der Seite.';
 $string['previewing'] = 'Befragung wird als Vorschau angezeigt.';
 $string['preview_label'] = 'Vorschau';
-$string['preview_questionnaire'] = 'Befragungsvorschau';
 $string['previous'] = 'Zurück';
 $string['previouspage'] = 'Vorherige Seite';
 $string['print'] = 'Druckversion (mit aktuellen Antworten)';
@@ -232,13 +218,11 @@ $string['realm_help'] = '**Es gibt 3 Typen von Befragungen**
 * Öffentlich: kann in verschiedenen Kursen mehrfach eingesetzt werden.';
 $string['redirecturl'] = 'URL, zu welcher ein Nutzer nach Abschluss der Befragung weiter geleitet wird.';
 $string['remove'] = 'Löschen';
-$string['required'] = 'Antwort notwendig';
 $string['required_help'] = 'Wenn Sie **Ja** wählen, ist eine Antwort auf diese Frage obligatorisch, d.h. der Nutzer wird die Befragung nicht abgeben können, bis diese Frage beantwortet ist.';
 $string['requiredparameter'] = 'Ein notwendiger Parameter fehlt.';
 $string['reset'] = 'Zurücksetzen';
 $string['respeligiblerepl'] = 'Ersetzt durch Rollenüberschreibung';
 $string['respondent'] = 'Befragte Person';
-$string['respondenteligible'] = 'Berechtigung als befragte Person';
 $string['respondenteligibleall'] = 'alle';
 $string['respondenteligiblestudents'] = 'nur Teilnehmer/innen';
 $string['respondenteligibleteachers'] = 'nur Trainer/innen';
@@ -263,8 +247,6 @@ $string['resumesurvey'] = 'Weitermachen';
 $string['return'] = 'Zurück';
 $string['save'] = 'Speichern';
 $string['saveasnew'] = 'Als neue Frage sichern';
-$string['savedprogress'] = 'Ihre bisherigen Antworten wurden gesichert. Sie können jederzeit zurück kommen, um diese Befragung abzuschliessen.
-Um dies zu vereinfachen, setzen Sie ein Lesezeichen für den untenstehenden Link {$a}. Es kann sein, dass Sie dazu neu einloggen müssen.';
 $string['saveeditedquestion'] = 'Frage {$a} sichern';
 $string['savesettings'] = 'Einstellungen sichern';
 $string['section'] = 'Beschreibung';
@@ -320,13 +302,10 @@ $string['usetemplate'] = 'Kopie besteht';
 $string['vertical'] = 'Senkrecht';
 $string['view'] = 'Anzeigen';
 $string['viewallresponses'] = 'Alle Antworten sehen';
-$string['viewbyresponse'] = 'Nach Abgabezeit';
 $string['viewresponses'] = 'Alle Antworten: ({$a})';
 $string['viewyourresponses'] = 'Ihre Antworten: zeige  {$a}';
 $string['warning'] = 'Warnung: Fehler aufgetreten';
 $string['wrongdateformat'] = 'Das eingegebene Datum <strong>{$a}</strong> entspricht nicht dem vorgegebenen Format.';
 $string['wrongdaterange'] = 'Fehler: die Jahreszahl muss zwischen 1902 und 2037 liegen.';
-$string['wrongformat'] = 'Fehler bei der Frage: ';
-$string['wrongformats'] = 'Fehler bei den Fragen:&nbsp;';
 $string['yesno'] = 'Ja/Nein';
 $string['yesno_help'] = 'Einfache Ja/Nein-Frage';
