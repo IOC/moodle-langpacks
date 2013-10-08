@@ -55,6 +55,7 @@ $string['course_summary_key'] = 'Résumé';
 $string['createcourseextid'] = 'Utilisateur inscrit dans un cours inexistant « {$a->courseextid} »';
 $string['createnotcourseextid'] = 'Utilisateur inscrit dans un cours inexistant « {$a->courseextid} »';
 $string['creatingcourse'] = 'Création du cours « {$a} »';
+$string['duplicateshortname'] = 'La création du cours a échoué, car le nom abrégé du cours existe déjà. Le cours d\'identifiant « {$a->idnumber} » a été ignoré...';
 $string['editlock'] = 'Verrouiller la valeur';
 $string['emptyenrolment'] = 'Inscription vide pour le rôle « {$a->role_shortname} » dans le cours « {$a->course_shortname} »';
 $string['enrolname'] = 'LDAP';

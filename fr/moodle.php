@@ -354,6 +354,7 @@ $string['courselegacyfiles'] = 'Fichiers du cours (obsolète)';
 $string['courselegacyfiles_help'] = 'La zone des fichiers du cours fournit une compatibilité descendante avec Moodle versions 1.9 et antérieures. Tous les fichiers de cette zone sont toujours accessibles par tous les participants du cours, qu\'ils soient liés ou non. Il n\'y a aucun moyen de savoir si ces fichiers sont utilisés dans Moodle.
 
 Si vous utilisez cette zone pour stocker des fichiers, vous risquez de vous exposer à des questions de protection des données et de sécurité, ainsi que des fichiers manquants dans les sauvegardes, lors d\'importations de cours et chaque fois qu\'un contenu est partagé ou réutilisé. Il est donc recommandé de ne pas utiliser cette zone, à moins que vous ne sachiez vraiment ce que vous faites.';
+$string['courselegacyfilesofcourse'] = 'Fichiers de cours obsolètes : {$a}';
 $string['coursemessage'] = 'Message aux participants du cours';
 $string['coursenotaccessible'] = 'Ce cours n\'est pas accessible au public';
 $string['courseoverview'] = 'Aperçu du cours';

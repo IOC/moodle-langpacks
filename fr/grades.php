@@ -321,10 +321,12 @@ $string['extracreditwarning'] = 'Remarque : si tous les éléments d\'une caté
 $string['feedback'] = 'Feedback';
 $string['feedbackadd'] = 'Ajouter feedback';
 $string['feedbackedit'] = 'Modifier feedback';
+$string['feedbackforgradeitems'] = 'Feedback pour {$a}';
 $string['feedback_help'] = '<!-- $Id$ -->
 
 
 <p>Les remarques ajoutées à la note par l\'enseignant. Ces remarques peuvent être détaillées ou au contraire un simple code faisant référence à votre système de feedback personnel.</p>';
+$string['feedbacks'] = 'Feedbacks';
 $string['feedbacksaved'] = 'Feedback enregistré';
 $string['feedbackview'] = 'Afficher feedback';
 $string['finalgrade'] = 'Note finale';
@@ -469,6 +471,7 @@ $string['highgradedescending'] = 'Tri décroissant par note maximale';
 $string['highgradeletter'] = 'Haut';
 $string['identifier'] = 'Identifier les utilisateurs par';
 $string['idnumbers'] = 'Identifiants';
+$string['ignore'] = 'Ignorer';
 $string['import'] = 'Importer';
 $string['importcsv'] = 'Importation CSV';
 $string['importcustom'] = 'Importer comme objectifs de ce cours';
@@ -588,6 +591,7 @@ $string['numberofgrades'] = 'Nombre de notes';
 $string['onascaleof'] = 'sur un barème de {$a->grademin} à {$a->grademax}';
 $string['operations'] = 'Opérations';
 $string['options'] = 'Options';
+$string['others'] = 'Autres';
 $string['outcome'] = 'Objectif';
 $string['outcomeassigntocourse'] = 'Attribuer un autre objectif à ce cours';
 $string['outcomecategory'] = 'Créer des objectifs dans la catégorie';
@@ -820,6 +824,7 @@ $string['usepercent'] = 'Utiliser les pourcentages';
 $string['user'] = 'Utilisateur';
 $string['userenrolmentsuspended'] = 'Inscription d\'utilisateurs suspendue';
 $string['usergrade'] = 'Utilisateur {$a->fullname} ({$a->useridnumber}) dans l\'élément {$a->gradeidnumber}';
+$string['userid'] = 'ID utilisateur';
 $string['userpreferences'] = 'Préférences utilisateur';
 $string['useweighted'] = 'Utiliser les pondérations';
 $string['verbosescales'] = 'Barèmes de mots';

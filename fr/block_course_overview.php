@@ -59,5 +59,5 @@ $string['showwelcomearea'] = 'Afficher la zone de bienvenue';
 $string['showwelcomeareadesc'] = 'Si ce réglage est activé, la zone de bienvenue sera affichée au-dessus de la liste de cours';
 $string['view_edit_profile'] = '(Afficher et modifier votre profil)';
 $string['welcome'] = 'Bienvenue {$a}';
-$string['youhavemessages'] = 'Vous avez {$a} messages non lu';
-$string['youhavenomessages'] = 'Vous n\'avez pas de message non lu';
+$string['youhavemessages'] = 'Vous avez un (des) {$a} non lu(s)';
+$string['youhavenomessages'] = 'Vous n\'avez pas de nouveaux';

@@ -82,9 +82,7 @@ $string['backpackconnection_help'] = 'Cette page vous permet de mettre en place 
 Actuellement, seul le sac à badges <a href="http://backpack.openbadges.org">Mozilla OpenBadges Backpack</a> est supporté. Vous devez vous abonner à un tel service avant de mettre en place une connexion sur cette page.';
 $string['backpackdetails'] = 'Réglages du sac à badges';
 $string['backpackemail'] = 'Adresse de courriel';
-$string['backpackemail_help'] = 'Adresse de courriel associée à votre sac à badges.
-
-Si une connexion à votre sac à badges est établie, cette adresse de courriel est utilisée pour transférer des badges vers votre sac à badges, au lieu de l\'adresse renseignée dans Moodle.';
+$string['backpackemail_help'] = 'Adresse de courriel associée à votre sac à badges. Lorsque vous êtes connecté, tous les badges reçus sur ce site seront associés à cette adresse de courriel.';
 $string['backpackimport'] = 'Réglages d\'importation de badges';
 $string['backpackimport_help'] = 'Une fois établie la connexion à votre sac à badges, les badges de votre sac à badges peuvent être affichés sur votre page « Mes badges » et sur votre page de profil.
 
@@ -100,7 +98,9 @@ $string['badgeprivacysetting_help'] = 'Les badges que vous avez reçus peuvent �
 Vous pouvez régler la confidentialité de chaque badge sur votre page « Mes badges ».';
 $string['badgeprivacysetting_str'] = 'Afficher automatiquement mes nouveaux badges sur ma page de profil.';
 $string['badgesalt'] = 'Sel de hachage pour l\'adresse de courriel du détenteur';
-$string['badgesalt_desc'] = 'L\'utilisation d\'un sel de hachage permet aux services de sacs à badges de confirmer le détenteur du badge sans exposer son adresse de courriel. Ce champ ne doit comporter que des chiffres et des lettres.';
+$string['badgesalt_desc'] = 'L\'utilisation d\'un sel de hachage permet aux services de sacs à badges de confirmer le détenteur du badge sans exposer son adresse de courriel. Ce champ ne doit comporter que des chiffres et des lettres.
+
+Il est important de ne pas modifier ce réglage une fois l\'émission de badges initiée.';
 $string['badgesdisabled'] = 'Les badges ne sont pas activés sur ce site.';
 $string['badgesearned'] = 'Nombre de badges obtenus : {$a}';
 $string['badgesettings'] = 'Réglages des badges';
@@ -125,6 +125,7 @@ $string['configenablebadges'] = 'Lorsque ce réglage est activé, vous pouvez cr
 $string['configuremessage'] = 'Message de badge';
 $string['connect'] = 'Connecter';
 $string['connected'] = 'Connecté';
+$string['connecting'] = 'Connexion...';
 $string['contact'] = 'Contact';
 $string['contact_help'] = 'Une adresse de courriel associée à la personne qui décerne le badge.';
 $string['copyof'] = 'Copie de {$a}';
@@ -148,6 +149,8 @@ $string['criteria_5'] = 'Achèvement d\'un ensemble de cours';
 $string['criteria_5_help'] = 'Permet de décerner un badge à des utilisateurs qui ont achevé un ensemble de cours. Chaque cours peut avoir d\'autres paramètres, tels que l\'obtention d\'une note minimale ou une date pour l\'achèvement du cours.';
 $string['criteria_6'] = 'Renseignement du profil';
 $string['criteria_6_help'] = 'Permet de décerner un badge à des utilisateurs qui ont renseigné certains champs de leur profil. Il est possible de sélectionner parmi les champs par défaut ou personnalisé disponibles.';
+$string['criteriacreated'] = 'Critère de badge créé';
+$string['criteriadeleted'] = 'Critère de badge supprimé';
 $string['criteria_descr'] = 'Les participants se voient décerner ce badge lorsqu\'ils satisfont les critères suivants :';
 $string['criteria_descr_0'] = 'Les participants se voient décerner ce badge lorsqu\'ils satisfont <strong>{$a}</strong> des critères listés.';
 $string['criteria_descr_1'] = '<strong>{$a}</strong> des activités suivantes sont achevées :';
@@ -174,6 +177,7 @@ $string['criteria_descr_single_short4'] = 'Terminer le cours';
 $string['criteria_descr_single_short5'] = 'Achevé :';
 $string['criteria_descr_single_short6'] = 'Renseigné :';
 $string['criteriasummary'] = 'Résumé des critères';
+$string['criteriaupdated'] = 'Critère de badge modifié';
 $string['criterror'] = 'Problèmes des paramètres actuels';
 $string['criterror_help'] = 'Ce champ montre tous les paramètres initialement ajoutés à ce critère de badge qui ne sont actuellement plus disponibles. Il est recommandé de désactiver ces paramètres, afin de vous assurer que les participants pourront obtenir ce badge.';
 $string['currentimage'] = 'Image actuelle';
@@ -196,17 +200,24 @@ $string['disconnect'] = 'Déconnecter';
 $string['donotaward'] = 'Ce badge n\'est actuellement pas actif et ne peut donc pas être décerné à des utilisateurs. Si vous voulez le décerner, veuillez changer son statut à actif.';
 $string['editsettings'] = 'Modifier les réglages';
 $string['enablebadges'] = 'Activer les badges';
+$string['error:backpackdatainvalid'] = 'Les données retournées par le sac à badges ne sont pas valides.';
+$string['error:backpackemailnotfound'] = 'L\'adresse de courriel « {$a} » n\'est pas associée à un sac à badges. Vous devez <a href="http://backpack.openbadges.org">créer un sac à badges</a> pour ce compte ou vous connecter avec une autre adresse de courriel.';
+$string['error:backpackloginfailed'] = 'Il n\'a pas été possible de vous connecter à un sac à badges externe pour la raison suivante : {$a}';
 $string['error:backpacknotavailable'] = 'Votre site ne peut pas être atteint via l\'internet. Tous les badges décernés sur ce site ne pourront pas être vérifiés par des services de sacs à badges externes.';
 $string['error:backpackproblem'] = 'Un problème est survenu lors de la connexion avec votre fournisseur de sac à badges. Veuillez ré-essayer plus tard.';
+$string['error:badjson'] = 'La tentative de connexion a renvoyé des données non valides.';
 $string['error:cannotact'] = 'Impossible d\'activer le badge.';
 $string['error:cannotawardbadge'] = 'Impossible de décerner le badge à un utilisateur.';
 $string['error:clone'] = 'Impossible de dupliquer le badge.';
+$string['error:connectionunknownreason'] = 'La connexion a échoué sans qu\'aucune raison ne soit donnée.';
 $string['error:duplicatename'] = 'Un badge de ce nom existe déjà dans le système.';
+$string['error:externalbadgedoesntexist'] = 'Badge introuvable';
 $string['error:invalidbadgeurl'] = 'Format incorrect de l\'URL de l\'émetteur du badge';
 $string['error:invalidcriteriatype'] = 'Type de critère non valide';
 $string['error:invalidexpiredate'] = 'La date d\'échéance doit se situer dans le futur.';
 $string['error:invalidexpireperiod'] = 'La période avant échéance ne peut pas être nulle ou négative.';
 $string['error:noactivities'] = 'Il n\'y a pas d\'activité avec des critères d\'achèvement dans ce cours.';
+$string['error:noassertion'] = 'Aucune assertion n\'a été renvoyée par Persona. Vous avez peut-être fermé la fenêtre de dialogue avant que la connexion ne soit établie.';
 $string['error:nocourses'] = 'L\'achèvement de cours n\'est activé pour aucun cours de ce site. Aucun cours n\'est donc affiché ici. L\'achèvement de cours peut être activé dans les réglages du cours.';
 $string['error:nogroups'] = '<p>Il n\'y a pas de collection de badges publique dans votre sac à badges.</p> <p>Seules les collections publiques sont affichées. Veuillez <a href="http://backpack.openbadges.org">visiter votre sac à badges</a> pour créer une collection publique.</p>';
 $string['error:nopermissiontoview'] = 'Vous n\'avez pas l\'autorisation de voir les détenteurs du badge';
@@ -218,6 +229,9 @@ $string['error:nosuchrole'] = 'Attention ! Ce rôle n\'est plus disponible.';
 $string['error:nosuchuser'] = 'L\'utilisateur possédant cette adresse de courriel n\'a pas de compte chez le fournisseur actuel de sacs à badges.';
 $string['error:notifycoursedate'] = 'Attention ! Les badges associés à des achèvements de cours ou d\'activité ne seront pas décernés avant la date de début du cours.';
 $string['error:parameter'] = 'Attention ! Au moins un paramètre doit être sélectionné pour assurer un processus correct pour l\'émission du badge.';
+$string['error:personaneedsjs'] = 'Javascript est actuellement requis pour la connexion à un sac à badges. Si vous le pouvez, veuillez activer Javascript et recharger la page.';
+$string['error:requesterror'] = 'La requête de connexion a échoué (erreur {$a}).';
+$string['error:requesttimeout'] = 'La requête de connexion est arrivée à échéance avant de pouvoir se terminer.';
 $string['error:save'] = 'Impossible d\'enregistrer le badge';
 $string['evidence'] = 'Preuve';
 $string['existingrecipients'] = 'Détenteurs de badges';
@@ -294,11 +308,18 @@ $string['notifyweekly'] = 'Une fois par semaine';
 $string['numawards'] = 'Ce badge a été décerné à <a href="{$a->link}">{$a->count}</a> utilisateur(s).';
 $string['numawardstat'] = 'Ce badge a été décerné à {$a} utilisateur(s).';
 $string['overallcrit'] = 'des critères sélectionnés sont remplis.';
+$string['personaconnection'] = 'Connexion avec votre adresse de courriel';
+$string['personaconnection_help'] = 'Persona est un système permettant de vous identifier sur le web au moyen d\'une adresse de courriel dont vous êtes titulaire. Le sac à badges Open Badges utilise Persona comme système de connexion. C\'est pourquoi vous avez besoin d\'un compte Persona pour vous connecter à un sac à badges.
+
+Pour plus de détails sur Persona, visitez <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Détenteurs potentiels du badge';
+$string['recipientdetails'] = 'Infos détenteur';
+$string['recipientidentificationproblem'] = 'Impossible de trouver parmi les utilisateurs un détenteur de ce badge.';
 $string['recipients'] = 'Détenteurs du badge';
+$string['recipientvalidationproblem'] = 'Impossible de vérifier si l\'utilisateur actuel est un détenteur de ce badge.';
 $string['relative'] = 'Date relative';
 $string['requiredcourse'] = 'Au moins un cours devrait être ajouté au critère de l\'ensemble de cours.';
-$string['reviewbadge'] = 'Revoir les critères du badge';
+$string['reviewbadge'] = 'Modifications de l\'accès au badge';
 $string['reviewconfirm'] = '<p>Cette action vérifiera si l\'un des utilisateurs a déjà rempli les conditions requises pour le badge « {$a} ».</p> <p>Voulez-vous continuer ?</p>';
 $string['save'] = 'Enregistrer';
 $string['searchname'] = 'Rechercher par nom';
@@ -307,6 +328,7 @@ $string['selectgroup_end'] = 'Seules les collections publiques sont affichées. 
 $string['selectgroup_start'] = 'Choisissez dans votre sac à badges des collections à afficher sur ce site :';
 $string['selecting'] = 'Avec les badges sélectionnés...';
 $string['setup'] = 'Mettre en place la connexion';
+$string['signinwithyouremail'] = 'Connexion avec votre adresse de courriel';
 $string['sitebadges'] = 'Badges de site';
 $string['sitebadges_help'] = 'Les badges de site ne peuvent être décernés que pour des activités en lien avec le site. Ceci inclut l\'achèvement d\'un ensemble de cours ou de renseignement de parties du profil utilisateur. Les badges de site peuvent aussi être décernés manuellement à un utilisateur par un autre.
 

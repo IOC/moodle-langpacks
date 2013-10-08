@@ -41,6 +41,7 @@ $string['stepsdefinitionscontains'] = 'Contient';
 $string['stepsdefinitionsfilters'] = 'Définition des étapes';
 $string['stepsdefinitionstype'] = 'Type';
 $string['theninfo'] = 'Alors. Vérifications assurant que les résultats sont bien ceux attendus';
+$string['unknownexceptioninfo'] = 'Un problème est survenu avec Selenium ou le navigateur. Essayez de mettre à jour Selenium à sa dernière version. Erreur :';
 $string['viewsteps'] = 'Filtre';
 $string['wheninfo'] = 'Quand. Actions qui provoquent un événement';
 $string['wrongbehatsetup'] = 'Quelque chose n\'est pas correct dans vos réglages behat. Assurez-vous que<ul>

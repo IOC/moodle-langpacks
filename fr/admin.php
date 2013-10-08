@@ -133,7 +133,7 @@ $string['commonfiltersettings'] = 'Réglages communs aux filtres';
 $string['commonsettings'] = 'Réglages communs';
 $string['componentinstalled'] = 'Composant installé';
 $string['computedfromlogs'] = 'Calculé à partir des historiques depuis {$a}.';
-$string['condifmodeditdefaults'] = 'Les valeurs définies ici déterminent les valeurs par défaut utilisées dans les réglages des nouvelles activités créées. Il est également possible de configurer les réglages de l\'activité devant être considérés comme réglages avancés.';
+$string['condifmodeditdefaults'] = 'Les valeurs par défaut sont utilisées dans les réglages des nouvelles activités ou ressources créées.';
 $string['confeditorhidebuttons'] = 'Sélectionner les boutons ne devant pas apparaître dans la barre de l\'éditeur.';
 $string['configallcountrycodes'] = 'La liste des codes des pays pouvant être choisis par les utilisateurs, par exemple dans le profil. Veuillez indiquer une liste des codes à deux caractères des pays désirés, séparés par des virgules, par exemple « GB,FR,ES ». Si ce champ n\'est pas renseigné (réglage par défaut), la liste standard du fichier « countries.php » du paquetage de langue francophone est utilisée. Cette liste est conforme au standard ISO 3166-1. Si vous indiquez dans ce champ d\'autres codes non standards, vous devrez les ajouter manuellement dans le fichier « countries.php » de votre paquetage de langue.';
 $string['configallowassign'] = 'Vous pouvez permettre aux utilisateurs ayant un rôle de la colonne de gauche d\'attribuer certains rôles de chaque colonne à d\'autres utilisateurs';
@@ -176,7 +176,7 @@ $string['configcronremotepassword'] = 'Si un mot de passe est spécifié dans ce
 http://site.exemple.fr/admin/cron.php?password=lemotdepasse
 </pre>Si le champ n\'est pas renseigné, aucun mot de passe n\'est nécessaire.';
 $string['configcurlcache'] = 'Durée de vie du cache cURL, en secondes.';
-$string['configcustommenuitems'] = 'Vous pouvez définir ici un menu personnalisé qui sera affiché sur les pages, si le thème le permet. Chaque ligne décrit un élément de menu, et est constituée du texte du menu, d\'une URL (optionnelle) et d\'un texte (optionnel) à afficher dans une infobulle. Ces éléments sont séparés par des caractères « trait vertical » (|). Une structure hiérarchique (optionnelle) peut être définie à l\'aide de tiret au début des lignes. Exemple :
+$string['configcustommenuitems'] = 'Vous pouvez définir ici un menu personnalisé qui sera affiché par les thèmes. Chaque ligne décrit un élément de menu, et est constituée du texte du menu, d\'une URL (optionnelle) et d\'un texte (optionnel) à afficher dans une infobulle et d\'un code de langue ou d\'une liste de tels codes séparés par des virgules (optionnel, pour permettre l\'affichage d\'éléments en fonction de la langue). Ces éléments sont séparés par des caractères « trait vertical » (|). Une structure hiérarchique peut être définie à l\'aide de tiret au début des lignes. Exemple :
 <pre>
 Communauté Moodle|http://moodle.org|Le site de la communauté Moodle
 -Moodle en français|http://moodle.org/course/view.php?id=20
@@ -184,6 +184,7 @@ Communauté Moodle|http://moodle.org|Le site de la communauté Moodle
 -Développement de Moodle|http://moodle.org/development
 --Traqueur Moodle|http://tracker.moodle.org|Le traqueur de bogues de Moodle
 --Moodle Docs|http://docs.moodle.org|La documentation de Moodle
+--Moodle Docs en français|http://docs.moodle.org|La documentation en français|fr
 -Nouveautés Moodle|http://moodle.org/news
 Entreprise Moodle
 -Hébergement commercial Moodle|http://moodle.com/hosting
@@ -543,9 +544,9 @@ $string['filtersettings'] = 'Gestion des filtres';
 $string['filtersettingsgeneral'] = 'Réglages généraux des filtres';
 $string['filteruploadedfiles'] = 'Filtrer les fichiers déposés';
 $string['forcelogin'] = 'Imposer la connexion';
-$string['forceloginforprofileimage'] = 'Forcer les utilisateurs à se connecter pour voir les avatars';
+$string['forceloginforprofileimage'] = 'Imposer la connexion pour voir les avatars';
 $string['forceloginforprofileimage_help'] = 'Si ce réglage est activé, les utilisateurs doivent se connecter afin de voir les images des profils des utilisateurs (avatars). L\'avatar générique sera utilisé pour toutes les notifications par courriel.';
-$string['forceloginforprofiles'] = 'Imposer la connexion pour les profils';
+$string['forceloginforprofiles'] = 'Imposer la connexion pour voir les profils';
 $string['forcetimezone'] = 'Imposer un fuseau horaire';
 $string['formatuninstallconfirm'] = '{$a} sera désinstallé. Aucun cours ne l\'utilise actuellement. Voulez-vous continuer ?';
 $string['formatuninstalled'] = 'Toutes les données associées au plugin de format de cours « {$a->plugin} » ont été supprimées de la base de données. Pour achever la suppression et empêcher la ré-installation de ce plugin, veuillez supprimer maintenant le dossier « {$a->directory} » de votre serveur.';
@@ -1008,6 +1009,7 @@ $string['tablenosave'] = 'Les modifications dans la table ci-dessus sont enregis
 $string['tablesnosave'] = 'Les modifications dans les tables ci-dessus sont enregistrées automatiquement.';
 $string['tabselectedtofront'] = 'Dans les tables avec onglets, la rangée contenant l\'onglet sélectionné doit-elle être ramenée au premier plan ?';
 $string['tabselectedtofronttext'] = 'Ramener au premier plan la rangée de l\'onglet sélectionné';
+$string['testsiteupgradewarning'] = 'Vous utilisez actuellement le site de test {$a}. Pour e mettre à jour correctement, veuillez utiliser l\'outil de mise à jour en ligne de commande.';
 $string['themedesignermode'] = 'Mode concepteur de thème';
 $string['themelist'] = 'Liste des thèmes';
 $string['themenoselected'] = 'Aucun thème sélectionné';

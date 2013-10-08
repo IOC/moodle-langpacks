@@ -188,6 +188,7 @@ $string['typeuploadsingle'] = 'Déposer un fichier';
 $string['unfinalize'] = 'Retour à l\'état de brouillon';
 $string['unfinalizeerror'] = 'Une erreur est survenue, qui a empêché le retour à l\'état de brouillon';
 $string['unfinalize_help'] = 'Repasser en mode brouillon permet au participant de continuer à modifier le devoir remis';
+$string['unsupportedsubplugin'] = 'Le type de devoir « {$a} » n\'est actuellement pas supporté. Vous pouvez soit attendre que ce type de devoir soit rendu disponible, soit supprimer le devoir.';
 $string['upgradenotification'] = 'Cette activité est basée sur un ancien module de devoir.';
 $string['uploadafile'] = 'Déposer un fichier';
 $string['uploadbadname'] = 'Ce nom de fichier contient d\'étranges caractères. Il ne peut être déposé';

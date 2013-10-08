@@ -456,14 +456,14 @@ $string['tracking'] = 'Suivi des messages';
 $string['trackingoff'] = 'Désactivé';
 $string['trackingon'] = 'Activé';
 $string['trackingoptional'] = 'Facultatif';
-$string['trackingtype'] = 'Suivi des messages lus dans ce forum ?';
-$string['trackingtype_help'] = 'Si ce réglage est activé, les participants peuvent d\'un coup d\'oeil distinguer les messages qu\'ils n\'ont pas encore lus de ceux qu\'ils ont déjà lus.
-
-Il existe 3 options pour ce réglage :
+$string['trackingtype'] = 'Suivi de lecture des messages';
+$string['trackingtype_help'] = 'Si ce réglage est activé, les participants peuvent d\'un coup d\'oeil distinguer les messages qu\'ils n\'ont pas encore lus de ceux qu\'ils ont déjà lus dans un forum. 3 options sont disponibles :
 
 * Facultatif : les participants peuvent activer ou désactiver à discrétion le suivi des messages du forum.
 * Activé : le suivi est toujours activé.
-* Désactivé : le suivi est toujours désactivé.';
+* Désactivé : le suivi est toujours désactivé.
+
+Remarque : le suivi des messages doit également être activé dans le profil de l\'utilisateur.';
 $string['unread'] = 'Non lu';
 $string['unreadposts'] = 'Messages non lus';
 $string['unreadpostsnumber'] = '{$a} messages non lus';

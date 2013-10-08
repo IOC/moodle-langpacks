@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['anunexpectederroroccured'] = 'Une erreur inconnue est survenu';
+$string['anunexpectederroroccured'] = 'Une erreur inconnue est survenue';
 $string['cannotassigntoconstant'] = 'Impossible d\'affecter à la constante « {$a} »';
 $string['cannotredefinebuiltinfunction'] = 'Impossible de redéfinir la fonction pré-installée « {$a}() »';
 $string['divisionbyzero'] = 'Division par zéro';

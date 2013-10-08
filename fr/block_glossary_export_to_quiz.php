@@ -42,7 +42,8 @@ Cette option peut être utile pour restreindre le nombre d\'articles à exporter
 $string['multichoice'] = 'Questions à choix multiple';
 $string['noglossaries'] = 'Il n\'y a pas de glossaires dans ce cours';
 $string['nolink'] = 'Supprimer les liens automatiques';
-$string['notenoughentries'] = 'Pas assez d\'articles (<b>{$a->numentries}</b>) dans ce glossaire <em>{$a->varnotenough}</em> pour des questions de type QCM.';
+$string['notenoughentriesavailable'] = 'Pas assez d\'entrées disponibles ({$a}) pour des questions de type QCM (il en faut au moins 4).';
+$string['notenoughentriesselected'] = 'Pas assez d\'entrées sélectionnées ({$a}) pour des questions de type QCM (il en faut au moins 4).';
 $string['notyetconfigured'] = '<b>Activez le mode édition</b> pour configurer ce bloc.';
 $string['notyetconfiguredediting'] = 'Veuillez configurer ce bloc en cliquant sur l\'icône de modification.';
 $string['numentries'] = '[Exporter {$a} articles]';
