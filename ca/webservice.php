@@ -120,6 +120,7 @@ $string['missingusername'] = 'Nom d\'usuari perdut';
 $string['missingversionfile'] = 'Error de codificació: el fitxer version.php s\'ha perdut per al component {$a}';
 $string['mobilewsdisabled'] = 'Deshabilitat';
 $string['mobilewsenabled'] = 'Habilitat';
+$string['nocapabilitytouseparameter'] = 'Aquest usuari no té la capacitat per a utilitzar el paràmetre {$a}';
 $string['nofunctions'] = 'Aquest servei no té funcions';
 $string['norequiredcapability'] = 'No cal cap capacitat';
 $string['notoken'] = 'La llista de tokens està buida.';

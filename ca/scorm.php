@@ -73,6 +73,7 @@ $string['browsemode'] = 'Mode exploració';
 $string['browserepository'] = 'Explora el repositori';
 $string['cannotfindsco'] = 'No s\'ha trobat SCO';
 $string['chooseapacket'] = 'Tria un paquet SCORM';
+$string['compatibilitysettings'] = 'Configuració de compatibilitat';
 $string['completed'] = 'Completat';
 $string['completionscorerequired'] = 'Requereix una puntuació mínima';
 $string['completionscorerequired_help'] = 'Si s\'activa aquest paràmetre, l\'usuari haurà de tenir almenys la puntuació mínima introduïda perquè aquesta activitat SCORM li sigui qualificada com a completa o finalitzada, a més a més de necessitar complir els altres requeriments de finalització de l\'activitat, si hi haguera.';
@@ -242,6 +243,7 @@ $string['othertracks'] = 'Altres rastres';
 $string['package'] = 'Fitxer del paquet';
 $string['packagedir'] = 'S\'ha produït un error del sistema de fitxers: no es pot crear el directori del paquet';
 $string['packagefile'] = 'No s\'ha especificat el fitxer del paquet';
+$string['packagehdr'] = 'Paquet';
 $string['package_help'] = '<p><b>Paquets</b></p>
 
 <p>El paquet és un fitxer amb extensió <b>zip</b> (o pif) que conté fitxers vàlids de definició de cursos AICC o SCORM.</p>

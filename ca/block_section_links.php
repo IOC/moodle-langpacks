@@ -26,11 +26,15 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['incby1'] = 'Incrementa en';
+$string['incby1_help'] = 'Aquest és el valor amb el qual s\'incrementa la secció cada vegada que es mostra un enllaç a secció, començant per 1.';
 $string['incby2'] = 'De forma alternativa incrementa en';
+$string['incby2_help'] = 'Aquest és el valor amb el qual s\'incrementa la secció cada vegada que es mostra un enllaç a secció, començant per 1.';
 $string['jumptocurrenttopic'] = 'Salta al tema actual';
 $string['jumptocurrentweek'] = 'Salta a la setmana actual';
 $string['numsections1'] = 'Nombre de seccions';
+$string['numsections1_help'] = 'Una vegada que el nombre de seccions del curs arriba a aquest valor s\'utilitza l\'increment per valor.';
 $string['numsections2'] = 'Nombre de seccions alternativament';
+$string['numsections2_help'] = 'Una vegada que el nombre de seccions del curs arriba a aquest valor s\'utilitza l\'increment per valor.';
 $string['pluginname'] = 'Enllaç a la secció';
 $string['section_links:addinstance'] = 'Afegir un bloc nou d\'enllaços a les seccions';
 $string['topics'] = 'Temes';

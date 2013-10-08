@@ -34,6 +34,7 @@ $string['glossary_random:myaddinstance'] = 'Afegir un bloc nou d\'entrada de glo
 $string['intro'] = 'Assegureu-vos de tenir almenys un glossari amb almenys una entrada per aquest curs. Llavors, podeu configurar els següents paràmetres';
 $string['invisible'] = '( continuarà )';
 $string['lastmodified'] = 'Darrera entrada modificada';
+$string['nextalpha'] = 'Ordre alfabètic';
 $string['nextone'] = 'Següent entrada';
 $string['noentriesyet'] = 'No hi ha entrades al glossari escollit.';
 $string['notyetconfigured'] = 'Si us plau configura aquest bloc utilitzant la icona d\'edició.';

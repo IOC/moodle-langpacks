@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['disclaimer'] = 'Entenc els riscos d\'aquesta operació:';
+$string['excludedtables'] = 'Diverses taules no estan actualitzades com a part del text de substitució. Això inclou la configuració, registres, esdeveniments, i taules de sessions.';
 $string['notifyfinished'] = '...finalitzat';
 $string['notifyrebuilding'] = 'S\'està reconstruint la memòria cau del curs...';
 $string['notimplemented'] = 'Disculpeu però aquesta característica està implementada per a bases de dades MySQL i PostgreSQL.';

@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_moodleorg', language 'ca', branch 'MOODLE_23_STABLE'
+ * Strings for component 'local_moodleorg', language 'ca', branch 'MOODLE_25_STABLE'
  *
  * @package   local_moodleorg
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,6 @@ $string['aboutstatisticsheading'] = 'Estadístiques de Moodle';
 $string['aboutstatisticstitle'] = 'Moodle.org: Estadístiques de Moodle';
 $string['activeusers24hours'] = 'Usuaris registrats que han accedit les darreres 24 hores:';
 $string['activeuserspastmonth'] = 'Usuaris registrats que han accedit el darrer mes:';
-$string['browsecvstitle'] = 'Estudieu el nostre codi font';
 $string['communityintro'] = 'Moodle té una enorme i diversa comunitat d\'usuaris amb més de <a href="http://moodle.org/userpics">{$a->usercount} usuaris registrats</a> només en aquest lloc Moodle, parlant més de <a href="http://download.moodle.org/lang16/">{$a->langcount} llenguatges</a> en <a href="http://moodle.org/sites">{$a->countrycount} països</a> (tenim <a href="http://moodle.org/stats">més estadístiques</a>).';
 $string['conferencecenter'] = 'Centre de conferències Moodle';
 $string['connectedsites'] = 'Alguns llocs Moodle s\'han connectat a moodle.org usant la xarxa Moodle (<i>Moodle Networking</i>), així que podreu entrar-hi directament un cop us hagueu autenticat aquí.';
@@ -60,7 +59,6 @@ $string['contactsecurity'] = 'Els problemes de seguretat també es poden reporta
 $string['contactsent'] = 'El vostre missatge s\'enviarà per correu al Gestor de la comunitat Moodle.';
 $string['contactsupport'] = 'Si voleu obtenir suport per usar el programari Moodle aneu a la pàgina de suport on trobareu la llista que inclou molts recursos útils disponibles per a vós.';
 $string['contactsupporttitle'] = 'Suport';
-$string['developercontributors'] = 'Crèdits';
 $string['developerlist'] = 'Llista completa de desenvolupadors amb accés d\'escriptura';
 $string['developermeetings'] = 'Trobades de desenvolupadors';
 $string['developers'] = 'El desenvolupament principal de Moodle el lidera l\'equip nuclear de Moodle.com i compta amb l\'ajuda de centenars d\'altres desenvolupadors d\'arreu del món. Alguns d\'aquests desenvolupadors són també responsables directes de diferents mòduls i connectors.';
@@ -76,8 +74,6 @@ $string['donationstitle'] = 'Donacions';
 $string['donationstrust'] = 'Moodle té un fons de desenvolupament dirigit pel Fideïcomís Moodle amb contractes de programadors que treballen en Moodle, i també suporta les despeses com moodle.org.';
 $string['downloadcore'] = 'El nostre principal mètode de distribució és a través d\'aquests paquets estàndards del nucli. Contenen un cert nombre de mòduls mantinguts pels desenvolupadors del nucli i és convenient tenir-los instal·lats a prop de la plataforma on ja hi tingueu instal·lats el PHP i la Base de dades.';
 $string['downloadcoretitle'] = 'Paquets estàndard de Moodle';
-$string['downloadcvs'] = 'Una altra manera d\'aconseguir el codi font del nucli de Moodle és utilitzant CVS per connectar directament al repositori de codi usat pels desenvolupadors de Moodle en un dels nostres servidors \'mirall\'. Això fa que l\'actualització sigui molt fàcil, fins i tot en el cas que hagueu fet canvis locals del codi font.';
-$string['downloadcvstitle'] = 'Moodle via CVS';
 $string['downloadintro'] = 'Moodle és de codi lliure sota la <a href="http://docs.moodle.org/en/License">Llicència GPL</a>. Tot el que produïm es pot descarregar i utilitzar lliurement.';
 $string['downloadlang'] = 'A les versions actuals de Moodle s\'ha automatitzat l\'addició de nous llenguatges des del menú d\'administració del lloc. Tot i això per a algunes versions antigues de Moodle els paquets de llenguatge s\'han de descarregar manualment.';
 $string['downloadlangtitle'] = 'Paquets de llenguatge';
@@ -107,18 +103,8 @@ $string['graphregistrationmapdesc'] = 'Llista dels 10 llocs principals registrat
 $string['graphusersites'] = 'Usuaris de Moodle vs comparació del lloc';
 $string['jobs'] = 'Visiteu la nostra base de dades de feines per a trobar els llocs de treball relacionats amb Moodle del món sencer.';
 $string['jobstitle'] = 'Feines amb Moodle';
-$string['moodlecertification'] = 'Certificació Moodle';
-$string['moodleconsulting'] = 'Consultoria Moodle';
-$string['moodlecourseware'] = 'Cursos de Moodle';
-$string['moodlecustomisation'] = 'Personalització de Moodle';
 $string['moodledocs'] = 'Documentació de Moodle';
-$string['moodlehosting'] = 'Allotjament de Moodle';
-$string['moodleinstallation'] = 'Instal·lació de Moodle';
-$string['moodleintegrations'] = 'Integracions amb Moodle';
-$string['moodlesupport'] = 'Suport de Moodle';
-$string['moodlethemes'] = 'Temes de Moodle';
 $string['moodletrackertitle'] = 'Moodle Tracker';
-$string['moodletraining'] = 'Aprenentatge de Moodle';
 $string['mycoursesintro'] = 'Actualment esteu inscrit/a en els següents "cursos" d\'aquest lloc de la comunitat i cadascun d\'ells pot tenir un més fòrums.';
 $string['nameabout'] = 'Sobre';
 $string['nameaboutmoodle'] = 'Sobre Moodle';

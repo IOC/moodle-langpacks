@@ -128,6 +128,7 @@ $string['navigationfrom_help'] = 'Aquesta pàgina wiki enllaça a aquesta pàgin
 $string['navigationto'] = 'Aquesta pàgina va cap a';
 $string['navigationto_help'] = 'Llista les altres pàgines';
 $string['newpage'] = 'Nova';
+$string['newpagehdr'] = 'Pàgina nova';
 $string['newpagetitle'] = 'Títol de la pàgina nova';
 $string['noattachments'] = '<strong>Cap fitxer adjunt</strong>';
 $string['nocomments'] = 'No hi ha comentaris';

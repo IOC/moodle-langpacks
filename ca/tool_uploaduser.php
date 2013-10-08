@@ -32,6 +32,7 @@ $string['csvdelimiter'] = 'Delimitador CSV';
 $string['defaultvalues'] = 'Valors per defecte';
 $string['deleteerrors'] = 'Suprimeix errors';
 $string['encoding'] = 'Codificació';
+$string['errormnetadd'] = 'No es poden afegir usuaris remots';
 $string['errors'] = 'Errors';
 $string['nochanges'] = 'Sense canvis';
 $string['pluginname'] = 'Càrrega d\'usuari';

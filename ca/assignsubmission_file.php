@@ -37,6 +37,7 @@ $string['maxfilessubmission'] = 'Quantitat màxima de fitxers carregats';
 $string['maxfilessubmission_help'] = 'Si les trameses de fitxer estan habilitades, cada estudiant podrà carregar aquesta quantitat de fitxers en la seva tramesa.';
 $string['maximumsubmissionsize'] = 'Mida màxima de la tramesa';
 $string['maximumsubmissionsize_help'] = 'Els fitxers carregats per l\'estudiantat poden ser de fins a aquesta mida.';
+$string['numfilesforlog'] = 'El nombre de fitxers: {$a} fitxers.';
 $string['pluginname'] = 'Trameses de fitxer';
 $string['siteuploadlimit'] = 'Límit de càrrega del servidor';
 $string['submissionfilearea'] = 'Fitxers de la tramesa carregats';

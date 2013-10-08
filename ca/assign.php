@@ -26,6 +26,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activityoverview'] = 'Teniu tasques que necessiten la vostra atenció';
+$string['addattempt'] = 'Permet un altre intent';
+$string['addnewattempt'] = 'Afegeix un altre intent';
+$string['addnewattemptfromprevious'] = 'Afegeix un intent nou basat en la tramesa anterior';
+$string['addnewattemptfromprevious_help'] = 'Això copiarà el contingut de la tramesa prèvia en una tramesa nova per a treballar.';
+$string['addnewattempt_help'] = 'Això crearà una tramesa en blanc per a treballar.';
 $string['addsubmission'] = 'Afegeix tramesa';
 $string['allowsubmissions'] = 'Permet a l\'usuari continuar realitzant trameses per a aquesta tasca.';
 $string['allowsubmissionsanddescriptionfromdatesummary'] = 'Els detalls de la tasca i el formulari de la tramesa estaran disponibles des de <strong>{$a}</strong>';
@@ -58,8 +63,23 @@ $string['assignsubmission'] = 'Connector de tramesa';
 $string['assignsubmissionpluginname'] = 'Connector de tramesa';
 $string['assign:submit'] = 'Tramet la tasca';
 $string['assign:view'] = 'Veure tasca';
+$string['attemptheading'] = 'Intent {$a->attemptnumber}: {$a->submissionsummary}';
+$string['attempthistory'] = 'Intents previs';
+$string['attemptnumber'] = 'Número d\'intent';
+$string['attemptreopenmethod'] = 'Intents de reobertura';
+$string['attemptreopenmethod_help'] = 'Determina com són reoberts els intents de trameses dels estudiants. Les opcions disponibles són:
+<ul>
+<li>Mai - La tramesa de l\'estudiant no es pot reobrir.</li>
+<li>Manualment - La tramesa de l\'estudiant pot ser oberta per un professor.</li>
+<li>Automàticament fins superació - La tramesa de l\'estudiant s\'obre de forma automàtica fins que l\'estudiant assoleixi la nota per passar establerta al quadern de notes (Secció categories i elements) per a aquesta tasca.</li>
+</ul>';
+$string['attemptreopenmethod_manual'] = 'Manualment';
+$string['attemptreopenmethod_none'] = 'Mai';
+$string['attemptreopenmethod_untilpass'] = 'Automàticament fins superació';
+$string['attemptsettings'] = 'Configuració dels intents';
 $string['availability'] = 'Disponibilitat';
 $string['backtoassignment'] = 'Torna a la tasca';
+$string['batchoperationconfirmaddattempt'] = 'Voleu permetre un altre intent per a les trameses seleccionades?';
 $string['batchoperationconfirmgrantextension'] = 'Voleu concedir una pròrroga a totes les trameses seleccionades?';
 $string['batchoperationconfirmlock'] = 'Bloca totes les trameses seleccionades';
 $string['batchoperationconfirmreverttodraft'] = 'Reverteix les trameses seleccionades a esborrany?';
@@ -123,6 +143,7 @@ $string['feedbackpluginforgradebook'] = 'El connector de retroacció posarà com
 $string['feedbackpluginforgradebook_help'] = 'Només un connector de retroacció de tasca pot posar retroacció en el butlletí de qualificacions.';
 $string['feedbackplugins'] = 'Connectors de retroacció';
 $string['feedbacksettings'] = 'Paràmetres de retroacció';
+$string['feedbacktypes'] = 'Tipus de realimentacions';
 $string['filesubmissions'] = 'Trameses de fitxer';
 $string['filter'] = 'Filtra';
 $string['filternone'] = 'No filtres';
@@ -147,12 +168,15 @@ Està disponible aquí:
 $string['gradestudent'] = 'Qualifica l\'estudiant: (id={$a->id}, fullname={$a->fullname}).';
 $string['gradeuser'] = 'Qualifica {$a}';
 $string['grading'] = 'Qualificació';
+$string['gradingchangessaved'] = 'Els canvis a les notes han estat desats';
 $string['gradingmethodpreview'] = 'Criteris de qualificació';
 $string['gradingoptions'] = 'Opcions';
 $string['gradingstatus'] = 'Estat de la qualificació';
+$string['gradingstudent'] = 'S\'està qualificant l\'estudiant';
 $string['gradingsummary'] = 'Resum de la qualificació';
 $string['grantextension'] = 'Concedeix una pròrroga';
 $string['grantextensionforusers'] = 'Concedeix una pròrroga a {$a} estudiants';
+$string['groupsubmissionsettings'] = 'Paràmetres de tramesa per al grup';
 $string['hiddenuser'] = 'Participant';
 $string['hideshow'] = 'Mostra/Oculta';
 $string['instructionfiles'] = 'Fitxers amb instruccions';
@@ -166,6 +190,8 @@ $string['locksubmissionforstudent'] = 'Impedeix més trameses de l\'estudiant: (
 $string['locksubmissions'] = 'Bloca les trameses';
 $string['manageassignfeedbackplugins'] = 'Gestiona els connectors de retroacció de la tasca';
 $string['manageassignsubmissionplugins'] = 'Gestiona els connectors de tramesa de la tasca';
+$string['maxattempts'] = 'Nombre màxim d\'intents';
+$string['maxattempts_help'] = 'El nombre màxim d\'intents de tramesa que pot fer un estudiant. Després d\'assolir aquest nombre d\'intents per l\'estudiant, la tramesa no es podrà reobrir.';
 $string['maxgrade'] = 'Qualificació màxima';
 $string['messageprovider:assign_notification'] = 'Notificacions de la tasca';
 $string['modulename'] = 'Tasca';
@@ -177,6 +203,7 @@ En la revisió de les tasques, el professorat pot deixar comentaris i pujar fitx
 $string['modulenameplural'] = 'Tasques';
 $string['mysubmission'] = 'La meva tramesa:';
 $string['newsubmissions'] = 'Tasques trameses';
+$string['noattempt'] = 'Cap intent';
 $string['nofiles'] = 'No hi ha fitxers.';
 $string['nograde'] = 'No hi ha qualificació.';
 $string['nolatesubmissions'] = 'No s\'accepten trameses fora de termini';
@@ -198,6 +225,7 @@ $string['numberofteams'] = 'Grups';
 $string['offline'] = 'No es requereix cap tramesa en línia';
 $string['open'] = 'Obert';
 $string['outlinegrade'] = 'Qualificació: {$a}';
+$string['outof'] = '{$a->current} de {$a->total}';
 $string['overdue'] = '<font color="red">La tasca ha vençut fa: {$a}</font>';
 $string['page-mod-assign-view'] = 'Pàgina principal del mòdul de tasques';
 $string['page-mod-assign-x'] = 'Pàgina de qualsevol mòdul de tasques';
@@ -226,6 +254,7 @@ $string['reverttodraftshort'] = 'Reverteix la tramesa a esborrany.';
 $string['reviewed'] = 'Revisada';
 $string['saveallquickgradingchanges'] = 'Desa tots els canvis de la qualificació ràpida';
 $string['savechanges'] = 'Desa els canvis';
+$string['savegradingresult'] = 'Qualificació';
 $string['savenext'] = 'Desa i mostra el següent';
 $string['scale'] = 'Escala';
 $string['selectlink'] = 'Seleccioneu...';
@@ -239,10 +268,17 @@ $string['sendsubmissionreceipts_help'] = 'Aquest canvi permetrà la confirmació
 $string['settings'] = 'Paràmetres de la tasca';
 $string['showrecentsubmissions'] = 'Mostra les trameses recents';
 $string['submission'] = 'Tramesa';
+$string['submissioncopiedhtml'] = 'Heu fet una còpia de la tramesa de la tasca prèvia per a «<i>{$a->assignment}</i>»<br /><br /> Podeu veure l\'estat de la vostra  <a href="{$a->url}">tramesa de tasca</a>.';
+$string['submissioncopiedsmall'] = 'Heu copiat la vostra tramesa prèvia de tasca corresponent a {$a->assignment}';
+$string['submissioncopiedtext'] = 'Heu fet una còpia de la vostra tramesa prèvia de tasca corresponent a «{$a->assignment}»
+
+Podeu veure l\'estat de la tasca tramesa:
+{$a->url}';
 $string['submissiondrafts'] = 'Requereix que l\'estudiantat faci clic al botó Tramet';
 $string['submissiondrafts_help'] = 'Si està activat, l\'estudiantat haurà de fer clic al botó Tramet per a establir la seva tramesa com a final. Això permet a l\'estudiantat mantenir una versió d\'esborrany de la tramesa en el sistema.';
 $string['submissioneditable'] = 'L\'estudiant pot editar aquesta tramesa';
 $string['submissionempty'] = 'No s\'ha tramès res';
+$string['submissionnotcopiedinvalidstatus'] = 'La tramesa no s\'ha copiat perquè s\'ha editat des que es va reobrir.';
 $string['submissionnoteditable'] = 'L\'estudiant no pot editar aquesta tramesa';
 $string['submissionnotready'] = 'Aquesta tasca no està preparada per a trametre\'s:';
 $string['submissionplugins'] = 'Connectors de tramesa';
@@ -267,8 +303,11 @@ $string['submissionstatus_draft'] = 'Esborrany (no tramès)';
 $string['submissionstatusheading'] = 'Estat de la tramesa';
 $string['submissionstatus_marked'] = 'Qualificada';
 $string['submissionstatus_new'] = 'Nova tramesa';
+$string['submissionstatus_reopened'] = 'Reoberta';
 $string['submissionstatus_submitted'] = 'S\'ha tramès per a qualificar';
+$string['submissionsummary'] = '{$a->status}. Darrera modificació en {$a->timemodified}';
 $string['submissionteam'] = 'Grup';
+$string['submissiontypes'] = 'Tipus de trameses';
 $string['submitaction'] = 'Tramet';
 $string['submitassignment'] = 'Trametre tasca';
 $string['submitassignment_help'] = 'Un cop s\'hagi tramès la tasca no podreu fer més canvis';
@@ -284,6 +323,8 @@ $string['teamsubmissionstatus'] = 'Estat de la tramesa en grup';
 $string['textinstructions'] = 'Instruccions de la tasca';
 $string['timemodified'] = 'Darrera modificació';
 $string['timeremaining'] = 'Temps restant';
+$string['unlimitedattempts'] = 'Il·limitats';
+$string['unlimitedattemptsallowed'] = 'Es permeten intents il·limitats.';
 $string['unlocksubmissionforstudent'] = 'Permet trameses per a l\'estudiant: (id={$a->id}, fullname={$a->fullname}).';
 $string['unlocksubmissions'] = 'Desbloca les trameses';
 $string['updategrade'] = 'Actualitza la qualificació';
