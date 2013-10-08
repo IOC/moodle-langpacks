@@ -98,8 +98,6 @@ Certificado poe email: Al elegir esta opción se envía el certificado al estudi
 
 Después de que un usuario haya recibido su certificado, si pulsa sobre el enlace del certificado dentro de la página del curso, verá la fecha en que recibió dicho certificado y podrá verlo de nuevo.';
 $string['designoptions'] = 'Opciones de diseño';
-$string['disablecode'] = 'Deshabilitar el código QR del certificado';
-$string['disablecode_help'] = 'Deshabilitar/habilitar la gneración de códigos QR del certificado';
 $string['download'] = 'Forzar descarga';
 $string['emailcertificate'] = 'Email (¡También debe seleccionar guardar!)';
 $string['emailfrom'] = 'Nombre del remitente del email';
@@ -157,8 +155,6 @@ $string['qrcodeposition'] = 'Posición del código QR en el Certificado';
 $string['qrcodeposition_help'] = 'Estas son las coodenadas XY (en milímetros) del código QR del certificado.';
 $string['receiveddate'] = 'Fecha de recepción';
 $string['report'] = 'Informe';
-$string['savecert'] = 'Guardar certificados';
-$string['savecert_help'] = 'Si elije esta opción, una copia de cada archivo PDF de certificado de usuario se guardará en la carpeta de archivos del curso moddata. En el informe de certificados se mostrará un enlace a cada certificado de usuario guardado.';
 $string['secondimage'] = 'Archivo de imagen del reverso del certificado';
 $string['secondimage_help'] = 'Esta es la imagen que se usará en el reverso del certificado';
 $string['secondpageoptions'] = 'Página del reverso del certificado';

@@ -408,7 +408,7 @@ Por el momento, la barra de progreso tiene más precisión cuando las lecciones 
 de la barra de progreso pueden modificarse en mod/lesson/styles.php.';
 $string['progressbarteacherwarning'] = 'La barra de progreso no muestra {$a}';
 $string['progressbarteacherwarning2'] = 'Usted no verá la barra de progreso porque puede editar esta lección';
-$string['progresscompleted'] = 'Ha alcanzado el {$a]% de esta lección';
+$string['progresscompleted'] = 'Ha alcanzado el {$a}% de esta lección';
 $string['qtype'] = 'Tipo de página';
 $string['question'] = 'Pregunta';
 $string['questionoption'] = 'Opción de pregunta';
