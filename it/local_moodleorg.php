@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_moodleorg', language 'it', branch 'MOODLE_23_STABLE'
+ * Strings for component 'local_moodleorg', language 'it', branch 'MOODLE_25_STABLE'
  *
  * @package   local_moodleorg
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -40,7 +40,6 @@ $string['aboutstatisticsheading'] = 'Statistiche su Moodle';
 $string['aboutstatisticstitle'] = 'Moodle.org: Statistiche';
 $string['activeusers24hours'] = 'Utenti che si sono collegati nelle 24 ore scorse:';
 $string['activeuserspastmonth'] = 'Utenti che si sono collegati nel mese scorso:';
-$string['browsecvstitle'] = 'Esplora il codice sorgente';
 $string['communityintro'] = 'Moodle ha una comunità di utenti molto ampia che su moodle.org conta  oltre <a href="http://moodle.org/userpics">{$a->usercount} utenti registrati</a> provenienti da <a href="http://moodle.org/sites">{$a->countrycount} nazioni</a>href="http://download.moodle.org/lang16/">{$a->langcount} lingue</a> e <a href="http://download.moodle.org/lang16/">{$a->langcount} lingue</a>';
 $string['conferencecenter'] = 'Moodle Conference Center';
 $string['connectedsites'] = 'Alcuni siti Moodle sono collegati a moodle.org attraverso il Moodle Networking. Una volta autenticati su moodle.org potete accedere anche questi siti.';
@@ -60,7 +59,6 @@ $string['contactsecurity'] = 'Le segnalazioni di problemi sulla sicurezza dovreb
 $string['contactsent'] = 'Il tuo messaggio è stato inviato via email al Moodle Community Manager';
 $string['contactsupport'] = 'Per ottenere supporto sull\'uso di Moodle, è disponibile la nostra pagina di supporto con un elenco di moltissime utili risorse.';
 $string['contactsupporttitle'] = 'Supporto';
-$string['developercontributors'] = 'Riconoscimenti';
 $string['developerlist'] = 'Elenco degli sviluppatori con accesso in scrittura';
 $string['developermeetings'] = 'Developer meeting';
 $string['developers'] = 'Lo sviluppo di Moodle è guidato dal team core di Moodle.com, con l\'aituo di centinaia di sviluppatori di tutto il mondo. Moltio di questi sviluppatori hanno la responsabilità di specifici moduli e plugin di Moodle.';
@@ -76,8 +74,6 @@ $string['donationstitle'] = 'Donazioni';
 $string['donationstrust'] = 'Moodle dispone di un fondo per lo sviluppo gestito dal Moodle Trust tramite il quale vengono retribuiti programmatori che la sviluppano Moodle e che finanzia le spese fi gestione di moodle.org';
 $string['downloadcore'] = 'Il nostro metodo principale di distribuzione è attraverso i seguenti pacchetti core. I pacchetti core includono una serie di moduli mantenuti ed aggiornati dagli sviluppatori core di Moodle: sono particolarmente indicati per installare Moodle su qualunque sistema dove il PHP è già disponibile.';
 $string['downloadcoretitle'] = 'Pacchetti Moodle';
-$string['downloadcvs'] = 'Un altro modo per ottenere il codice sorgente core è l\'uso del CVS per connettersi ad uno dei nostri mirror. Il CVS permette di aggiornare facilmente il vostro sito, anche se avete modificato il codice sorgente della vostra installazione.';
-$string['downloadcvstitle'] = 'Moodle via CVS';
 $string['downloadintro'] = 'Moodle è open source in accordo alla <a href="http://docs.moodle.org/dev/License">Licenza GPL</a>. Qualsiasi cosa da noi realizzata è liberamente disponibile per il download.';
 $string['downloadlang'] = 'Nella attuale versione di Moodle, l\'installazione di language pack è stata automatizzata ed è reperibile nele opzioni di amministrazione. Per alcune  versioni obsolete di Moodle è necessario scaricare i language pack manualmente.';
 $string['downloadlangtitle'] = 'Language pack';
@@ -107,18 +103,8 @@ $string['graphregistrationmapdesc'] = 'I 10 siti registrati più grandi presenti
 $string['graphusersites'] = 'Numero di utenti per sito Moodle';
 $string['jobs'] = 'Visita il nostro database di opportunità di lavoro su Moodle.';
 $string['jobstitle'] = 'Lavora con Moodle';
-$string['moodlecertification'] = 'Certificazione Moodle';
-$string['moodleconsulting'] = 'Consulenza Moodle';
-$string['moodlecourseware'] = 'Courseware per Moodle';
-$string['moodlecustomisation'] = 'Personalizzazioni Moodle';
 $string['moodledocs'] = 'Moodle Docs';
-$string['moodlehosting'] = 'Hosting Moodle';
-$string['moodleinstallation'] = 'Installazioni Moodle';
-$string['moodleintegrations'] = 'Integrazioni Moodle';
-$string['moodlesupport'] = 'Supporto Moodle';
-$string['moodlethemes'] = 'Temi Moodle';
 $string['moodletrackertitle'] = 'Moodle Tracker';
-$string['moodletraining'] = 'Formazione Moodle';
 $string['mycoursesintro'] = 'Questi sono i "corsi" di questo sito di comunità ai quali sei iscritto. Ogni corsi contiene uno o più forum.';
 $string['nameabout'] = 'Informazioni';
 $string['nameaboutmoodle'] = 'Informazioni';

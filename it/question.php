@@ -182,13 +182,13 @@ $string['fileformat'] = 'Formato file';
 $string['filesareacourse'] = 'area file del corso';
 $string['filesareasite'] = 'area file del sito';
 $string['filestomove'] = 'Sposta / copia i file a {$a}?';
-$string['fillincorrect'] = 'Inserisci le riposte corrette';
+$string['fillincorrect'] = 'Inserisci le risposte corrette';
 $string['flagged'] = 'Contrassegnata';
 $string['flagthisquestion'] = 'Contrassegna questa domanda';
 $string['formquestionnotinids'] = 'Il form contiene una domanda non presente tra le id delle domande.';
 $string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 100% affinché sia possibile ottenere un voto pieno per questa domanda.';
 $string['generalfeedback'] = 'Feedback generale';
-$string['generalfeedback_help'] = 'Il feedback generale viene visualizzato allo studente dopo aver riposto alla domanda. A differenza del feedback specifico, che dipende dal tipo di domanda e dalla riposta data dallo studente, il feedback generale è identico per tutti gli studenti.
+$string['generalfeedback_help'] = 'Il feedback generale viene visualizzato allo studente dopo aver risposto alla domanda. A differenza del feedback specifico, che dipende dal tipo di domanda e dalla riposta data dallo studente, il feedback generale è identico per tutti gli studenti.
 
 Puoi utilizzare il feedback generale per dare agli studenti alcune informazioni relative alle conoscenze necessarie per rispondere alla domanda, oppure per fornire link utili per capire meglio la domanda.';
 $string['getcategoryfromfile'] = 'Categoria da file';
@@ -198,7 +198,7 @@ $string['hintn'] = 'Suggerimento {no}';
 $string['hintnoptions'] = 'Opzioni suggerimento {no}';
 $string['hinttext'] = 'Testo del suggerimento';
 $string['howquestionsbehave'] = 'Comportamento della domanda';
-$string['howquestionsbehave_help'] = 'Gli studenti possono interagire con le domande del quiz in vari modi. Ad esempio, puoi consentire agli studenti di dare una riposta ad ogni domanda e poi terminare il quiz prima di ricevere valutazioni o feedback: questo è la modalità "feedback differito".
+$string['howquestionsbehave_help'] = 'Gli studenti possono interagire con le domande del quiz in vari modi. Ad esempio, puoi consentire agli studenti di dare una risposta ad ogni domanda e poi terminare il quiz prima di ricevere valutazioni o feedback: questo è la modalità "feedback differito".
 
 In alternativa puoi consentire agli studenti di dare una risposta a ciascuna domanda e ricevere un feedback immediato: se la risposta non è giusta possono provare ancora. Questa è la modalità \'Interattiva con tentativi multipli\'.
 

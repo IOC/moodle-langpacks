@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'questionnaire', language 'it', branch 'MOODLE_24_STABLE'
+ * Strings for component 'questionnaire', language 'it', branch 'MOODLE_25_STABLE'
  *
  * @package   questionnaire
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -68,16 +68,12 @@ $string['createcontent_help'] = 'Per creare un nuovo questionario selezionare un
 
     <br /><strong>Esempio:</strong> Se un questionario di tipo "Pubblico" è stato creato nel corso A, esso può essere erogato nei corsi B, C... Tutte le risposte dagli utenti dei corsi A, B, C... saranno raccolte nel questionario pubblico creato nel corso A e saranno visualizzabili solamente nel contesto del corso A dagli amministratori o docenti che lo hanno realizzato.';
 $string['createnew'] = 'Crea nuovo';
-$string['crossanalyze'] = 'Analisi incrociata';
-$string['crosstabulate'] = 'Tabulato incrociato';
-$string['crosstabulation'] = 'Tabulazione incrociata';
 $string['date'] = 'Data';
 $string['dateformatting'] = 'E\' possibile usare il formato gg/mm/aaaa, es: 14 Marzo, 1945 <strong>14/3/1945</strong>';
 $string['date_help'] = 'Usare questo tipo di domanda se si desidera che la risposta sia formattata correttamente come data.';
 $string['deleteallresponses'] = 'Elimina TUTTE le risposte';
 $string['deletecurrentquestion'] = 'Elimina la domanda';
 $string['deletedallgroupresp'] = 'Elimina TUTTE le risposte del gruppo {$a}';
-$string['deletedallresp'] = 'Elimina tutte le risposte';
 $string['deletedresp'] = 'Risposte eliminate';
 $string['deleteresp'] = 'Elimina questa risposta';
 $string['deletingresp'] = 'Eliminazione delle risposte';
@@ -93,7 +89,6 @@ $string['editingquestionnaire'] = 'Modifica del questionario - Pagina principale
 $string['editquestion'] = 'Modifica la domanda di tipo: {$a}';
 $string['email'] = 'Email';
 $string['errnewname'] = 'Spiacente, nome già in uso. Scegline un altro';
-$string['errorcross'] = 'Errore analisi incrociata. Tipo di domanda non valido.';
 $string['erroropening'] = 'Errore nell\'apertura del questionario.';
 $string['errortable'] = 'Errore!! Tabelle di sistema danneggiate.';
 $string['essaybox'] = 'Testo lungo';
@@ -116,10 +111,6 @@ $string['invalidresponse'] = 'La risposta specificata non è valida.';
 $string['invalidresponserecord'] = 'Il record specificato per la risposta non è corretto.';
 $string['invalidsurveyid'] = 'ID del questionario non corretto';
 $string['kindofratescale'] = 'Tipo di scala';
-$string['kindofratescale_help'] = '* **Normale:** (valore di default)
-* **Con colonna N/D:** Selezionare questa voce se si desidera aggiungere una colonna N/D sulla destra delle colonne relative agli elementi della scala.
-* **Duplicati non ammessi:** selezionare questa voce se si desidera che l\'utente effettui un\'unica scelta per colonna. Ad esempio, se si chiede di ordinare gli elementi A, B e C in ordine di preferenza, verranno accettate come risposte A1, B3 e C2 o A3, B2 e C1, ma non sarà possibile selezionare: A1, B1, C2 o A1, B2, C2, etc.
-* **Scala di Osgood:** Selezionare questa voce per creare una domanda di tipo differenziale semantico di Osgood. Questo parametro deve essere usato insieme a gradi nominali nella lista delle risposte.';
 $string['length'] = 'Lunghezza';
 $string['maxdigitsallowed'] = 'Numero massimo di cifre consentite';
 $string['maxdigitsallowed_help'] = 'Impostando i parametri del numero massimo di cifre consentite e delle cifre decimali, è possibile specificare la lunghezza e il numero dei decimali.';
@@ -128,15 +119,9 @@ $string['maxtextlength'] = 'Massima lunghezza del testo';
 $string['minforcedresponses'] = 'Numero minimo di scelte';
 $string['minforcedresponses_help'] = 'Usa questi parametri per obbligare l\'utente a spuntare un **numero minimo di scelte** o un **numero massimo di scelte** fra le caselle di spunta disponibili. Per forzare un numero preciso di caselle di spunta da selezionare, assegnare a **numero minimo di scelte** e **numero massimo di scelte** il medesimo valore. Se si desidera soltanto un minimo o un massimo valore, lasciare l\'altro al suo valore di default **0**. Se si imposta il numero minimo di scelte o il numero massimo di scelte su valori diversi dallo 0 di default, sarà mostrato un messaggio di errore se chi risponde non si adeguerà ai vincoli imposti per la risposta. Ovviamente, è consigliabile fornire tutti i chiarimenti del caso nelle istruzioni generali del questionario o nel testo della specifica domanda o attraverso una etichetta.';
 $string['misconfigured'] = 'Corso danneggiato';
-$string['missingquestion'] = 'E\' stata omessa la seguente risposta obbligatoria:';
-$string['missingquestions'] = 'Sono state omesse delle risposte obbligatorie:';
 $string['modulename'] = 'Questionario';
 $string['modulename_help'] = 'Il modulo Questionario consente di costruire questionari (indagini) usando diversi tipi di domande, allo scopo di raccogliere dati dagli utenti.';
 $string['modulenameplural'] = 'Questionari';
-$string['move'] = 'Sposta questa domanda';
-$string['movedn'] = 'Sposta in basso';
-$string['movehere'] = 'Sposta la domanda qui';
-$string['moveup'] = 'Sposta in alto';
 $string['myresponses'] = 'Tutte le mie risposte';
 $string['myresponsetitle'] = 'I tuoi risultati per {$a} risposte';
 $string['myresults'] = 'I miei risultati';
@@ -146,7 +131,6 @@ $string['nextpage'] = 'Pagina successiva';
 $string['noanswer'] = 'Nessuna risposta';
 $string['nodata'] = 'Nessuna informazione inviata.';
 $string['noduplicates'] = 'Duplicati non ammessi';
-$string['noneinuse'] = 'Nessun contenuto attualmente definito';
 $string['nopublicsurveys'] = 'Non ci sono questionari pubblici.';
 $string['noresponsedata'] = 'Nessuna risposta per questa domanda';
 $string['noresponses'] = 'Nessuna risposta';
@@ -196,7 +180,6 @@ $string['posteddata'] = 'Raggiunta la pagina con dati presenti:';
 $string['preview'] = 'Questa è una Anteprima di come apparirà il Questionario. I pulsanti non sono attivi, utilizza i numeri delle sezioni per visualizzare sezioni differenti. Alcuni pulsanti non appariranno nemmeno sulla versione finale, dipende da quali impostazioni hai dato al questionario. Il questionario utilizzerà il colore di sfondo del documento nel quale viene inserito. Quando hai finito di visualizzare l\'anteprima, clicca <b>Chiudi</b> al fondo di questa pagina';
 $string['previewing'] = 'Anteprima';
 $string['preview_label'] = 'Anteprima';
-$string['preview_questionnaire'] = '- Anteprima del questionario';
 $string['previous'] = 'Precedente';
 $string['previouspage'] = 'Pagina precedente';
 $string['print'] = 'Stampa questo questionario';
@@ -263,15 +246,12 @@ $string['realm_help'] = 'Sono previsti tre tipi di questionario:
     Se un questionario di tipo "Pubblico" è stato creato nel corso A esso può essere erogato nei corsi B, C... Tutte le risposte dagli utenti dei corsi A, B, C... saranno raccolte nel questionario pubblico creato nel corso A e saranno visualizzabili solamente nel contesto del corso A dagli amministratori o docenti che lo hanno realizzato. In altri termini, le modifiche e la visulizzazione potranno essere eseguite solamente dagli aventi diritto nel contesto del corso nel quale il questionario è stato originariamente creato come "Pubblico".';
 $string['redirecturl'] = 'L\'URL alla quale viene re-indirizzato l\'utente dopo aver partecipato al questionario';
 $string['remove'] = 'Elimina';
-$string['required'] = 'Obbligatoria';
 $string['required_help'] = 'Se si seleziona **Sì**, la domanda sarà obbligatoria, ovvero l\'utente non potrà inviare il questionario senza aver prima risposto a questa domanda. Se, prima di rispondere alle domande obbligatorie, si cercherà di inviare un questionario (o, nel caso di questionari su più pagine, di passare ad un\'altra pagina dello stesso) verrà mostrato un messaggio di errore con l\'elenco di tutte le domande obbligatorie alle quali non si è fornita risposta nel questionario (o nella pagina).';
 $string['requiredparameter'] = 'E\' stato omesso un parametro obbligatorio.';
 $string['reset'] = 'Resetta';
 $string['respeligiblerepl'] = '(rimpiazzata dai ruoli)';
 $string['respondent'] = 'Partecipante';
-$string['respondenteligible'] = 'Titolarità del partecipante';
 $string['respondenteligibleall'] = 'tutti';
-$string['respondenteligible_help'] = 'A partire dalla versione del modulo questionario per Moodle 1.9, è necessario ricorrere al sistema di ruoli e privilegi per identificare le categorie degli utenti abilitati a rispondere al questionario.';
 $string['respondenteligiblestudents'] = 'solo studenti';
 $string['respondenteligibleteachers'] = 'solo docenti';
 $string['respondents'] = 'Partecipanti';
@@ -314,7 +294,6 @@ $string['resumesurvey'] = 'Riprendi questionario';
 $string['return'] = 'Ritorna';
 $string['save'] = 'Salva';
 $string['saveasnew'] = 'Salva come nuova domanda';
-$string['savedprogress'] = 'Il tuo questionario è stato salvato. Puoi ritornare in ogni momento per completarlo. Ti verrà richiesto di reinserire login e password per poterlo completare';
 $string['saveeditedquestion'] = 'Salva la domanda corrente';
 $string['savesettings'] = 'Salva le modifiche';
 $string['section'] = 'Descrizione';
@@ -369,13 +348,10 @@ $string['vertical'] = 'Verticale';
 $string['view'] = 'Visualizza';
 $string['viewallresponses'] = 'Visualizza tutte le risposte';
 $string['viewallresponses_help'] = 'Se il questionario è impostato su **Modalità Gruppi: Gruppi visibili** o se è impostato su **Gruppi separati** e  l\'utente è autorizzato a visualizzare tutti i gruppi (nel contesto corrente) e i gruppi sono stati definiti nel corso corrente, sarà disponibile un menu a tendina con la lista dei gruppi, che permetterà di "filtrare" le risposte dei questionari per gruppi. Se invece l\'impostazione è **Modalità gruppi: Gruppi separati**, gli utenti che non sono autorizzati a visualizzare tutti i gruppi (ad esempio, in genere gli studenti o i docenti non editor), potranno visualizzare esclusivamente le risposte del gruppo o gruppi a cui appartengono.';
-$string['viewbyresponse'] = 'Visualizza per risposta';
 $string['viewresponses'] = 'Tutte le risposte ({$a})';
 $string['viewyourresponses'] = 'Le mie risposte ({$a})';
 $string['warning'] = 'Attenzione: E\' stato rilevato un errore.';
 $string['wrongdateformat'] = 'La data immessa: <strong>{$a}</strong> non corrisponde al formato mostrato nell\'esempio.';
 $string['wrongdaterange'] = 'ERRORE! L\'anno deve essere compreso fra il 1902 ed il 2037.';
-$string['wrongformat'] = 'C\'è qualcosa che non va con la domanda:';
-$string['wrongformats'] = 'C\'è qualcosa che non va con le domande:';
 $string['yesno'] = 'Sì/No';
 $string['yesno_help'] = 'Domanda di tipo Sì/No.';

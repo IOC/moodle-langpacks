@@ -46,7 +46,7 @@ $string['noneinstalled'] = 'Non ci sono plugin di questo tipo installati.';
 $string['notdownloadable'] = 'Non è possibile scaricare i pacchetti';
 $string['notdownloadable_help'] = 'Non è possibile scaricare automaticamente i pacchetti ZIP degli aggiornamenti. Per aiuto ulteriore consulta la documentazione.';
 $string['notes'] = 'Note';
-$string['notwritable'] = 'I file del pugin non sono scrivibili';
+$string['notwritable'] = 'I file del plugin non sono scrivibili';
 $string['notwritable_help'] = 'L\'installazione automatica degli aggiornamenti è abilitata e sono disponibili aggiornamenti per questo plugin, ma il web server non ha i gli appropriati permessi di scrittura e pertanto non è possibile proseguire con l\'installazione
 
 Per installare automaticamente gli aggiornamenti del plugin è necessario dare gli appropriati permessi di scrittura sulle cartelle e sui file del plugin.';

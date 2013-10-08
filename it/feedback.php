@@ -92,7 +92,7 @@ $string['drop_feedback'] = 'Rimuovi da questo corso';
 $string['edit_item'] = 'Modifica domanda';
 $string['edit_items'] = 'Domande';
 $string['email_notification'] = 'Notifica consegne via email';
-$string['email_notification_help'] = 'L\'amministratore riceverà notifiche email per ciascun feedback compilato.';
+$string['email_notification_help'] = 'Il docente riceverà notifiche email per ciascun feedback compilato.';
 $string['emailteachermail'] = '{$a->username} ha compilato il feedback: \'{$a->feedback}\'
 
 Puoi vedere le risposte al seguente indirizzo:
@@ -152,9 +152,9 @@ $string['messageprovider:message'] = 'Promemoria feedback';
 $string['messageprovider:submission'] = 'Notifiche feedback';
 $string['mode'] = 'Modalità';
 $string['modulename'] = 'Feedback';
-$string['modulename_help'] = 'Il modulo di attività feedback consente al docente di creare sondaggi personalizzati utili per raccogliere i feedback dai partecipanti. E\' possibile usare vari tipi di domande, come ad esempio domande a scelta multipla, sì/no, a riposta libera, eccetera.
+$string['modulename_help'] = 'Il modulo di attività feedback consente al docente di creare sondaggi personalizzati utili per raccogliere i feedback dai partecipanti. E\' possibile usare vari tipi di domande, come ad esempio domande a scelta multipla, sì/no, a risposta libera, eccetera.
 
-Se lo si desidera è possibile rendere anonime le riposte, così come è possibile visualizzare o meno agli studenti i risultati del sondaggio. Le attività feedback presenti sulla home page del sito possono essere configurate per essere compilate anche da utenti non autenticati.
+Se lo si desidera è possibile rendere anonime le risposte, così come è possibile visualizzare o meno agli studenti i risultati del sondaggio. Le attività feedback presenti sulla home page del sito possono essere configurate per essere compilate anche da utenti non autenticati.
 
 E\' possibile usare il feedback per:
 

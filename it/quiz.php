@@ -166,7 +166,7 @@ $string['configeachattemptbuildsonthelast'] = 'Consentendo tentativi multipli  o
 $string['configgrademethod'] = 'La strategia di valutazione da usare per calcolare il voto finale se il quiz consente più tentativi.';
 $string['configintro'] = 'I valori impostati sotto saranno i valori di default per o nuovi quiz. E\' anche possibile stabilire quali impostazioni siano da considerarsi "avanzate".';
 $string['configmaximumgrade'] = 'Il voto di default rispetto al quale sarà rapportato il voto del quiz.';
-$string['confignavmethod'] = 'Con la navigazione libera è possibile rispondere alle domande in qualsiasi ordine. Con la navigazione sequenziale le riposte dovranno essere date secondo l\'ordine impostato';
+$string['confignavmethod'] = 'Con la navigazione libera è possibile rispondere alle domande in qualsiasi ordine. Con la navigazione sequenziale le risposte dovranno essere date secondo l\'ordine impostato';
 $string['confignewpageevery'] = 'Quando si aggiungono domande a un quiz, in base a questa impostazione saranno inseriti automaticamente dei salti di pagina .';
 $string['configoutcomesadvanced'] = 'Nelle pagine di modifica quiz gli obiettivi compariranno tra le impostazioni avanzate.';
 $string['configpenaltyscheme'] = 'Penalità da sottrarre per ogni risposta errata nella modalità adattiva.';
@@ -260,7 +260,7 @@ $string['emailconfirmbody'] = 'Gentile {$a->username},
 
 grazie per aver inviato le tue risposte al quiz \'{$a->quizname}\' nel corso \'{$a->coursename}\' alle {$a->submissiontime}.
 
-Questa email conferma che le tue riposte sono state ricevute correttamente.
+Questa email conferma che le tue risposte sono state ricevute correttamente.
 
 Puoi accedere questo quiz all\'indirizzo {$a->quizurl}.';
 $string['emailconfirmsmall'] = 'Grazie per aver risposto al quiz \'{$a->quizname}\'';
@@ -332,7 +332,7 @@ $string['graceperiod'] = 'Tempo extra per l\'invio';
 $string['graceperiod_desc'] = 'L\'intervallo di tempo di default (in secondi) concesso allo studente per inviare il tentativo dopo lo scadere del tempo massimo. Da usare in combinazione con l\'impostazione \'consenti allo studente di inviare il tentativo entro un limite di tempo stabilito, senza consentirgli di rispondere ad altre domande\'.';
 $string['graceperiod_help'] = 'L\'intervallo di tempo concesso allo studente per inviare il tentativo dopo lo scadere del tempo massimo. Da usare in combinazione con l\'impostazione \'consenti allo studente di inviare il tentativo entro un limite di tempo stabilito, senza consentirgli di rispondere ad altre domande\'.';
 $string['graceperiodmin'] = 'Tempo extra per l\'ultimo invio';
-$string['graceperiodmin_desc'] = 'Esiste un potenziale problema nel momento in cui si chiude un quiz. Da una parte si desidera che gli studenti possano utilizzare fino all\'ultimo secondo il tempo a loro disposizione, aiutati dal timer che invia il quiz automaticamente allo scadere del tempo massimo. D\'altra parte allo scadere del tempo il server potrebbe sovraccaricarsi e richiedere più tempo per elaborare le riposte. Di conseguenza, per non penalizzare gli studenti a causa di rallentamenti del server,  verranno accettati i tentativi inviati dopo lo scadere del tempo massimo ma comunque entro il numero di secondi impostato come tempo extra per l\'ultimo invio . Naturalmente gli studenti potrebbero approfittarne ed utilizzare questi secondi per rispondere alle domande, quindi dovrai impostare un valore di compromesso in base alle effettive performance che il tuo server offre durante lo svolgimento dei quiz.';
+$string['graceperiodmin_desc'] = 'Esiste un potenziale problema nel momento in cui si chiude un quiz. Da una parte si desidera che gli studenti possano utilizzare fino all\'ultimo secondo il tempo a loro disposizione, aiutati dal timer che invia il quiz automaticamente allo scadere del tempo massimo. D\'altra parte allo scadere del tempo il server potrebbe sovraccaricarsi e richiedere più tempo per elaborare le risposte. Di conseguenza, per non penalizzare gli studenti a causa di rallentamenti del server,  verranno accettati i tentativi inviati dopo lo scadere del tempo massimo ma comunque entro il numero di secondi impostato come tempo extra per l\'ultimo invio . Naturalmente gli studenti potrebbero approfittarne ed utilizzare questi secondi per rispondere alle domande, quindi dovrai impostare un valore di compromesso in base alle effettive performance che il tuo server offre durante lo svolgimento dei quiz.';
 $string['graceperiodtoosmall'] = 'Il tempo extra per l\'invio deve essere maggiore di {$a}.';
 $string['grade'] = 'Valutazione';
 $string['gradeall'] = 'Valuta tutto';
@@ -415,7 +415,7 @@ $string['match'] = 'Corrispondenza';
 $string['matchanswer'] = 'Risposta corrispondente';
 $string['matchanswerno'] = 'Risposta corrispondente {$a}';
 $string['max'] = 'Massimo';
-$string['messageprovider:attempt_overdue'] = 'Avveri quando il tentativo del quiz è fuori tempo massimo';
+$string['messageprovider:attempt_overdue'] = 'Avverti quando il tentativo del quiz è fuori tempo massimo';
 $string['messageprovider:confirmation'] = 'Conferma del tuo invio';
 $string['messageprovider:submission'] = 'Notifiche di consegne quiz';
 $string['min'] = 'Minimo';
