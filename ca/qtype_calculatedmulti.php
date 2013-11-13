@@ -25,6 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['answeroptions'] = 'Opcions';
+$string['answeroptions_help'] = 'L\'opció suggerida per a la fórmula és ...<strong>{={x}+..}</strong>...';
 $string['pluginname'] = 'Opcions múltiples calculada.';
 $string['pluginnameadding'] = 'S\'està afegint una pregunta d\'opcions múltiples calculada.';
 $string['pluginnameediting'] = 'S\'està editant una pregunta de selecció múltiple amb càlcul';

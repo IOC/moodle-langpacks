@@ -58,6 +58,7 @@ $string['limitanswers'] = 'Limita el nombre de respostes permeses';
 $string['limitanswers_help'] = 'Aquest paràmetre us permet limitar el nombre de participants que poden seleccionar cada opció concreta. Quan s\'arriba al límit ningú més no pot seleccionar aquesta opció.
 
 Si els límits estan inhabilitats, qualsevol nombre de participants pot seleccionar qualsevol de les opcions.';
+$string['limitno'] = 'Límit {núm.}';
 $string['modulename'] = 'Consulta';
 $string['modulename_help'] = 'El mòdul de consulta permet al professorat plantejar una pregunta i especificar un conjunt de possibles respostes per triar.
 

@@ -41,6 +41,7 @@ $string['stepsdefinitionscontains'] = 'Conté';
 $string['stepsdefinitionsfilters'] = 'Definicions de passos';
 $string['stepsdefinitionstype'] = 'Tipus';
 $string['theninfo'] = 'Llavors. Comprovacions per assegurar que els resultats són els esperats.';
+$string['unknownexceptioninfo'] = 'Hi ha hagut un problema amb Selenium o amb el navegador. Intenteu actualitzar Selenium a la darrera versió. Error:';
 $string['viewsteps'] = 'Filtre';
 $string['wheninfo'] = 'Quan. Accions que provoquen un esdeveniment';
 $string['wrongbehatsetup'] = 'Alguna cosa funciona malament amb la configuració de «behat», comproveu:

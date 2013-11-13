@@ -1019,6 +1019,7 @@ $string['tablenosave'] = 'Els canvis a la taula del damunt es desen automàticam
 $string['tablesnosave'] = 'Els canvis a les taules de dalt es desaran de forma automàtica.';
 $string['tabselectedtofront'] = 'En taules amb tabulacions, la fila amb l\'etiqueta seleccionada s\'hauria de posar davant';
 $string['tabselectedtofronttext'] = 'Passa davant la fila seleccionada';
+$string['testsiteupgradewarning'] = 'Esteu utilitzant el lloc de prova {$a}. Per a actualitzar de forma correcta utilitzeu l\'eina d\'intefícia de línia d\'ordres.';
 $string['themedesignermode'] = 'Mode dissenyador de temes';
 $string['themelist'] = 'Llista de temes';
 $string['themenoselected'] = 'No hi ha cap tema seleccionat ';

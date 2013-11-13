@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configplugin'] = 'Configuració del tipus de repositori Wikimedia';
-$string['keyword'] = 'Text complet';
+$string['keyword'] = 'Cerca';
 $string['maxheight'] = 'Alçada màxima d\'imatge (píxels)';
 $string['maxwidth'] = 'Amplada màxima d\'imatge (píxels)';
 $string['pluginname'] = 'Wikimedia';

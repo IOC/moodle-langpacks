@@ -190,7 +190,7 @@ $string['forumtrackednot'] = 'No s\'està fent el seguiment dels missatges no ll
 $string['forumtype'] = 'Tipus de fòrum';
 $string['forumtype_help'] = 'Hi ha 5 tipus de fòrums:
 
-* Un debat únic - És un sol tema de debat al qual tothom pot respondre
+* Un debat únic - És un sol tema de debat al qual tothom pot respondre (no es pot fer servir amb grups separats).
 * Cada persona envia un debat - Cada estudiant pot obrir únicament un tema de debat (i tothom pot enviar-hi respostes).
 * Fòrum P/R (pregunta/resposta) - L\'estudiant ha d\'enviar la seva resposta per a poder veure les respostes dels seus companys.
 * Fòrum estàndard en format de blog - És un fòrum obert en el qual tothom pot iniciar un nou tema de debat en qualsevol moment. I els temes de debat es mostren en una pàgina amb enllaços de «Debateu aquest tema".
@@ -404,15 +404,12 @@ $string['trackingoff'] = 'Inactiu';
 $string['trackingon'] = 'Actiu';
 $string['trackingoptional'] = 'Opcional';
 $string['trackingtype'] = 'Voleu fer el seguiment de missatges llegits en aquest fòrum?';
-$string['trackingtype_help'] = '<p>Si els fòrums tenen habilitada l\'opció de seguiment, els usuaris poden realitzar el seguiment dels missatges llegits i no llegits en el fòrum i en els debats. </p>
-
-<p>Aquest paràmetre admet tres possibilitats:</p>
+$string['trackingtype_help'] = '<p>Si s\'habilita aquesta opció, els usuaris poden realitzar el seguiment dels missatges llegits i no llegits en el fòrum i en els debats. Hi ha tres possibilitats:</p>
 <ul>
-<li>Opcional [per defecte]: els estudiants poden activar o desactivar el seguiment com i quan vulguin.</li>
-<li>Inactiu: el seguiment no està mai actiu.</li>
+<li>Opcional: els estudiants poden triar si activen o no el seguiment, mitjançant un enllaç en el bloc d\'administració.</li>
 <li>Actiu: el seguiment està sempre actiu.</li>
-
-</ul';
+<li>Inactiu: no es fa seguiment de missatges llegits i no llegits.</li>
+</ul>';
 $string['unread'] = 'No llegit';
 $string['unreadposts'] = 'Missatges no llegits';
 $string['unreadpostsnumber'] = '{$a} missatges no llegits';

@@ -39,3 +39,5 @@ $string['pluginname_help'] = 'Com a resposta a la pregunta (que pot incloure una
 $string['pluginnamesummary'] = 'Permet una resposta consistent en poques frases o paràgrafs. Cal qualificar-la manualment.';
 $string['responsefieldlines'] = 'Dimensions del quadre d\'entrada';
 $string['responseformat'] = 'Format de la resposta';
+$string['responsetemplate'] = 'Plantilla de resposta';
+$string['responsetemplate_help'] = 'Qualsevol text introduït aquí es mostrarà en el quadre d\'entrada de la resposta quan s\'iniciï un nou intent de la pregunta.';

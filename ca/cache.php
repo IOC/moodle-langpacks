@@ -42,6 +42,7 @@ $string['cachedef_coursecattree'] = 'Arbre de les categories del curs';
 $string['cachedef_coursecontacts'] = 'Llista de contactes del curs';
 $string['cachedef_databasemeta'] = 'Metainformació de la base de dades';
 $string['cachedef_eventinvalidation'] = 'Invalidació d\'esdeveniment';
+$string['cachedef_externalbadges'] = 'Insígnies externes per a un usuari particular';
 $string['cachedef_groupdata'] = 'Informació del grup del curs';
 $string['cachedef_htmlpurifier'] = 'Purificador HTML - contingut netejat';
 $string['cachedef_locking'] = 'Blocatge';
