@@ -101,5 +101,5 @@ $string['showavailability_show'] = 'Afficher l\'activité en gris, avec une info
 $string['startswith'] = 'commence par';
 $string['userfield'] = 'Champ utilisateur';
 $string['userfield_help'] = 'Vous pouvez restreindre l\'accès en fonction de n\'importe quel champ du profil utilisateur.';
-$string['userrestriction_hidden'] = 'Restreinte (cachée complètement, pas de message) : {$a}';
-$string['userrestriction_visible'] = 'Restreinte : {$a}';
+$string['userrestriction_hidden'] = 'Accès restreint (section cachée complètement, sans message) : {$a}';
+$string['userrestriction_visible'] = 'Accès restreint : {$a}';

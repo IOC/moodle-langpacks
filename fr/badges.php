@@ -320,7 +320,13 @@ $string['recipientvalidationproblem'] = 'Impossible de vérifier si l\'utilisate
 $string['relative'] = 'Date relative';
 $string['requiredcourse'] = 'Au moins un cours devrait être ajouté au critère de l\'ensemble de cours.';
 $string['reviewbadge'] = 'Modifications de l\'accès au badge';
-$string['reviewconfirm'] = '<p>Cette action vérifiera si l\'un des utilisateurs a déjà rempli les conditions requises pour le badge « {$a} ».</p> <p>Voulez-vous continuer ?</p>';
+$string['reviewconfirm'] = '<p>Cette action rendra le badge visible pour les utilisateurs et leur permettra d\'essayer de l\'obtenir.</p>
+
+<p>Il est possible que certains utilisateurs remplissent déjà les conditions requises pour l\'obtenir. Le badge leur sera décerné immédiatement après activation.</p>
+
+<p>Dès que le badge aura été décerné, il sera <strong>verrouillé</strong>. Certains réglages, y compris les critères d\'obtention et la date d\'échéance ne pourront plus être modifiés.</p>
+
+<p>Voulez-vous vraiment rendre accessible le badge « {$a} » ?</p>';
 $string['save'] = 'Enregistrer';
 $string['searchname'] = 'Rechercher par nom';
 $string['selectaward'] = 'Veuillez choisir le rôle que vous voulez utiliser pour décerner ce badge :';

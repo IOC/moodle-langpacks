@@ -31,4 +31,4 @@ $string['notitle'] = 'sans titre';
 $string['pluginname'] = 'Fichiers récents';
 $string['pluginname_help'] = 'Fichiers utilisés récemment par l\'utilisateur actuel';
 $string['recentfilesnumber'] = 'Nombre de fichiers récents';
-$string['recent:view'] = 'Voir le plugin de dépôt fichiers récents';
+$string['recent:view'] = 'Consulter le dépôt fichiers récents';

@@ -27,4 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Rapport du participant';
 $string['tablesummary'] = 'Ce tableau est une liste d\'éléments évalués, incluant les catégories de ces éléments. Les éléments appartenant à une catégorie y sont mentionnés comme tels.';
-$string['user:view'] = 'Voir votre propre rapport d\'évaluation';
+$string['user:view'] = 'Consulter votre propre rapport d\'évaluation';

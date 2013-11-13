@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['autoactivedescription'] = 'Ce réglage permet d\'activer ou non les sauvegardes automatiques. Si l\'option « Manuelle » est sélectionnée, les sauvegardes automatiques ne pourront avoir lieu que via le script en ligne de commande, manuellement ou via le cron.';
+$string['autoactivedescription'] = 'Ce réglage permet d\'activer ou non les sauvegardes automatiques. Si l\'option « Manuelle » est sélectionnée, les sauvegardes automatiques ne pourront avoir lieu que via le script en ligne de commande, lancé manuellement ou via un cron spécifique.';
 $string['autoactivedisabled'] = 'Désactivée';
 $string['autoactiveenabled'] = 'Activée';
 $string['autoactivemanual'] = 'Manuelle';
@@ -256,4 +256,5 @@ $string['storageexternalonly'] = 'Dossier spécifié pour les sauvegardes automa
 $string['title'] = 'Titre';
 $string['totalcategorysearchresults'] = 'Nombre de catégories : {$a}';
 $string['totalcoursesearchresults'] = 'Nombre de cours : {$a}';
+$string['unnamedsection'] = 'Section sans nom';
 $string['userinfo'] = 'Info utilisateur';

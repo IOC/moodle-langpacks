@@ -312,6 +312,7 @@ La plupart du temps, cette option ne devrait pas être activée. Les enseignants
 Le seul cas pour le cas où il faut utiliser cette option est celui où cette configuration n\'est destinée qu\'à une authentification unique. Par exemple, si tous les lancements mènent à une page unique plutôt qu\'à une ressource spécifique.';
 $string['size'] = 'Paramètres de taille';
 $string['submission'] = 'Remise';
+$string['submissionsfor'] = 'Travaux remis pour {$a}';
 $string['toggle_debug_data'] = 'Activer/désactiver les données de débogage';
 $string['tool_config_not_found'] = 'Configuration de l\'outil introuvable avec cet URL';
 $string['tool_settings'] = 'Réglages de l\'outil';

@@ -50,10 +50,10 @@ $string['average'] = 'Moyenne';
 $string['averageposition'] = 'Position moyenne';
 $string['averagerank'] = 'Rang moyen';
 $string['bodytext'] = 'Corps de texte';
-$string['boxesnbexact'] = 'exactement&nbsp;{$a} case(s).';
+$string['boxesnbexact'] = 'exactement {$a} case(s).';
 $string['boxesnbmax'] = 'un maximum de {$a} case(s).';
 $string['boxesnbmin'] = 'un minimum de {$a} case(s).';
-$string['boxesnbreq'] = 'Pour cette question vous devez cocher&nbsp;';
+$string['boxesnbreq'] = 'Pour cette question vous devez cocher ';
 $string['by'] = 'par';
 $string['checkallradiobuttons'] = 'Veuillez cocher un bouton radio sur <em>chaque</em> ligne!';
 $string['checkboxes'] = 'Cases à cocher';
@@ -83,8 +83,8 @@ $string['confpage_help'] = 'Vous pouvez facultativement saisir un titre et un te
 $string['contentoptions'] = 'Options de contenu';
 $string['couldnotcreatenewsurvey'] = 'Impossible de créer un nouveau questionnaire&nbsp;!';
 $string['couldnotdelresp'] = 'Impossible d\'effacer les réponses.';
-$string['createcontent'] = 'Definir un nouveau contenu';
-$string['createcontent_help'] = 'Choisir l\'un des boutons radio de la liste. Défaut: "Créer un nouveau questionnaire".';
+$string['createcontent'] = 'Définir un nouveau contenu';
+$string['createcontent_help'] = 'Choisir l\'un des boutons radio de la liste. Défaut : "Créer un nouveau questionnaire".';
 $string['createcontent_link'] = 'mod/questionnaire/mod#Content_Options';
 $string['createnew'] = 'Créer un nouveau questionnaire';
 $string['date'] = 'Date';
@@ -112,7 +112,7 @@ sauf peut-être lorsque la liste d\'options est relativement longue, pour écono
 $string['dropdown_link'] = 'mod/questionnaire/questions#Dropdown_Box';
 $string['edit'] = 'Modifier';
 $string['editingquestionnaire'] = 'Modification du questionnaire  - page Générale';
-$string['editquestion'] = 'Edition de la question {$a}';
+$string['editquestion'] = 'Édition de la question {$a}';
 $string['email'] = 'Courriel';
 $string['errnewname'] = 'Désolé, ce nom est déjà pris. Saisissez un nouveau nom.';
 $string['erroropening'] = 'Erreur d\'ouverture du questionnaire.';
@@ -128,7 +128,7 @@ $string['fieldlength_help'] = 'Affiche une boîte de texte d\'une seule ligne de
 où la longueur maximale du texte saisi par le répondant est limitée à y caractères.
 
 Valeurs par défaut : 20 caractères pour la longueur de la boîte [Longueur de la boîte de texte] et 25 caractères pour le texte effectivement saisi par le répondant [Longueur texte max.].';
-$string['finished'] = 'Vous avez répondu à toutes les questions de ce questionnaire!';
+$string['finished'] = 'Vous avez répondu à toutes les questions de ce questionnaire !';
 $string['firstrespondent'] = 'Premier répondant';
 $string['grade'] = 'Note pour ce questionnaire';
 $string['gradesdeleted'] = 'Les notes à ce questionnaire ont été supprimées';
@@ -165,7 +165,7 @@ Si vous avez saisi pour l\'un ou l\'autre de ces paramètres une valeur différe
 Evidemment, il vous appartient de préciser vos exigences dans le texte de la question!';
 $string['misconfigured'] = 'Le cours est mal configuré.';
 $string['missingquestion'] = 'Veuillez répondre à la question obligatoire';
-$string['missingquestions'] = 'Veuillez répondre aux questions obligatoires:';
+$string['missingquestions'] = 'Veuillez répondre aux questions obligatoires :';
 $string['modulename'] = 'Questionnaire';
 $string['modulename_help'] = 'Le module « questionnaire » vous permet de créer des enquêtes utilisant divers types de questions, afin de collecter l\'opinion des utilisateurs.';
 $string['modulenameplural'] = 'Questionnaires';
@@ -191,7 +191,7 @@ $string['normal'] = 'Normal';
 $string['notanumber'] = '<strong>{$a}</strong> n\'est pas un nombre.';
 $string['notapplicable'] = 'NSP';
 $string['notapplicablecolumn'] = 'Colonne NSP';
-$string['notavail'] = 'Ce questionnaire n\'est pas encore disponible. Réessayez plus tard';
+$string['notavail'] = 'Ce questionnaire n\'est pas encore disponible. Réessayez plus tard.';
 $string['noteligible'] = 'Vous n\'êtes pas autorisé à répondre à ce questionnaire.';
 $string['notemplatesurveys'] = 'Pas de modèles de questionnaires.';
 $string['notenoughscaleitems'] = 'Vous devez entrer au minimum 2 items sur cette échelle.';
@@ -232,7 +232,7 @@ pour les 4 types de questions suivants.
 Lorsque vous arrivez sur la page Toutes les réponses, par défaut toutes les réponses sont triées dans l\'ordre où les choix ont été entrés lors de la création des questions. Vous pouvez alors effectuer des tris par ordre descendant ou ascendant.';
 $string['orderresponses_link'] = 'mod/questionnaire/report#Order_Responses';
 $string['osgood'] = 'Osgood';
-$string['other'] = 'Autre:';
+$string['other'] = 'Autre :';
 $string['otherempty'] = 'Si vous cochez ce choix vous devez taper du texte dans la case de texte!';
 $string['overviewnumresplog'] = 'réponses';
 $string['overviewnumresplog1'] = 'réponse';
@@ -260,7 +260,7 @@ $string['private'] = 'Privé';
 $string['public'] = 'Public';
 $string['qtype'] = 'Fréquence de participation';
 $string['qtypedaily'] = 'répondre tous les jours';
-$string['qtype_help'] = 'Ce paramètre vous permet de définir si les étudiants pourront répondre au questionnaire une seule fois, une fois par par jour, par semaine, par mois ou un nombre illimité de fois.';
+$string['qtype_help'] = 'Ce paramètre vous permet de définir si les étudiants pourront répondre au questionnaire une seule fois, une fois par jour, par semaine, par mois ou un nombre illimité de fois.';
 $string['qtypemonthly'] = 'répondre tous les mois';
 $string['qtypeonce'] = 'répondre une fois seulement';
 $string['qtypeunlimited'] = 'répondre un nombre illimité de fois';
@@ -294,22 +294,21 @@ $string['radiobuttons'] = 'Boutons radio';
 $string['radiobuttons_help'] = 'Type de question à choix multiple et à réponse unique.';
 $string['radiobuttons_link'] = 'mod/questionnaire/questions#Radio_Buttons';
 $string['rank'] = 'Rang';
-$string['ratescale'] = 'Echelle de Likert';
+$string['ratescale'] = 'Échelle de Likert';
 $string['ratescale_help'] = 'Voir la documentation ci-dessous.';
 $string['ratescale_link'] = 'mod/questionnaire/questions#Rate_.28scale_1..5.29';
 $string['realm'] = 'Type de questionnaire';
-$string['realm_help'] = '* **Il existe 3 types de questionnaires:**
+$string['realm_help'] = '* **Il existe 3 types de questionnaires :**
  * Privé - appartient seulement au cours dans lequel il a été créé.
  * Modèle - peut être copié et modifié.
  * Public - peut être partagé entre plusieurs cours.';
 $string['realm_link'] = 'mod/questionnaire/qsettings#Questionnaire_Type';
-$string['redirecturl'] = 'L\'URL vers laquelle lutilisateur sera redirigé après avoir répondu au questionnaire.';
+$string['redirecturl'] = 'L\'URL vers laquelle l\'utilisateur sera redirigé après avoir répondu au questionnaire.';
 $string['remove'] = 'Supprimer';
 $string['removeallquestionnaireattempts'] = 'Supprimer toutes les réponses à ce questionnaire';
 $string['required'] = 'Réponse obligatoire';
 $string['required_help'] = 'Si vous sélectionnez **Oui**, la question sera obligatoire,
-c\'est-à-dire que le répondant ne pourra pas soumettre le questionnaire
-sans y avoir répondu.';
+c\'est-à-dire que le répondant ne pourra pas soumettre le questionnaire sans y avoir répondu.';
 $string['required_link'] = 'mod/questionnaire/questions#Response_Required';
 $string['requiredparameter'] = 'Un paramètre obligatoire manque.';
 $string['reset'] = 'Réinitialiser';
@@ -319,11 +318,11 @@ $string['respondenteligibleall'] = 'Tout le monde';
 $string['respondenteligiblestudents'] = 'Les étudiants seulement';
 $string['respondenteligibleteachers'] = 'Les professeurs seulement';
 $string['respondents'] = 'Répondants';
-$string['respondenttype'] = 'Anonyme ou nominatif&nbsp;?';
+$string['respondenttype'] = 'Anonyme ou nominatif ?';
 $string['respondenttypeanonymous'] = 'anonyme';
 $string['respondenttypefullname'] = 'nominatif';
 $string['respondenttype_help'] = 'Vous pouvez ici choisir si le nom de l\'étudiant sera affiché ou non lorsque vous visualiserez les réponses à ce questionnaire.  Si non, le mot **Anonyme** sera affiché.
-Note.- Si votre cours Moodle autorise l\'accès aux invités, ils pourront répondre à un questionnaire seulement si l\'option anonyme a été choisie pour ce questionnaire.';
+Note : si votre cours Moodle autorise l\'accès aux visiteurs anonymes, ils pourront répondre à un questionnaire seulement si l\'option anonyme a été choisie pour ce questionnaire.';
 $string['respondenttype_link'] = 'mod/questionnaire/mod#Respondent_Type';
 $string['response'] = 'Réponse';
 $string['responseoptions'] = 'Options des réponses';
@@ -382,8 +381,7 @@ $string['text'] = 'Texte';
 $string['textareacolumns'] = 'Nb de colonnes du texte';
 $string['textareacolumns_help'] = 'Affiche une boîte de texte non formatable de x colonnes (Nb de colonnes du texte) et de y lignes (Nb de lignes du texte).
 
-Si vous laissez x et y à leur valeur par défaut de 0 (zéro), alors l\'éditeur HTML sera affiché
-avec sa hauteur et sa largeur par défaut s\'il est disponible dans le contexte du cours et du profil de l\'utilisateur courant.';
+Si vous laissez x et y à leur valeur par défaut de 0 (zéro), alors l\'éditeur HTML sera affiché avec sa hauteur et sa largeur par défaut s\'il est disponible dans le contexte du cours et du profil de l\'utilisateur courant.';
 $string['textarearows'] = 'Nb de lignes du texte';
 $string['textbox'] = 'Texte court';
 $string['textbox_help'] = 'Entrez la longueur de la fenêtre de saisie ainsi que la longueur maximum du texte entré.
@@ -416,12 +414,12 @@ $string['viewindividualresponse'] = 'Voir les réponses individuelles';
 $string['viewindividualresponse_help'] = 'Cliquez sur les noms des répondants dans la liste ci-dessous pour voir leurs réponses individuelles.';
 $string['viewresponses'] = 'Toutes les réponses ({$a})';
 $string['viewyourresponses'] = 'Vos réponses : voir {$a}';
-$string['warning'] = 'ATTENTION! erreur rencontrée.';
+$string['warning'] = 'ATTENTION ! erreur rencontrée.';
 $string['wronganswers'] = 'Il y a une erreur dans vos réponses (voir ci-dessous)';
 $string['wrongdateformat'] = 'Le format de la date entrée <strong>{$a}</strong> ne correspond pas au format montré dans l\'exemple.';
-$string['wrongdaterange'] = 'ERREUR! L\'année doit se situer entre 1902 et 2037.';
-$string['wrongformat'] = 'Il y a une erreur avec votre réponse à la question:';
-$string['wrongformats'] = 'Il y a une erreur avec votre réponse aux questions:';
+$string['wrongdaterange'] = 'ERREUR ! L\'année doit se situer entre 1902 et 2037.';
+$string['wrongformat'] = 'Il y a une erreur avec votre réponse à la question :';
+$string['wrongformats'] = 'Il y a une erreur avec votre réponse aux questions :';
 $string['yesno'] = 'Oui/Non';
 $string['yesno_help'] = 'Simple question à réponse **Oui** ou **Non**.';
 $string['yourresponses'] = 'Vos réponses';

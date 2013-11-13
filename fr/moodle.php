@@ -187,6 +187,7 @@ $string['backuploglaststatus'] = 'Rapport de la dernière exécution';
 $string['backupmissinguserinfoperms'] = 'Remarque : cette sauvegarde ne contient aucune donnée d\'utilisateur. Les activités Exercice et Atelier ne seront pas incluses dans la sauvegarde, puisque ces modules ne sont pas compatibles avec de type de sauvegarde.';
 $string['backupnext'] = 'Prochaine sauvegarde';
 $string['backupnonisowarning'] = 'Attention ! Cette sauvegarde provient d\'une version non Unicode de Moodle (antérieure à la version 1.6). Si elle contient des textes en caractères non ISO-8859-1, ceux-ci pourront être ENDOMMAGÉS si vous la restaurez dans cette version Unicode de Moodle. Veuillez consulter la <a href="http://docs.moodle.org/fr/FAQ_de_sauvegarde">FAQ de sauvegarde</a> pour plus d\'informations sur la façon de restaurer correctement cette sauvegarde.';
+$string['backupnotyetrun'] = 'Sauvegarde automatique en attente';
 $string['backuporiginalname'] = 'Nom de la sauvegarde';
 $string['backuproleassignments'] = 'Sauvegarder les attributions de rôles pour ces rôles';
 $string['backupsavetohelp'] = 'Chemin d\'accès complet du dossier où vous voulez enregistrer les sauvegardes<br />(laissez vide pour enregistrer dans le dossier par défaut)';
@@ -700,56 +701,12 @@ $string['forgotten'] = 'Vous avez oublié votre nom d\'utilisateur et/ou votre m
 $string['forgottenduplicate'] = 'Cette adresse de courriel est utilisée dans plusieurs comptes. Veuillez indiquer le nom d\'utilisateur en lieu et place';
 $string['forgotteninvalidurl'] = 'URL de récupération de mot de passe non valable';
 $string['format'] = 'Format';
-$string['format_help'] = '<!-- $Id$ -->
+$string['format_help'] = 'Le format de cours détermine comment est affichée la page de cours.
 
-
-<h2>Format LAMS</h2>
-
-<div class="indent">
-
-<p>Ce format utilise l\'interface Learning Activity Management System (LAMS) comme interface principale. LAMS nécessite l\'intervention d\'un administrateur pour pouvoir utiliser ce format.</p>
-
-</div>
-
-<h2>Format SCORM</h2>
-
-<div class="indent">
-
-<p>Ce format affiche un paquetage SCORM dans la première section de la page du cours. Le module d\'activité SCORM/AICC offre une alternative pour afficher un paquetage SCORM dans un cours.</p>
-
-</div>
-
-<h2>Format informel</h2>
-
-<div class="indent">
-
-<p>Ce format est organisé autour d\'un forum principal, le « Forum public », qui est affiché sur la page du cours. Il est utile dans les situations informelles qui ne sont pas nécessairement des cours. Par exemple, il peut être utilisé comme tableau d\'affichage pour une classe ou un département. </p>
-
-</div>
-
-<h2>Format thématique</h2>
-
-<div class="indent">
-
-<p>Ce format est organisé en sections thématiques. Chacune de ces sections comprend des activités et des ressources.</p>
-
-</div>
-
-<h2>Format hebdomadaire</h2>
-
-<div class="indent">
-
-<p>Le cours est organisé par semaine avec des dates de début et de fin clairement identifiées. Chaque semaine contient des activités et des ressources.</p>
-
-</div>
-
-<h2>Format hebdomadaire - CSS, sans table</h2>
-
-<div class="indent">
-
-<p>Le cours est organisé par semaine. L\'affichage n\'utilise pas les tables HTML.</p>
-
-</div>';
+* Format SCORM – affiche un paquetage SCORM dans la première section de la page du cours (comme alternative à l\'utilisation de l\'activité SCORM)
+* Format informel – un forum public est affiché sur la page du cours
+* Format thématique – la page de cours est organisée en sections thématiques
+* Format hebdomadaire – la page de cours est organisée en sections hebdomadaires, la première d\'entre elle commençant à la date de début du cours';
 $string['formathtml'] = 'Format HTML';
 $string['formatmarkdown'] = 'Format Markdown';
 $string['formatplain'] = 'Format texte';
@@ -1268,6 +1225,7 @@ $string['options'] = 'options';
 $string['order'] = 'Ordre';
 $string['originalpath'] = 'Chemin original';
 $string['orphanedactivities'] = 'Activités orphelines';
+$string['orphanedactivitiesinsectionno'] = 'Activités orphelines (section {$a})';
 $string['other'] = 'Autre';
 $string['outline'] = 'Résumé';
 $string['outlinereport'] = 'Rapport résumé';

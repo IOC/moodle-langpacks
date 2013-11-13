@@ -216,12 +216,12 @@ $string['forumtype_help'] = 'Il y a 5 types de forums :
 * Forum questions/réponses : les étudiants doivent poster un message avant de pouvoir consulter et répondre aux questions et messages des autres participants.
 * Forum standard affiché comme un blog : un forum ouvert, où chacun peut entamer une nouvelle discussion à tout instant. Les sujets de discussion sont affichés sur une page, avec un lien « Discuter sur ce sujet » pour y répondre.
 * Forum standard pour utilisation générale : un forum ouvert, où chacun peut entamer une nouvelle discussion à tout instant.';
-$string['forum:viewallratings'] = 'Voir toutes les évaluations brutes';
-$string['forum:viewanyrating'] = 'Voir toutes les évaluations';
+$string['forum:viewallratings'] = 'Voir toutes les évaluations brutes données par des participants';
+$string['forum:viewanyrating'] = 'Voir toutes les évaluations globales';
 $string['forum:viewdiscussion'] = 'Voir les discussions';
 $string['forum:viewhiddentimedposts'] = 'Voir les messages cachés en attente de publication';
 $string['forum:viewqandawithoutposting'] = 'Toujours voir les questions/réponses';
-$string['forum:viewrating'] = 'Voir les évaluations que vous avez reçues';
+$string['forum:viewrating'] = 'Voir ses propres évaluations globales reçues';
 $string['forum:viewsubscribers'] = 'Voir les abonnés';
 $string['generalforum'] = 'Forum standard pour utilisation générale';
 $string['generalforums'] = 'Forums standards';

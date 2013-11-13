@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['activityoverview'] = 'Vous avez des {$a}s qui requièrent votre attention';
+$string['activityoverview'] = 'Vous avez des modules de type {$a} qui requièrent votre attention';
 $string['alwaysshowall'] = 'Toujours tout afficher';
 $string['collapseall'] = 'Replier toutes les listes de cours';
 $string['configotherexpanded'] = 'Si ce réglage est activé, la liste des autres cours sera dépliée par défaut, à moins que l\'utilisateur n\'ai explicitement choisi le contraire dans ses préférences.';

@@ -16,23 +16,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradereport_grader', language 'fr', branch 'MOODLE_25_STABLE'
+ * Strings for component 'format_singleactivity', language 'fr', branch 'MOODLE_25_STABLE'
  *
- * @package   gradereport_grader
+ * @package   format_singleactivity
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ajaxchoosescale'] = 'Choisir';
-$string['ajaxclicktoclose'] = 'Cliquer cette boîte pour retirer';
-$string['ajaxerror'] = 'Erreur';
-$string['ajaxfailedupdate'] = 'Impossible de modifier [1] vers [2]';
-$string['ajaxfieldchanged'] = 'Le champ que vous modifiez actuellement a été modifié. Voulez-vous utiliser la nouvelle valeur ?';
-$string['grader:manage'] = 'Gérer le rapport de l\'évaluateur';
-$string['grader:view'] = 'Consulter le rapport de l\'évaluateur';
-$string['pluginname'] = 'Rapport de l\'évaluateur';
-$string['preferences'] = 'Préférences du rapport de l\'évaluateur';
-$string['useractivityfeedback'] = 'Feedback {$a}';
-$string['useractivitygrade'] = 'Note {$a}';
+$string['activitytype'] = 'Type d\'activité';
+$string['activitytype_help'] = 'Le type d\'activité ou de ressource à utiliser dans ce cours';
+$string['defactivitytype'] = 'Type d\'activité par défaut';
+$string['defactivitytypedesc'] = 'Indiquez le type d\'activité qui sera sélectionné par défaut lors de la création d\'un nouveau cours';
+$string['erroractivitytype'] = 'Le type d\'activité n\'est pas défini dans les paramètres du cours';
+$string['errornotsetup'] = 'Ce cours n\'est pas encore configuré';
+$string['orphaned'] = 'Orphelin';
+$string['orphanedwarning'] = 'Ces activités ne sont pas accessibles par les utilisateurs !';
+$string['pluginname'] = 'Activité unique';
+$string['sectionname'] = '';

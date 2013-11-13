@@ -50,11 +50,11 @@ $string['componentsstandard'] = 'Standard';
 $string['confirmaction'] = 'Cette opération ne peut pas être annulée. Voulez-vous vraiment continuer ?';
 $string['contribaccept'] = 'Accepter';
 $string['contribactions'] = 'Actions sur les traductions proposées';
-$string['contribactions_help'] = 'Selon vos droits et le processus de contribution des traductions, les actions suivantes sont disponibles.
+$string['contribactions_help'] = 'Selon vos autorisations et le processus de contribution des traductions, les actions suivantes sont disponibles.
 
 * Appliquer : copier la traduction proposée dans votre chantier, sans modifier l\'état de la contribution ;
 * Attribuer à moi : vous désigner comme responsable de la contribution, c\'est-à-dire la personne chargée de l\'examen de la contribution et de son intégration ;
-* Renoncer : ne désigner personne comme responsable de la contribution ;
+* Retirer l\'attribution : ne désigner personne comme responsable de la contribution ;
 * Examiner : vous attribuer la nouvelle contribution, fixer son statut à « En cours d\'examen » et copier la traduction proposée dans votre chantier.
 * Accepter : marquer la contribution comme acceptée ;
 * Rejeter : marquer la contribution comme rejetée. Veuillez indiquer en commentaire la raison du rejet.
@@ -73,7 +73,7 @@ $string['contribincomingnone'] = 'Pas de contribution arrivée';
 $string['contribincomingsome'] = 'Contributions arrivées ({$a})';
 $string['contriblanguage'] = 'Langue';
 $string['contribreject'] = 'Rejeter';
-$string['contribresign'] = 'Renoncer';
+$string['contribresign'] = 'Retirer l\'attribution';
 $string['contribstaged'] = 'Contribution <a href="contrib.php?id={$a->id}">#{$a->id}</a> de {$a->author} copiée dans le chantier';
 $string['contribstagedinfo'] = 'Contribution copiée dans le chantier';
 $string['contribstagedinfo_help'] = 'Le chantier contient les chaînes proposées par un membre de la communauté. Le responsable du paquetage de langue est censé les examiner, puis changer le statut de la contribution en Acceptée (si elles ont été implantées) ou Rejetée (si elles n\'ont pas pu être incorporées dans le paquetage pour une raison ou une autre).';
@@ -139,8 +139,10 @@ $string['err_invalidlangcode'] = 'Code de langue non valide ';
 $string['err_parser'] = 'Erreur d\'analyse : {$a}';
 $string['filtercmp'] = 'Composants';
 $string['filtercmp_desc'] = 'Afficher les chaînes de ces composants';
+$string['filtercmpnothingselected'] = 'Veuillez sélectionner au moins un composant';
 $string['filterlng'] = 'Langues';
 $string['filterlng_desc'] = 'Afficher les traductions dans ces langues';
+$string['filterlngnothingselected'] = 'Veuillez sélectionner au moins une langue';
 $string['filtermis'] = 'Divers';
 $string['filtermis_desc'] = 'Conditions supplémentaires sur les chaînes à afficher';
 $string['filtermisfglo'] = 'seulement chaînes en liste grise';
@@ -157,6 +159,7 @@ $string['filtertxt_desc'] = 'La chaîne doit contenir le texte saisi';
 $string['filtertxtregex'] = 'regex';
 $string['filterver'] = 'Versions';
 $string['filterver_desc'] = 'Afficher les chaînes de ces versions de Moodle';
+$string['filtervernothingselected'] = 'Veuillez sélectionner au moins une version';
 $string['found'] = '{$a->found} chaînes &nbsp;&nbsp;&nbsp; Manquantes : {$a->missing} ({$a->missingonpage})';
 $string['foundinfo'] = 'Nombre de chaînes trouvées';
 $string['foundinfo_help'] = 'Affiche le nombre total des rangées de la table de traduction, le nombre de traductions manquantes et le nombre de traductions manquantes sur la page affichée. ';
@@ -334,6 +337,7 @@ Les responsables des paquetages de langue peuvent voir un petit symbole rouge da
 $string['typecontrib'] = 'Plugins non-standards';
 $string['typecore'] = 'Sous-systèmes centraux';
 $string['typestandard'] = 'Plugins standards';
+$string['unableenfixaddon'] = 'Les correctifs pour l\'anglais ne sont acceptés que pour les plugins standards';
 $string['unstage'] = 'Retirer du chantier ?';
 $string['unstageconfirm'] = 'Vraiment ?';
 $string['unstaging'] = 'Retrait du chantier';

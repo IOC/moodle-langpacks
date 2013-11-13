@@ -27,56 +27,20 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['choosereadme'] = '<div class="clearfix">
 <div class="well">
-<h2>
-Clean
-</h2>
-<p>
-<img class="img-polaroid" src="clean/pix/screenshot.jpg" />
-</p>
+<h2>Clean</h2>
+<p><img class="img-polaroid" src="clean/pix/screenshot.jpg" /></p>
 </div>
 <div class="well">
-<h3>
-À propos
-</h3>
-<p>
-Clean est un thème Bootstrap modifié pour Moodle qui hérite des styles et procédures de rendu (
-<i>
-renderers
-</i>
-) de son thème parent.
-</p>
-<h3>
-Parents
-</h3>
-<p>
-Ce thème se fonde sur le thème Bootstrap, qui a été créé pour Moodle 2.5, avec l\'aide de<br />Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.
-</p>
-<h3>
-Crédits
-</h3>
-<p>
-Auteurs : Bas Brands, David Scotson, Mary Evans<br />Contact : bas@sonsbeekmedia.nl<br />Site web :
-<a href="http://www.basbrands.nl">
-www.basbrands.nl
-</a>
-</p>
-<h3>
-Annoncer un bogue
-</h3>
-<p>
-<a href="http://tracker.moodle.org">
-http://tracker.moodle.org
-</a>
-</p>
-<h3>
-PLus d\'information
-</h3>
-<p>
-<a href="clean/README.txt">
-Comment copier et personnaliser ce thème
-</a>
-(en anglais).
-</p>
+<h3>À propos</h3>
+<p>Clean est un thème Bootstrap modifié pour Moodle qui hérite des styles et procédures de rendu (<i>renderers</i>) de son thème parent.</p>
+<h3>Parents</h3>
+<p>Ce thème se fonde sur le thème Bootstrap, qui a été créé pour Moodle 2.5, avec l\'aide de<br />Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
+<h3>Crédits</h3>
+<p>Auteurs : Bas Brands, David Scotson, Mary Evans<br />Contact : bas@sonsbeekmedia.nl<br />Site web : <a href="http://www.basbrands.nl">www.basbrands.nl</a></p>
+<h3>Annoncer un bogue</h3>
+<p><a href="http://tracker.moodle.org">http://tracker.moodle.org</a></p>
+<h3>Plus d\'information</h3>
+<p><a href="clean/README.txt">Comment copier et personnaliser ce thème</a> (en anglais).</p>
 </div>
 </div>';
 $string['configtitle'] = 'Clean';

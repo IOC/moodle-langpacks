@@ -263,9 +263,9 @@ $string['glossarytype_help'] = '<!-- Version: $Id$ -->
 
 <p>Avant Moodle 1.7, seuls les enseignants peuvaient modifier un glossaire principal. À partir de la version 1.7 de Moodle, si vous voulez contrôler qui a le droit de modifier un glossaire (y compris le glossaire principal), vous devez utiliser le mécanisme de dérogation aux rôles.</p>';
 $string['glossary:view'] = 'Voir les glossaires';
-$string['glossary:viewallratings'] = 'Afficher toutes les évaluations brutes';
-$string['glossary:viewanyrating'] = 'Afficher les évaluations totales reçues';
-$string['glossary:viewrating'] = 'Voir les évaluations que vous avez reçues';
+$string['glossary:viewallratings'] = 'Voir toutes les évaluations brutes données par des participants';
+$string['glossary:viewanyrating'] = 'Voir toutes les évaluations globales';
+$string['glossary:viewrating'] = 'Voir sa propre évaluation globale reçue';
 $string['glossary:write'] = 'Créer des articles';
 $string['guestnoedit'] = 'Les visiteurs anonymes ne sont pas autorisés à modifier les glossaires';
 $string['importcategories'] = 'Importer les catégories';
