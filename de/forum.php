@@ -410,7 +410,7 @@ $string['tracking'] = 'Markieren?';
 $string['trackingoff'] = 'Aus';
 $string['trackingon'] = 'An';
 $string['trackingoptional'] = 'Optional';
-$string['trackingtype'] = 'Lesemarkierung';
+$string['trackingtype'] = 'Lesetracking';
 $string['trackingtype_help'] = 'Wenn diese Option aktiviert ist, sehen Teilnehmer/innen gelesene und ungelesene Beiträge unterschiedlich markiert im Forum.
 
 Es stehen drei Optionen zur Verfügung:

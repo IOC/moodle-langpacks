@@ -253,4 +253,5 @@ $string['storageexternalonly'] = 'Angegebenes Verzeichnis für automatisierte Si
 $string['title'] = 'Titel';
 $string['totalcategorysearchresults'] = 'Kategorien gesamt: {$a}';
 $string['totalcoursesearchresults'] = 'Kurse gesamt: {$a}';
+$string['unnamedsection'] = 'Unbenannter Abschnitt';
 $string['userinfo'] = 'Nutzerinfo';

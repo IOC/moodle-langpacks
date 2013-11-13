@@ -149,6 +149,7 @@ $string['gradebelowzero'] = 'Bewertung muss größer oder gleich Null sein.';
 $string['graded'] = 'Bewertet';
 $string['gradedby'] = 'Bewertet von';
 $string['gradedon'] = 'Bewertet am';
+$string['gradelocked'] = 'Diese Bewertung ist gesperrt oder wurde im Bewertungsbereich überschrieben.';
 $string['gradeoutof'] = 'Bewertung (max. {$a})';
 $string['gradeoutofhelp'] = 'Bewertung';
 $string['gradeoutofhelp_help'] = 'Geben Sie hier die Bewertung für die Aufgabenlösung ein. Es können Dezimalwerte eingetragen werden.';
@@ -242,8 +243,8 @@ $string['requiresubmissionstatement'] = 'Erklärung zur Eigenständigkeit muss b
 $string['requiresubmissionstatementassignment'] = 'Erklärung zur Eigenständigkeit muss bestätigt werden';
 $string['requiresubmissionstatementassignment_help'] = 'Diese Option legt fest, dass die Erklärung zur Eigenständigkeit bei der Abgabe von Lösungen bestätigt werden muss.';
 $string['requiresubmissionstatement_help'] = 'Diese Option legt fest, dass die Erklärung zur Eigenständigkeit bei der Abgabe von Lösungen in allen Kursen der Website bestätigt werden muss. Wenn die Option nicht aktiviert ist, kann für jede einzelne Aufgabe festgelegt werden, ob diese Erklärung verlangt wird.';
-$string['revealidentities'] = 'Identität der Teilnehmenden verbergen.';
-$string['revealidentitiesconfirm'] = 'Sind Sie sicher, dass die Identität der Teilnehmenden für diese Aufgabe verborgen werden soll? Die Einstellung kann nicht zurückgesetzt werden. Wenn die Identität der Teilnehmenden verborgen wurden, werden die Bewertungen nur in der Bewertungsübersicht sichtbar.';
+$string['revealidentities'] = 'Identität der Teilnehmenden verbergen';
+$string['revealidentitiesconfirm'] = 'Sind Sie sicher, dass die Identität der Teilnehmenden für diese Aufgabe aufgedeckt werden soll? Die Einstellung kann nicht zurückgesetzt werden. Wenn die Identität der Teilnehmenden aufgedeckt wurde, werden die Bewertungen in der Bewertungsübersicht angezeigt.';
 $string['reverttodraft'] = 'Abgabe in den Entwurfsmodus zurücksetzen';
 $string['reverttodraftforstudent'] = 'Den Status der Lösung auf Entwurf zurücksetzen für (id={$a->id}, fullname={$a->fullname}). Danach ist eine Bearbeitung wieder möglich.';
 $string['reverttodraftshort'] = 'Abgabe in den Entwurfsmodus zurücksetzen';
@@ -264,6 +265,8 @@ $string['sendsubmissionreceipts_help'] = 'Diese Option aktiviert Abgabestätigun
 $string['settings'] = 'Aufgabeneinstellungen';
 $string['showrecentsubmissions'] = 'Neue Abgaben anzeigen';
 $string['submission'] = 'Abgabe';
+$string['submissioncopiedhtml'] = 'Sie haben eine Kopie der früheren Lösung für die Aufgabe \'<i>{$a->assignment} erstellt</i>\'<br /><br />.
+Dies ist der Status  <a href="{$a->url}"> für Ihre Aufgabenlösung</a>.';
 $string['submissioncopiedsmall'] = 'Sie haben Ihre bisherige Aufgabenlösung für {$a->assignment} kopiert.';
 $string['submissioncopiedtext'] = 'Sie haben Ihre bisherige Aufgabenlösung für {$a->assignment} kopiert.
 

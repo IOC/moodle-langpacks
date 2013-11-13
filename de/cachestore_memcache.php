@@ -25,4 +25,20 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['pluginname'] = 'Memcache';
+$string['prefix'] = 'Key Prefix';
+$string['prefix_help'] = 'Der Prefix wird für alle Schlüsselbezeichnungen des MemCache-Servers genutzt.
+* Wenn Sie nur eine Moodle-Instanz auf dem Server betreiben kann der Standardwert bestehen bleiben.
+* Die Länge ist auf 5 Zeichen beschränkt.';
+$string['prefixinvalid'] = 'Ungültiger Schlüssel. Verwenden Sie nur a-z A-Z o-9 -_.';
 $string['servers'] = 'Server';
+$string['servers_help'] = 'Hiermit definieren Sie den/die Server für den Memcache Adapter. Schreiben Sie einen Server pro Zeile. Tragen Sie die Serveradresse, den Port (optonal) und die Gewichtung ein  Wird kein Port eingetragen wird als Standard der Port 11211 verwendet.
+
+Zum Beispiel:
+<pre>
+server.url.com
+ipaddress:port
+servername:port:weight
+</pre>';
+$string['testservers'] = 'Testserver';
+$string['testservers_desc'] = 'Testserver werden für Unit-Tests und Performace-Tests verwandt. Es ist gänzlich optional Testserver zu verwenden. Schreiben Sie einen Server pro Zeile. Tragen Sie die Serveradresse, den Port (optonal) und die Gewichtung ein  Wird kein Port eingetragen wird als Standard der Port 11211 verwendet.';

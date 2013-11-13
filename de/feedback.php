@@ -92,7 +92,7 @@ Das war schon alles. Viel Erfolg!';
 $string['dependitem'] = 'Abhängiges Element';
 $string['dependvalue'] = 'Abhängiger Wert';
 $string['description'] = 'Beschreibung';
-$string['do_not_analyse_empty_submits'] = 'Leere Abgaben nicht berücksichtigen';
+$string['do_not_analyse_empty_submits'] = 'Leere Abgaben ignorieren';
 $string['dropdown'] = 'Einzelne Antwort - Dropdown';
 $string['dropdownlist'] = 'Einzelne Antwort - Dropdown';
 $string['dropdownrated'] = 'Dropdown (skaliert)';
@@ -101,7 +101,7 @@ $string['drop_feedback'] = 'Aus diesem Kurs entfernen';
 $string['edit_item'] = 'Element bearbeiten';
 $string['edit_items'] = 'Elemente bearbeiten';
 $string['email_notification'] = 'E-Mail-Mitteilungen senden';
-$string['email_notification_help'] = 'Wenn diese Option aktiviert ist, bekommen die Admins eine E-Mail-Mitteilung der Feedback-Abgaben.';
+$string['email_notification_help'] = 'Wenn diese Option aktiviert ist, bekommen die Trainer/innen bei Feedback-Abgaben eine Mitteilung.';
 $string['emailteachermail'] = '{$a->username} hat das Feedback \'{$a->feedback}\' abgeschlossen.
 
 Sie können es hier anschauen:

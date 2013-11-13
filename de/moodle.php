@@ -187,6 +187,7 @@ $string['backuploglaststatus'] = 'Letztes Sicherungsprotokoll';
 $string['backupmissinguserinfoperms'] = 'Hinweis: Diese Kurssicherung enthält keine Nutzerdaten. Die Aktivitäten \'Übung\' und \'Workshop\' werden nicht gesichert, weil diese Module nicht kompatibel mit dem Sicherungstyp sind.';
 $string['backupnext'] = 'Nächste Sicherung';
 $string['backupnonisowarning'] = 'Warnung: Diese Sicherung ist mit einer Nicht-Unicode-Version von Moodle (älter als 1.6) erstellt worden. Falls diese Sicherung Nicht-ISO-8859-1-Texte enthält, können diese Texte bei der Wiederherstellung in dieser Unicode-Version von Moodle zerstört werden. Siehe <a href="http://docs.moodle.org/en/Backup_FAQ">Backup FAQ</a> für weitere Informationen, wie die Sicherung in diesem Fall korrekt wiederhergestellt werden kann.';
+$string['backupnotyetrun'] = 'Anstehende automatische Sicherung';
 $string['backuporiginalname'] = 'Name der Sicherung';
 $string['backuproleassignments'] = 'Sicherung der Zuordnungen für diese Rollen';
 $string['backupsavetohelp'] = 'Vollständiger Verzeichnispfad, in dem die Sicherungsdateien abgelegt werden sollen <br />(leer lassen, um im Verzeichnis \'backup\' des jeweiligen Kurses zu speichern)';
@@ -1076,7 +1077,7 @@ $string['movecourseto'] = 'Kurs verschieben nach:';
 $string['movedown'] = 'Nach unten verschieben';
 $string['movefilestohere'] = 'Dateien hierhin verschieben';
 $string['movefull'] = '{$a} an diese Stelle verschieben';
-$string['movehere'] = 'Hierhin verschieben';
+$string['movehere'] = 'Hierher verschieben';
 $string['moveleft'] = 'Nach links verschieben';
 $string['moveright'] = 'Nach rechts verschieben';
 $string['movesection'] = 'Bereich {$a} verschieben';
@@ -1238,6 +1239,7 @@ $string['options'] = 'Optionen';
 $string['order'] = 'Reihenfolge';
 $string['originalpath'] = 'Originalpfad';
 $string['orphanedactivities'] = 'Verborgene Aktivitäten';
+$string['orphanedactivitiesinsectionno'] = 'Verwaiste Aktivitäten (Abschnitt {$a})';
 $string['other'] = 'Sonstige';
 $string['outline'] = 'Überblick';
 $string['outlinereport'] = 'Zusammenfassung';
@@ -1427,7 +1429,7 @@ $string['rsskeyshelp'] = '<p>Um Datenschutz und Sicherheit zu gewährleisten, we
 $string['rsstype'] = 'RSS-Feeds für diese Aktivität';
 $string['saveandnext'] = 'Speichern und nächste anzeigen';
 $string['savechanges'] = 'Änderungen speichern';
-$string['savechangesanddisplay'] = 'Speichern und Vorschau';
+$string['savechangesanddisplay'] = 'Speichern und anzeigen';
 $string['savechangesandreturntocourse'] = 'Speichern und zum Kurs';
 $string['savecomment'] = 'Kommentar speichern';
 $string['savedat'] = 'Gesichert unter:';
@@ -1574,7 +1576,7 @@ $string['sitepartlist'] = 'Sie besitzen nicht die notwendigen Rechte, um die Tei
 $string['sitepartlist0'] = 'Sie müssen Trainerrechte für die Startseite besitzen, um die vollständige Nutzerliste der Website sehen zu können.';
 $string['sitepartlist1'] = 'Sie müssen Trainerrechte besitzen, um die vollständige Nutzerliste der Website sehen zu können.';
 $string['sites'] = 'Seiten';
-$string['sitesection'] = 'Themenabschnitt einbeziehen';
+$string['sitesection'] = 'Textabschnitt einbeziehen';
 $string['sitesettings'] = 'Einstellungen der Website';
 $string['siteteachers'] = 'Trainer/innen für die Website';
 $string['size'] = 'Größe';
@@ -1652,15 +1654,8 @@ $string['subcategories'] = 'Kursunterbereiche';
 $string['submit'] = 'Speichern';
 $string['success'] = 'erfolgreich';
 $string['summary'] = 'Beschreibung';
-$string['summary_help'] = '<h2>Themen-/Wochenzusammenfassungen</h2>
-<p>Die Themenzusammenfassung sollte aus einem sehr
-kurzen Text bestehen, der die Kursteilnehmer/innen auf die Tätigkeiten
-innerhalb dieses Themas (oder der Woche) vorbereitet.</p>
-<p>Die Zusammenfassung sollte sehr kurz sein, damit die
-Kursseite nicht zu lang wird.</p>
-<p>Wenn Sie meinen, mehr sagen zu müssen als ein, zwei
-Sätze, dann fügen Sie stattdessen eine Arbeitsunterlage zu diesem
-Thema bei.</p>';
+$string['summary_help'] = '<p>Die Zusammenfassung sollte aus einem kurzen Text bestehen, der die Teilnehmer/innen auf die Aufgaben innerhalb des Themas (oder der Woche) vorbereitet. Der Text wird in der Kursübersicht direkt unter dem Abschnittsnamen angezeigt.</p>
+<p>Falls Sie mehr als ein oder zwei Sätze schreiben möchten, fügen Sie stattdessen eine Arbeitsunterlage zu diesem Thema bei.</p>';
 $string['summaryof'] = 'Beschreibung von {$a}';
 $string['supplyinfo'] = 'Weitere Angaben';
 $string['suspended'] = 'gesperrt';
@@ -1699,7 +1694,7 @@ $string['toomanytoshow'] = 'Zu viele Nutzer/innen, um alle anzuzeigen';
 $string['toomanyusersmatchsearch'] = 'Zu viele Nutzer/innen ({$a->count}) passen zu \'{$a->search}\'';
 $string['toomanyuserstoshow'] = 'Zu viele Nutzer/innen ({$a}), um alle anzuzeigen';
 $string['toonly'] = 'Nur für {$a}';
-$string['top'] = 'Oben';
+$string['top'] = 'Oberste Ebene (top level)';
 $string['topic'] = 'Thema';
 $string['topichide'] = 'Dieses Thema vor {$a} verbergen';
 $string['topicoutline'] = 'Themen dieses Kurses';
@@ -1783,7 +1778,7 @@ $string['userselectorautoselectunique'] = 'Wenn nur ein/e Nutzer/in zur Suche pa
 $string['userselectorpreserveselected'] = 'Verwerfe ausgewählte Nutzer/innen, wenn sie nicht mehr zur Suche passen.';
 $string['userselectorsearchanywhere'] = 'Suchtext in den angezeigten Feldern finden';
 $string['usersnew'] = 'Neue Nutzer/innen';
-$string['usersnoaccesssince'] = 'Nutzer/innen anzeigen, deren Inaktivität länger dauert als';
+$string['usersnoaccesssince'] = 'Inaktivität länger als';
 $string['userswithfiles'] = 'Nutzer/innen mit Dateien';
 $string['useruploadtype'] = 'Art des Nutzeruploads';
 $string['userviewingsettings'] = 'Profil von {$a}';

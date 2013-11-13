@@ -28,8 +28,11 @@ defined('MOODLE_INTERNAL') || die();
 $string['apikey'] = 'API-Key';
 $string['boxnet:view'] = 'Box.net Dateiverwaltung anzeigen';
 $string['callbackurl'] = 'Weiterleitungs-URL';
-$string['callbackurltext'] = '<ol> <li>Besuchen Sie die <a href="http://www.box.net/developers/services">Box.net Entwicklerseite</a> erneut.</li> <li>Tragen Sie als Callback URL für diesen box.net Service<strong>{$a}</strong> ein.</li></ol>';
-$string['callbackwarning'] = '<ol> <li>Fordern Sie die <a href="http://www.box.net/developers/services">box.net API</a> from box.net für dieses Moodle-System an.</li> <li>tragen sie den box.net Api-Schlüssel hier ein und klicken Sie auf speichern. Kommen Sie dann auf diese Seite zurück. Moodle hat dann die Callback URl angelegt.</li><li>Bearbeiten Sie die box.net Details auf der box.net Webseite erneut und tragen Sie die Callback URL dort ein.</li></ol>';
+$string['callbackurltext'] = '1. Besuchen Sie die <a href="http://www.box.net/developers/services">Box.net Entwicklerseite</a> erneut.
+2. Tragen Sie die Redirect-URL for den box.net Service ein {$a}';
+$string['callbackwarning'] = '1. Fordern Sie die <a href="http://www.box.net/developers/services">box.net API</a> from box.net für dieses Moodle-System an.
+2. Tragen Sie den box.net Api-Schlüssel hier ein und klicken Sie auf speichern. Kommen Sie dann auf diese Seite zurück. Moodle hat dann die Redirect URl angelegt.
+3. Bearbeiten Sie die box.net Details auf der box.net Webseite erneut und tragen Sie die Redirect URL dort ein.';
 $string['configplugin'] = 'Einstellungen für Box.net';
 $string['information'] = 'Die erhalten Ihren API-Schlüssel von: <a href="http://www.box.net/developers/services">box.net Developers</a>';
 $string['invalidpassword'] = 'Ungültiges Passwort';

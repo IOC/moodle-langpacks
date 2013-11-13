@@ -62,7 +62,7 @@ $string['groupkey_help'] = 'Ergänzend zum Einschreibeschlüssel für die Kursei
 Um Einschreibeschlüssel für Gruppen verwenden zu können, muss zusätzlich ein Einschreibeschlüssel für den Kurs vergeben sein, den aber niemand kennen muss.';
 $string['longtimenosee'] = 'Inaktive abmelden
 ';
-$string['longtimenosee_help'] = 'Wenn Personen lange Zeit nicht mehr auf einen Kurs zugegriffen haben, werden sie automatisch abgemeldet. Dieser Parameter legt die maximale Inaktivitätsdauer fest.';
+$string['longtimenosee_help'] = 'Wenn Personen lange Zeit nicht mehr auf einen Kurs zugreifen, werden sie automatisch abgemeldet. Dieser Parameter legt die maximale Inaktivitätsdauer fest.';
 $string['maxenrolled'] = 'Einschreibungen (max.)';
 $string['maxenrolled_help'] = 'Diese Option legt die Maximalzahl möglicher Nutzer/innen mit Selbsteinschreibung fest. (0= unbeschränkt)';
 $string['maxenrolledreached'] = 'Die maximale Anzahl der erlaubten Nutzer/innen mit Selbsteinschreibung ist bereits erreicht.

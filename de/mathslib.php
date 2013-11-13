@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['anunexpectederroroccured'] = 'Unerwarteter Fehler aufgetreten';
+$string['anunexpectederroroccured'] = 'ein unerwarteter Fehler ist aufgetreten';
 $string['cannotassigntoconstant'] = 'Zuweisung zur Konstante \'{$a}\' nicht möglich';
 $string['cannotredefinebuiltinfunction'] = 'Neudefinition der eingebauten Funktion \'{$a}()\' nicht möglich';
 $string['divisionbyzero'] = 'Division durch Null';

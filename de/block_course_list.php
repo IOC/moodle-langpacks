@@ -31,6 +31,6 @@ $string['configadminview'] = 'Was soll dem Administrator im Kursblock angezeigt 
 $string['confighideallcourseslink'] = 'Wenn diese Option aktiviert ist, wird der Link \'Alle Kurse\' am Ende der Kursliste entfernt (außer für Administrator/innen).';
 $string['course_list:addinstance'] = 'Block \'Kurse\' hinzufügen';
 $string['course_list:myaddinstance'] = 'Block \'Kurse\' für \'Meine Startseite\' hinzufügen';
-$string['hideallcourseslink'] = '\'Alle Kurse\' verbergen';
+$string['hideallcourseslink'] = 'Link \'Alle Kurse\' verbergen';
 $string['owncourses'] = 'Administrator sieht nur eigene Kurse';
 $string['pluginname'] = 'Kurse';

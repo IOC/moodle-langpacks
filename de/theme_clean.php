@@ -47,14 +47,14 @@ Website: <a href="http://www.basbrands.nl">www.basbrands.nl</a>
 </div>';
 $string['configtitle'] = 'Clean';
 $string['customcss'] = 'Eigenes CSS';
-$string['customcssdesc'] = 'Alle CSS-Anweisungen in diesem Feld werden auf jeder Seite benutzt. Das Design kann so einfach an eigene Bedürfnisse angepasst werden. Wenn Sie z.B. die Farbe der Links ändern möchten, geben Sie folgenden Code ein:
+$string['customcssdesc'] = 'Die CSS-Anweisungen in diesem Feld werden auf jeder Seite benutzt. Das Design kann so einfach an eigene Bedürfnisse angepasst werden. Wenn Sie z.B. die Farbe der Links ändern möchten, geben Sie folgenden Code ein:
 <pre>a:link, a:visited, a:hover, a:active, a:focus {color:blue;}</pre>';
 $string['footnote'] = 'Fußzeile';
 $string['footnotedesc'] = 'Der Inhalt dieses Feldes wird auf jeder Seite als Fußzeile angezeigt.';
 $string['invert'] = 'Navigationsleiste invertieren';
 $string['invertdesc'] = 'Diese Option invertiert die Farben in der Navigationsleiste. Die Hintergrundfarbe wird schwarz, die Textfarbe wird grau.';
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'Laden Sie Ihr eigenes Logo für den Kopfbereich hoch. Die Standardhöhe des Logos ist 75px. Falls die Höhe des gewählten Logos vom Standard abweicht, fügen Sie folgende CSS-Anweisung mit der richtigen Höhe des Logos im Textfeld \'Eigenes CSS\' ein:
+$string['logodesc'] = 'Laden Sie Ihr eigenes Logo für den Kopfbereich hoch. Falls die Höhe Ihres Logos größer als 75 Pixel beträgt, fügen Sie folgende CSS-Anweisung mit der richtigen Höhe des Logos im Textfeld \'Eigenes CSS\' ein:
 <pre>a.logo {height: 100px;}</pre>';
 $string['pluginname'] = 'Clean';
 $string['region-side-post'] = 'Rechts';

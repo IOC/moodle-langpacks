@@ -26,8 +26,19 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['database'] = 'Datenbank';
+$string['database_help'] = 'Name der Datenbank, die verwandt wird';
+$string['extendedmode'] = 'Erweiterte Schlüssel verwenden';
 $string['password'] = 'Kennwort';
+$string['password_help'] = 'Nutzerpasswort für diese Verbindung.';
 $string['pluginname'] = 'MongoDB';
+$string['replicaset'] = 'Replica Set';
 $string['server'] = 'Server';
+$string['server_help'] = 'Dies ist der Verbindungsstring zum Server, den Sie verwenden wollen. Mehrere Server können durch Eintrag einer Komma-separierten Liste eingetragen werden.';
 $string['testserver'] = 'Testserver';
+$string['testserver_desc'] = 'Dies ist der Verbindungsstring zu einem Testserver, den Sie verwenden wollen. Testserver sind gänzlich optional. Durch Festlegung eines Testservers könen Sie PHPunit Tests für diesen Speicher und Performance-Tests durchführen.';
 $string['username'] = 'Nutzername';
+$string['username_help'] = 'Der Anmeldename wird benutzt, wenn eine Verbindung hergestellt wird.';
+$string['usesafe'] = 'Sichere Verbindung benutzen';
+$string['usesafe_help'] = 'Nach der Aktivierung wird die usesafe-Option für insert, get und remove Operationen verwandt. Wenn Sie eine Replica Set definiert haben, wird dies in jedem Fall erzwungen.';
+$string['usesafevalue'] = 'Sicheren Wert benutzen';
+$string['usesafevalue_help'] = 'Sie können für die sichere Verwendung einen spezifischen Wert festsetzen.  Dieser bestimmt die Zahl der Server, deren Operationen abgeschlossen sein müssen, bevor ein Abschluss angenommen wird.';

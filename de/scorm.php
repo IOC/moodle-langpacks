@@ -94,12 +94,12 @@ $string['directories'] = 'Verzeichnislinks anzeigen';
 $string['disabled'] = 'Deaktiviert';
 $string['display'] = 'Lernpaket anzeigen';
 $string['displayattemptstatus'] = 'Status der Versuche anzeigen';
-$string['displayattemptstatusdesc'] = 'Diese Einstellung setzt den Standardwert für die Einstellung "Status der Versuche anzeigen"';
+$string['displayattemptstatusdesc'] = 'Ob eine Zusammenfassung der Versuche des Nutzers im Kursübersichtsblock auf der My-Seite und oder der Lernpaket-Startseite gezeigt werden soll.';
 $string['displayattemptstatus_help'] = 'Diese Option erlaubt die Anzeige einer Zusammenfassung der Versuche in der Kursübersicht und/oder auf der Eingangsseite des Lernpakets.';
-$string['displaycoursestructure'] = 'Kursstruktur anzeigen';
-$string['displaycoursestructuredesc'] = 'Diese Option setzt den Standardwert für Einstellung "Kursstruktur anzeigen" auf der Startseite';
-$string['displaycoursestructure_help'] = 'Wenn diese Option aktiviert ist, wird die Inhaltsstruktur des Lernpakets neben dem Inhalt angezeigt.';
-$string['displaydesc'] = 'Diese Einstellung setzt den Standardwert für die Einstellung ob ein Lernpaket für eine Aktivität angezeigt werden soll oder nicht.';
+$string['displaycoursestructure'] = 'Kursstruktur auf Einstiegsseite anzeigen';
+$string['displaycoursestructuredesc'] = 'Wenn diese Option aktiviert ist, wir die Inhaltsstruktur auf der Einstiegsseite angezeigt.';
+$string['displaycoursestructure_help'] = 'Wenn diese Option aktiviert ist, wird die Inhaltsstruktur des Lernpakets auf der Einstiegsseite angezeigt.';
+$string['displaydesc'] = 'Ob das Lernpaket in einem neuen Fenster gezeigt werden soll.';
 $string['displaysettings'] = 'Anzeigeeinstellungen';
 $string['dnduploadscorm'] = 'Lernpaket hinzufügen';
 $string['domxml'] = 'DOMXML externe Bibliothek';
@@ -123,12 +123,12 @@ $string['firstaccess'] = 'Erster Zugang';
 $string['firstattempt'] = 'Erster Versuch';
 $string['forcecompleted'] = 'Abschluss einfordern';
 $string['forcecompleteddesc'] = 'Diese Einstellung setzt den Standardwert für die Einstellung "Abschluss einfordern"';
-$string['forcecompleted_help'] = 'Mit dieser Einstellung \'Abschluss einfordern\' wird sicher gestellt, dass ein Versuch als \'abgeschlossen\' registriert wird. Dies funktioniert nur mit SCORM 1.2. Die Option sollte aktiviert werden, falls das Lernpaket den wiederholten Aufruf (im Modus Wiederholen oder Durchblättern) nicht richtig verarbeitet. Andernfalls erhalten Sie falsche Angaben zum Status \'Abgeschlossen\'.';
+$string['forcecompleted_help'] = 'Mit dieser Einstellung \'Abschluss einfordern\' wird sicher gestellt, dass ein Versuch als \'abgeschlossen\' registriert wird. Dies funktioniert nur mit SCORM 1.2.';
 $string['forcejavascript'] = 'Zur Aktivierung von JavaScript auffordern';
-$string['forcejavascript_desc'] = 'Lernpakete erfordern JavaScript zur Kommunikation zwischen dem Lernpaket und Moodle, z.B. um Bewertungen zu übergeben. Mit dieser Funktion wird der Zugriff auf ein Lernpaket unterbunden, wenn JavaScript im Browser nicht verfügbar ist. Es wird empfohlen, diese Funktion zu aktivieren.';
+$string['forcejavascript_desc'] = 'Lernpakete erfordern JavaScript zur Kommunikation zwischen dem Lernpaket und Moodle, z.B. um Bewertungen zu übergeben. Mit dieser Funktion wird der Zugriff auf ein Lernpaket lesend möglich, wenn JavaScript im Browser nicht verfügbar ist. Es werden jedoch keine Bewertungen abgespeichert. Es wird empfohlen, diese Funktion zu aktivieren.';
 $string['forcejavascriptmessage'] = 'Um dieses Objekt anzuzeigen ist JavaScript notwendig. Bitte aktivieren Sie JavaScript für Ihren Browser und versuchen Sie es nochmal.';
 $string['forcenewattempt'] = 'Neuen Versuch erzwingen';
-$string['forcenewattemptdesc'] = 'Diese Einstellung setzt den Standardwert für die Einstellung "Neuen Versuch erzwingen"';
+$string['forcenewattemptdesc'] = 'Wenn aktiviert, wird jeder Zugriff auf das Lernpaket als neuer Versuch betrachtet.';
 $string['forcenewattempt_help'] = '<h2>Neuen Versuch erzwingen</h2>
 
 <p>Jeder neue Aufruf des Lernpakets wird als neuer Versuch betrachtet. Auch wenn der vorherige Versuch nicht abgeschlossen wurde.</p>';
@@ -155,15 +155,15 @@ $string['gradesum'] = 'Summe der Bewertungen';
 $string['height'] = 'Höhe';
 $string['hidden'] = 'Verborgen';
 $string['hidebrowse'] = 'Vorschau deaktivieren';
-$string['hidebrowsedesc'] = 'Diese Einstellung legt fest, ob eine Vorschau angezeigt wird oder nicht.';
+$string['hidebrowsedesc'] = 'Diese Einstellung legt fest, ob eine Vorschau möglich ist bevor ein Versuch gestartet wird.';
 $string['hidebrowse_help'] = 'Der Vorschaumodus erlaubt es, eine Aktivität von dem Abgeben noch einmal anzusehen. Wenn die Vorschau deaktiviert ist, wird die Taste \'Vorschau\' nicht angezeigt.';
 $string['hideexit'] = 'Taste \'Beenden\' verbergen';
 $string['hidenav'] = 'Navigationstasten verbergen';
 $string['hidenavdesc'] = 'Diese Einstellung legt fest, ob Navigationstasten angezeigt werden oder nicht';
 $string['hidereview'] = 'Taste \'Wiederholen\' verbergen';
-$string['hidetoc'] = 'Kursstruktur anzeigen';
-$string['hidetocdesc'] = 'Diese Einstellung bestimmt, ob die Kursstruktur (Inhaltsverzeichnis) angezeigt wird oder nicht';
-$string['hidetoc_help'] = 'Diese EInstellung legt fest, wie das Inhaltsverzeichnis im SCORM-Player angezeigt wird.';
+$string['hidetoc'] = 'Kursstruktur im Lernpaket anzeigen';
+$string['hidetocdesc'] = 'Diese Einstellung legt fest, wie die Kursstruktur im Lernpaket angezeigt wird.';
+$string['hidetoc_help'] = 'Diese Einstellung legt fest, wie die Kursstruktur im Lernpaket angezeigt wird.';
 $string['highestattempt'] = 'Bester Versuch';
 $string['identifier'] = 'Fragen-ID';
 $string['incomplete'] = 'Unvollständig';
@@ -171,15 +171,15 @@ $string['info'] = 'Info';
 $string['interactions'] = 'Interaktionen';
 $string['interactionscorrectcount'] = 'Zahl der richtigen Antworten für die Frage';
 $string['interactionsid'] = 'ID des Elements';
-$string['interactionslatency'] = 'Verstrichene Zeit zwischen der Anzeige der Seite<br />und der ersten Beantwortung durch den Teilnehmer.';
+$string['interactionslatency'] = 'Verstrichene Zeit zwischen der Anzeige der Seite und der ersten Beantwortung durch den Teilnehmer.';
 $string['interactionslearnerresponse'] = 'Teilnehmerantwort';
 $string['interactionspattern'] = 'Muster für richtige Antwort';
 $string['interactionsresponse'] = 'Teilnehmerantwort';
 $string['interactionsresult'] = 'Ergebnis auf Grundlage der Teilnehmerantwort <br />und dem richtigen Ergebnis';
 $string['interactionsscoremax'] = 'Höchstwert für den Rohwert der Bewertung';
 $string['interactionsscoremin'] = 'Mindestwert für den Rohwert zur Bewertung';
-$string['interactionsscoreraw'] = 'Die Zahl stellt die Leistung eines Lerners <br />auf einer Skala dar.';
-$string['interactionssuspenddata'] = 'Platz zum Speichern und Wiederfinden von Daten<br />zwischen den Sessions der Teilnehmer';
+$string['interactionsscoreraw'] = 'Die Zahl stellt die Leistung eines Lerners im Vergleich mit anderen auf einer Skala dar.';
+$string['interactionssuspenddata'] = 'Zeitraum zum Speichern und Wiederfinden von Daten zwischen den Sessions der Teilnehmer';
 $string['interactionstime'] = 'Zeitpunkt zu dem Versuch gestartet wurde';
 $string['interactionstype'] = 'Fragetyp';
 $string['interactionsweight'] = 'Gewichtung des Elements';
@@ -334,12 +334,14 @@ $string['versionwarning'] = 'Die Version der Liste ist älter als 1.3, Warnung b
 $string['viewallreports'] = 'Bericht für {$a} Versuch/e anzeigen';
 $string['viewalluserreports'] = 'Berichte für {$a} Nutzer anzeigen';
 $string['whatgrade'] = 'Bewertung der Versuche';
-$string['whatgradedesc'] = 'Diese Einstellung setzt den Standardwert für die Bewertung der Versuche';
-$string['whatgrade_help'] = 'Bei mehreren Versuchen legt diese Einstellung den Einfluss der Ergebnisse auf die Bewertung fest (z.B. beste Bewertung, erste oder letzte Bewertung oder Durchschnittswert).
-Die Option \'letzte Bewertung\' lässt fehlgeschlagene Versuche berücksichtigt.
+$string['whatgradedesc'] = 'Diese Einstellung setzt den Standardwert für die Bewertung der Versuche. Es kann der höchste, durchschnittliche, erste oder letzte Versuch festgelegt werden.';
+$string['whatgrade_help'] = 'Bei mehreren Versuchen legt diese Einstellung fest, welcher Versuch bewertet wird (z.B. beste Bewertung, erste oder letzte Bewertung oder Durchschnittswert).
+Die Option \'letzte Bewertung\' lässt fehlgeschlagene Versuche unberücksichtigt.
+
+Hinweise zur Nutzung mehrfacher Versuche:
 
 * Die Option zum Starten eines neuen Versuchs wird mit einer Checkbox auf der Übersichtsseite angezeigt. Prüfen Sie, ob Sie mehr als einen Versuch zulassen möchten.
 * Einige Lernpakete unterstützen erneute Versuchen, viele aber nicht. Wenn Teilnehmer/innen erneut in einen bereits beendeten Versuch einsteigen, könnte die Bewertung des vorherigen Versuchs überschrieben werden, selbst wenn der Versuch als \'abgeschlossen\' oder \'erfolgreich\' markiert war.
-* Die Einstellungen \'Abschluss einfordern\', \'Neuen Versuch erzwingen\' und \'Nach letztem Versuch sperren\' bieten zusätzliche Möglichkeiten für mehrerer Versuche.';
+* Die Einstellungen \'Abschluss erzwingen\', \'Neuen Versuch erzwingen\' und \'Nach letztem Versuch sperren\' bieten zusätzliche Möglichkeiten für mehrerer Versuche.';
 $string['width'] = 'Breite';
 $string['window'] = 'Fenster';

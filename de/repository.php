@@ -104,6 +104,7 @@ $string['enter'] = 'Eingabe';
 $string['entername'] = 'Verzeichnisnamen angeben';
 $string['enternewname'] = 'Neuen Dateinamen angeben';
 $string['error'] = 'Fehler aufgetreten!';
+$string['errordoublereference'] = 'Das Überschreiben des Dateinamens durch einen Shortcut/Alias ist nicht möglich, da für die Datei bereits Shortcuts existieren.';
 $string['errornotyourfile'] = 'Sie dürfen keine Datei auswählen, die nicht von Ihnen hinzugefügt wurde';
 $string['errorpostmaxsize'] = 'Die ausgewählte Datei könnte größer sein als die Einstellung max_post_size in der Datei php.ini';
 $string['erroruniquename'] = 'Der Name einer Dateiverwaltungsinstanz muss eindeutig sein';

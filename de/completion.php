@@ -67,9 +67,7 @@ Ein Häkchen direkt neben den Aktivitätsnamen signalisiert auf der Kursseite, d
 $string['completionicons'] = 'Markierung zur Fortschrittsanzeige';
 $string['completionicons_help'] = 'Das Kästchen an der Seite neben der Aktivität zeigt an, ob Sie die abgeschlossen haben.
 
-Falls ein gepunktetes Häkchen zu sehen ist, so können Sie darauf klicken,  wenn diese Aktivität Ihrer Meinung nach abgeschlossen ist. Ein erneuter Klick entfernt das Häkchen wieder, falls Sie Ihre Meinung nachträglich ändern sollten. Das Häkchen ist optional und bietet eine einfache Möglichkeit, Ihre Fortschritte im Kurs festzuhalten.
-
-Wenn statt des Häkchens ein leeres Feld gezeigt wird, wird das Häkchen automatisch erscheinen, sobald Sie die Aktivität entsprechend den Trainervorgaben abgeschlossen haben.';
+Falls ein gepunktetes Häkchen zu sehen ist, so können Sie darauf klicken, wenn diese Aktivität Ihrer Meinung nach abgeschlossen ist. Ein erneuter Klick entfernt das Häkchen wieder, falls Sie Ihre Meinung nachträglich ändern sollten. Das Häkchen ist optional und bietet eine einfache Möglichkeit, Ihre Fortschritte im Kurs festzuhalten. Wenn statt des Häkchens ein leeres Feld gezeigt wird, wird das Häkchen automatisch erscheinen, sobald Sie die Aktivität entsprechend den Trainervorgaben abgeschlossen haben.';
 $string['completion_manual'] = 'Abschluss wird manuell markiert';
 $string['completionmenuitem'] = 'Abschluss';
 $string['completion-n'] = 'Nicht abgeschlossen';
@@ -114,6 +112,7 @@ $string['dependencies'] = 'Abhängigkeiten';
 $string['dependenciescompleted'] = 'Abschluss von anderen Kursen';
 $string['editcoursecompletionsettings'] = 'Abschlusseinstellungen bearbeiten';
 $string['enablecompletion'] = 'Abschlussverfolgung';
+$string['enablecompletion_help'] = 'Wenn aktiviert, so wird die Einstellung zur Abschlussverfolgung in den Einstellungen der Aktivität und der Übersichtsseite zur Abschlussverfolgung angezeigt.';
 $string['enrolmentduration'] = 'Tage noch verfügbar';
 $string['enrolmentdurationlength'] = 'Nutzer/in muss eingeschrieben bleiben';
 $string['err_noactivities'] = 'Die Abschlussinformation ist nicht für jede Aktivität eingeschaltet, daher kann keine angezeigt werden. Sie können die Abschlussinformation einschalten, indem Sie die Einstellungen einer Aktivität bearbeiten.';
@@ -129,7 +128,9 @@ $string['graderequired'] = 'Wertung erforderlich';
 $string['gradexrequired'] = '{$a} erforderlich';
 $string['inprogress'] = 'In Bearbeitung';
 $string['manualcompletionby'] = 'Manueller Abschluss durch andere';
+$string['manualcompletionbynote'] = 'Hinweis: Die Berechtigung moodle/course:markcomplete muss für eine Rolle erlaubt sein, damit sie in der Liste erscheint.';
 $string['manualselfcompletion'] = 'Manueller eigener Abschluss';
+$string['manualselfcompletionnote'] = 'Hinweis: Der Kursabschluss-Block sollte im Kurs eingefügt werden wenn den TN erlaubt werden soll, selber den Kurs anzuschliessen.';
 $string['markcomplete'] = 'Abgeschlossen markieren';
 $string['markedcompleteby'] = 'Abgeschlossen markiert von {$a}';
 $string['markingyourselfcomplete'] = 'Selbst abgeschlossen markiert';
@@ -154,6 +155,8 @@ $string['reportpage'] = 'Teilnehmer/innen {$a->from} bis {$a->to} von {$a->total
 $string['requiredcriteria'] = 'Notwendiges Kriterium';
 $string['restoringcompletiondata'] = 'Abschlussdaten werden wiederhergestellt';
 $string['roleaggregation'] = 'Bedingung erfordert';
+$string['roleaggregation_all'] = 'ALLE gewählten Rollen kennzeichnen wenn die Bedingung erfüllt ist';
+$string['roleaggregation_any'] = 'EINIGE gewählten Rollen kennzeichnen wenn die Bedingung erfüllt ist';
 $string['saved'] = 'Gespeichert';
 $string['seedetails'] = 'Details ansehen';
 $string['self'] = 'Selbst';

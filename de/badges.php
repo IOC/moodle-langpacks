@@ -84,7 +84,7 @@ $string['backpackdetails'] = 'Backpack-Einstellungen';
 $string['backpackemail'] = 'E-Mail-Adresse';
 $string['backpackemail_help'] = 'E-Mail-Adresse, die mit Ihrem Backpack-Dienst verknüpft ist
 
-Wenn eine Verbindung zum Backpack-Dienst hergestellt ist, wird diese E-Mail-Adresse anstelle Ihrer internen Moodle-E-Mail-Adresse verwendet, um Auszeichnungen in Ihr Backpack zu exportieren.';
+Wenn eine Verbindung zum Backpack-Dienst besteht, werden alle Auszeichnungen dieser Website an diese E-Mail-Adresse zugeordnet.';
 $string['backpackimport'] = 'Importeinstellungen';
 $string['backpackimport_help'] = 'Wenn die Verbindung zum Backpack erfolgreich hergestellt ist, können Auszeichnungen aus Ihrem Backpack auf Ihrer Seite "Meine Auszeichnungen" und in Ihrem Nutzerprofil angezeigt werden.';
 $string['badgedetails'] = 'Grundeinstellungen';
@@ -125,6 +125,7 @@ $string['configenablebadges'] = 'Wenn diese Option aktiviert ist, können Auszei
 $string['configuremessage'] = 'Mitteilung';
 $string['connect'] = 'Verbinden';
 $string['connected'] = 'Verbunden';
+$string['connecting'] = 'Wird verbunden...';
 $string['contact'] = 'Kontakt';
 $string['contact_help'] = 'Tragen Sie hier die E-Mail-Adresse des Verleihers der Auszeichnung ein.';
 $string['copyof'] = 'Kopie von {$a}';
@@ -148,8 +149,10 @@ $string['criteria_5'] = 'Mehrere Kurse abschließen';
 $string['criteria_5_help'] = 'Dieses Kriterium bedeutet, dass die Auszeichnung an Nutzer/innen verliehen wird, die mehrere Kurse abgeschlossen haben. Für jeden dieser Kurse können Sie zusätzliche Parameter festlegen, z.B. eine Mindestbewertung, die im Kurs erreicht werden muss oder ein Datum, an dem der Kurs abgeschlossen wird.';
 $string['criteria_6'] = 'Vervollständigung des Nutzerprofils';
 $string['criteria_6_help'] = 'Dieses Kriterium ermöglicht es, die Verleihung einer Auszeichnung daran zu knüpfen, dass bestimmte Profilfelder im Nutzerprofil vervollständigt wurden. Das können Standardprofilfelder und selbst definierte Profilfelder sein.';
-$string['criteria_descr'] = 'Nutzer/innen erhalten diese Auszeichnung, wenn folgende Bedingungen erfüllt sind:';
-$string['criteria_descr_0'] = 'Nutzer/innen erhalten diese Auszeichnung, wenn <strong>{$a}</strong> folgenden Bedingungen erfüllt sind:';
+$string['criteriacreated'] = 'Auszeichnungsbedingung angelegt';
+$string['criteriadeleted'] = 'Auszeichnungsbedingung gelöscht';
+$string['criteria_descr'] = 'Nutzer/innen erhalten die Auszeichnung, wenn sie folgende Bedingungen erfüllen:';
+$string['criteria_descr_0'] = 'Nutzer/innen erhalten die Auszeichnung, wenn sie <strong>{$a}</strong> folgenden Bedingungen erfüllen:';
 $string['criteria_descr_1'] = '<strong>{$a}</strong> folgenden Aktivitäten sind abgeschlossen:';
 $string['criteria_descr_2'] = 'Diese Auszeichnung muss von Nutzer/innen mit <strong>{$a}</strong> Rollen verliehen werden:';
 $string['criteria_descr_4'] = 'Teilnehmer/innen müssen den Kurs abschließen.';
@@ -174,6 +177,7 @@ $string['criteria_descr_single_short4'] = 'Kurs abschließen';
 $string['criteria_descr_single_short5'] = 'Abschluss / Vervollständigung:';
 $string['criteria_descr_single_short6'] = 'Abschluss / Vervollständigung:';
 $string['criteriasummary'] = 'Zusammenfassung der Kriterien';
+$string['criteriaupdated'] = 'Auszeichnungsbedingung aktualisiert';
 $string['criterror'] = 'Parameterprobleme';
 $string['criterror_help'] = 'Die Übersicht zeigt alle Parameter, die ursprünglich mit dieser Auszeichnung verbunden waren, aber nicht mehr verfügbar sind. Diese Parameter sollten deaktiviert werden, damit Nutzer/innen diese Auszeichnung in Zukunft überhaupt erlangen können.';
 $string['currentimage'] = 'Aktuelles Bild';
@@ -196,21 +200,27 @@ $string['disconnect'] = 'Verbindung aufheben';
 $string['donotaward'] = 'Derzeit ist die Auszeichnung nicht verfügbar, d.h. sie kann nicht an Nutzer/innen verliehen werden. Wenn Sie die Auszeichnung verleihen wollen, müssen Sie sie aktivieren. Klicken Sie dazu auf den Button \'\'Zugriff erlauben\'\'.';
 $string['editsettings'] = 'Einstellungen bearbeiten';
 $string['enablebadges'] = 'Auszeichnungen';
-$string['error:backpacknotavailable'] = 'Ihre Moodle-Site ist nicht über das Internet erreichbar. D.h. Auszeichnungen, die auf Ihrer Moodle-Site verliehen werden, können nicht von extrenen Backpack-Diensten verifiziert werden.';
-$string['error:backpackproblem'] = 'Bei der Verbindung zu Ihrem Backpack Provider ist ein Problem aufgetreten. Versuchen Sie es später noch einmal.';
+$string['error:backpackdatainvalid'] = 'Die vom Backpack gelieferten Daten sind ungültig!';
+$string['error:backpackemailnotfound'] = 'Die E-Mail \'{$a}\' ist nicht mit einem Backpack verbunden. Sie müssen sich für dieses Konto ein <a href="http://backpack.openbadges.org">Backpack anlegen</a> oder sich mit einem anderen E-Mail-Adresse anmelden.';
+$string['error:backpackloginfailed'] = 'Sie konnten nicht mit einem externen Backpack verbunden werden: {$a}';
+$string['error:backpacknotavailable'] = 'Ihre Website ist nicht über das Internet erreichbar. Die Auszeichnungen, die auf Ihrer Website verliehen werden, können nicht von externen Backpack-Diensten überprüft werden.';
+$string['error:backpackproblem'] = 'Die Verbindung zu Ihrem Backpack-Provider ist fehlgeschlagen. Versuchen Sie es später noch einmal.';
+$string['error:badjson'] = 'Der Verbindungsversuch hat ungültige Daten geliefert';
 $string['error:cannotact'] = 'Die Auszeichnung kann nicht aktiviert werden.';
 $string['error:cannotawardbadge'] = 'Die Auszeichnung kann nicht an Nutzer/innen verliehen werden.';
 $string['error:clone'] = 'Die Auszeichnung kann nicht dupliziert werden.';
+$string['error:connectionunknownreason'] = 'Die Verbindung ist fehlgeschlagen, aber es wurde kein Grund angegeben.';
 $string['error:duplicatename'] = 'Eine Auszeichnung mit diesem Namen existiert bereits.';
 $string['error:externalbadgedoesntexist'] = 'Auszeichnung nicht gefunden';
 $string['error:invalidbadgeurl'] = 'Unzulässige URL für Auszeichnungsverleiher';
 $string['error:invalidcriteriatype'] = 'Falscher Kriteriumstyp';
 $string['error:invalidexpiredate'] = 'Das Ablaufdatum muss in der Zukunft liegen.';
 $string['error:invalidexpireperiod'] = 'Der Ablaufzeitraum kann nicht negativ oder gleich Null sein';
-$string['error:noactivities'] = 'Es gibt in diesem Kurs keine Aktivitäten, für die der Aktivitätsabschluss konfiguriert wurde.';
+$string['error:noactivities'] = 'In diesem Kurs wurde für keine Aktivität ein Aktivitätsabschluss konfiguriert.';
+$string['error:noassertion'] = 'Eine Bestätigung wurde nicht geliefert. Eventuell haben Sie die Dialog abgebrochen, bevor das Login abgeschlossen war.';
 $string['error:nocourses'] = 'Die Abschlussverfolgung ist für keinen Kurs Ihrer Moodle-Site aktiviert. Deshalb kann kein Kurs zur Auswahl angezeigt werden. Sie können die Abschlussverfolgung in den Kurseinstellungen aktivieren.';
 $string['error:nogroups'] = '<p>Es gibt keine öffentlichen Sammlungen von Auszeichnungen in Ihrem Backpack. </p> <p>Nur öffentliche Sammlungen werden angezeigt, <a href="http://backpack.openbadges.org">gehen Sie zu Ihrem Backpack</a> und legen Sie mindestens eine öffentliche Sammlung an.</p>';
-$string['error:nopermissiontoview'] = 'Sie haben kein Recht, die Ausgezeichneten zu sehen.';
+$string['error:nopermissiontoview'] = 'Sie haben kein Recht, Personen mit Auszeichnungen zu sehen.';
 $string['error:nosuchbadge'] = 'Die Auszeichnung mit der ID {$a} existiert nicht.';
 $string['error:nosuchcourse'] = 'Warnung: Dieser Kurs existiert nicht mehr.';
 $string['error:nosuchfield'] = 'Warnung: Dieses Nutzerprofilfeld existiert nicht mehr.';
@@ -219,6 +229,9 @@ $string['error:nosuchrole'] = 'Warnung: Diese Rolle existiert nicht mehr.';
 $string['error:nosuchuser'] = 'Der/die Nutzer/in mit dieser E-Mail-Adresse hat kein Nutzerkonto beim aktuellen Backpack-Dienst.';
 $string['error:notifycoursedate'] = 'Warnung: Auszeichnungen, die mit dem Abschluss von Aktivitäten bzw. Kursen verbunden sind,  werden nicht verliehen, bevor der Kurs startet.';
 $string['error:parameter'] = 'Warnung: Mindestens ein Parameter sollte gewählt werden, damit die Verleihung der Auszeichnung reibungslos funktioniert.';
+$string['error:personaneedsjs'] = 'Für die Verbindung zu Ihrem Backpack ist Javascript notwendig. Aktivieren Sie Javascript und laden Sie die Seite neu.';
+$string['error:requesterror'] = 'Die Verbindung ist fehlgeschlagen. (Fehlercode {$a})';
+$string['error:requesttimeout'] = 'Die Verbindung ist fehlgeschlagen (Timeout)';
 $string['error:save'] = 'Die Auszeichnung kann nicht gespeichert werden.';
 $string['evidence'] = 'Evidenz';
 $string['existingrecipients'] = 'Vorhandene Empfänger/innen';
@@ -237,7 +250,7 @@ $string['externalbadgesp'] = 'Auszeichnungen von anderen Websites';
 $string['externalconnectto'] = 'Wenn Sie Ihre externen Auszeichnungen anzeigen möchten, müssen Sie eine <a href="{$a}">Verbindung zu einem geeigneten Backpack</a> herstellen.';
 $string['fixed'] = 'Festes Datum';
 $string['hidden'] = 'Verborgen';
-$string['hiddenbadge'] = 'Leider hat der Auszeichnungsersteller diese Information nicht zur Verfügung gestellt.';
+$string['hiddenbadge'] = 'Diese Information ist zur Auszeichnung nicht verfügbar.';
 $string['issuancedetails'] = 'Verfall';
 $string['issuedbadge'] = 'Auszeichnungsinformationen';
 $string['issuerdetails'] = 'Verleiher';
@@ -302,6 +315,8 @@ $string['notifyweekly'] = 'Wöchentlich';
 $string['numawards'] = 'Diese Auszeichnung wurde an <a href="{$a->link}">{$a->count}</a> Nutzer/innen verliehen.';
 $string['numawardstat'] = 'Diese Auszeichnung wurde an {$a} Nutzer/innen verliehen.';
 $string['overallcrit'] = 'gewählten Kriterien erfüllt sind.';
+$string['personaconnection'] = 'Melden Sie sich mit Ihrer E-Mail-Adresse an';
+$string['personaconnection_help'] = 'Persona ist ein System, um Nutzeraccounts über verschiedene Anwendungen im Netz hinweg zu verwalten. Dazu wird eine E-Mail-Adresse von Ihnen verwandt. Open Badges Backpack verwendet  Persona zum Login. Um sich mit Backpack zu verbinden wird ein Persona-Account benötigt.';
 $string['potentialrecipients'] = 'Mögliche Empfänger/innen';
 $string['recipientdetails'] = 'Empfängerdetails';
 $string['recipientidentificationproblem'] = 'Empfänger/in dieser Auszeichnung kann unter den vorhandenen Nutzer/innen nicht gefunden werden';
@@ -309,8 +324,14 @@ $string['recipients'] = 'Auszeichnungsempfänger/innen';
 $string['recipientvalidationproblem'] = 'Nutzer/in kann nicht als Empfänger/in dieser Auszeichnung überprüft werden';
 $string['relative'] = 'Relative Zeit';
 $string['requiredcourse'] = 'Sie müssen mindestens einen Kurs für dieses Kriterium auswählen.';
-$string['reviewbadge'] = 'Kriterien überprüfen';
-$string['reviewconfirm'] = 'Diese Aktion prüft, ob es Nutzer/innen gibt, die die Kriterien für die Auszeichnung \'{$a}\' erfüllen. Wollen Sie fortfahren?';
+$string['reviewbadge'] = 'Auszeichnungskriterien geändert';
+$string['reviewconfirm'] = '<P< Hiermit machen Sie Ihre Auszeichnung für Nutzer sichtbar und ermöglichen Ihnenn diese zu erwerben.</p>
+
+<p>Es ist möglich, dass Nutzer bereits früher die Kriterien für die Auszeichnung erfüllt haben. Ihnen wird die Auszeichnung nun umgehend zugeweisen.</p>
+
+<p>Nachdem die Auszeichnung vergeben wurde, werden einige Einstellungen wie z.B. die Kriterien für Veränderungen oder die Gültigkeitsdauer <strong>gesperrt </strong>.</p>
+
+<p>Wollen Sie die Auszeichnung \'{$a}\' nun aktivieren?</p>';
 $string['save'] = 'Speichern';
 $string['searchname'] = 'Nach Name suchen';
 $string['selectaward'] = 'Wählen Sie die Rolle, die diese Auszeichnung verleihen darf:';
@@ -318,6 +339,7 @@ $string['selectgroup_end'] = 'Es werden nur öffentliche Sammlungen angezeigt, <
 $string['selectgroup_start'] = 'Wählen Sie Sammlungen von Auszeichnungen aus Ihrem Backpack, um sie auf dieser Seite anzuzeigen:';
 $string['selecting'] = 'Mit den gewählten Auszeichnungen...';
 $string['setup'] = 'Verbindung konfigurieren';
+$string['signinwithyouremail'] = 'Melden Sie sich mit Ihrer E-Mail-Adresse an';
 $string['sitebadges'] = 'Globale Auszeichnungen';
 $string['sitebadges_help'] = 'Globale Auszeichnungen können nur für systemweite Leistungen verliehen werden. Dazu gehört das Abschließen mehrerer Kurse oder die Vervollständigung des Nutzerprofils. Globale Auszeichnungen können auch manuell von einer Person an eine andere verliehen werden.
 

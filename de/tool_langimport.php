@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['install'] = 'Sprachpaket installieren';
+$string['install'] = 'Ausgewähltes Sprachpaket installieren';
 $string['installedlangs'] = 'Installierte Sprachpakete';
 $string['langimport'] = 'Sprachpakete verwalten';
 $string['langimportdisabled'] = 'Der Import von Sprachpaketen wurde deaktiviert. Sie müssen die Sprachpakete manuell auf dem Server aktualisieren. Vergessen Sie bitte nicht, anschließend den Sprachcache zu löschen.';
@@ -40,6 +40,6 @@ $string['nolangupdateneeded'] = 'Alle Sprachpakete sind auf dem aktuellen Stand.
 $string['pluginname'] = 'Sprachpakete';
 $string['purgestringcaches'] = 'Sprachcache löschen';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung herstellen, um die Sprachpakete automatisch zu installieren. Laden Sie die gewünschten Pakete manuell von <a href="http://download.moodle.org/langpack/">download.moodle.org/langpack</a> herunter und speichern Sie sie im Serververzeichnis \'{$a}\'.';
-$string['uninstall'] = 'Sprachpaket deinstallieren';
+$string['uninstall'] = 'Ausgewähltes Sprachpaket deinstallieren';
 $string['uninstallconfirm'] = 'Möchten Sie das Sprachpaket \'{$a}\' wirklich deinstallieren?';
 $string['updatelangs'] = 'Sprachpakete aktualisieren';
