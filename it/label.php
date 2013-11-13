@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configdndmedia'] = 'Proponi di creare un\'etichetta quando nel corso viene caricato un file multimediale tramite trascina e rilascia.';
+$string['configdndmedia'] = 'Quando viene caricato un file multimediale nel corso tramite trascina e rilascia, verrà proposto di creare un\'etichetta';
 $string['configdndresizeheight'] = 'Creando un\'etichetta con un\'immagine caricata tramite  trascina e rilascia, l\'altezza dell\'immagine verrà ridimensionata al valore in pixel impostato (0 per non ridimensionare l\'altezza).';
 $string['configdndresizewidth'] = 'Creando un\'etichetta con un\'immagine caricata tramite  trascina e rilascia, la larghezza dell\'immagine verrà ridimensionata al valore in pixel impostato (0 per non ridimensionare la larghezza).';
 $string['dndmedia'] = 'Trascina e rilascia di file multimediali';

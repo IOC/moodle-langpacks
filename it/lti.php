@@ -87,8 +87,8 @@ $string['default_launch_container'] = 'Tipo di lancio di default';
 $string['default_launch_container_help'] = 'Il tipo di lancio influenza la visualizzazione del tool quando viene lanciato dal corso. Alcuni tipi di lancio forniscono diverse schermate al tool, mentre altre forniscono una migliore integrazione con l\'ambiente Moodle.
 
 * **Default** - Verrà utilizzato il tipo di lancio indicato dalla configurazione del tool
-* **Embed** - Il tool verrà visualizzato in una finestra  di Moodle già aperta, analogamente a quanto già avviene per la maggior parte delle attività.
-* **Embed, senza blocchi** - Il tool verrà visualizzato in una finestra di Moodle già aperta che presenterà la sola navigazione sulla sommità.
+* **Incorpora** - Il tool verrà visualizzato in una finestra  di Moodle già aperta, analogamente a quanto già avviene per la maggior parte delle attività.
+* **Incorpora, senza blocchi** - Il tool verrà visualizzato in una finestra di Moodle già aperta che presenterà la sola navigazione sulla sommità.
 * **Nuova finestra** - Il tool verrà visualizzato in una nuova finestra a tutto schermo.
 
 In funzione del broswer utilizzato, la nuova finestra si potrà aprire in una nuova scheda oppure in un nuova finestra. E\' possibile che il browser impedisca l\'apertura della nuova finestra';
@@ -113,8 +113,8 @@ $string['donot'] = 'Non inviare';
 $string['donotaccept'] = 'Non accettare';
 $string['donotallow'] = 'Non consentire';
 $string['edittype'] = 'Modifica configurazione del tool esterno';
-$string['embed'] = 'Embed';
-$string['embed_no_blocks'] = 'Embed, senza blocchi';
+$string['embed'] = 'Incorpora';
+$string['embed_no_blocks'] = 'incorporato, senza blocchi';
 $string['enableemailnotification'] = 'Invia notifiche per email';
 $string['enableemailnotification_help'] = 'Consente di inviare email di notifica agli studenti quando la loro consegna del tool sarà stata valutata.';
 $string['errormisconfig'] = 'Il tool è mal configurato. Per favore chiedi al tuo amministratore Moodle di sistemare la configurazione del tool.';
@@ -164,8 +164,8 @@ $string['launch_in_popup'] = 'Lancia il tool in una finestra pop-up';
 $string['launchinpopup_help'] = 'Il contenitore di lancio influenza la visualizzazione del tool quando lo si lancia dal corso. Alcuni contenitori di lancio lasciano più libero il tool mentre altri forniscono una esperienza dell\'utente più integrata con Moodle
 
 * ** Default** - Usa il contenitore di lancio impostato nella configurazione del tool.
-* **Embed** - Il tool viene visualizzato all\'interno della finestra di Moodle già esistente, come la maggior parte delle attività.
-* **Embed, senza blocchi** - Il tool viene visualizzato all\'interno della finestra di Moodle già esistente, ma con i soli controlli di navigazione sulla parte superiore della pagina.
+* **incorpora** - Il tool viene visualizzato all\'interno della finestra di Moodle già esistente, come la maggior parte delle attività.
+* **Incorpora, senza blocchi** - Il tool viene visualizzato all\'interno della finestra di Moodle già esistente, ma con i soli controlli di navigazione sulla parte superiore della pagina.
 * **Nuova finestra** - Il tool viene aperto in una nuova finestra che occuperà tutto lo spazio disponibile. In funzione del tipo di browser, la nuova finestra può essere una nuova finestra browser oppure un tab di una finestra già esistente. E\' possibile che il browser impedisca l\'apertura di nuove finestre.';
 $string['launchoptions'] = 'Opzioni di lancio';
 $string['launch_url'] = 'URL di lancio';
@@ -325,6 +325,7 @@ Nella magigor parte dei casi questa opzione non è necessaria, i docenti possono
 L\'unico caso in cui questa opzione è utile è quando la configurazione del tool è utilizzata per il Single Sign On, ad esempio quando l\'utente che lancia il tool viene portato in una pagina di atterraggio anziché ad una risorsa specifica.';
 $string['size'] = 'Dimensione parametri';
 $string['submission'] = 'Invii';
+$string['submissionsfor'] = 'Invii per {$a}';
 $string['toggle_debug_data'] = 'Dati di debug on/off';
 $string['tool_config_not_found'] = 'Per questa URL non è stata trovata nessuna configurazione del tool.';
 $string['tool_settings'] = 'Impostazioni tool';

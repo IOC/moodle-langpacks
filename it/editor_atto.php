@@ -16,15 +16,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'it', branch 'MOODLE_25_STABLE'
+ * Strings for component 'editor_atto', language 'it', branch 'MOODLE_25_STABLE'
  *
- * @package   datafield_textarea
+ * @package   editor_atto
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['maxbytes'] = 'Dimensione massima per il file incorporati (in byte)';
-$string['maxbytes_desc'] = 'Impostando il valore a zero la dimensione sarà per default illimitata';
-$string['pluginname'] = 'Area di testo';
+$string['pluginname'] = 'Editor HTML Atto';

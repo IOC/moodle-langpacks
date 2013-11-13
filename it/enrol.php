@@ -31,7 +31,7 @@ $string['ajaxnext25'] = 'Successivi 25...';
 $string['ajaxoneuserfound'] = 'Trovato 1 utente';
 $string['ajaxxusersfound'] = 'Trovati {$a} utenti';
 $string['assignnotpermitted'] = 'Non hai i privilegi o non puoi assegnare ruoli in questo corso.';
-$string['bulkuseroperation'] = 'Operazioni di massa sugli utenti';
+$string['bulkuseroperation'] = 'Operazioni in massa sugli utenti';
 $string['configenrolplugins'] = 'Per favore seleziona i plugin necessari e mettili in sequenza di utilizzo.';
 $string['custominstancename'] = 'Nome personalizzato istanza';
 $string['defaultenrol'] = 'Aggiungi istanza nei nuovi corsi';
@@ -69,7 +69,7 @@ $string['erroreditenrolment'] = 'Si è verificato un errore durante il tentativo
 $string['errorenrolcohort'] = 'Si è verificato un errore nel corso durante la creazione di un\'istanza Sincronizzazione gruppi globali ';
 $string['errorenrolcohortusers'] = 'Si è verificato un errore durante l\'iscrizione nel corso dei membri del gruppo globale';
 $string['errorthresholdlow'] = 'La soglia di notifica deve essere di almeno 1 giorno';
-$string['errorwithbulkoperation'] = 'Si è verificato un errore durante la modifica di massa delle iscrizione';
+$string['errorwithbulkoperation'] = 'Si è verificato un errore durante la modifica in massa delle iscrizioni.';
 $string['expirynotify'] = 'Notifica la scadenza dell\'iscrizione';
 $string['expirynotifyall'] = 'Sia ai partecipanti sia a colui che
 li ha iscritti';

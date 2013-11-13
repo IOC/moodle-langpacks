@@ -16,15 +16,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'it', branch 'MOODLE_25_STABLE'
+ * Strings for component 'format_singleactivity', language 'it', branch 'MOODLE_25_STABLE'
  *
- * @package   datafield_textarea
+ * @package   format_singleactivity
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['maxbytes'] = 'Dimensione massima per il file incorporati (in byte)';
-$string['maxbytes_desc'] = 'Impostando il valore a zero la dimensione sarà per default illimitata';
-$string['pluginname'] = 'Area di testo';
+$string['activitytype'] = 'Tipo di attività';
+$string['activitytype_help'] = 'Scegliere il il tipo di attività o di risorsa da usare nel corso';
+$string['defactivitytype'] = 'Tipo di attività di default';
+$string['defactivitytypedesc'] = 'Specificare il tipo di attività selezionato per default quando si crea un nuovo corso';
+$string['erroractivitytype'] = 'Nelle impostazioni del corso non è impostato Il tipo di attività.';
+$string['errornotsetup'] = 'Questo corso non è ancora impostato';
+$string['orphaned'] = 'Orfane';
+$string['orphanedwarning'] = 'Queste attività non sono raggiungibili dagli utenti!';
+$string['pluginname'] = 'Formato attività singola';
+$string['sectionname'] = '';

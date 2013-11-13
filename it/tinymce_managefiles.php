@@ -16,15 +16,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'datafield_textarea', language 'it', branch 'MOODLE_25_STABLE'
+ * Strings for component 'tinymce_managefiles', language 'it', branch 'MOODLE_25_STABLE'
  *
- * @package   datafield_textarea
+ * @package   tinymce_managefiles
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['maxbytes'] = 'Dimensione massima per il file incorporati (in byte)';
-$string['maxbytes_desc'] = 'Impostando il valore a zero la dimensione sarà per default illimitata';
-$string['pluginname'] = 'Area di testo';
+$string['allfilesok'] = 'Non sono presenti file mancanti o non usati';
+$string['deleteselected'] = 'Elimina file selezionati';
+$string['hasmissingfiles'] = 'Attenzione! I seguenti file, referenziati nell\'area di testo, sembrano essere mancanti:';
+$string['manageareafiles'] = 'Gestisci file incorporati nell\'editor di testo';
+$string['managefiles:desc'] = 'Gestisci file incorporati';
+$string['pluginname'] = 'Gestisci file incorporati';
+$string['refreshfiles'] = 'Aggiorna l\'elenco dei file mancanti o non utilizzati';
+$string['unusedfilesdesc'] = 'I seguenti file non sono utilizzati nell\'area di testo:';
+$string['unusedfilesheader'] = 'File non utilizzati';

@@ -32,7 +32,7 @@ Tutti i link che puntano ai file di amministrazione di Moodle terranno conto di 
 $string['admindirsettinghead'] = 'Impostazione della cartella Admin...';
 $string['admindirsettingsub'] = 'Alcuni web host utilizzano la cartella /admin come URL di accesso a pannelli di controllo o altre funzioni particolari. Tuttavia questo nome coincide con il nome della cartella che Moodle utilizza per i propri file di amministrazione. Per evitare conflitti, è possibile specificare un nome alternativo per la cartella admin di Moodle. Ad esempio:<p><b>moodleadmin</b></p>
 Tutti i link che puntano ai file di amministrazione di Moodle terranno conto di questa variazione.';
-$string['availablelangs'] = 'Elenco delle lingue disponibili:';
+$string['availablelangs'] = 'Elenco delle lingue disponibili';
 $string['caution'] = 'Attenzione';
 $string['chooselanguage'] = 'Scegli la lingua';
 $string['chooselanguagehead'] = 'Scegli la lingua';
@@ -217,8 +217,7 @@ $string['memorylimithelp'] = '<p>Il limite di memoria assegnata al PHP attualmen
 
 <p>Tale limite potrà causare problemi nel funzionamento di Moodle, specialmente se usi molti moduli di attività con molti utenti.</p>
 
-<p>Ti raccomandiamo di impostare il PHP con un limite più alto se possibile, ad esempio 40M.
-Ci sono diversi modi che puoi provare:
+<p>Ti raccomandiamo di impostare il PHP con un limite più alto, ad esempio 40M, usando uno dei modi seguenti:
 <ol>
 <li>Se possibile, ricompila il PHP con l\'opzione <i>--enable-memory-limit</i>.
 Questo consentirà a Moodle di impostare in autonomia il limite di memoria.</li>
@@ -236,11 +235,11 @@ $string['mysqliextensionisnotpresentinphp'] = 'Il PHP non è stato configurato c
 $string['nativemssql'] = 'SQL*Server FreeTDS (native/mssql)';
 $string['nativemssqlhelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati. Il database con l\'utente e la password d\'accesso devono già essere stati creati. Il prefisso delle tabelle è obbligatorio.';
 $string['nativemysqli'] = 'Improved MySQL (native/mysqli)';
-$string['nativemysqlihelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati.. Il Database deve già esistere e dovete disporre di username e password per accedervi. Il Prefisso delle tabelle è opzionale.';
+$string['nativemysqlihelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati. Il Database deve già esistere e devi disporre di username e password di accesso. Il Prefisso delle tabelle è opzionale.';
 $string['nativeoci'] = 'Oracle (native/oci)';
 $string['nativeocihelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati. Il database con l\'utente e la password d\'accesso devono già essere stati creati. Il prefisso delle tabelle è obbligatorio.';
 $string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
-$string['nativepgsqlhelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati. Il Database deve già esistere e dovete disporre di username e password per accedervi. Il Prefisso delle tabelle è obbligatorio.';
+$string['nativepgsqlhelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati. Il Database deve già esistere e devi disporre di username e password di accesso. Il Prefisso delle tabelle è obbligatorio.';
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
 $string['nativesqlsrvhelp'] = 'Devi ora configurare il database dove Moodle memorizzerà la maggior parte dei dati. Il database con l\'utente e la password d\'accesso devono già essere stati creati. Il prefisso delle tabelle è obbligatorio.';
 $string['nativesqlsrvnodriver'] = 'I driver PHP Microsoft per SQL Server non sono installati o non sono configurati correttamente.';
@@ -267,10 +266,10 @@ $string['pathswrongadmindir'] = 'La cartella Admin non esiste';
 $string['pgsqlextensionisnotpresentinphp'] = 'Il PHP non è stato configurato correttamente con l\'estensione PGSQL e non può comunicare con PostgreSQL. Controllate il vostro php.ini o ricompilate il PHP.';
 $string['phpextension'] = '{$a} estensioni PHP';
 $string['phpversion'] = 'Versione PHP';
-$string['phpversionhelp'] = '<p>Moodle necessita come minimo della versione 4.3.0 o 5.1.0 del PHP. (La versione 5.0.x soffre di problemi ben conosciuti)</p>
-<p>La versione installata nel vostro sistema è la {$a}</p>
-<p>Dovete aggiornare la versione del PHP oppure spostarsi su un host che abbia una versione più aggiornata del PHP!<br>
-(Se avete la 5.0.x, potete fare il downgrade alla versione 4.4.x)</p>';
+$string['phpversionhelp'] = '<p>Moodle necessita come minimo della versione 4.3.0 o 5.1.0 del PHP. (La versione 5.0.x soffre di problemi noti)</p>
+<p>La versione installata nel sistema è la {$a}</p>
+<p>E\' necessario aggiornare la versione del PHP oppure spostarsi su un host che abbia una versione più aggiornata del PHP!<br>
+(Dalla 5.0.x, è possibile eseguire il downgrade alla versione 4.4.x)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['releasenoteslink'] = 'Per informazioni su questa versione di Moodle, fai riferimento alle Note di Rilascio su {$a}';
 $string['safemode'] = 'Safe mode';

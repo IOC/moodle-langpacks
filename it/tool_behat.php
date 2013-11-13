@@ -41,6 +41,7 @@ $string['stepsdefinitionscontains'] = 'Contiene';
 $string['stepsdefinitionsfilters'] = 'Definizione passi';
 $string['stepsdefinitionstype'] = 'Tipo';
 $string['theninfo'] = 'Poi. Verifiche per assicurarsi che i risultati ottenuti siano quelli attesi.';
+$string['unknownexceptioninfo'] = 'Si è verificato un errore in Selenium o nel Browser, prova ad aggiornare Selenium alla versione più recente: Errore:';
 $string['viewsteps'] = 'Filtro';
 $string['wheninfo'] = 'Quando. Azioni che generano un evento';
 $string['wrongbehatsetup'] = 'Il setup bheat presenta dei problemi. E\' necessario accertarsi che:<ul>

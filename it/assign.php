@@ -289,7 +289,7 @@ Per visualizzare lo stato della tua consegna:
 
 {$a->url}';
 $string['submissiondrafts'] = 'Gli studenti devono premere il pulsante consegna';
-$string['submissiondrafts_help'] = 'L\'impostazione obbliga gli studenti a premere il pulsante consegna per confermare che la consegna del  proprio compito è definitiva. In questo modo gli studenti possono mantenere il compito in bozza prima di consegnarlo definitivamente. Cambiando l\'impostazione da "No" a "Si" dopo la consegna degli studenti, tali consegne saranno considerate definitive.';
+$string['submissiondrafts_help'] = 'L\'impostazione obbliga gli studenti a premere il pulsante consegna per confermare che la consegna del  proprio compito è definitiva. In questo modo gli studenti possono mantenere il compito in bozza prima di consegnarlo definitivamente. Cambiare l\'impostazione da "No" a "Si" dopo la consegna degli studenti  renderà definitive le consegne già effettuate.';
 $string['submissioneditable'] = 'Lo studente può modificare la consegna';
 $string['submissionempty'] = 'Non sono presenti consegne';
 $string['submissionnotcopiedinvalidstatus'] = 'La consegna non è stata copiata poiché è stata modificata da quando è stato riaperto il tentativo.';
