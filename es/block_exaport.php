@@ -26,7 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['category'] = 'Categoría';
+$string['desp_explainingfile'] = 'Archivos. Estos archivos pueden ser compartidos con todos los miembros autorizados del curso.';
+$string['desp_explaininglink'] = 'Enlaces. Estos enlaces pueden ser compartidos con todos los miembros autorizados del curso.';
+$string['desp_explainingnote'] = 'Notas. Estas notas pueden ser compartidos con todos los miembros autorizados del curso.';
+$string['explainingfile'] = 'Archivos. Estos archivos pueden ser compartidos con todos los miembros autorizados del curso.';
+$string['explaininglink'] = 'Enlaces. Estos enlaces pueden ser compartidos con todos los miembros autorizados del curso.';
+$string['explainingnote'] = 'Notas. Estas notas pueden ser compartidos con todos los miembros autorizados del curso.';
 $string['invalidassignmentid'] = 'ID de tarea no válido';
 $string['invalidfileatthisassignment'] = '¡El archivo no existe en esta tarea!';
 $string['moodleimport'] = 'Importar de las tares de Moodle';
 $string['nomoodleimportyet'] = '¡De momento no tiene envíos de ninguna tarea!';
+$string['subcategory'] = 'Subcategoría';

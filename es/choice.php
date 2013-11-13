@@ -78,7 +78,7 @@ Una Consulta puede utilizarse
 
 * Para facilitar la toma de decisiones, por ejemplo permitiendo a los estudiantes votar algún aspecto relacionado con el curso.';
 $string['modulenameplural'] = 'Consultas';
-$string['moveselectedusersto'] = 'Trasladar a los usuarios seleccionados a...';
+$string['moveselectedusersto'] = 'Mover los usuarios seleccionados a...';
 $string['mustchooseone'] = 'Debe elegir una respuesta antes de guardar. No se ha guardado nada.';
 $string['noguestchoose'] = 'Lo sentimos, los invitados no pueden responder encuestas.';
 $string['noresultsviewable'] = 'Los resultados no pueden verse en este momento.';

@@ -31,6 +31,6 @@ $string['configadminview'] = '¿Qué debería ver el administrador en el bloque 
 $string['confighideallcourseslink'] = 'Ocultar el enlace "Todos los cursos" en el fondo del bloque. Ocultar los enlaces no afecta a la visión del Administrador.';
 $string['course_list:addinstance'] = 'Añadir un nuevo bloque de lista de cursos';
 $string['course_list:myaddinstance'] = 'Añadir un nuevo bloque de lista de cursos al Área personal';
-$string['hideallcourseslink'] = 'Ocultar enlace a Todos los cursos';
+$string['hideallcourseslink'] = 'Ocultar enlace a "Todos los cursos"';
 $string['owncourses'] = 'El administrador ve sus propios cursos';
 $string['pluginname'] = 'Cursos';

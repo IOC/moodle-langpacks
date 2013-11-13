@@ -214,12 +214,7 @@ $string['gradeessay'] = 'Calificar preguntas de ensayo ({$a->notgradedcount} no 
 $string['gradeis'] = 'La calificación es {$a}';
 $string['gradeoptions'] = 'Opciones de Calificación';
 $string['handlingofretakes'] = 'Calificación con varios intentos';
-$string['handlingofretakes_help'] = '<p>Cuando se permite a los estudiantes retomar o repetir la lección, esta opción
-permite elegir al profesor la clase de calificación final del alumno, por ejemplo, en
-la página de calificaciones. Puede ser la <b>media</b>, la <b>primera</b> o la
-<b>mejor</b> calificación de las obtenidas en todos los intentos o repeticiones de la lección.</p>
-
-<p>Esta opción puede cambiarla en cualquier momento.</p>';
+$string['handlingofretakes_help'] = 'Si se permite repetir la lección, este ajuste especifica si la calificación de la lección es la media o máxima de todos los intentos.';
 $string['havenotgradedyet'] = 'Aún no calificado.';
 $string['here'] = 'aquí';
 $string['highscore'] = 'Puntuación alta';
@@ -264,17 +259,13 @@ $string['matchesanswer'] = 'Concuerda con la respuesta';
 $string['matching'] = 'Emparejamiento';
 $string['matchingpair'] = 'Pareja {$a}';
 $string['maxgrade'] = 'Calificación máxima';
-$string['maxgrade_help'] = '<p>Este valor determina la máxima calificación que se puede obtener con la
-lección.    El rango va de&nbsp; 0 a 100%. Este valor puede cambiarse en
-cualquier momento. Los cambios tendrán un efecto inmediato en la página de
-calificaciones y los alumnos podrán ver sus calificaciones en diferentes
-listas.</p>';
+$string['maxgrade_help'] = 'Este ajuste especifica la calificación máxima de la lección. Si se establece en 0, la lección no aparece en las páginas de notas.';
 $string['maxhighscores'] = 'Número de puntuaciones más altas para mostrar';
 $string['maximumnumberofanswersbranches'] = 'Número máximo de respuestas';
-$string['maximumnumberofanswersbranches_help'] = 'Este parámetro determina el número máximo de respuestas que se pueden usar en la lección. Si una lección solo utilizará preguntas de tio Verdadero/Falso, podemos asignarle el valor de 2.
-Este valor se puede cambiar en cualquier momento ya que sólo afecta a lo que el profesor ve, no los datos.';
+$string['maximumnumberofanswersbranches_help'] = 'Este ajuste determina el número máximo de respuestas que se pueden usar en la lección. Si solo se utilizan preguntas de tipo Verdadero/Falso, podemos establecer el valor de 2.
+Este valor se puede cambiar en cualquier momento ya que sólo afecta a lo que el profesor ve, no a los datos.';
 $string['maximumnumberofattempts'] = 'Número máximo de intentos';
-$string['maximumnumberofattempts_help'] = 'Este parámetro especifica el número máximo de intentos permitidos para cada pregunta. Si se responde incorrectamente en repetidas ocasiones, al alcanzar este valor máximo, se muestra la siguiente página de la lección.';
+$string['maximumnumberofattempts_help'] = 'Este ajuste especifica el número máximo de intentos permitidos para cada pregunta. Si se responde incorrectamente en repetidas ocasiones, al alcanzar este valor máximo, se muestra la siguiente página de la lección.';
 $string['maximumnumberofattemptsreached'] = 'Se ha alcanzado el número máximo de intentos. Traslado a la página siguiente';
 $string['maxtime'] = 'Límite de tiempo (minutos)';
 $string['maxtimewarning'] = 'Dispone de {$a} minuto(s) para terminar la lección.';
@@ -351,14 +342,7 @@ $string['notitle'] = 'Sin título';
 $string['numberofcorrectanswers'] = 'Número de respuestas correctas: {$a}';
 $string['numberofcorrectmatches'] = 'Número de emparejamientos correctos: {$a}';
 $string['numberofpagestoshow'] = 'Número de páginas a mostrar';
-$string['numberofpagestoshow_help'] = '<p>Este valor se usa solamente en las lecciones de tipo Tarjeta (<I>Flash Card</I>). Su
-valor por defecto es cero y significa que todas las Páginas/Tarjeta serán
-mostradas en la lección. Cuando el valor es distinto de cero se mostrarán ese
-número de páginas. Después de mostrar ese número de&nbsp; Páginas/Tarjeta viene
-el final de la lección y se muestra la calificación obtenida por el estudiante.</p>
-
-<p>Si el valor que se asigna es superior al número de páginas de la lección se
-mostrarán todas las páginas.</p>';
+$string['numberofpagestoshow_help'] = 'Esta ajuste especifica el número de páginas mostradas en la lección. Sólo es aplicable para las lecciones con páginas que se muestran en orden aleatorio (cuando "Acción después de la respuesta correcta" está ajustado a"Mostrar una página no vista"  o "Mostrar unan página no contestada"). Si se establece en cero, se muestran todas las páginas.';
 $string['numberofpagesviewed'] = 'Número de páginas vistas: {$a}';
 $string['numberofpagesviewednotice'] = 'Número de preguntas contestadas: {$a->nquestions}; (Debería contestar al menos: {$a->minquestions})';
 $string['numerical'] = 'Numérica';

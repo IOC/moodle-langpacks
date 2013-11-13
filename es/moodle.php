@@ -67,7 +67,7 @@ $string['addnewcategory'] = 'Agregar nueva categoría';
 $string['addnewcourse'] = 'Agregar un nuevo curso';
 $string['addnewuser'] = 'Agregar usuario';
 $string['addnousersrecip'] = 'Agregar a la lista de destinatarios a los usuarios que no han accedido a este {$a}';
-$string['addpagehere'] = 'Añada la Página aquí';
+$string['addpagehere'] = 'Añadir texto aquí';
 $string['addresource'] = 'Agregar recurso...';
 $string['addresourceoractivity'] = 'Añadir una actividad o un recurso';
 $string['addresourcetosection'] = 'Añadir recurso a la sección \'{$a}\'';
@@ -355,6 +355,7 @@ Si utiliza este área para almacenar archivos de curso, puede exponerse a una se
 
 
 El siguiente enlace proporciona más información acerca de todo esto y le mostrará maneras mejores de gestionar archivos en Moodle 2.';
+$string['courselegacyfilesofcourse'] = 'Archivos del curso heredados: {$a}';
 $string['coursemessage'] = 'Mensaje a usuarios de curso';
 $string['coursenotaccessible'] = 'Este curso no permite acceso público';
 $string['courseoverview'] = 'Vista general del curso';
@@ -498,7 +499,7 @@ $string['displayingfirst'] = 'Mostrando las primeras {$a->count} {$a->things}';
 $string['displayingrecords'] = 'Mostrando {$a} registros';
 $string['displayingusers'] = 'Mostrando los usuarios {$a->start} a {$a->end}';
 $string['displayonpage'] = 'Mostrar en página';
-$string['dndenabled_inbox'] = 'Arrastre y suelte los archivos a subir aquí';
+$string['dndenabled_inbox'] = 'Puede arrastrar y soltar archivos aquí para añadirlos';
 $string['dndnotsupported'] = 'La subida mediante \'drag and drop\' no está soportada';
 $string['dndnotsupported_help'] = 'Su navegador no soporta la subida mediante \'drag and drop\'.<br /> Esta funcionalidad está disponible en todas las versiones recientes de Chrome, Firefox y Safari, así como en Internet Explorer versión 10 y superiores.';
 $string['dndnotsupported_insentence'] = '\'drag and drop\' no soportado';
@@ -819,17 +820,7 @@ $string['hiddenassign'] = 'Tarea oculta';
 $string['hiddenfromstudents'] = 'Oculto de estudiantes';
 $string['hiddensections'] = 'Secciones ocultas';
 $string['hiddensectionscollapsed'] = 'Las secciones ocultas se muestran en forma colapsada';
-$string['hiddensections_help'] = '<P>Esta opción le permite decidir cómo se mostrarán a los estudiantes las
-   secciones ocultas del curso.</p>
-
-<p>Por defecto se muestra un área pequeña (en forma colapsada, normalmente
-   en gris) para indicar dónde está la sección oculta, si bien los estudiantes
-   no pueden ver realmente las actividades y textos ocultos. Esto es
-   especialmente útil en el formato semanal, de modo que las semanas sin
-   clase aparecerán limpias.</p>
-
-<p>Si usted lo elige, pueden estar completamente ocultas, de forma que los
-   estudiantes ni siquiera saben qué secciones del curso están ocultas.</p>';
+$string['hiddensections_help'] = 'Este ajuste determina si las secciones ocultas se muestran a los estudiantes en forma colapsada o están completamente ocultas.';
 $string['hiddensectionsinvisible'] = 'Las secciones ocultas son totalmente invisibles';
 $string['hide'] = 'Ocultar';
 $string['hideadvancedsettings'] = 'Ocultar ajustes avanzados';
@@ -1194,7 +1185,7 @@ En la mayoría de programas de correo electrónico, debería aparecer en forma d
 Un saludo del administrador de \'{$a->sitename}\',
 {$a->signoff}';
 $string['newusers'] = 'Nuevos usuarios';
-$string['newwindow'] = 'nueva ventana';
+$string['newwindow'] = 'Nueva ventana';
 $string['next'] = 'Siguiente';
 $string['nextsection'] = 'Siguiente sección';
 $string['no'] = 'No';
@@ -1549,7 +1540,7 @@ $string['selectagroup'] = 'Seleccionar un grupo';
 $string['selectall'] = 'Seleccionar todos';
 $string['selectamodule'] = 'Por favor, seleccione un módulo de actividad';
 $string['selectanaction'] = 'Seleccionar acciones';
-$string['selectanoptions'] = 'Seleccionar opciones';
+$string['selectanoptions'] = 'Seleccione una opción';
 $string['selectaregion'] = 'Seleccionar una región';
 $string['selectdefault'] = 'Seleccionar por defecto';
 $string['selectedfile'] = 'Archivo seleccionado';
@@ -1558,7 +1549,7 @@ $string['selectfiles'] = 'Seleccionar archivos';
 $string['selectmoduletoviewhelp'] = 'Seleccione una actividad o un recurso para ver la ayuda.
 
 Haga doble clic en el nombre de una actividad o recurso para añadirla de forma rápida';
-$string['selectnos'] = 'Seleccionar todos \'no\'';
+$string['selectnos'] = 'Seleccione todos \'no\'';
 $string['selectperiod'] = 'Seleccionar período';
 $string['senddetails'] = 'Enviar detalles por correo electrónico';
 $string['separate'] = 'Separar';
@@ -1658,7 +1649,7 @@ $string['starpending'] = '([*] = curso pendiente de aprobación)';
 $string['startdate'] = 'Fecha de inicio del curso';
 $string['startdate_help'] = 'Este ajuste determina el comienzo de la primera semana para un curso en formato semanal. También determina la fecha más temprana para la que existirá registro de las actividades del curso.';
 $string['startingfrom'] = 'Comienzo en';
-$string['startsignup'] = 'Comience ahora creando una cuenta';
+$string['startsignup'] = 'Crear nueva cuenta';
 $string['state'] = 'Estado/Municipio';
 $string['statistics'] = 'Estadísticas';
 $string['statisticsgraph'] = 'Gráfico de estadísticas';

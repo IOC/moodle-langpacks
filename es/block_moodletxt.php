@@ -25,4 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['adminbutremovefilterusers'] = 'Quitar los usuarios seleccionados del filtro';
 $string['admindescrssexpire'] = 'Tiempo en el que una nueva actualización de RSS se debe mostrar en la página del administrador tras haber sido publicada.';

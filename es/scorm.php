@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['activation'] = 'Activación';
 $string['activityloading'] = 'Usted será automáticamente encaminado a la actividad en';
+$string['activityoverview'] = 'Hay paquetes SCORM que requieren atención';
 $string['activitypleasewait'] = 'Cargando actividad, espere por favor...';
 $string['adminsettings'] = 'Configuración de administración';
 $string['advanced'] = 'Parámetros';
@@ -106,6 +107,7 @@ $string['displaycoursestructuredesc'] = 'Esta preferencia fija el valor por defe
 $string['displaycoursestructure_help'] = 'Si está activado, la tabla de contenidos se mostrará en la página de resumen SCORM.';
 $string['displaydesc'] = 'Esta preferencia fija el valor por defecto para mostrar o no el paquete de una actividad';
 $string['displaysettings'] = 'Configuración de pantalla';
+$string['dnduploadscorm'] = 'Añadir paquete SCORM';
 $string['domxml'] = 'Librería externa DOMXML';
 $string['duedate'] = 'Vencimiento';
 $string['element'] = 'Elemento';
@@ -170,7 +172,7 @@ $string['hidenav'] = 'Ocultar botones de navegación';
 $string['hidenavdesc'] = 'Esta preferencia fija el valor por defecto sobre mostrar o no los botones de navegación';
 $string['hidereview'] = 'Ocultar botón de revisión';
 $string['hidetoc'] = 'Mostrar la estructura del curso en el reproductor';
-$string['hidetocdesc'] = 'Esta preferencia fija el valor por defecto sobre mostrar o no la estructura del curso (TOC) en el reproductor SCORM';
+$string['hidetocdesc'] = 'Este ajuste especifica cómo se muestra la tabla de contenidos en el reproductor SCORM';
 $string['hidetoc_help'] = 'Esta configuración especifica cómo se muestra la tabla de contenidos en el reproductor de SCORM.';
 $string['highestattempt'] = 'Intento más alto';
 $string['identifier'] = 'Identificador de preguntas';
@@ -195,6 +197,7 @@ $string['invalidactivity'] = 'La actividad SCORM es incorrecta';
 $string['invalidhacpsession'] = 'Sesióm HACP no válida';
 $string['invalidmanifestresource'] = 'ADVERTENCIA: Los siguientes recursos son mencionados en el manifiesto, pero no se puden encontrar';
 $string['invalidurl'] = 'Se ha especificado una URL no válida';
+$string['invalidurlhttpcheck'] = 'Se ha especificado una URL no válida. Mensaje de debug:<pre>{$a->cmsg}</pre>';
 $string['last'] = 'Último acceso en';
 $string['lastaccess'] = 'Último acceso';
 $string['lastattempt'] = 'Último intento';
@@ -301,6 +304,7 @@ $string['review'] = 'Revisión';
 $string['reviewmode'] = 'Modo Revisión';
 $string['scoes'] = 'Objetos de aprendizaje';
 $string['score'] = 'Puntuación';
+$string['scorm:addinstance'] = 'Añadir un nuevo paquete SCORM';
 $string['scormclose'] = 'Hasta';
 $string['scormcourse'] = 'Curso de Aprendizaje';
 $string['scorm:deleteownresponses'] = 'Eliminar los intentos propios';
@@ -327,15 +331,7 @@ $string['show'] = 'Mostrar';
 $string['sided'] = 'Lateral';
 $string['skipview'] = 'Pasar por alto al estudiante la página de estructura de contenidos';
 $string['skipviewdesc'] = 'Esta preferencia fija el valor por defecto sobre cuándo pasar por alto la estructura de contenido de una página';
-$string['skipview_help'] = '<p>Si añade un paquete con únicamente un objeto de apredizaje, puede elegir omitir automáticamente la página de estructura de contenidos cuando los usuario seleccionan una actividad SCORM en la página del curso.</p>
-
-<p>Puede elegir:
-   <ul>
-       <li>Omitir la página de estructura de contenidos <strong>nunca</strong>.</li>
-       <li>Omitir la página de estructura de contenidos en el <strong>primer acceso</strong>.</li>
-       <li>Omitir la página de estructura de contenidos <strong>siempre</strong>.</li>
-   </ul>
-</p>';
+$string['skipview_help'] = 'Este ajuste especifica si la estructura de la página de contenido debe ser omitida (no se muestra). Si el paquete contiene sólo un objeto de aprendizaje, la página de la estructura del contenido siempre se puede omitir.';
 $string['slashargs'] = 'ATENCIÓN: los argumentos \'slash\' están deshabilitados en este sitio y los objetos pueden no funcionar como se espera.';
 $string['stagesize'] = 'Tamaño de marco/ventana';
 $string['stagesize_help'] = '<p>Estos dos parámetros definen la altura y la anchura del marco o ventana en el que se visualizará el objeto de aprendizaje.</p>';
@@ -365,6 +361,7 @@ $string['typelocalsync'] = 'Paquete bajado';
 $string['unziperror'] = 'Ha ocurrido un error durante la descompresión del paquete';
 $string['updatefreq'] = 'Actualizar frecuencia automáticamente';
 $string['updatefreqdesc'] = 'Esta preferencia fija el valor por defecto sobre la frecuencia de actualización automática de una actividad';
+$string['updatefreq_help'] = 'Esto permite descargar y actualizar automáticamente el paquete externo';
 $string['validateascorm'] = 'Validar un paquete SCORM';
 $string['validation'] = 'Resultado de la validación';
 $string['validationtype'] = 'Esta preferencia ajusta la librería DOMXML usada para validar un Manifiesto SCORM. Si tiene dudas, deje la opción activada.';
