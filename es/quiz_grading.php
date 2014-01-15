@@ -67,6 +67,7 @@ $string['inprogress'] = 'En curso';
 $string['invalidattemptid'] = 'No existe la ID de tal intento';
 $string['invalidquestionid'] = 'No se ha encontrado una pregunta calificable con la ID {$a}';
 $string['noquestionsfound'] = 'No se han encontrado preguntas clasificadas manualmente';
+$string['nothingfound'] = 'Nada que mostrar';
 $string['options'] = 'Opciones';
 $string['orderattempts'] = 'Ordenar intentos';
 $string['pluginname'] = 'Calificación manual';
