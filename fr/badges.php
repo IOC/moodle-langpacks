@@ -358,7 +358,7 @@ $string['statusmessage_3'] = 'Ce badge est actuellement disponible pour les util
 $string['statusmessage_4'] = 'Ce badge est actuellement archivé.';
 $string['subject'] = 'Sujet du message';
 $string['variablesubstitution'] = 'Substitution de variables dans les messages.';
-$string['variablesubstitution_help'] = 'Dans les messages de badges, certaines variables peuvent être insérées dans l\'objet et/ou le corps du message, et seront remplacées par des valeurs adéquates lorsque le message est envoyé. Ces variables doivent être insérées dans le texte exactement comme elles sont présentées ci-dessous. Les variables suivantes peuvent être utilisées :
+$string['variablesubstitution_help'] = 'Dans les messages de badges, certaines variables peuvent être insérées dans l\'objet et/ou le corps du message, et sont remplacées par des valeurs adéquates lorsque le message est envoyé. Ces variables doivent être insérées dans le texte exactement comme elles sont présentées ci-dessous. Les variables suivantes peuvent être utilisées :
 
 %badgename%
 : Sera remplacé par le nom du badge

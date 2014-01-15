@@ -190,15 +190,9 @@ $string['autosort'] = 'Tri automatique';
 $string['availableidnumbers'] = 'Identifiants disponibles';
 $string['average'] = 'Moyenne';
 $string['averagesdecimalpoints'] = 'Décimales des moyennes de colonnes';
-$string['averagesdecimalpoints_help'] = '<!-- $Id$ -->
-
-
-<p>Spécifie le nombre de décimales à afficher pour chaque moyenne de colonne. Si Hériter est sélectionné, le type d\'affichage de chaque colonne est utilisé.</p>';
+$string['averagesdecimalpoints_help'] = 'Ce réglage spécifie le nombre de décimales à afficher pour chaque moyenne de colonne. Si « Hériter » est sélectionné, le type d\'affichage de chaque colonne est utilisé.';
 $string['averagesdisplaytype'] = 'Type d\'affichage des moyennes de colonnes';
-$string['averagesdisplaytype_help'] = '<!-- $Id$ -->
-
-
-<p>Spécifie comment afficher des moyennes de chaque colonne. Si « Hériter » est sélectionné, le type d\'affichage de chaque colonne est utilisé.</p>';
+$string['averagesdisplaytype_help'] = 'Ce réglage spécifie comment afficher des moyennes de chaque colonne. Si « Hériter » est sélectionné, le type d\'affichage de chaque colonne est utilisé.';
 $string['backupwithoutgradebook'] = 'La sauvegarde ne contient pas la configuration du carnet de notes';
 $string['badgrade'] = 'La note fournie n\'est pas valide';
 $string['badlyformattedscale'] = 'Veuillez spécifier une liste de valeurs séparées par des virgules (au moins deux valeurs requises).';
@@ -455,14 +449,9 @@ $string['hidenooutcomes'] = 'Afficher les objectifs';
 $string['hidequickfeedback'] = 'Cacher le feedback rapide';
 $string['hideranges'] = 'Cacher les valeurs possibles';
 $string['hidetotalifhiddenitems'] = 'Cacher les totaux contenant des éléments cachés';
-$string['hidetotalifhiddenitems_help'] = '<!-- $Id$ -->
+$string['hidetotalifhiddenitems_help'] = 'Ce réglage détermine si les totaux contenant un ou plusieurs éléments d\'évaluation cachés seront affichés pour les participants ou remplacés par un tiret (-). S\'ils sont affichés, les totaux seront calculés soit en incluant, soit en excluant les éléments d\'évaluation cachés.
 
-
-<p>Ce réglage détermine si les totaux contenant un ou plusieurs éléments d\'évaluation cachés seront affichés pour les participants ou remplacés par un tiret (-). S\'ils sont affichés, les totaux seront calculés soit en incluant, soit en excluant les éléments d\'évaluation cachés.</p>
-
-<p>Si les éléments cachés sont exclus, le total vu par les participants sera différent de celui vu dans le rapport d\'évaluation par l\'enseignant, puisque celui-ci voit toujours les totaux calculés à partir de tous les éléments, qu\'ils soient cachés ou non.</p>
-
-<p>Si les éléments cachés sont inclus, les participants seront potentiellement en mesure de déduire par le calcul la valeur des éléments cachés.</p>';
+Si les éléments cachés sont exclus, le total vu par les participants sera différent de celui vu dans le rapport d\'évaluation par l\'enseignant, puisque celui-ci voit toujours les totaux calculés à partir de tous les éléments, qu\'ils soient cachés ou non. Si les éléments cachés sont inclus, les participants seront potentiellement en mesure de déduire par le calcul la valeur des éléments cachés.';
 $string['hidetotalshowexhiddenitems'] = 'Afficher les totaux en excluant les éléments cachés';
 $string['hidetotalshowinchiddenitems'] = 'Afficher les totaux en incluant les éléments cachés';
 $string['hideverbose'] = 'Cacher {$a->category} {$a->itemmodule} {$a->itemname}';
@@ -614,10 +603,7 @@ $string['outcomeshortname'] = 'Nom abrégé';
 $string['outcomesstandard'] = 'Objectifs standards';
 $string['outcomesstandardavailable'] = 'Objectifs standards disponibles';
 $string['outcomestandard'] = 'Objectif standard';
-$string['outcomestandard_help'] = '<!-- $Id$ -->
-
-
-<p>Un objectif standard est disponible dans tout le site, pour tous les cours.</p>';
+$string['outcomestandard_help'] = 'Un objectif standard est disponible dans tout le site, pour tous les cours.';
 $string['overallaverage'] = 'Moyenne globale';
 $string['overridden'] = 'Court-circuité';
 $string['overridden_help'] = '<!-- $Id -->

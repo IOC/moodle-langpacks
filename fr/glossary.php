@@ -43,10 +43,7 @@ $string['allentries'] = 'Tout';
 $string['allowcomments'] = 'Autoriser les commentaires';
 $string['allowcomments_help'] = 'Si ce réglage est activé, tous les utilisateurs ayant l\'autorisation de créer des commentaires pourront en ajouter aux articles des glossaires.';
 $string['allowduplicatedentries'] = 'Autoriser les doublons';
-$string['allowduplicatedentries_help'] = '<!-- Version: $Id$ -->
-
-
-<p>Si vous activez cette option, il sera possible d\'avoir plusieurs articles pour le même concept.</p>';
+$string['allowduplicatedentries_help'] = 'Si ce réglage est activé, il sera possible d\'avoir plusieurs articles pour le même nom de concept.';
 $string['allowprintview'] = 'Autoriser l\'affichage pour impression';
 $string['allowprintview_help'] = 'Cette option permet d\'autoriser l\'affichage pour les participants d\'un lien vers une version du glossaire prête pour l\'impression. Ce lien est toujours disponible pour les enseignants.';
 $string['andmorenewentries'] = 'et {$a} nouveaux articles.';
@@ -80,12 +77,7 @@ $string['cantinsertcat'] = 'Impossible d\'insérer la catégorie';
 $string['cantinsertrec'] = 'Impossible d\'insérer l\'enregistrement';
 $string['cantinsertrel'] = 'Impossible d\'insérer le lien catégorie-article';
 $string['casesensitive'] = 'Article sensible à la casse';
-$string['casesensitive_help'] = '<!-- Version: $Id$ -->
-
-
-<p>Ce réglage détermine si une correspondance exacte de la casse (lettres capitales et minuscules) est nécessaire lors de la liaison automatique de ces entrées.</p>
-
-<p>Si par exemple ce réglage est désactivé, le mot « html » dans un forum ne sera pas automatiquement lié à une entrée de glossaire nommée « HTML ».</p>';
+$string['casesensitive_help'] = 'Ce réglage détermine si une correspondance exacte de la casse (lettres capitales et minuscules) est nécessaire lors de la liaison automatique de ces articles.';
 $string['cat'] = 'catégorie';
 $string['categories'] = 'Catégories';
 $string['category'] = 'Catégorie';
@@ -228,10 +220,7 @@ $string['exportfile'] = 'Exporter les articles vers un fichier';
 $string['exportglossary'] = 'Exporter le glossaire';
 $string['exporttomainglossary'] = 'Exporter vers le glossaire principal';
 $string['filetoimport'] = 'Fichier à importer';
-$string['filetoimport_help'] = '<!-- $Id$ -->
-
-
-<p>Choisissez sur votre ordinateur le fichier XML contenant les articles de glossaire à importer.</p>';
+$string['filetoimport_help'] = 'Choisissez sur votre ordinateur le fichier XML contenant les articles de glossaire à importer.';
 $string['fillfields'] = 'Les champs concept et définition sont obligatoires.';
 $string['filtername'] = 'Liens automatiques des glossaires';
 $string['fullmatch'] = 'Correspondance mot pour mot';

@@ -312,7 +312,7 @@ $string['penaltyfactor_help'] = '<!-- $Id$ -->
 
 <p>Vous pouvez déterminer, pour chaque mauvaise réponse, quelle proportion de la note obtenue sera retirée. Cela n\'est intéressant que si le test est effectué en mode adaptatif. Ainsi, l\'étudiant peut apporter une nouvelle réponse à la question. Le facteur de pénalité doit être un nombre compris entre 0 et 1. Un facteur de pénalité de 1 signifie que l\'étudiant doit fournir la bonne réponse au premier essai, sous peine de n\'obtenir aucun point. Un facteur de pénalité de 0 indique que l\'étudiant peut réessayer autant qu\'il le veut et pourra obtenir tous les points.</p>';
 $string['penaltyforeachincorrecttry'] = 'Pénalité pour tout essai incorrect';
-$string['penaltyforeachincorrecttry_help'] = 'Lorsque vous utilisez le mode « Interactif avec tentatives multiples » ou « Adaptatif » les participants ont plusieurs essais pour trouver la bonne réponse. Cette option contrôle comment ils seront pénalisés pour chaque essai incorrect.
+$string['penaltyforeachincorrecttry_help'] = 'Lorsque des questions sont en mode « Interactif avec tentatives multiples » ou « Adaptatif », les participants ont plusieurs essais pour trouver la bonne réponse. Cette option contrôle comment ils sont pénalisés pour chaque essai incorrect.
 
 La pénalité est un pourcentage de la note totale de la question, donc si la question est notée sur 3 points et que la pénalité est de 0,3333333, alors le participant aura 3 points s\'il répond correctement à la question au premier essai, 2 points s\'il répond correctement au deuxième essai, et 1 point s\'il répond correctement au troisième essai.';
 $string['permissionedit'] = 'Modifier cette question';

@@ -364,10 +364,7 @@ $string['skipview_help'] = '<!-- $Id$ -->
 </ul>';
 $string['slashargs'] = 'ATTENTION ! Le réglage <i>slasharguments</i> est désactivé. Les objets SCORM ne fonctionneront pas correctement !';
 $string['stagesize'] = 'Taille cadre/fenêtre';
-$string['stagesize_help'] = '<!-- $Id$ -->
-
-
-<p>Ces deux paramètres déterminent les dimensions (hauteur et largeur) du cadre ou de la fenêtre de l\'objet d\'apprentissage.</p>';
+$string['stagesize_help'] = 'Ces deux paramètres déterminent les dimensions (hauteur et largeur) du cadre ou de la fenêtre de l\'objet d\'apprentissage.';
 $string['started'] = 'Démarré le';
 $string['status'] = 'État';
 $string['statusbar'] = 'Afficher la barre d\'état';

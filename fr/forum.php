@@ -248,10 +248,7 @@ $string['markreadbutton'] = 'Marquer<br />comme lu';
 $string['markunread'] = 'Marquer comme non lu';
 $string['markunreadbutton'] = 'Marquer comme<br />non lu';
 $string['maxattachments'] = 'Nombre maximal d\'annexes';
-$string['maxattachments_help'] = '<!-- $Id$ -->
-
-
-<p>Ce réglage vous permet de fixer le nombre maximal d\'annexes que vous voulez autoriser pour chaque message posté dans ce forum.</p>';
+$string['maxattachments_help'] = 'Ce réglage vous permet de spécifier le nombre maximal d\'annexes de chaque message de forum.';
 $string['maxattachmentsize'] = 'Taille maximale de l\'annexe';
 $string['maxattachmentsize_help'] = '<!-- $Id$ -->
 

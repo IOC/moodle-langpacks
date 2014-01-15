@@ -176,15 +176,15 @@ $string['configcronremotepassword'] = 'Si un mot de passe est spécifié dans ce
 http://site.exemple.fr/admin/cron.php?password=lemotdepasse
 </pre>Si le champ n\'est pas renseigné, aucun mot de passe n\'est nécessaire.';
 $string['configcurlcache'] = 'Durée de vie du cache cURL, en secondes.';
-$string['configcustommenuitems'] = 'Vous pouvez définir ici un menu personnalisé qui sera affiché par les thèmes. Chaque ligne décrit un élément de menu, et est constituée du texte du menu, d\'une URL (optionnelle) et d\'un texte (optionnel) à afficher dans une infobulle et d\'un code de langue ou d\'une liste de tels codes séparés par des virgules (optionnel, pour permettre l\'affichage d\'éléments en fonction de la langue). Ces éléments sont séparés par des caractères « trait vertical » (|). Une structure hiérarchique peut être définie à l\'aide de tiret au début des lignes. Exemple :
+$string['configcustommenuitems'] = 'Vous pouvez définir ici un menu personnalisé qui sera affiché par les thèmes. Chaque ligne décrit un élément de menu, et est constituée du texte du menu, d\'une URL (optionnelle) et d\'un texte (optionnel) à afficher dans une infobulle et d\'un code de langue ou d\'une liste de tels codes séparés par des virgules (optionnel, pour permettre l\'affichage d\'éléments en fonction de la langue). Ces éléments sont séparés par des caractères « trait vertical » (|). Une structure hiérarchique peut être définie à l\'aide de tirets au début des lignes. Exemple :
 <pre>
-Communauté Moodle|http://moodle.org|Le site de la communauté Moodle
--Moodle en français|http://moodle.org/course/view.php?id=20
--Assistance gratuite Moodle|http://moodle.org/support
--Développement de Moodle|http://moodle.org/development
+Communauté Moodle|https://moodle.org|Le site de la communauté Moodle
+-Moodle en français|https://moodle.org/course/view.php?id=20
+-Assistance gratuite Moodle|https://moodle.org/support
+-Développement de Moodle|https://moodle.org/development
 --Traqueur Moodle|http://tracker.moodle.org|Le traqueur de bogues de Moodle
 --Moodle Docs|http://docs.moodle.org|La documentation de Moodle
---Moodle Docs en français|http://docs.moodle.org|La documentation en français|fr
+--Moodle Docs en français|http://docs.moodle.org/fr|La documentation en français|fr
 -Nouveautés Moodle|http://moodle.org/news
 Entreprise Moodle
 -Hébergement commercial Moodle|http://moodle.com/hosting

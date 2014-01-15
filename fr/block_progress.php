@@ -47,7 +47,6 @@ $string['config_header_icon'] = 'Icône';
 $string['config_header_locked'] = 'Fermé pour l\'échéance';
 $string['config_header_monitored'] = 'Surveillé';
 $string['config_icons'] = 'Utiliser les icônes de la barre';
-$string['config_monitored'] = 'Activités/Ressources surveillées';
 $string['config_now'] = 'Utiliser';
 $string['config_orderby'] = 'Trier les éléments de la barre par';
 $string['config_orderby_course_order'] = 'Ordre dans le cours';

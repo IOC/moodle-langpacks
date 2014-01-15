@@ -198,6 +198,7 @@ $string['notenoughscaleitems'] = 'Vous devez entrer au minimum 2 items sur cette
 $string['notopen'] = 'Ce questionnaire ne sera pas disponible avant le {$a}.';
 $string['notrequired'] = 'Réponse facultative';
 $string['not_started'] = 'pas commencé';
+$string['nousersselected'] = 'Aucun utilisateur sélectionné';
 $string['num'] = 'n°';
 $string['numberfloat'] = 'Le nombre que vous avez tapé<strong>{$a->number}</strong> a été reformaté/arrondi avec une précision de <strong>{$a->precision}</strong> chiffres après la virgule.';
 $string['numberofdecimaldigits'] = 'Nb de chiffres après la virgule';
@@ -306,6 +307,7 @@ $string['realm_link'] = 'mod/questionnaire/qsettings#Questionnaire_Type';
 $string['redirecturl'] = 'L\'URL vers laquelle l\'utilisateur sera redirigé après avoir répondu au questionnaire.';
 $string['remove'] = 'Supprimer';
 $string['removeallquestionnaireattempts'] = 'Supprimer toutes les réponses à ce questionnaire';
+$string['removenotinuse'] = 'Ce questionnaire était basé sur un questionnaire « public » qui a été supprimé. Il ne peut donc plus être utilisé et doit être supprimé (contactez votre administrateur).';
 $string['required'] = 'Réponse obligatoire';
 $string['required_help'] = 'Si vous sélectionnez **Oui**, la question sera obligatoire,
 c\'est-à-dire que le répondant ne pourra pas soumettre le questionnaire sans y avoir répondu.';
@@ -321,8 +323,7 @@ $string['respondents'] = 'Répondants';
 $string['respondenttype'] = 'Anonyme ou nominatif ?';
 $string['respondenttypeanonymous'] = 'anonyme';
 $string['respondenttypefullname'] = 'nominatif';
-$string['respondenttype_help'] = 'Vous pouvez ici choisir si le nom de l\'étudiant sera affiché ou non lorsque vous visualiserez les réponses à ce questionnaire.  Si non, le mot **Anonyme** sera affiché.
-Note : si votre cours Moodle autorise l\'accès aux visiteurs anonymes, ils pourront répondre à un questionnaire seulement si l\'option anonyme a été choisie pour ce questionnaire.';
+$string['respondenttype_help'] = 'Vous pouvez ici choisir si le nom de l\'étudiant sera affiché ou non lorsque vous visualiserez les réponses à ce questionnaire.  Si non, le mot **Anonyme** sera affiché.';
 $string['respondenttype_link'] = 'mod/questionnaire/mod#Respondent_Type';
 $string['response'] = 'Réponse';
 $string['responseoptions'] = 'Options des réponses';
@@ -357,9 +358,10 @@ $string['sendemail_help'] = 'Envoyer une copie de chaque questionnaire rempli à
 Vous pouvez saisir plusieurs adresses, séparées par une virgule.
 (laissez vide si vous ne souhaitez pas recevoir de courriel).';
 $string['send_message'] = 'Envoyer un message aux utilisateurs sélectionnés';
+$string['send_message_to'] = 'Envoyer un message à :';
 $string['settings'] = 'Paramètres';
 $string['settingssaved'] = 'Paramètres enregistrés.';
-$string['show_nonrespondents'] = 'Afficher les utilisateurs n\'ayant pas répondu';
+$string['show_nonrespondents'] = 'Utilisateurs n\'ayant pas répondu';
 $string['started'] = 'commencé';
 $string['strfdate'] = '%d-%m-%Y';
 $string['strfdateformatcsv'] = 'd/m/Y H:i:s';
@@ -422,4 +424,5 @@ $string['wrongformat'] = 'Il y a une erreur avec votre réponse à la question :
 $string['wrongformats'] = 'Il y a une erreur avec votre réponse aux questions :';
 $string['yesno'] = 'Oui/Non';
 $string['yesno_help'] = 'Simple question à réponse **Oui** ou **Non**.';
+$string['yourresponse'] = 'Votre réponse';
 $string['yourresponses'] = 'Vos réponses';

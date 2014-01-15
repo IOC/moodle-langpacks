@@ -16,21 +16,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'forumngfeature_copy', language 'fr', branch 'MOODLE_25_STABLE'
+ * Strings for component 'block_checklist', language 'fr', branch 'MOODLE_25_STABLE'
  *
- * @package   forumngfeature_copy
+ * @package   block_checklist
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['copy_begin'] = 'Commencer la copie';
-$string['copy_discussion'] = 'Copier';
-$string['copy_info'] = 'Pour copier cette discussion vers un autre forum :<ol>
-<li>Cliquer sur <strong>Commencer la copie</strong> pour activer le porcessus.</li>
-<li>Aller vers le forum de destination. Cela peut être dans le mêmme forum (mais pour un groupe différent), dans un autre forum du même cours, ou un autre forum d\'un autre cours.</li>
-<li>Cliquer sur <strong>Copier la discussion</strong> pour finir la copie, ou <strong>Annuler</strong> pour annuler le processus..</li>
-</ol>';
-$string['copy_title'] = 'Copier la discussion';
-$string['pluginname'] = 'Copie de discussion';
+$string['checklist'] = 'Liste des tâches';
+$string['checklist:addinstance'] = 'Ajouter le bloc Liste des tâches à ma page Moodle';
+$string['checklist:myaddinstance'] = 'Ajouter un nouveau bloc Liste des tâches';
+$string['choosechecklist'] = 'Choisir la Liste des tâches';
+$string['choosegroup'] = 'Groupe par défaut';
+$string['nochecklist'] = 'Veuillez modifier ce bloc pour sélectionner une Liste des tâches à afficher';
+$string['nochecklistplugin'] = 'Vous devez installer la dernière version du plugin Liste des tâches pour que ce bloc fonctionne';
+$string['nousers'] = 'Pas d\'utilisateurs';
+$string['pluginname'] = 'Liste des tâches';

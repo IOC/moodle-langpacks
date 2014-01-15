@@ -297,12 +297,9 @@ $string['requireapproval_help'] = 'Si vous désirez que les fiches soient approu
 $string['requiredentries'] = 'Fiches requises pour achèvement';
 $string['requiredentries_help'] = 'Le nombre de fiches qu\'un participant a l\'obligation de créer dans cette activité pour qu\'elle soit considérée comme terminée.';
 $string['requiredentriestoview'] = 'Fiches requises avant consultation';
-$string['requiredentriestoview_help'] = '<!-- $Id$ -->
+$string['requiredentriestoview_help'] = 'Ce réglage indique le nombre de fiches qu\'un participant doit créer avant de pouvoir consulter les fiches d\'autres participants.
 
-
-<p>Ce réglage indique le nombre de fiches qu\'un participant doit créer avant de pouvoir consulter les autres fiches de cette activité de base de données.</p>
-
-<p>Remarque ! Cette fonctionnalité ne peut pas être utilisée en même temps que le filtre des liens automatiques des articles de base de données, car ce filtre est incapable de déterminer si un utilisateur a proposé le nombre requis d\'articles.</p>';
+Remarque ! Cette fonctionnalité ne peut pas être utilisée en même temps que le filtre des liens automatiques des articles de base de données, car ce filtre est incapable de déterminer si un utilisateur a proposé le nombre requis d\'articles.';
 $string['resetsettings'] = 'Réinitialiser les filtres';
 $string['resettemplate'] = 'Réinitialiser le modèle';
 $string['resizingimages'] = 'Génération des vignettes...';

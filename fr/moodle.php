@@ -703,7 +703,7 @@ $string['forgotteninvalidurl'] = 'URL de récupération de mot de passe non vala
 $string['format'] = 'Format';
 $string['format_help'] = 'Le format de cours détermine comment est affichée la page de cours.
 
-* Format SCORM – affiche un paquetage SCORM dans la première section de la page du cours (comme alternative à l\'utilisation de l\'activité SCORM)
+* Format activité unique - affiche une activité ou une ressource unique (comme par exemple un test ou un paquetage SCORM) dans la première section de la page du cours.
 * Format informel – un forum public est affiché sur la page du cours
 * Format thématique – la page de cours est organisée en sections thématiques
 * Format hebdomadaire – la page de cours est organisée en sections hebdomadaires, la première d\'entre elle commençant à la date de début du cours';
@@ -831,10 +831,7 @@ $string['idnumber'] = 'Numéro d\'identification';
 $string['idnumbercourse'] = 'N° d\'identification du cours';
 $string['idnumbercoursecategory'] = 'Numéro d\'identifiant de catégorie';
 $string['idnumbercoursecategory_help'] = 'L\'identifiant de catégorie de cours n\'est utilisé que lors de la vérification de correspondance avec des systèmes externes et n\'est affiché nulle part sur le site. Si la catégorie est codée de manière officielle, celui-ce devrait être renseigné ici. Sinon, le champ peut être laissé vide.';
-$string['idnumbercourse_help'] = '<!-- Version: $Id$ -->
-
-
-<p>Le numéro d\'identification (ID) du cours n\'est utilisé que lorsque le cours est mis en relation avec des systèmes externes. Il n\'est jamais affiché dans Moodle. Si vous avez un numéro de code officiel pour ce cours, utilisez-le. Sinon, vous pouvez laisser ce champ vide.</p>';
+$string['idnumbercourse_help'] = 'Le numéro d\'identification (ID) du cours n\'est utilisé que lorsque les cours sont mis en relation avec des systèmes externes. Il n\'est jamais affiché nulle part. Si vous avez un numéro de code officiel pour ce cours, utilisez-le. Sinon, vous pouvez laisser ce champ vide.';
 $string['idnumbergroup'] = 'Identifiant de groupe';
 $string['idnumbergroup_help'] = 'L\'identifiant d\'un groupe n\'est utilisé que lors de l\'utilisation de systèmes externes et n\'est jamais affiché. On renseigne ce champ si le groupe a un code officiel. Sinon, le champ peut être laissé vide.';
 $string['idnumbergrouping'] = 'Identifiant de groupement';
@@ -1084,9 +1081,7 @@ $string['newaccount'] = 'Nouveau compte';
 $string['newcourse'] = 'Nouveau cours';
 $string['newpassword'] = 'Nouveau mot de passe';
 $string['newpasswordfromlost'] = '<strong>Attention !</strong> Votre <strong>Mot de passe actuel</strong> vous a été envoyé dans le <strong>deuxième</strong> des deux courriels envoyés durant le processus de récupération de mot de passe. Veuillez vous assurer que vous avez bien reçu votre mot de passe de remplacement avant de continuer sur cette page.';
-$string['newpassword_help'] = '<!-- $Id$ -->
-
-Laissez vide pour conserver le mot de passe actuel.';
+$string['newpassword_help'] = 'Saisissez un nouveau mot de passe ou laissez vide pour conserver le mot de passe actuel.';
 $string['newpasswordtext'] = 'Bonjour {$a->firstname},
 
 Le mot de passe de votre compte sur « {$a->sitename} » a été remplacé par un nouveau mot de passe temporaire.
@@ -1434,10 +1429,7 @@ $string['scalescustomcreate'] = 'Ajouter un nouveau barème';
 $string['scalescustomno'] = 'Aucun barème personnalisé n\'a été encore créé';
 $string['scalesstandard'] = 'Barèmes standards';
 $string['scalestandard'] = 'Barème standard';
-$string['scalestandard_help'] = '<!-- $Id$ -->
-
-
-<p>Un barème standard est disponible dans tout le site, pour tous les cours.</p>';
+$string['scalestandard_help'] = 'Un barème standard est disponible dans tout le site, pour tous les cours.';
 $string['scalestip'] = 'Pour créer des barêmes personnalisés, utilisez le liens « Barêmes... » dans le menu d\'administration de votre cours.';
 $string['scalestip2'] = 'Pour créer des barêmes personnalisés, cliquez sur le lien Notes dans le menu d\'administration du cours, puis sélectionnez Modifier > Barêmes dans le menu déroulant.';
 $string['schedule'] = 'Planification';

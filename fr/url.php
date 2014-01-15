@@ -41,7 +41,7 @@ $string['displayselect_help'] = 'Ce réglage, ainsi que le type de fichier de l\
 * Automatique : la meilleure option d\'affichage pour l\'URL concernée est automatiquement sélectionnée
 * Intégrer : l\'URL est affichée dans la page au-dessous de la barre de navigation, avec la description de l\'URL et tous les blocs
 * Ouvrir : l\'URL est affichée toute seule dans la fenêtre du navigateur
-* Fenêtre surgissante : l\'URL est affichée dans une nouvelle fenêtre de navigateur sans menus ni barre d\'adresse
+* Fenêtre surgissante : l\'URL est affichée dans une nouvelle fenêtre de navigateur sans menu ni barre d\'adresse
 * Dans un cadre : l\'URL est affichée dans un cadre en dessous de la barre de navigation et de la description de l\'URL
 * Nouvelle fenêtre : l\'URL est affichée dans une nouvelle fenêtre du navigateur, avec menus et barre d\'adresse';
 $string['externalurl'] = 'URL externe';

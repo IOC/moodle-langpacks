@@ -186,6 +186,12 @@ $string['confirmserverdelete'] = 'Voulez-vous vraiment supprimer le serveur <b>{
 $string['confirmstartattemptlimit'] = 'Nombre de tentatives permises : {$a}. Vous allez commencer une nouvelle tentative. Voulez-vous continuer ?';
 $string['confirmstartattempttimelimit'] = 'Ce test a une limite de temps et est limité à {$a} tentative(s). Vous êtes sur le point de commencer une nouvelle tentative. Voulez-vous continuer ?';
 $string['confirmstarttimelimit'] = 'Le temps pour effectuer ce test est limité. Voulez-vous vraiment le commencer ?';
+$string['connectionerror'] = 'Connexion réseau perdue (échec de l\'enregistrement automatique).
+
+Veuillez prendre note de toutes les réponses que vous avez saisies sur cette page au cours des quelques dernières minutes, puis essayez de vous reconnecter.
+
+Une fois la connexion rétablie, vos réponses devraient être enregistrées et ce message disparaîtra.';
+$string['connectionok'] = 'Connexion réseau rétablie. Vous pouvez continuer.';
 $string['containercategorycreated'] = 'Cette catégorie a été créée pour y placer les catégories originales qui ont été déplacées au niveau du site pour les raisons spécifiées ci-dessous.';
 $string['continueattemptquiz'] = 'Continuer la dernière tentative';
 $string['continuepreview'] = 'Continuer la dernière prévisualisation';
@@ -245,12 +251,7 @@ $string['download'] = 'Cliquer pour télécharger le fichier exporté';
 $string['downloadextra'] = '(le fichier est aussi déposé dans les fichiers du cours, dans le dossier /backupdata/quiz)';
 $string['duplicateresponse'] = 'Cet envoi a été ignoré, car vous avez déjà donné auparavant une réponse équivalente.';
 $string['eachattemptbuildsonthelast'] = 'Chaque tentative complète la précédente';
-$string['eachattemptbuildsonthelast_help'] = '<!-- $Id$ -->
-
-
-<p>Lorsqu\'on autorise l\'étudiant à refaire plusieurs fois un test et que cette option est activée, l\'étudiant pourra commencer une nouvelle tentative à partir des résultats de l\'essai précédent. L\'étudiant pourra ainsi compléter un test en plusieurs séances ou corriger les erreurs qu\'il aurait faites.</p>
-
-<p>Si vous désirez que l\'étudiant recommence à zéro à chaque tentative, choisissez de désactiver cette option.</p>';
+$string['eachattemptbuildsonthelast_help'] = 'Lorsqu\'on autorise l\'étudiant à refaire plusieurs fois un test et que cette option est activée, l\'étudiant pourra commencer une nouvelle tentative à partir des résultats de l\'essai précédent. L\'étudiant pourra ainsi compléter un test en plusieurs fois.';
 $string['editcategories'] = 'Modifier les catégories';
 $string['editcategory'] = 'Modifier la catégorie';
 $string['editcatquestions'] = 'Modifier les questions de la catégorie';
@@ -481,10 +482,7 @@ $string['neverallononepage'] = 'Jamais, toutes les questions sur une page';
 $string['newattemptfail'] = 'Erreur ! Impossible de commencer une tentative de ce test';
 $string['newpage'] = 'Nouvelle page';
 $string['newpageevery'] = 'Commencer automatiquement une nouvelle page';
-$string['newpage_help'] = '<!-- $Id$ -->
-
-
-<p>Pour les tests longs, il peut être utile de répartir le test au travers de plusieurs pages, en définissant un nombre de questions par page. Lorsque vous ajouterez des questions au test, les boutons de changement de page seront automatiquement introduits, selon le paramètre indiqué ici. Par ailleurs, vous pourrez également déplacer manuellement ce changement de page, en éditant la page.</p>';
+$string['newpage_help'] = 'Pour les tests longs, il peut être utile de répartir le test sur plusieurs pages, en définissant un nombre de questions par page. Lorsque vous ajouterez des questions au test, les boutons de changement de page seront automatiquement introduits, selon le paramètre indiqué ici. Par ailleurs, vous pourrez également déplacer manuellement ce changement de page, en modifiant la page.';
 $string['noanswers'] = 'Aucune réponse n\'a été sélectionnée !';
 $string['noattempts'] = 'Aucune tentative n\'a été réalisée sur ce test';
 $string['noattemptsfound'] = 'Aucune tentative trouvée.';
@@ -714,12 +712,7 @@ $string['reportuserswithorwithout'] = 'Les utilisateurs inscrits qui ont ou n\'o
 $string['reportuserswithout'] = 'Les utilisateurs inscrits qui n\'ont pas effectué le test';
 $string['reportwhattoinclude'] = 'Informations à inclure dans le rapport';
 $string['requirepassword'] = 'Nécessite une clef';
-$string['requirepassword_help'] = '<!-- $Id$ -->
-
-
-<p>Ce champ est optionnel.</p>
-
-<p>Si vous spécifiez ici une clef, les participants devront taper cette même clef avant de pouvoir faire le test.</p>';
+$string['requirepassword_help'] = 'Si vous spécifiez ici un mot de passe, les participants devront le saisir avant de pouvoir faire le test.';
 $string['requiresubnet'] = 'Restriction par adresse IP';
 $string['requiresubnet_help'] = '<!-- $Id$ -->
 

@@ -40,6 +40,6 @@ $string['nolangupdateneeded'] = 'Toutes les langues sont à jour. Aucune mise à
 $string['pluginname'] = 'Paquetages langue';
 $string['purgestringcaches'] = 'Vider les caches des chaînes de caractères';
 $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site download.moodle.org. L\'installation automatique des langues ne peut donc pas avoir lieu. Veuillez télécharger sur <a href="http://download.moodle.org/langpack/">download.moodle.org/langpack</a> le(s) fichier(s) compressé(s) nécessaire(s) dans la liste ci-dessous, les copier dans votre dossier {$a} et les décompresser manuellement.';
-$string['uninstall'] = 'Désinstaller les paquetages de langue sélectionnés';
+$string['uninstall'] = 'Désinstaller le paquetage de langue sélectionné';
 $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement la langue {$a}. Voulez-vous continuer ?';
 $string['updatelangs'] = 'Mettre à jour tous les paquetages de langue installés';

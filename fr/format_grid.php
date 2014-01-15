@@ -36,7 +36,6 @@ $string['hidden_topic'] = 'Cette section a été masquée';
 $string['hidefromothers'] = 'Masquer la section';
 $string['hide_summary'] = 'mettre la section en mode image';
 $string['hide_summary_alt'] = 'Mettre cette section en mode image';
-$string['imagecannotbeusedasanicon'] = 'L\'image ne peut pas être utilisée comme une icône. Elle doit être au format GIF, JPG ou PNG et la bibliothèque PHP GD doit être installée.';
 $string['namegrid'] = 'Vue en image';
 $string['numbersections'] = 'Nombre de sections';
 $string['pluginname'] = 'Vue en image';

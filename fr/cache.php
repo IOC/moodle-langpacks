@@ -93,6 +93,7 @@ $string['ex_unabletolock'] = 'Impossible d\'enclencher un verrouillage pour le c
 $string['ex_unmetstorerequirements'] = 'Vous ne pouvez pas utiliser actuellement cet entrepôt. Veuillez vous référer à la documentation pour déterminer ce qui est nécessaire.';
 $string['gethit'] = 'Get - Hit';
 $string['getmiss'] = 'Get - Miss';
+$string['inadequatestoreformapping'] = 'Cet entrepôt ne remplit pas les conditions requises pour toutes les définitions connues. Les définitions pour lesquelles cet entrepôt est inadéquat seront données dans l\'entrepôt original par défaut, au lieu de l\'entrepôt sélectionné.';
 $string['invalidlock'] = 'Verrou non valide';
 $string['invalidplugin'] = 'Plugin non valide';
 $string['invalidstore'] = 'Entrepôt de cache non valide';
