@@ -50,8 +50,8 @@ $string['choosereadme'] = '<div class="clearfix">
 </div>
 </div>';
 $string['configtitle'] = 'Anomaly Einstellungen';
-$string['customcss'] = 'Eigenes CSS';
-$string['customcssdesc'] = 'Die CSS-Anweisungen in diesem Feld werden auf jeder Seite benutzt. Das Design kann so einfach an Ihre Bedürfnisse angepasst werden.';
+$string['customcss'] = 'CSS-Anpassungen';
+$string['customcssdesc'] = 'Die CSS-Anpassungen werden auf jeder Seite benutzt. Das Design kann so einfach geändert werden.';
 $string['pluginname'] = 'Anomaly';
 $string['region-side-post'] = 'Rechts';
 $string['region-side-pre'] = 'Links';

@@ -44,7 +44,12 @@ $string['contentheader'] = 'Inhalt';
 $string['displayoptions'] = 'Mögliche Anzeigeoptionen';
 $string['displayselect'] = 'Anzeigen';
 $string['displayselectexplain'] = 'Wählen Sie die Anzeigeart, aber nicht alle Arten sind für alle Dateien sinnvoll';
-$string['displayselect_help'] = 'Diese Einstellung bestimmt zusammen mit dem Dateityp (und den Fähigkeiten des Browsers), wie die Datei angezeigt wird. Folgende Optionen sind möglich:
+$string['displayselect_help'] = 'Die Darstellung des verlinkten Inhalts hängt von verschiedenen Faktoren ab:
+* gewählte Einstellung
+* Dateityp auf den verlinkt wird
+* Browser des Nutzers, der die Seite aufruft
+
+Folgende Einstelloptionen sind möglich:
 
 * Automatisch - Die beste Anzeigeoption für die Datei wird automatisch ausgewählt
 * Eingebettet - Die Datei wird innerhalb der Seite unterhalb der Navigationsleiste angezeigt, zusammen mit der Dateibeschreibung und allen Blöcken

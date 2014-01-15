@@ -61,8 +61,8 @@ $string['creditstomoodleorgdesc'] = 'Moodle-Logo unten auf der Seite zeigen';
 $string['ctmo_ineverypage'] = 'auf jeder Seite';
 $string['ctmo_no'] = 'nie';
 $string['ctmo_onfrontpageonly'] = 'nur auf der Startseite';
-$string['customcss'] = 'Eigenes CSS';
-$string['customcssdesc'] = 'Alle CSS-Anweisungen in diesem Feld werden auf jeder Seite benutzt. Das Design kann so einfach an Ihre Bedürfnisse angepasst werden. Wenn Sie z.B. die Farbe der Links ändern möchten, geben Sie folgenden Code ein:
+$string['customcss'] = 'CSS-Anpassungen';
+$string['customcssdesc'] = 'Die CSS-Anpassungen werden auf jeder Seite benutzt. Das Design kann so einfach geändert werden. Wenn Sie z.B. die Farbe der Links ändern möchten, geben Sie folgenden Code ein:
 <pre>a:link, a:visited, a:hover, a:active, a:focus {color:blue;}</pre>';
 $string['customlogourl'] = 'Eigenes Logo';
 $string['customlogourldesc'] = 'Wenn Sie das Logo für alle Seiten ändern möchten, geben Sie eine URL zum Logo an, z.B. http://www.meinserver.de/verzeichnis/logo.png oder ../pfad/logo.png. Das Standardlogo hat das Format PNG und ist transparent, 200px breit und 50px hoch.';

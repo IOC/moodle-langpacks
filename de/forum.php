@@ -298,7 +298,7 @@ $string['oldpostdays'] = '\'Gelesen\' nach x Tagen';
 $string['openmode0'] = 'Keine neuen Themen, keine Antworten';
 $string['openmode1'] = 'Keine neuen Themen, aber Antworten erlaubt';
 $string['openmode2'] = 'Neue Themen und Antworten erlaubt';
-$string['overviewnumpostssince'] = 'Beiträge seit dem letzten Login: {$a}';
+$string['overviewnumpostssince'] = 'Beiträge seit dem letzten Besuch: {$a}';
 $string['overviewnumunread'] = 'Ungelesene Beiträge: {$a}';
 $string['page-mod-forum-discuss'] = 'Forumsdiskussionsseite
 ';

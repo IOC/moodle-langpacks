@@ -60,7 +60,7 @@ $string['addedtogroupnot'] = 'Nicht zur Gruppe {$a} hinzugefügt';
 $string['addedtogroupnotenrolled'] = 'Nicht zur Gruppe {$a} hinzugefügt, da nicht im Kurs eingeschrieben';
 $string['addfilehere'] = 'Datei(en) hier hinzufügen';
 $string['addinganew'] = '{$a} hinzufügen';
-$string['addinganewto'] = '{$a->what} zu {$a->to} hinzufügen';
+$string['addinganewto'] = '{$a->what} zu "{$a->to}" hinzufügen';
 $string['addingdatatoexisting'] = 'Daten zu bestehenden hinzufügen';
 $string['addlinkhere'] = 'Link/URL hier hinzufügen';
 $string['addnewcategory'] = 'Kursbereich anlegen';
@@ -84,7 +84,7 @@ $string['adminhelpassignstudents'] = 'Gehen Sie in einen Kurs und fügen Sie die
 $string['adminhelpauthentication'] = 'Sie können interne Nutzerkonten oder externe Datenbanken verwenden';
 $string['adminhelpbackup'] = 'Datensicherung konfigurieren';
 $string['adminhelpconfiguration'] = 'Aussehen und Aufbau der Website konfigurieren';
-$string['adminhelpconfigvariables'] = 'Allgemeine Einstellungen der Website konfigurieren';
+$string['adminhelpconfigvariables'] = 'Grundeinstellungen der Website konfigurieren';
 $string['adminhelpcourses'] = 'Kurse und Kursbereiche verwalten, Personen zuweisen und Kursanträge bearbeiten';
 $string['adminhelpeditorsettings'] = 'Grundeinstellungen für den Editor festlegen';
 $string['adminhelpedituser'] = 'Nutzerliste durchsuchen und Nutzerprofile bearbeiten';
@@ -426,7 +426,7 @@ $string['currentpicture'] = 'Aktuelles Bild';
 $string['currentrelease'] = 'Aktuelle Versionsinformationen';
 $string['currentversion'] = 'Aktuelle Version';
 $string['databasechecking'] = 'Die Moodle-Datenbank wird von Version {$a->oldversion} auf {$a->newversion} aktualisiert';
-$string['databaseperformance'] = 'Datenbankleistung';
+$string['databaseperformance'] = 'Performance der Datenbank';
 $string['databasesetup'] = 'Datenbank wird eingerichtet';
 $string['databasesuccess'] = 'Datenbank wurde erfolgreich aktualisiert';
 $string['databaseupgradebackups'] = 'Sicherungsversion ist jetzt {$a}';
@@ -746,7 +746,7 @@ $string['frontpagenews'] = 'Nachrichten';
 $string['frontpagesettings'] = 'Einstellungen der Startseite';
 $string['fulllistofcourses'] = 'Alle Kurse';
 $string['fullname'] = 'Vollständiger Name';
-$string['fullnamecourse'] = 'Kursname';
+$string['fullnamecourse'] = 'Vollständiger Name';
 $string['fullnamecourse_help'] = 'Der vollständige Kursname wird auf jeder Kursseite oben und in der Kursübersicht angezeigt.';
 $string['fullnamedisplay'] = '{$a->firstname} {$a->lastname}';
 $string['fullnameuser'] = 'Vollständiger Name';
@@ -806,7 +806,7 @@ $string['guestsno'] = 'Für Gäste nicht erlaubt';
 $string['guestsnotallowed'] = 'Der Kurs \'{$a}\' erlaubt Gästen keinen Zugang.';
 $string['guestsyes'] = 'Für Gäste erlaubt';
 $string['guestuser'] = 'Gast';
-$string['guestuserinfo'] = 'Der Nutzer \'Gast\' hat ausschließlich Lesezugriff für Kurse, die den Gastzugriff ausdrücklich erlauben.';
+$string['guestuserinfo'] = 'Ein \'Gast\' hat nur in den Kursen einen Lesezugriff, die dafür freigegeben wurden.';
 $string['help'] = 'Hilfe';
 $string['helpprefix2'] = 'Hilfe für {$a}';
 $string['helpwiththis'] = 'Hilfe für dies';
@@ -926,7 +926,7 @@ $string['localpluginsmanage'] = 'Übersicht';
 $string['location'] = 'Ort';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = 'Sie sind angemeldet als {$a}';
-$string['loggedinasguest'] = 'Sie sind zur Zeit als Gast angemeldet';
+$string['loggedinasguest'] = 'Sie sind als Gast angemeldet';
 $string['loggedinnot'] = 'Sie sind nicht angemeldet.';
 $string['login'] = 'Login';
 $string['loginalready'] = 'Sie sind bereits angemeldet.';
@@ -1112,15 +1112,12 @@ $string['newpasswordtext'] = 'Guten Tag {$a->firstname} {$a->lastname},
 Ihr Kennwort auf \'{$a->sitename}\' wurde zurückgesetzt. Ihnen ist ein neues, temporäres Kennwort zugewiesen worden.
 
 Ihre Zugangsdaten lauten jetzt:
-   Anmeldename: {$a->username}
-   Kennwort: {$a->newpassword}
+Anmeldename: {$a->username}
+Kennwort: {$a->newpassword}
 
-Bitte folgen Sie diesem Link und ändern Sie Ihr Kennwort:
-{$a->link}
+Bitte folgen Sie diesem Link und ändern Sie Ihr Kennwort: {$a->link}
 
-Hinweis: In den meisten E-Mail-Programmen erscheint dieser Link blau, so dass Sie diesen anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters.
-
-Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
+Hinweis: In den meisten E-Mail-Programmen erscheint dieser Link blau, so dass Sie diesen anklicken können. Wenn dies nicht funktioniert, kopieren Sie bitte die komplette Adresse in die obere Zeile des Browser-Fensters. Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
 
 Viel Erfolg!
 {$a->signoff}';

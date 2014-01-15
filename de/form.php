@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addfields'] = '{$a} Felder zum Formular hinzufügen';
+$string['addfields'] = '{$a} Feld(er) zum Formular hinzufügen';
 $string['advancedelement'] = 'Erweitertes Element';
 $string['close'] = 'Schließen';
 $string['day'] = 'Tag';

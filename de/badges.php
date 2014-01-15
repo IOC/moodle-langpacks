@@ -359,7 +359,7 @@ $string['statusmessage_3'] = 'Diese Auszeichnung kann an Nutzer/innen verliehen 
 $string['statusmessage_4'] = 'Diese Auszeichnung ist derzeit archiviert.';
 $string['subject'] = 'Betreff';
 $string['variablesubstitution'] = 'Variable Substitution in Mitteilungen';
-$string['variablesubstitution_help'] = 'In der Mitteilung, die an Ausgezeichnete versendet wird, stehen verschiedene Platzhalter im Text bzw. im Betreff. Diese Platzhalter werden durch geeignete Werte ersetzt, wenn die Mitteilung erzeugt und versendet wird. Das funktioniert jedoch nur, wenn die Syntax genau so wie ute beschrieben verwendet wird:
+$string['variablesubstitution_help'] = 'In der Mitteilung, die an Ausgezeichnete versendet wird, stehen verschiedene Platzhalter im Text bzw. im Betreff. Diese Platzhalter werden durch geeignete Werte ersetzt, wenn die Mitteilung erzeugt und versendet wird. Das funktioniert jedoch nur, wenn die Syntax genau so wie unten beschrieben verwendet wird:
 
 %badgename%
 : An dieser Stelle wird der Name der Auszeichnung eingesetzt.

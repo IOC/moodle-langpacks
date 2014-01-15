@@ -32,7 +32,9 @@ $string['choosereadme'] = '<div class="clearfix">
 </div>
 <div class="well">
 <h3>Über Clean</h3>
-<p>Clean ist ein angepasstes Moodle-Design auf der Basis des Designs \'Bootstrap\', von dem Einstellungen, Methoden und Rendering übernommen werden. \'Bootstrap\' wurde als neues Grunddesign für Moodle 2.5 erstellt, u.z. mit Hilfe von::<br>
+<p>Clean ist ein angepasstes Design auf der Basis von Bootstrap. StyleSheets, Rendering und Einstellungen werden von Bootstrap vererbt und können in Clean angepasst werden.
+<h3>Autoren von Bootstrap</h3>
+<p>Bootstrap wurde erstellt für Moodle 2.5 von:<br>
 Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
 <h3>Autoren von Clean</h3>
 <p>Bas Brands, David Scotson, Mary Evans<br>
@@ -46,15 +48,15 @@ Website: <a href="http://www.basbrands.nl">www.basbrands.nl</a>
 </div>
 </div>';
 $string['configtitle'] = 'Clean';
-$string['customcss'] = 'Eigenes CSS';
-$string['customcssdesc'] = 'Die CSS-Anweisungen in diesem Feld werden auf jeder Seite benutzt. Das Design kann so einfach an eigene Bedürfnisse angepasst werden. Wenn Sie z.B. die Farbe der Links ändern möchten, geben Sie folgenden Code ein:
+$string['customcss'] = 'CSS-Anpassungen';
+$string['customcssdesc'] = 'Die CSS-Anpassungen werden auf jeder Seite benutzt. Das Design kann so einfach geändert werden. Wenn Sie z.B. die Farbe der Links ändern möchten, geben Sie folgenden Code ein:
 <pre>a:link, a:visited, a:hover, a:active, a:focus {color:blue;}</pre>';
 $string['footnote'] = 'Fußzeile';
 $string['footnotedesc'] = 'Der Inhalt dieses Feldes wird auf jeder Seite als Fußzeile angezeigt.';
 $string['invert'] = 'Navigationsleiste invertieren';
 $string['invertdesc'] = 'Diese Option invertiert die Farben in der Navigationsleiste. Die Hintergrundfarbe wird schwarz, die Textfarbe wird grau.';
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'Laden Sie Ihr eigenes Logo für den Kopfbereich hoch. Falls die Höhe Ihres Logos größer als 75 Pixel beträgt, fügen Sie folgende CSS-Anweisung mit der richtigen Höhe des Logos im Textfeld \'Eigenes CSS\' ein:
+$string['logodesc'] = 'Laden Sie Ihr eigenes Logo für den Kopfbereich hoch. Falls die Höhe Ihres Logos größer als 75 Pixel ist, fügen Sie folgende Anweisung mit der richtigen Höhe im Feld \'CSS-Anpassungen\' ein:
 <pre>a.logo {height: 100px;}</pre>';
 $string['pluginname'] = 'Clean';
 $string['region-side-post'] = 'Rechts';

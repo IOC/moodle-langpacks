@@ -104,8 +104,8 @@ $string['formatnwiki'] = 'NWiki-Format';
 $string['formatnwiki_help'] = 'NWiki ist eine dem MediaWiki ähnliche Markup-Sprache, die für das in Moodle enthaltene Modul NWiki verwendet wird.
 
 Um eine neue Seite zu erstellen, geben Sie den neuen Seitennamen in doppelte Eckige Klammern ein, z.B. [[Neue Seite]].';
-$string['history'] = 'Versionen';
-$string['history_help'] = 'Der Link \'Versionen\' führt zu älteren Versionen der Seite';
+$string['history'] = 'Verlauf';
+$string['history_help'] = 'Der Link \'Verlauf\' führt zu älteren Versionen der Seite';
 $string['html'] = 'HTML';
 $string['incorrectdeleteversions'] = 'Zu löschende Versionen sind falsch.';
 $string['individualpagedoesnotexist'] = 'Wikiseite existiert nicht';
@@ -266,4 +266,4 @@ $string['wikiunorderedlist'] = 'Ungeordnete Liste';
 $string['wiki:viewcomment'] = 'Seitenkommentare ansehen';
 $string['wiki:viewpage'] = 'Wikiseiten ansehen';
 $string['wrongversionlock'] = 'Jemand anderes hat die Seite aktualisiert, während Sie daran gearbeitet haben. Deswegen ist der von Ihnen verwendete Seiteninhalt veraltet.';
-$string['wrongversionsave'] = 'Jemand anderes hat eine neue Version der Seite gespeichert, während Sie daran gearbeitet haben. Sie haben diese neuen Inhalte überschrieben. Bitte prüfen Sie den Seitenverlauf.';
+$string['wrongversionsave'] = 'Jemand hat eine neue Version der Seite gespeichert, während Sie daran gearbeitet haben. Sie haben diese neuen Inhalte überschrieben. Bitte prüfen Sie den Seitenverlauf.';

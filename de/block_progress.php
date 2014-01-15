@@ -45,7 +45,6 @@ $string['config_header_icon'] = 'Symbol';
 $string['config_header_locked'] = 'Gesperrt bis zum Termin';
 $string['config_header_monitored'] = 'Überwacht';
 $string['config_icons'] = 'Symbole benutzen';
-$string['config_monitored'] = 'Überwachte Aktivitäten/Dateien';
 $string['config_now'] = 'Nutzen';
 $string['config_percentage'] = 'Prozentsatz für Teilnehmer/innen anzeigen';
 $string['config_title'] = 'Alternativer Titel';

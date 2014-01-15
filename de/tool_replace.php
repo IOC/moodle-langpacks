@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['disclaimer'] = 'Ja, ich kenne das Risiko';
-$string['excludedtables'] = 'Verschiedene Tabellen wurden beim ersetzen von Text nicht aktualisiert. Dazu gehören configuration, log, events und session Tabellen';
+$string['excludedtables'] = 'Verschiedene Tabellen werden nicht geändert, z.B. configuration, log, events und session';
 $string['notifyfinished'] = '... fertig!';
 $string['notifyrebuilding'] = 'Der Cache wird neu aufgebaut...';
 $string['notimplemented'] = 'Diese Option funktioniert ausschließlich für MySQL- und Postgres-Datenbanken.';

@@ -50,8 +50,8 @@ $string['choosereadme'] = '<div class="clearfix">
 </div>
 </div>';
 $string['configtitle'] = 'Arialist-Einstellungen';
-$string['customcss'] = 'Eigenes CSS';
-$string['customcssdesc'] = 'Die CSS-Anweisungen in diesem Feld werden auf jeder Seite benutzt. Das Design kann so einfach an Ihre Bedürfnisse angepasst werden.';
+$string['customcss'] = 'CSS-Anpassungen';
+$string['customcssdesc'] = 'Die CSS-Anpassungen werden auf jeder Seite benutzt. Das Design kann so einfach geändert werden.';
 $string['linkcolor'] = 'Linkfarbe';
 $string['linkcolordesc'] = 'Diese Option stellt die Farbe für Links ein.';
 $string['logo'] = 'Logo';

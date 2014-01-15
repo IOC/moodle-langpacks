@@ -36,7 +36,12 @@ $string['createurl'] = 'Link/URL einbinden';
 $string['displayoptions'] = 'Mögliche Anzeigeoptionen';
 $string['displayselect'] = 'Anzeigen';
 $string['displayselectexplain'] = 'Anzeigetyp auswählen, aber leider nicht sind nicht alle Typen für alle URLs geeignet';
-$string['displayselect_help'] = 'Diese Einstellung bestimmt zusammen mit dem URL-Dateityp (und den Fähigkeiten des Browsers), wie die URL angezeigt wird. Folgende Optionen sind möglich:
+$string['displayselect_help'] = 'Die Darstellung des verlinkten Inhalts hängt von verschiedenen Faktoren ab:
+* gewählte Einstellung
+* Dateityp auf den verlinkt wird
+* Browser des Nutzers, der die Seite aufruft
+
+Folgende Einstelloptionen sind möglich:
 
 * Automatisch - Die beste Anzeigeoption für die URL wird automatisch ausgewählt
 * Eingebettet - Die URL wird innerhalb der Seite unterhalb der Navigationsleiste angezeigt, zusammen mit der Beschreibung und allen Blöcken

@@ -134,7 +134,6 @@ $string['filterstartendtime_summary'] = 'Start/End-Datum Filter';
 $string['fixeddate'] = 'Festes Datum';
 $string['footer'] = 'Fußzeile';
 $string['forcemidnight'] = 'Mitternacht erzwingen';
-$string['fsearchuserfield'] = 'Nutzerfeld-Suche';
 $string['fuserfield'] = 'Nutzer Feldfilter';
 $string['globalstatsshouldbeenabled'] = 'Seitenstatistik muss aktiviert sein. Gehe zu Admin-> Server-> Statistiken';
 $string['groupseries'] = 'Datenreihen gruppieren';

@@ -186,6 +186,12 @@ $string['confirmserverdelete'] = 'Möchten Sie wirklich den Server <b>{$a}</b> a
 $string['confirmstartattemptlimit'] = 'Anzahl der erlaubten Versuche: {$a}. Möchten Sie wirklich einen neuen Versuch starten?';
 $string['confirmstartattempttimelimit'] = 'Sie können bis zu {$a} Versuch(e) in diesem Test durchführen. Wenn Sie starten, haben Sie eine begrenzte Zeit für die Durchführung des Versuchs. Möchten Sie jetzt einen neuen Versuch starten?';
 $string['confirmstarttimelimit'] = 'Der Test ist zeitlich begrenzt. Möchten Sie jetzt einen Versuch starten?';
+$string['connectionerror'] = 'Sie haben die Netzwerkverbindung verloren. Das automatische Speichern konnte daher nicht ausgeführt werden.
+
+Machen Sie sich eine Notiz über alle in den letzten Minuten  eingegebenen Antworten und versuchen Sie die Vernindung wieder herzustellen.
+
+Sobald die Verbindung wieder hergestellt wurde, sollten Sie die Antworten erneut speichern. Diese Nachricht verschwindet dann.';
+$string['connectionok'] = 'Die Netzwerkverbindung wurde wieder hergestellt. Arbeiten Sie nun vorsichtig weiter.';
 $string['containercategorycreated'] = 'Die Kategorie wurde aus den unten genannten Gründen angelegt, um alle Fragen aus anderen Kategorien aufzunehmen.';
 $string['continueattemptquiz'] = 'Letzten Versuch fortsetzen';
 $string['continuepreview'] = 'Letzte Vorschau fortsetzen';
@@ -270,7 +276,7 @@ $string['emailnotifybody'] = 'Hallo {$a->username},
 {$a->studentname} hat den Test \'{$a->quizname}\' ({$a->quizurl}) im Kurs \'{$a->coursename}\' beendet.
 
 Sie können diesen Versuch unter {$a->quizreviewurl} ansehen.';
-$string['emailnotifysmall'] = '{$a->studentName} hat {$a->quizname} abgeschlossen. Siehe {$a->quizreviewurl}';
+$string['emailnotifysmall'] = '{$a->studentname} hat {$a->quizname} abgeschlossen. Siehe {$a->quizreviewurl}';
 $string['emailnotifysubject'] = '{$a->studentname} hat den Test {$a->quizname} beendet';
 $string['emailoverduebody'] = 'Hallo {$a->studentname},
 
@@ -328,7 +334,7 @@ $string['fractionsnomax'] = 'Eine dieser Antworten sollte 100% sein, damit
 $string['fromfile'] = 'aus der Datei:';
 $string['functiondisabledbysecuremode'] = 'Diese Funktion ist aktuell deaktiviert';
 $string['generalfeedback'] = 'Standard-Feedback';
-$string['generalfeedback_help'] = 'Das allgemeine Fragen-Feedback besteht aus dem Text, den die Teilnehmer/innen nach dem Versuch sehen, eine Frage zu beantworten. Anders als das Feedback, das vom Fragetyp und der Nutzerantwort abhängt, wird der Text des allgemeinen Fragen-Feedbacks allen Teilnehmern/innen gezeigt';
+$string['generalfeedback_help'] = 'Das Fragen-Feedback besteht aus dem Text, den die Teilnehmer/innen nach dem Versuch sehen, eine Frage zu beantworten. Anders als das Feedback, das vom Fragetyp und der Nutzerantwort abhängt, wird der Text des allgemeinen Fragen-Feedbacks allen Teilnehmern/innen gezeigt';
 $string['graceperiod'] = 'Nachfrist für Abgabe';
 $string['graceperiod_desc'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist zur Abgabe, aber keine Änderungen an den Antworten\' wird die voreingestellte Zeitdauer in Sekunden festgelegt.';
 $string['graceperiod_help'] = 'Wenn für den Zeitablauf gewählt wurde \'Nachfrist zur Abgabe, aber keine Änderungen an den Antworten\' wird die Zeitdauer in Sekunden festgelegt.';
@@ -651,7 +657,7 @@ $string['randomwithsubcat'] = 'Fragen aus dieser Kategorie und aus deren Unterka
 $string['readytosend'] = 'Sie sind dabei, Ihren Test zur Bewertung abzuschicken. Sind Sie sicher, dass Sie fortfahren wollen?';
 $string['reattemptquiz'] = 'Test wiederholen';
 $string['recentlyaddedquestion'] = 'Kürzlich hinzugefügte Frage!';
-$string['recurse'] = 'Unterkategorien einbeziehen';
+$string['recurse'] = 'Fragen aus Unterkategorien einbeziehen';
 $string['regrade'] = 'Alle Versuche neu bewerten';
 $string['regradecomplete'] = 'Alle Versuche wurden neu bewertet.';
 $string['regradecount'] = '{$a->changed} von {$a->attempt} Noten wurden geändert.';

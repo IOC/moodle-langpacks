@@ -59,3 +59,4 @@ $string['testservers_desc'] = 'Testserver werden für Unit-Tests und Performace-
 $string['usecompression'] = 'Komprimierung benutzen';
 $string['usecompression_help'] = '(De-)Aktiviert die Kompression für die Ladelast. Nach der Aktivierung werden Werte, die eine definierte Grenzgröße (derzeit 100 Bytes) übersteigen, beim Speichern komprimiert und beim Aufruf transparent dekomprimiert.';
 $string['useserialiser'] = 'Serialiser verwenden';
+$string['useserialiser_help'] = 'Legt das Serialisierungsprogramm für die Serialisierung nicht-skalare Werte fest. Die gültigen Serialisierungsprogramme sind Memcached :: SERIALIZER_PHP oder Memcached :: SERIALIZER_IGBINARY. Letztere wird nur unterstützt, wenn memcached mit konfiguriert ist - enable-memcached-igbinary Option und die igbinary Erweiterung geladen wird.';
