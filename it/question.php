@@ -347,7 +347,7 @@ $string['penaltyfactor_help'] = '<p>Per ogni risposta errata può essere definit
 $string['penaltyforeachincorrecttry'] = 'Penalità per ciascuna scelta non corretta';
 $string['penaltyforeachincorrecttry_help'] = 'Se le domande usano i comportamenti \'Interattivo con tentativi multipli\' oppure \'Modo adattativo" per dare allo studente più possibilità per rispondere correttamente, questa opzione consente di controllare quanto penalizzare lo studente per le scelte sbagliate.
 
-La penalità è in proporzione al punteggio totale della domanda, ad esempio se la domanda ha un punteggio pari a tre e la penalità è 0.3333333, lo studente otterrà un punteggio pari a tre se indovina la risposta subito, pari a 2 se indovina la risposta alla seconda scelta, e pari a 1 alla terza scelta.';
+La penalità è in proporzione al punteggio totale della domanda, ad esempio se la domanda ha un punteggio pari a tre e la penalità è 0.3333333, lo studente otterrà un punteggio pari a tre se indovina la risposta subito, pari a 2 se indovina la risposta al secondo tentativo e pari a 1 se indovina la risposta al al terzo tentativo.';
 $string['permissionedit'] = 'Modificare questa domanda';
 $string['permissionmove'] = 'Spostare questa domanda';
 $string['permissionsaveasnew'] = 'Salvare questa domanda come nuova domanda';

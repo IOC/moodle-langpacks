@@ -230,7 +230,7 @@ $string['error:nosuchfield'] = 'Attenzione: il campo del profilo utente non è p
 $string['error:nosuchmod'] = 'Attenzione: l\'attività non è più disponibile';
 $string['error:nosuchrole'] = 'Attenzione: il ruolo non è più disponibile';
 $string['error:nosuchuser'] = 'Nel backack provider non sono presenti utenti con l\'email indicata.';
-$string['error:notifycoursedate'] = 'Attenzione: i badge i cui criteri dipendono dal completamento del corso e delle attività no saranno rilasciati fino alla data di inizio del corso.';
+$string['error:notifycoursedate'] = 'Attenzione: i badge i cui criteri dipendono dal completamento del corso e delle attività non saranno rilasciati fino alla data di inizio del corso.';
 $string['error:parameter'] = 'Attenzione: devi scegliere almeno un parametro per consentire il corretto rilasci del badge';
 $string['error:personaneedsjs'] = 'Per il collegamento è richiesto Javascript. Se possibile, abilita Javascritpt e ricarica la pagina.';
 $string['error:requesterror'] = 'La richiesta di collegamento non è riuscita (codice errore {$a}).';
@@ -334,7 +334,7 @@ $string['reviewconfirm'] = '<p>Il badge diverrà visibile agli utenti i quali po
 
 <p>Una volta che un badge sarà stato rilasciato, sarà <strong>bloccato</strong> - alcune impostazioni, inclusi i criteri e la scadenza, non potranno più essere modificate.</p>
 
-<p>Se certo di abilitare l\'accesso al badge\'{$a}\'?</p>';
+<p>Sei certo di abilitare l\'accesso al badge \'{$a}\'?</p>';
 $string['save'] = 'Salva';
 $string['searchname'] = 'Cerca per nome';
 $string['selectaward'] = 'Scegliere il ruolo da utilizzare per rilasciare il badge';
@@ -372,7 +372,7 @@ $string['variablesubstitution_help'] = 'In un messaggio badge è possibile inser
 
 %username% : sarà sostituita dal nome di chi ha conseguito il badge
 
-%badgelink% : sarà sostituita dall\'URL contenente le informazioni del badge rialsciato.';
+%badgelink% : sarà sostituita dall\'URL pubblico contenente le informazioni del badge rilasciato.';
 $string['viewbadge'] = 'Visualizza badge rilasciati';
 $string['visible'] = 'Visibile';
 $string['warnexpired'] = '(Questo badge è scaduto!)';

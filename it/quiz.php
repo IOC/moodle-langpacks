@@ -186,6 +186,12 @@ $string['confirmserverdelete'] = 'Sei sicuro di voler rimuovere il server <b>{$a
 $string['confirmstartattemptlimit'] = 'Per questo quiz sono previsti {$a} tentativi. L\'accesso al quiz sarà considerato come un tentativo. Vuoi procedere?';
 $string['confirmstartattempttimelimit'] = 'Il quiz ha un tempo massimo di svolgimento e consente un massimo di {$a} tentativi. L\'accesso al quiz sarà contato come un tentativo. Vuoi procedere?';
 $string['confirmstarttimelimit'] = 'Il Quiz ha un tempo massimo di svolgimento. Sei sicuro di voler iniziare?';
+$string['connectionerror'] = 'La connessione di rete si è interrotta (Il salvataggio automatico è fallito).
+
+Annota tutte le risposte date in questa pagina negli ultimi minuti, poi prova a riconnetterti.
+
+Una volta ripristinata la connessione, le tue risposte saranno salvate e questo messaggio scomparirà.';
+$string['connectionok'] = 'La connessione di rete si è ripristinata. Puoi proseguire.';
 $string['containercategorycreated'] = 'Questa categoria è stata creata per contenere tutte le categorie originali spostate a livello di sito a causa di quanto sotto specificato.';
 $string['continueattemptquiz'] = 'Riprendi ultimo tentativo';
 $string['continuepreview'] = 'Continua l\'ultima anteprima';
@@ -490,7 +496,7 @@ $string['notavailabletostudents'] = 'Nota: Attualmente questo quiz non è dispon
 $string['notenoughrandomquestions'] = 'Non ci sono domande sufficienti per creare la domanda {$a->name} ({$a->id}) nella categoria  {$a->category}.';
 $string['notenoughsubquestions'] = 'Non sono state definite sufficienti sotto domande!<br />Vuoi tornare indietro e correggere la domanda?';
 $string['notimedependentitems'] = 'Elementi dipendenti dal tempo non sono attualmente supportati dal modulo quiz. Nel frattempo si può fissare un limite di tempo per l\'intero quiz. Preferisci scegliere un elemento differente (o usare lo stesso l\'elemento corrente)?';
-$string['notyetgraded'] = 'Non ancora valutate';
+$string['notyetgraded'] = 'Non ancora valutato';
 $string['notyetviewed'] = 'Non ancora visualizzato';
 $string['notyourattempt'] = 'Questo non è il tuo tentativo!';
 $string['noview'] = 'L\'utente autenticato non ha il privilegio di visualizzare questo quiz';
@@ -636,7 +642,7 @@ $string['randomwithsubcat'] = 'Domande presenti in questa categoria, incluse le 
 $string['readytosend'] = 'Stai per inviare l\'intero quiz per la valutazione. Sei sicuro di voler continuare?';
 $string['reattemptquiz'] = 'Ritenta il quiz';
 $string['recentlyaddedquestion'] = 'Domanda aggiunta recentemente';
-$string['recurse'] = 'Visualizza anche le domande delle sotto-categorie';
+$string['recurse'] = 'Includi anche le domande presenti nelle sotto categorie';
 $string['regrade'] = 'Rivaluta tutti i tentativi';
 $string['regradecomplete'] = 'Tutti i tentativi sono stati rivalutati';
 $string['regradecount'] = '{$a->changed} su {$a->attempt} valutazioni sono state cambiate';

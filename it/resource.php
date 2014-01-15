@@ -44,7 +44,7 @@ $string['contentheader'] = 'Contenuto';
 $string['displayoptions'] = 'Opzioni di visualizzazione disponibili';
 $string['displayselect'] = 'Visualizzazione';
 $string['displayselectexplain'] = 'Imposta il tipo di visualizzazione di default. Tenere presente che i vari tipi di file potrebbero consentire solo alcuni tipi di visualizzazione.';
-$string['displayselect_help'] = 'L\'impostazione, assieme al tipo di file e  alla possibilità di effettuare un embed nel browser, determina come sarà visualizzato il file. Le modalità di visualizzazione possono essere:
+$string['displayselect_help'] = 'L\'impostazione, assieme al tipo di file e alle possibilità di incorporare il file nel browser, determina come sarà visualizzato il file. Le modalità di visualizzazione possono essere:
 
 * Automatica - La modalità di visualizzazione migliore viene scelta automaticamente
 * Incorpora - Il file viene visualizzato all\'interno della pagina sotto la barra di navigazione assieme alla descrizione e ai blocchi

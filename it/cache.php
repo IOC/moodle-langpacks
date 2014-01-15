@@ -93,6 +93,7 @@ $string['ex_unabletolock'] = 'Impossibile ottenere un lock per il caching';
 $string['ex_unmetstorerequirements'] = 'Al momento non è possibile usare questo store.Nella documentazione sono descritti i suoi requisiti.';
 $string['gethit'] = 'Get - Hit';
 $string['getmiss'] = 'Get - Miss';
+$string['inadequatestoreformapping'] = 'Questo store non è compatibile con i requisiti di tutte le definizioni note. Le definizioni per gli store incompatibili faranno riferimento allo store di default.';
 $string['invalidlock'] = 'Lock non valido';
 $string['invalidplugin'] = 'Plugin non valido';
 $string['invalidstore'] = 'E\' stato fornito un cache store non valido';

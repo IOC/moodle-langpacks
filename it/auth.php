@@ -71,9 +71,9 @@ $string['emailchangecancel'] = 'Annulla cambio email';
 $string['emailchangepending'] = 'Cambio email in corso. Clicca sul link presente nel messaggio che ti è stato inviato a {$a->preference_newemail}.';
 $string['emailnowexists'] = 'L\'indirizzo email che hai cercato di assegnare al tuo profilo è stato, nel frattempo, assegnato a qualcun altro, dal momento della tua richiesta. La richiesta di modifica email è stata quindi annullata, ma puoi provare ancora con un indirizzo email differente.';
 $string['emailupdate'] = 'Modifica indirizzo email';
-$string['emailupdatemessage'] = 'Caro {$a->fullname},
+$string['emailupdatemessage'] = 'Gentile {$a->fullname},
 
-hai richiesto la modifica dell\'indirizzo email del tuo account sul sito {$a->site}. Clicca sul link seguente (o aprilo nel tuo browser) per confermare la richiesta.
+hai richiesto la modifica dell\'indirizzo email del tuo account sul sito {$a->site}. Per confermare la richiesta, apri il link seguente con il browser:
 
 {$a->url}';
 $string['emailupdatesuccess'] = 'L\'indirizzo email dell\'utente <em>{$a->fullname}</em> è stato modificato in <em>{$a->email}</em>.';

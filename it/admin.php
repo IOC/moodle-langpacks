@@ -177,13 +177,15 @@ $string['configcronclionly'] = 'Disabilita l\'esecuzione del cron via web, conse
 $string['configcronremotepassword'] = 'Lo script cron.php potrà essere eseguito da un browser web solo fornendo la password, usando il seguente formato per l\'URL:<pre>
 http://site.example.com/admin/cron.php?password=opensesame</pre>In assenza di impostazione, non sarà necessaria nessuna password.';
 $string['configcurlcache'] = 'Time-to-live, espresso in secondi, della cache cURL';
-$string['configcustommenuitems'] = 'E\' possibile configurare un menu orizzontale personalizzato. Ciascuna linea è composta da testo, un URL (opzionale) e un testo per il tooltip (opzionale), separati dal carattere “|” (pipe). E\' possibile anche indicare sotto menù anteponendo il segno meno, Esempio:
-<pre> Moodle community|http://moodle.org
--Moodle free support|http://moodle.org/support
--Moodle development|http://moodle.org/development --Moodle Tracker|http://tracker.moodle.org
---Moodle Docs|http://docs.moodle.org|Moodle Docs in German
+$string['configcustommenuitems'] = 'E\' possibile configurare un menu orizzontale personalizzato. Ciascuna linea è composta da testo, un URL (opzionale), un testo per il tooltip (opzionale) e un codice lingua o elenco di codici lingua separati da virgola (opzionale, per visualizzare il testo in base alla lingua dell\'utente). Ciascun elemento è separato dal carattere “|” (pipe). E\' possibile anche indicare sotto menù anteponendo il segno meno, Esempio:
+<pre>
+Moodle community|https://moodle.org
+-Moodle free support|https://moodle.org/support
+-Moodle development|https://moodle.org/development
+--Moodle Docs|http://docs.moodle.org|Moodle Docs
 --German Moodle Docs|http://docs.moodle.org/de|Documentation in German|de
--Moodle News|http://moodle.org/news Moodle company -Moodle commercial hosting|http://moodle.com/hosting -Moodle commercial support|http://moodle.com/support </pre>';
+Moodle.com|http://moodle.com/
+</pre>';
 $string['configdbsessions'] = 'E\' possibile memorizzare le informazioni delle sessioni nel database. L\'impostazione è particolarmente utile  per siti molto grandi, con molto traffico o per siti in cluster. Per la maggior parte dei siti questa impostazione può essere lasciata al suo default, in modo da memorizzare i dati di sessione nel file system. Attenzione: cambiare questa impostazione provoca il logout dal sito di tutti gli utenti collegati, voi compresi.';
 $string['configdebug'] = 'L\'impostazione regola il dettaglio della reportistica del PHP. E\' utile esclusivamente per gli sviluppatori.';
 $string['configdebugdisplay'] = 'Consente di indirizzare il report degli errori nella pagina HTML. Sebbene l\'opzione sia particolarmente comoda, va tenuto presente che l\'invio di messaggi di errore nella pagina HTML altererà l\'XHTML, i JS, i cookie e gli header HTTP. Se non si seleziona l\'opzione, il report sarà inviato nel log del  server, consentendo un debugging più facile. Il nome del log di destinazione è controllato dall\'impostazione PHP error_log.';
@@ -489,7 +491,7 @@ $string['emoticons_desc'] = 'Il form presenta le faccine (emoticon) in uso nel s
 * Nome immagine (obbligatorio) - Il nome del file contenente l\'immagine della faccina, senza estensione, relativo al folder pix del componente.
 * Componente immagine (obbligatorio) - Il componente che fornisce l\'icona
 * Testo alternativo (opzionale) - Identificativo della stringa e del componente del testo alternativo alla faccina.';
-$string['emoticonsreset'] = 'Reimposta le impostazioni delle faccine ai valori di default';
+$string['emoticonsreset'] = 'Ripristina le impostazioni delle faccine ai valori di default';
 $string['emoticontext'] = 'Testo';
 $string['emptysettingvalue'] = 'Vuoto';
 $string['enableajax'] = 'Abilita AJAX';
@@ -555,7 +557,7 @@ $string['forcelogin'] = 'Autenticazione obbligatoria';
 $string['forceloginforprofileimage'] = 'Autenticazione obbligatoria per  visualizzare le immagini utente';
 $string['forceloginforprofileimage_help'] = 'Gli utenti dovranno autenticarsi per poter visualizzare le immagini contenute nel profilo personale degli altri utenti. Inoltre, in tutti i messaggi email verrà utilizzata l\'immagine standard.';
 $string['forceloginforprofiles'] = 'Autenticazione obbligatoria per accedere ai profili';
-$string['forcetimezone'] = 'Forza il fuso orario di default';
+$string['forcetimezone'] = 'Forza il fuso orario';
 $string['formatuninstallconfirm'] = '{$a} sarà rimosso. Nessun corso al momento lo utilizza. Vuoi continuare ?';
 $string['formatuninstalled'] = 'Tutti i dati associati con il plugin formato  \'{$a->plugin}\' sono stati eliminati dal database. Per completare l\'eliminazione (per evitare che il plugin si installi nuovamente), devi anche eliminare il folder {$a->directory} dal server.';
 $string['formatuninstallwithcourses'] = 'Sono presenti {$a->count} corsi che usano il formato  {$a->format}. Il formato di questi corsi sarà cambiato con il formato di default del sito,  {$a->defaultformat}. Alcuni dati specifici del formato potrebbero andare perduti. Sei sicuro di proseguire ?';

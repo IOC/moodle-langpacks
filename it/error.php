@@ -49,7 +49,7 @@ $string['cannotcallscript'] = 'Non è possibile chiamare questo script in quel m
 $string['cannotcallusgetselecteduser'] = 'Non puoi chiamare user_selector::get_selected_user se multiselect è true';
 $string['cannotcreatebackupdir'] = 'Non è stato possibile creare la cartella backupdata. L\'amministratore del sito deve sistemare i permessi dei file.';
 $string['cannotcreatecategory'] = 'La categorie non è stata inserita';
-$string['cannotcreatedboninstall'] = '<p>Non è possibile creare il database </p> <p>Il database non esiste o l\'utente non è autorizzato a crearlo.</p>
+$string['cannotcreatedboninstall'] = '<p>Non è possibile creare il database </p> <p>Il database non esiste e l\'utente fornito non è autorizzato a crearlo.</p>
 <p>E\' necessario che l\'amministratore del sito  verifichi  la configurazione del database.</p>';
 $string['cannotcreategroup'] = 'Si è verificato un errore durante la creazione di un gruppo';
 $string['cannotcreatelangbase'] = 'Errore: non è stato possibile creare la cartella lang';

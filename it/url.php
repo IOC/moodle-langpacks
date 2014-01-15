@@ -40,10 +40,10 @@ $string['displayselect_help'] = 'L\'impostazione, assieme al tipo di URL e ciò 
 
 * Automatica - La visualizzazione migliore sarà scelta automaticamente
 * Incorpora - L\'URL sarà visualizzato all\'interno della pagina sotto la barra di navigazione assieme alla descrizione ed ai blocchi laterali
-* Apri - Sarà visualizzata solamente l\'URL
+* Apri - Nel browser sarà visualizzata solamente l\'URL
 * Popup - L\'URL sarà visualizzata in una nova finestra priva di barre dei menu e di navigazione.
-* Frame - L\'URL sarà visualizzato utilizzando un frame. Nel frame superiore saranno disponibili la navigazione e la descrizione.
-* Nuova finestra - L\'URL sarà visualizzata in una nuova finestra completa di barre dei menu e di navigazione.';
+* Frame - L\'URL sarà visualizzato utilizzando un frame sotto la barra di navigazione e la descrizione dell\'URL stessa
+* Nuova finestra - L\'URL sarà visualizzato in una nuova finestra completa di barre dei menu e di navigazione.';
 $string['externalurl'] = 'URL';
 $string['framesize'] = 'Altezza frame';
 $string['invalidstoredurl'] = 'Non è possibile visualizzare la risorsa, l\'URL non è valida';

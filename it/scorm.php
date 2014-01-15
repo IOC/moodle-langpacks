@@ -148,7 +148,7 @@ Sono disponibili quattro metodi di valutazione:
 * Voto migliore - Il voto più alto ottenuto nei Learning object superati
 * Media dei voti - La media di tutti i voti
 * Somma dei voti - La somma di tutti i voti';
-$string['gradereported'] = 'Voto ottentuto';
+$string['gradereported'] = 'Voto ottenuto';
 $string['gradescoes'] = 'Learning object';
 $string['gradesettings'] = 'Impostazioni di valutazione';
 $string['gradesum'] = 'Somma dei voti';
