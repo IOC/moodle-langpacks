@@ -495,6 +495,7 @@ $string['numberofgrades'] = 'Nombre de qualificacions';
 $string['onascaleof'] = 'en una escala {$a->grademin} - {$a->grademax}';
 $string['operations'] = 'Operacions';
 $string['options'] = 'Opcions';
+$string['others'] = 'Altres';
 $string['outcome'] = 'Competència';
 $string['outcomeassigntocourse'] = 'Assigna una altra competència a aquest curs';
 $string['outcomecategory'] = 'Crea competències en la categoria';
