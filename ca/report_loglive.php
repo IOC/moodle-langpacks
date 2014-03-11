@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['livelogs'] = 'Registres de l\'última hora';
 $string['loglive:view'] = 'Mostra els registres en directe';
+$string['page'] = 'Pàgina {$a}';
 $string['pluginname'] = 'Registres en directe';

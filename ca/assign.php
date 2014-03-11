@@ -53,7 +53,7 @@ $string['assignmentmail'] = '{$a->grader} ha enviat una retroacció per a la vos
 Podeu veure-la adjunta a la vostra tramesa de la tasca:
 
 {$a->url}';
-$string['assignmentmailhtml'] = '{$a->grader} ha enviat una retroacció per a la vostra tramesa de la tasca<i>\'{$a->assignment}\'</i> <br /><br /> Podeu veure-la adjunta a la vostra <a href="{$a->url}">tramesa de la tasca</a>.';
+$string['assignmentmailhtml'] = '<p>{$a->grader} ha enviat una retroacció per a la vostra tramesa de la tasca<i>\'{$a->assignment}\'</i> .</p> <p>Podeu veure-la adjunta a la vostra tramesa de la tasca <a href="{$a->url}"></a>.</p>';
 $string['assignmentmailsmall'] = '{$a->grader} ha enviat una retroacció per a la vostra tramesa de la tasca \'{$a->assignment}\' Podeu veure-la adjunta a la vostra tramesa';
 $string['assignmentname'] = 'Nom de la tasca';
 $string['assignmentplugins'] = 'Connectors de tasca';
@@ -129,8 +129,8 @@ $string['editaction'] = 'Accions...';
 $string['editattemptfeedback'] = 'Edita la qualificació i la retroalimentació per l\'intent número {$a}.';
 $string['editingpreviousfeedbackwarning'] = 'Esteu editant la retroacció d\'un intent anterior. Aquest és l\'intent {$a->attemptnumber} de {$a->totalattempts}.';
 $string['editingstatus'] = 'S\'està editant l\'estat';
-$string['editsubmission'] = 'Edita la meva tramesa';
-$string['editsubmission_help'] = 'Fer canvis a la vostra tramesa';
+$string['editsubmission'] = 'Edita la tramesa';
+$string['editsubmission_help'] = 'Feu canvis a la vostra tramesa';
 $string['enabled'] = 'Habilitat';
 $string['errornosubmissions'] = 'No hi ha tasques per baixar';
 $string['errorquickgradingvsadvancedgrading'] = 'Les qualificacions no s\'han desat perquè aquesta tasca està emprant ara qualificacions avançades';
@@ -150,8 +150,8 @@ $string['feedbackplugins'] = 'Connectors de retroacció';
 $string['feedbacksettings'] = 'Paràmetres de retroacció';
 $string['feedbacktypes'] = 'Tipus de retroacció';
 $string['filesubmissions'] = 'Fitxers de la tramesa';
-$string['filter'] = 'Filtra';
-$string['filternone'] = 'No filtres';
+$string['filter'] = 'Filtre';
+$string['filternone'] = 'Sense filtre';
 $string['filterrequiregrading'] = 'Requereix qualificació';
 $string['filtersubmitted'] = 'S\'ha tramès';
 $string['gradeabovemaximum'] = 'La qualificació ha de ser menor o igual que {$a}.';
@@ -278,7 +278,7 @@ $string['sendsubmissionreceipts_help'] = 'Aquest canvi permetrà la confirmació
 $string['settings'] = 'Paràmetres de la tasca';
 $string['showrecentsubmissions'] = 'Mostra les trameses recents';
 $string['submission'] = 'Tramesa';
-$string['submissioncopiedhtml'] = 'Heu fet una còpia de la tramesa de la tasca prèvia per a «<i>{$a->assignment}</i>»<br /><br /> Podeu veure l\'estat de la vostra  <a href="{$a->url}">tramesa de tasca</a>.';
+$string['submissioncopiedhtml'] = '<p>Heu fet una còpia de la vostra tramesa prèvia de la tasca «<i>{$a->assignment}</i>».</p><p>Podeu veure l\'estat de la vostra  <a href="{$a->url}">tramesa de tasca</a>.</p>';
 $string['submissioncopiedsmall'] = 'Heu copiat la vostra tramesa prèvia de tasca corresponent a {$a->assignment}';
 $string['submissioncopiedtext'] = 'Heu fet una còpia de la vostra tramesa prèvia de tasca corresponent a «{$a->assignment}»
 
@@ -293,7 +293,7 @@ $string['submissionnotcopiedinvalidstatus'] = 'La tramesa no s\'ha copiat perqu�
 $string['submissionnoteditable'] = 'L\'estudiant no pot editar aquesta tramesa';
 $string['submissionnotready'] = 'Aquesta tasca no està preparada per a trametre\'s:';
 $string['submissionplugins'] = 'Connectors de tramesa';
-$string['submissionreceipthtml'] = 'Heu realitzat una tramesa de la tasca  \'<i>{$a->assignment}</i>\'<br /><br />Podeu veure l\'estat de la vostra <a href="{$a->url}">tramesa de la tasca</a>.';
+$string['submissionreceipthtml'] = '<p>Heu realitzat una tramesa de la tasca «<i>{$a->assignment}</i>».</p><p>Podeu veure l\'estat de la vostra  <a href="{$a->url}">tramesa de tasca</a>.</p>';
 $string['submissionreceipts'] = 'Envia confirmacions de la tramesa';
 $string['submissionreceiptsmall'] = 'Heu realitzat la tramesa de la tasca {$a->assignment}';
 $string['submissionreceipttext'] = 'Heu realitzat una tramesa de la tasca \'{$a->assignment}\'
