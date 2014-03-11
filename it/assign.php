@@ -53,10 +53,8 @@ $string['assignmentmail'] = '{$a->grader} ha inserito un commento sulla tua cons
 Puoi visualizzare il commento di seguito alla tua consegna:
 
 {$a->url}';
-$string['assignmentmailhtml'] = '{$a->grader} ha inserito un commento sulla tua consegna del compito  \'<i>{$a->assignment}</i>\'<br /><br />
-Puoi visualizzare il commento di seguito alla tua consegna:
-
-<a href="{$a->url}">assignment submission</a>.';
+$string['assignmentmailhtml'] = '<p>{$a->grader} ha inserito un commento sulla tua consegna del compito  \'<i>{$a->assignment}</i>\'.</p>
+<p>Puoi visualizzare il commento di seguito alla tua consegna: <a href="{$a->url}">assignment submission</a>.</p>';
 $string['assignmentmailsmall'] = '{$a->grader} ha inserito un commento sulla tua consegna del compito \'{$a->assignment}\' . Puoi visualizzare il commento di seguito alla tua consegna.';
 $string['assignmentname'] = 'Titolo del compito';
 $string['assignmentplugins'] = 'Plugin compito';
@@ -280,8 +278,8 @@ $string['sendsubmissionreceipts_help'] = 'Consente di inviare agli studenti una 
 $string['settings'] = 'Impostazioni compito';
 $string['showrecentsubmissions'] = 'Visualizza consegne recenti';
 $string['submission'] = 'Consegna';
-$string['submissioncopiedhtml'] = 'Hai copiato la tua consegna precedente del compito \'<i>{$a->assignment}</i>\'<br /><br />
-<a href="{$a->url}">Visualizza lo stato della tua consegna</a>.';
+$string['submissioncopiedhtml'] = '<p>Hai copiato la tua precedente consegna del compito \'<i>{$a->assignment}</i>\'</p>
+<p><a href="{$a->url}">Visualizza lo stato della tua consegna</a>.</p>';
 $string['submissioncopiedsmall'] = 'Hai copiato la tua consegna precedente del compito {$a->assignment}';
 $string['submissioncopiedtext'] = 'Hai copiato la tua consegna precedente del compito \'{$a->assignment}\'
 
@@ -296,9 +294,9 @@ $string['submissionnotcopiedinvalidstatus'] = 'La consegna non è stata copiata 
 $string['submissionnoteditable'] = 'Gli studenti non possono modificare questa consegna';
 $string['submissionnotready'] = 'Questo compito non è pronto per la consegna:';
 $string['submissionplugins'] = 'Plugin consegna';
-$string['submissionreceipthtml'] = 'Hai effettuato una consegna per il compito \'<i>{$a->assignment}</i>\'<br /><br />
-Per vedere lo stato della consegna:
-<a>{$a->url}</a>';
+$string['submissionreceipthtml'] = '<p>Hai effettuato una consegna per il compito \'<i>{$a->assignment}</i>\'.</p>
+<p>Per visualizzare lo stato della consegna:
+<a>{$a->url}</a>.</p>';
 $string['submissionreceipts'] = 'Invia ricevuta di consegna';
 $string['submissionreceiptsmall'] = 'Hai consegnato il compito  {$a->assignment}';
 $string['submissionreceipttext'] = 'Hai consegnato il compito \' {$a->assignment}\'

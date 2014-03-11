@@ -52,6 +52,7 @@ $string['hidepanel'] = 'Nascondi pannello';
 $string['moveblock'] = 'Sposta blocco {$a}';
 $string['moveblockafter'] = 'Sposta il blocco dopo il blocco {$a}';
 $string['moveblockbefore'] = 'Sposta il blocco prima del blocco {$a}';
+$string['moveblockhere'] = 'Sposta qui il blocco';
 $string['movingthisblockcancel'] = 'Stai spostando il blocco ({$a})';
 $string['onthispage'] = 'In questa pagina';
 $string['pagetypes'] = 'Tipi di pagine';

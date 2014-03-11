@@ -89,7 +89,7 @@ $string['bloglevel'] = 'Visibilità del Blog';
 $string['bookmarkadded'] = 'Segnalibro aggiunto.';
 $string['bookmarkalreadyexists'] = 'Questa pagina è già presente nei tuoi segnalibri.';
 $string['bookmarkdeleted'] = 'Segnalibro eliminato.';
-$string['bookmarkthispage'] = 'Aggiungi questa pagina nei tuoi segnalibri';
+$string['bookmarkthispage'] = 'Aggiungi pagina nei segnalibri';
 $string['cacheapplication'] = 'Cache applicazione';
 $string['cacheapplicationhelp'] = 'Gli elementi presenti in cache sono condivisi tra tutti gli utenti e scadono dopo un determinato ttl';
 $string['cachejs'] = 'Cache Javascript';
@@ -212,7 +212,7 @@ $string['configenableblogs'] = 'L\'impostazione attiva  blog personali per tutti
 $string['configenablecalendarexport'] = 'Abilita l\'esportazione o la sottoscrizione ai calendari.';
 $string['configenablecomments'] = 'Abilita i commenti';
 $string['configenablecourserequests'] = 'Questa impostazione consentirà agli utenti di richiedere corsi.';
-$string['configenabledevicedetection'] = 'Abilita il riconoscimento di dispositivi mobili,  smartphone, tablet, oppure dispositivi tradizionali (PC desktop, laptop, eccetera) per l\'impostazione dei temi ed altre funzonalità';
+$string['configenabledevicedetection'] = 'Abilita il riconoscimento di dispositivi mobili, smartphone, tablet, oppure dispositivi tradizionali (PC desktop, laptop, eccetera) per l\'impostazione dei temi ed altre funzionalità';
 $string['configenablegroupmembersonly'] = 'L\'impostazione abilita la funzionalità  \'Disponibile solo per gli appartenenti al raggruppamento\'. Da notare che la funzione aumenterà il carico sul server e che sarà necessario impostare appropriatamente le categorie nel registro del valutatore affinché le attività non siano visibili a coloro che non fanno parte del raggruppamento.';
 $string['configenablemobilewebservice'] = 'Abilita il servizio mobile per la app ufficiale Moodle o per altre app. Per maggiori informazioni leggere {$a}';
 $string['configenablerssfeeds'] = 'Attiva il generatore RSS (RSS Feed) del sito. Per poter utilizzare i feed RSS è necessario attivare anche il generatore RSS nei singoli moduli di attività.';
@@ -241,7 +241,7 @@ $string['configfrontpagecourselimit'] = 'Numero massimo di corsi';
 $string['configfrontpagecourselimithelp'] = 'Il numero massimo di corsi presenti negli elenchi di corsi visualizzati nella home page del sito';
 $string['configfrontpageloggedin'] = 'Puoi impostare gli elementi da visualizzare nella pagina home del sito ed il loro ordine per gli utenti che si sono autenticati.';
 $string['configfullnamedisplay'] = 'Definisce la modalità  di visualizzazione del nome e cognome. Per i siti che usano una sola lingua la scelta migliore è la predefinita \'nome+cognome\', tuttavia è possibile nascondere i cognomi oppure lasciar decidere alle impostazioni del Language Pack aAlcune lingue hanno convenzioni differenti).';
-$string['configgeoipfile'] = 'La posizione del file dati GeoIP City. Questo file non fa parte della distribuzione di Moodle e deve essere scaricato manualmente da <a href="http://www.maxmind.com/">MaxMind</a>. E\' possibile acquistare la versione commerciale o utilizzare la versione gratuita.<br />Per il download recarsi su <a href="http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> ed estrarre il file nella cartella "{$a}" del proprio server.';
+$string['configgeoipfile'] = 'La posizione del file dati GeoIP City. Questo file non fa parte della distribuzione di Moodle e deve essere scaricato manualmente da <a href="http://www.maxmind.com/">MaxMind</a>. E\' possibile acquistare la versione commerciale o utilizzare la versione gratuita.<br />Per il download recarsi su <a href="http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> ed estrarre il file nella cartella "{$a}" del proprio server.';
 $string['configgetremoteaddrconf'] = 'Se il server si trova dietro un reverse proxy,  tramite questa  impostazione è possibile indicare quali header HTTP possano ritenersi affidabili per gli indirizzi IP remoti. Gli header vengono letti sequenzialmente a partire dal primo disponibile.';
 $string['configgradebookroles'] = 'Consente di indicare i ruoli che figureranno nel registro valutatore. E\' necessario che un utente possegga almeno uno di questi ruoli per figurare nel registro valutatore di un corso.';
 $string['configgradeexport'] = 'E\' possibile scegliere i formati preferiti  da usare per l\'esportazione delle valutazioni. I formati scelti durante l\'esportazione imposteranno il campo "Formati utilizzati recentemente" per ciascun Registro valutazioni. Questo aspetto potrebbe far apparire le valutazioni esportate come "nuove" oppure come "aggiornate". Se non sei più che sicuri di come impostare i formati, allora non selezionare nulla.';
@@ -523,7 +523,7 @@ $string['environmenterrorupgrade'] = 'Attenzione: devono essere risolti tutti i 
 $string['environmentmustfixsetting'] = 'Le impostazioni del PHP devono essere modificate.';
 $string['environmentok'] = 'Il tuo server possiede tutti i requisiti minimi necessari.';
 $string['environmentrecommendcustomcheck'] = 'Se questo test non ha successo, esiste un potenziale problema.';
-$string['environmentrecommendinstall'] = 'l\'installazione e attivazione è consigliata per ottenere migliori risultati';
+$string['environmentrecommendinstall'] = 'L\'installazione e attivazione è consigliata per ottenere migliori risultati';
 $string['environmentrecommendversion'] = 'Versione minima consigliata: {$a->needed}.  Versione in uso: {$a->current}';
 $string['environmentrequirecustomcheck'] = 'questo test deve passare con successo';
 $string['environmentrequireinstall'] = 'E\' necessaria l\'installazione e attivazione';
@@ -644,7 +644,7 @@ $string['latexpreamble'] = 'Preambolo LaTex';
 $string['latexsettings'] = 'Impostazioni di rendering LaTex';
 $string['latinexcelexport'] = 'Codifica Excel';
 $string['legacyfilesinnewcourses'] = 'File del corso legacy per i nuovi corsi';
-$string['legacyfilesinnewcourses_help'] = 'Per default l\'area legacy file del corso è disponibile solamente nei corsi migrati da versioni precedenti. Si precisa che alcune funzionalità, ad esempio bil backup/ripristino di singole attività non sono compatibili con questa impostazione';
+$string['legacyfilesinnewcourses_help'] = 'Per default l\'area file del corso legacy è disponibile solamente nei corsi migrati da versioni precedenti. Si precisa che alcune funzionalità, ad esempio il backup/ripristino di singole attività non sono compatibili con questa impostazione';
 $string['licensesettings'] = 'Impostazioni licenza';
 $string['linkadmincategories'] = 'Visualizza link alle categorie di amministrazione';
 $string['linkadmincategories_help'] = 'Consente di visualizzare nel blocco navigazione i link alle pagine con le categorie della amministrazione del sito';
@@ -764,7 +764,7 @@ $string['navshowfullcoursenames_help'] = 'Nella navigazione saranno visualizzati
 $string['navshowmycoursecategories'] = 'Visualizza le mie categorie di corso';
 $string['navshowmycoursecategories_help'] = 'Consente la visualizzazione del nome delle categorie nel link \'I miei corsi\' del blocco navigazione';
 $string['navsortmycoursessort'] = 'Ordinamento corsi';
-$string['navsortmycoursessort_help'] = 'Imposta la visualizzazione dei corsi nel ramo I Miei corsi in base all\'ordinamento predefinito in "Amministrazione del sito > Corsi > Aggiungi/modifica corsi" oppure in base all\'impostazione scelta.';
+$string['navsortmycoursessort_help'] = 'Imposta la visualizzazione dei corsi nel ramo I Miei corsi in base all\'ordinamento impostato in "Amministrazione del sito > Corsi > Gestione corsi e categorie" oppure alfabeticamente in in base alle impostazioni del corso.';
 $string['neverdeleteruns'] = 'Non eliminare i run';
 $string['nobookmarksforuser'] = 'Non hai alcun segnalibro';
 $string['nodatabase'] = 'Nessun database';
@@ -906,6 +906,7 @@ $string['questioncwqpfscheck'] = 'Una o più domande "a caso" in un quiz sono im
 $string['questioncwqpfsok'] = 'Bene. Non ci sono domande "a caso" nei tuoi quiz impostate in modo da pescare le domande da un misto di categorie condivise e non.';
 $string['questiontype'] = 'Tipo domanda';
 $string['questiontypes'] = 'Tipi domande';
+$string['quizattemptsupgradedmessage'] = 'Moodle 2.1 ha introdotto un significativo aggiornamento alle domande. Sebbene sia stato possibile ritardare l\'aggiornamento del database, prima di migrare a Moodle 2.7 è indispensabile effettuare l\'aggiornamento.';
 $string['recaptchaprivatekey'] = 'Chiave privata reCAPTCHA';
 $string['recaptchapublickey'] = 'Chiave pubblica reCAPTCHA';
 $string['register'] = 'Registra il tuo sito';
@@ -1101,9 +1102,10 @@ Lo stesso messaggio può essere generato da un checkout incompleto da un reposit
 
 Per maggiori informazion sull\'upgrade: <a href="{$a}">{$a}</a>';
 $string['upgradestart'] = 'Aggiorna il database di Moodle';
-$string['upgradesure'] = 'I file di Moodle sono stati aggornati alla versione:
+$string['upgradesure'] = '<p>I file di Moodle sono stati modificati e il sito sta per essere aggiornato alla versione:</p>
 <p><strong>{$a}</strong></p>
-<p>Si sta per procedere all\'aggiornamento automatico del server a tale versione. Una volta effettuato questo aggiornamento non sarà  possibile tornare indietro.<br />Desideri proseguire?</p>';
+<p>Una volta avviato l\'aggiornamento non sarà  possibile tornare indietro. Tenere presente che l\'elaborazione può durare a lungo.</p>
+<p>Sei sicuro di continuare ?</p>';
 $string['upgradetimedout'] = 'L\'aggiornamento è andato in timeout. Per favore riavvia l\'aggiornamento.';
 $string['upgradingdata'] = 'Aggiornamento dei dati';
 $string['upgradinglogs'] = 'Aggiornamento dei log';

@@ -194,8 +194,8 @@ $string['dbconnectionfailed'] = '<p>Errore: la connessione al Database non è an
 $string['dbdriverproblem'] = '<p>Errore: è stato rilevato un problema sui driver del database</p>
 <p>L\'amministratore del sito dovrebbe verificare la configurazione del server</p><p>{$a}</p>';
 $string['dbsessionbroken'] = 'E\' stato individuato un problema serio nelle database session.<br /><br />Per favore avvertite l\'amministratore del server.';
-$string['dbsessionhandlerproblem'] = 'L\'impostazione delle database session non è andato a buon fine.<br /><br />Per favore avvertite l\'amministratore del server.';
-$string['dbsessionmysqlpacketsize'] = 'E\' stato rilevato un errore di sessione grave.<br /><br />Per favore avvertite il vostro amministratore, probabilmente il problema è originato da un valore troppo piccolo per max_allowed_packet nelle impostazioni di MySQL.';
+$string['dbsessionhandlerproblem'] = 'L\'impostazione delle database session non è andato a buon fine. Per favore avverti l\'amministratore del server.';
+$string['dbsessionmysqlpacketsize'] = 'E\' stato rilevato un errore di sessione grave. Per favore avvertire l\'amministratore, probabilmente il problema è originato da un valore troppo piccolo per max_allowed_packet nelle impostazioni di MySQL.';
 $string['dbupdatefailed'] = 'L\'aggiornamento del Database non è andato a buon fine.';
 $string['ddldependencyerror'] = '{$a->targettype} "{$a->targetname}" non può essere modificato. E\' stata rilevata una dipendenza da {$a->offendingtype} "{$a->offendingname}"';
 $string['ddlexecuteerror'] = 'Si è verificato un errore durante l\'esecuzione di DDL sql';
@@ -448,7 +448,8 @@ $string['querystringcannotbeempty'] = 'Il query string non può essere vuoto.';
 $string['redirecterrordetected'] = 'E\' stato indiviuato un redirect non supportato, l\'elaborazione dello script è stata interrotta';
 $string['refoundto'] = 'Può essere restituito a {$a}';
 $string['refoundtoorigi'] = 'Ammontare pagato restituito a {$a}';
-$string['remotedownloaderror'] = 'Lo scaricamento delle componenti non è andato a buon fine. Verificare le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.<br /><br />Devi scaricare manualmente il file <a href="{$a->url}">{$a->url}</a>, copiarlo in "{$a->dest}" e decomprimerlo.';
+$string['remotedownloaderror'] = '<p>Lo scaricamento delle componenti non è andato a buon fine. Verificare le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.</p>
+<p>Devi scaricare manualmente il file <a href="{$a->url}">{$a->url}</a>, copiarlo in "{$a->dest}" e decomprimerlo.</p>';
 $string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href="{$a->url}">{$a->url}</a>, copiarlo in "{$a->dest}" sul vostro server e scompattarlo la.';
 $string['reportnotavailable'] = 'Questo tipo di report è disponibile solamente nel corso della pagina home';
 $string['requirecorrectaccess'] = 'URL o porta non valido';
@@ -467,11 +468,13 @@ $string['sendmessage'] = 'Invia messaggio';
 $string['serverconnection'] = 'Si è verificato un errore durante la connessione al server';
 $string['servicedonotexist'] = 'Il servizio non esiste';
 $string['sessioncookiesdisable'] = 'E\' stato rilevato un uso errato di require_key_login() - i cookie di sessione devono essere disabilitati!';
-$string['sessiondiskfull'] = 'La partizione contenente le sessioni è piena. Al momento non è possibile autenticarsi.<br /><br />Per favore avvertite l\'amministratore del server.';
+$string['sessiondiskfull'] = 'La partizione contenente le sessioni è piena. Al momento non è possibile autenticarsi.
+Per favore avvertire l\'amministratore del server.';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
 $string['sessionerroruser2'] = 'È stato rilevato un errore sul server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
 $string['sessionipnomatch'] = 'Spiacente, ma il tuo IP sembra essere cambiato da quando ti sei autenticao. Questa caratteristica previene il furto della vostra identità  da parte di hacker mentre sei collegato a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedi aiuto all\'amministratore del sito.';
-$string['sessionipnomatch2'] = 'Spiacente ma il tuo indirizzo IP è cambiato da quando ti sei autenticato. Questa misura di sicurezza evita che cracker possano rubare la tua identità mentre sei collegato al sito. Questo errore potrebbe comparire se stai usando reti wireless oppure se stai muovendovi su reti diverse. Per ricevere aiuto, contatta il tuo amministratore.<br /><br />Se desideri continuare, premi il pulsante F5 per ricaricare questa pagina.';
+$string['sessionipnomatch2'] = '<p>Spiacente ma il tuo indirizzo IP è cambiato da quando ti sei autenticato. Questa misura di sicurezza evita che cracker possano rubare la tua identità mentre sei collegato al sito. L\'errore potrebbe comparire se stai usando reti wireless oppure se stai muovendovi su reti diverse. Per ricevere aiuto, contatta il tuo amministratore.</p>
+<p>Se desideri continuare, premi il pulsante F5 per ricaricare questa pagina.</p>';
 $string['sessionwaiterr'] = 'Si è verificato un timeout durante l\'attesa del session lock.<br />Attendi sino al termine della richiesta e riprova.';
 $string['shortnametaken'] = 'Il titolo abbreviato è già stato usato per un altro corso';
 $string['socksnotsupported'] = 'I proxy SOCKS5 non sono supportati nel PHP4';

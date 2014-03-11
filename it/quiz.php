@@ -35,7 +35,8 @@ $string['addarandomquestion'] = 'Aggiungi una domanda casuale...';
 $string['addarandomquestion_help'] = 'Le domande casuali sono prese casualmente dalla categoria indicata. Studenti diversi e tentativi diversi dello stesso studente visualizzeranno domande diverse.';
 $string['adddescriptionlabel'] = 'Aggiungi descrizione/commento';
 $string['addingquestion'] = 'Creazione domanda';
-$string['addingquestions'] = 'Questa parte della pagina ti consente la gestione del deposito delle domande. Le domande vengono salvate in categorie per aiutarti a mantenerle organizzate e possono essere utilizzate in qualsiasi quiz del tuo corso o in altri corsi, se decidi di pubblicarle.<br /><br />Dopo aver selezionato o creato una categoria di domande potrai creare o modificare le domande. Puoi selezionare un qualsiasi numero di domande e aggiungerle al quiz nell\'altra parte della pagina.';
+$string['addingquestions'] = '<p>Questa parte della pagina ti consente la gestione del deposito delle domande. Le domande vengono salvate in categorie per aiutarti a mantenerle organizzate e possono essere utilizzate in qualsiasi quiz del tuo corso o in altri corsi, se decidi di pubblicarle.</p>
+<p>Dopo aver selezionato o creato una categoria di domande potrai creare o modificare le domande. Puoi selezionare un qualsiasi numero di domande e aggiungerle al quiz nell\'altra parte della pagina.</p>';
 $string['addmoreoverallfeedbacks'] = 'Aggiungi altri {no} campi per feedback';
 $string['addnewgroupoverride'] = 'Aggiungi personalizzazione di gruppo';
 $string['addnewpagesafterselected'] = 'Aggiungi nuove pagine dopo le domande selezionate';

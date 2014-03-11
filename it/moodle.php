@@ -1460,7 +1460,12 @@ $string['searchagain'] = 'Cerca ancora';
 $string['searchbyemail'] = 'Cerca indirizzo email';
 $string['searchbyusername'] = 'Cerca username';
 $string['searchcourses'] = 'Cerca corsi';
-$string['searchhelp'] = 'Puoi ricercare con più chiavi.<br />chiave : trova ogni corrispondenza di questa chiave nel testo.</br>+chiave : solo le esatte corrispondenze della chiave verranno trovate.</br>-chiave : non include i risultati che contengono questa chiave.';
+$string['searchhelp'] = '<p>E\' possibile cercare usando più parole e raffinare la ricerca:</p>
+<ul>
+<li>parola - trova le corrispondenze della parola  nel testo.</li>
+<li>+chiave - trova solo le corrispondenze esatte  della parola.</li>
+<li>-parola - non include i risultati che contengono la parola.</li>
+</ul>';
 $string['search_help'] = 'Per ricerche semplici, inserisci una o più parole separate da uno spazio. Saranno utilizzate tutte le parole più lunghe di due caratteri.
 
 Per ricerche complesse, puoi accedere al form di ricerca avanzata facendo click sul pulsante cerca avendo cura di non aver inserito parole.';
@@ -1802,7 +1807,7 @@ Di seguito viene riportato cosa è avvenuto al file:
 $string['virusfoundsubject'] = '{$a}: trovato virus!';
 $string['virusfounduser'] = 'Il file che hai caricato, {$a->filename}, è stato analizzato dall\'antivirus e ed è stata rilevata un\'infezione. Il caricamento del file non è andato a buon fine.';
 $string['virusplaceholder'] = 'Questo file contiene un virus, pertanto è stato spostato altrove o eliminato. L\'utente è stato informato.';
-$string['visible'] = 'Visibiltà';
+$string['visible'] = 'Visibilità';
 $string['visible_help'] = 'L\'impostazione determina la visibilità del corso nell\'elenco dei corsi. Gli amministratori ed i docenti potranno comunque accedervi, mentre gli altri utenti non potranno entrare nel corso.';
 $string['visibletostudents'] = 'Visibile da {$a}';
 $string['warning'] = 'Attenzione';

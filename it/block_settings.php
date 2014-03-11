@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['enabledock'] = 'Consenti all\'utente di spostare il blocco nel dock';
 $string['pluginname'] = 'Amministrazione';
 $string['settings:addinstance'] = 'Aggiungere blocco Amministrazione';
-$string['settings:myaddinstance'] = 'Aggiungere blocco Impostazioni nella pagina My home';
+$string['settings:myaddinstance'] = 'Aggiungere blocco Amministrazione nella pagina My home';

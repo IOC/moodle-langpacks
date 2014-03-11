@@ -183,10 +183,9 @@ $string['lti_launch_error'] = 'Si è verificato un errore durante il lancio del 
 $string['lti_launch_error_tool_request'] = '<p>
 Per inviare all\'amministratore una richiesta di completamento di una configurazione di un tool, fai click su  <a href="{$a->admin_request_url}" target="_top">here</a>. </p>
 Aiuto per questola stringa contiene un segnaposto';
-$string['lti_launch_error_unsigned_help'] = '<p>
-L\'errore può essere causato dalla mancanza di consumer key e/o shared secret per l\'accesso al tool provider.
-</p> <p>
-Se disponi di consumer key e shared secret, puoi inserirli nella configurazione del tool esterno (accertati che le opzioni avanzate siano visibili)<br />
+$string['lti_launch_error_unsigned_help'] = '<p>L\'errore può essere causato dalla mancanza di consumer key e/o shared secret per l\'accesso al tool provider.
+</p>
+<p>Se disponi di consumer key e shared secret, puoi inserirli nella configurazione del tool esterno (accertati che le opzioni avanzate siano visibili)<br />
 In alternativa, puoi creare una configurazione di  tool provider a livello di corso <a href="{$a->course_tool_editor}">here</a>. </p>';
 $string['lti:manage'] = 'Diventare docente al lancio del tool esterno';
 $string['lti:requesttooladd'] = 'Richiedere una configurazione tool per tutto il sito';

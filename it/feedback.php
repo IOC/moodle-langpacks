@@ -98,8 +98,8 @@ $string['emailteachermail'] = '{$a->username} ha compilato il feedback: \'{$a->f
 Puoi vedere le risposte al seguente indirizzo:
 
 {$a->url}';
-$string['emailteachermailhtml'] = '{$a->username} ha compilato il feedback: <i>\'{$a->feedback}\'</i><br /><br />
-Puoi vedere le risposte presso <a href="{$a->url}">questo indirizzo</a>.';
+$string['emailteachermailhtml'] = '<p>{$a->username} ha compilato il feedback: <i>\'{$a->feedback}\'</i>.</p>
+<p>Puoi vedere le risposte su <a href="{$a->url}">questa pagina</a>.</p>';
 $string['entries_saved'] = 'Le tue risposte sono state salvate. Grazie.';
 $string['export_questions'] = 'Esporta domande';
 $string['export_to_excel'] = 'Esporta in formato Excel';

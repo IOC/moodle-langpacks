@@ -215,6 +215,7 @@ $string['error:clone'] = 'Non è possibile clonare il badge.';
 $string['error:connectionunknownreason'] = 'Il collegamento non è riuscito ma non ne sono stati forniti i motivi.';
 $string['error:duplicatename'] = 'Nel sistema esiste già un badge con lo stesso nome';
 $string['error:externalbadgedoesntexist'] = 'Badge non trovato';
+$string['error:guestuseraccess'] = 'Stai utilizzando un accesso ospite. Per visualizzare i badge devi autenticarti con il tuo account.';
 $string['error:invalidbadgeurl'] = 'Formato non valido per l\'URL di chi rilascia il badge';
 $string['error:invalidcriteriatype'] = 'Tipo di criterio non valido.';
 $string['error:invalidexpiredate'] = 'La scadenza deve essere una data futura';
@@ -236,6 +237,7 @@ $string['error:personaneedsjs'] = 'Per il collegamento è richiesto Javascript. 
 $string['error:requesterror'] = 'La richiesta di collegamento non è riuscita (codice errore {$a}).';
 $string['error:requesttimeout'] = 'La richiesta di collegamento è andata in time out prima del completamento.';
 $string['error:save'] = 'Non è possibile salvare il badge.';
+$string['error:userdeleted'] = '{$a->user} (Questo utente non esiste più in {$a->site})';
 $string['evidence'] = 'Verifica';
 $string['existingrecipients'] = 'Destinatari badge esistenti';
 $string['expired'] = 'Scaduto';
@@ -273,7 +275,9 @@ $string['makeprivate'] = 'Rendi privato';
 $string['makepublic'] = 'Rendi pubblico';
 $string['managebadges'] = 'Gestione badge';
 $string['message'] = 'Corpo del messaggio';
-$string['messagebody'] = '<p>Hai conseguito il badge "%badgename%"!</p> <p>Per maggiori informazioni sul badge:  %badgelink%.</p> <p>Se il badge non è allegato alla mail, puoi scaricarlo qui: {$a}.</p>';
+$string['messagebody'] = '<p>Hai conseguito il badge "%badgename%"!</p>
+<p>Per maggiori informazioni sul badge:  %badgelink%.</p>
+<p>Se il badge non è allegato alla mail, puoi scaricarlo qui: {$a}.</p>';
 $string['messagesubject'] = 'Complimenti! Hai conseguito un badge!';
 $string['method'] = 'Requisti da soddisfare';
 $string['mingrade'] = 'Punteggio minimo richiesto';

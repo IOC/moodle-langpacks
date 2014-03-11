@@ -120,7 +120,8 @@ $string['deletecoursecategorywithquestions'] = 'Ci sono domande nel deposito del
 $string['deleteqtypeareyousure'] = 'Sei sicuro di voler eliminare il tipo di domanda \'{$a}\'';
 $string['deleteqtypeareyousuremessage'] = 'Stai per rimuovere il tipo di domanda \'{$a}\'. Saranno anche eliminati tutti i dati presenti nel database relativi a questo tipo di domanda. Sei sicuro ?';
 $string['deletequestioncheck'] = 'Sei proprio sicuro di voler eliminare \'{$a}\'?';
-$string['deletequestionscheck'] = 'Sei sicuro di eliminare le seguenti domande ?<br /><br />{$a}';
+$string['deletequestionscheck'] = '<p>Sei sicuro di eliminare le seguenti domande ?</p>
+<p>{$a}</p>';
 $string['deletingbehaviour'] = 'Eliminazione comportamento domanda \'{$a}\'';
 $string['deletingqtype'] = 'Eliminazione del tipo di domanda \'{$a}\'';
 $string['didnotmatchanyanswer'] = '[Non ha associato nessuna risposta]';

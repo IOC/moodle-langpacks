@@ -59,7 +59,9 @@ $string['deleteselectedgroup'] = 'Elimina il gruppo selezionato';
 $string['editgroupingsettings'] = 'Modifica impostazioni raggruppamento';
 $string['editgroupsettings'] = 'Modifica impostazioni gruppo';
 $string['enrolmentkey'] = 'Chiave di iscrizione';
-$string['enrolmentkey_help'] = 'Una chiave di iscrizione consente l\'accesso al gruppo alle sole persone che ne sono in possesso. Specificando una chiave di iscrizione al gruppo, questa non solo consentirà l\'accesso al corso, ma aggiungerà la persona come membro del gruppo.';
+$string['enrolmentkey_help'] = 'Una chiave d\'iscrizione consente l\'accesso al gruppo alle sole persone che ne sono in possesso. Specificando una chiave di iscrizione al gruppo, questa non solo consentirà l\'accesso al corso, ma aggiungerà la persona tra i membri del gruppo.
+
+Nota: la chiave di iscrizione al gruppo deve essere abilitata nelle impostazioni del plugin Iscrizione spontanea e deve anche essere impostata una chiave d\'iscrizione del corso.';
 $string['erroraddremoveuser'] = 'Errore durante l\'aggiunta/rimozione dell\'utente {$a} al gruppo';
 $string['erroreditgroup'] = 'Errore nella creazione/modifica del gruppo {$a}';
 $string['erroreditgrouping'] = 'Errore nella creazione/modifica del raggruppamento {$a}';
@@ -93,7 +95,7 @@ $string['groupmemberdesc'] = 'Ruolo standard per un membro di un gruppo';
 $string['groupmembers'] = 'Membri del gruppo';
 $string['groupmembersonly'] = 'Disponibile solo per gli appartenenti al raggruppamento';
 $string['groupmembersonlyerror'] = 'Spiacente, devi essere membro di almeno un gruppo coinvolto in questa attività.';
-$string['groupmembersonly_help'] = 'Selezionando questa opzione, l\'attività (o la risorsa) saraà disponibile solo per gli studenti dei gruppi facenti parte del raggruppamento indicato.';
+$string['groupmembersonly_help'] = 'Selezionando questa opzione, l\'attività (o la risorsa) sarà disponibile solo per gli studenti dei gruppi facenti parte del raggruppamento indicato.';
 $string['groupmemberssee'] = 'Visualizza membri del gruppo';
 $string['groupmembersselected'] = 'Membri del gruppo selezionato';
 $string['groupmode'] = 'Modalità gruppo';

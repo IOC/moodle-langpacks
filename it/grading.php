@@ -61,9 +61,9 @@ $string['searchownforms'] = 'includi i miei schemi';
 $string['searchtemplate'] = 'Ricerca schemi di valutazione';
 $string['searchtemplate_help'] = 'E\' possibile cercare uno schema di valutazione da usare come modello. Inserisci le parole da cercare nel nome degli schemi, nella descrizione o nel testo dello schema. Per cercare una frase, racchiudi le parole tra doppi apici.
 
-Per default i risultati della ricerca includeranno solo gli schemi salvati come modello. Se lo desideri, puoi includere nei risultati i tuoi schemi, in questo modo puoi riutilizzare facilmente i tuoi schemi senza doverli pubblicare. Possono essere riutilizzati solo gli schemi contrassegnati come "Pronti all\'uso" .';
+Per default i risultati della ricerca includeranno solo gli schemi salvati come modello. Se lo desideri, puoi includere nei risultati i tuoi schemi, in questo modo puoi riutilizzare facilmente i tuoi schemi senza doverli pubblicare. Possono essere riutilizzati solo gli schemi contrassegnati come "Pronto all\'uso" .';
 $string['statusdraft'] = 'Bozza';
-$string['statusready'] = 'Pronta all\'uso';
+$string['statusready'] = 'Pronto all\'uso';
 $string['templatedelete'] = 'Elimina';
 $string['templatedeleteconfirm'] = 'Stai per eliminare il modello pubblico {$a}\'. L\'eliminazione di un modello non influenzerà gli schemi di valutazione creati a partite da questo schema.';
 $string['templateedit'] = 'Modifica';

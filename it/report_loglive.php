@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['livelogs'] = 'Live log dell\'ultima ora';
 $string['loglive:view'] = 'Visualizzare live log';
+$string['page'] = 'Pagina {$a}';
 $string['pluginname'] = 'Live log';

@@ -148,7 +148,9 @@ $string['displayleftmenu_help'] = 'Consente la visualizzazione di un elenco di p
 $string['displayofgrade'] = 'Visualizzazione voti (solo per studenti)';
 $string['displayreview'] = 'Consente di riprovare la risposta ad una domanda';
 $string['displayreview_help'] = 'Se la una risposta è errata verrà visualizzato un pulsante, consentendo allo studente di riprovare senza ricevere valutazione oppure di proseguire nella lezione.';
-$string['displayscorewithessays'] = 'Hai ottenuto {$a->score} su {$a->tempmaxgrade} per le domande valutate automaticamente.<br>Le tue {$a->essayquestions} domande a testo libero saranno valutate successivamente e il voto sarà aggiunto<br />al tuo punteggio finale.<br /><br />La tua valutazione senza le domande a testo libero è {$a->score} su {$a->grade}';
+$string['displayscorewithessays'] = '<p>Hai ottenuto {$a->score} su {$a->tempmaxgrade} per le domande valutate automaticamente.</p>
+<p>Le tue {$a->essayquestions} domande a testo libero saranno valutate successivamente e il voto sarà aggiunto<br />al tuo punteggio finale.</p>
+<p>La tua valutazione senza le domande a testo libero è {$a->score} su {$a->grade}.</p>';
 $string['displayscorewithoutessays'] = 'Il tuo punteggio è {$a->score} (su {$a->grade}).';
 $string['edit'] = 'Modifica';
 $string['editingquestionpage'] = 'Modifica pagina con domanda {$a}';
