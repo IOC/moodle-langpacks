@@ -374,7 +374,6 @@ $string['settingplatformplotcommand'] = 'Plot Kommando';
 $string['settingplatformplotcommand_desc'] = 'STACK benötigt den Shellbefehl zum Starten von GNUPlot. Wenn leer, versucht STACK sinnvoll zu raten.';
 $string['settingplatformtype'] = 'Plattform';
 $string['settingplatformtype_desc'] = 'STACK benötigt die Angabe des Betriebssystem, auf dem es läuft. Die Server und MaximaPool Optionen geben bessere Performance, wofür aber weitere Server eingerichtet werden müssen. Die Option "Linux (optimiert)" ist in der Dokumentation unter "Optimising Maxima" erklärt.';
-$string['settingplatformtypemaximapool'] = 'MaximaPool';
 $string['settingplatformtypeserver'] = 'Server';
 $string['settingplatformtypeunix'] = 'Linux';
 $string['settingplatformtypeunixoptimised'] = 'Linux (optimiert)';

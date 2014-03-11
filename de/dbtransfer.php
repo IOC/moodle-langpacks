@@ -37,4 +37,5 @@ $string['exportschemaexception'] = 'Die aktuelle Datenbankstruktur passt nicht z
 $string['importschemaexception'] = 'Die aktuelle Datenbankstruktur passt nicht zu allen Dateien install.xml. <br />{$a}';
 $string['importversionmismatchexception'] = 'Die aktuelle Version {$a->currentver} passt nicht zur exportierten Version {$a->schemaver}.';
 $string['malformedxmlexception'] = 'Fehler in XML gefunden. Fortsetzung nicht möglich.';
+$string['tablex'] = 'Tabelle {$a}:';
 $string['unknowntableexception'] = 'Unbekannte Tabelle in der Exportdatei: {$a}';

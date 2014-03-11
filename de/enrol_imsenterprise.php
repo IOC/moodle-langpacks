@@ -64,9 +64,9 @@ $string['restricttarget'] = 'Daten nur verarbeiten, wenn das folgende Ziel angeg
 $string['restricttarget_desc'] = 'Eine IMS Enterprise Datei kann für verschiedene Verwaltungssysteme eine Bildungseinrichtungen verwandt werden. Dazu wird in der IMS Enterprise Datei das Zielsystem im <target> Tag innerhalb des <properties> Tags festgelegt.
 Meistens brauchen Sie sich hierüber keine Gedanken zu machen. Lassen Sie den Eintrag leer und Moodle verarbeitet die alle Daten aus der Datei. Andernfalls tragen Sie hier den Wert ein, der in der IMS-Enterprise Datei als Wert für Moodle in <targtet> verwendet wird. ';
 $string['roles'] = 'Rollen';
-$string['settingfullname'] = 'IMS Beschreibungs-Tag für den Langtitel des Kurses';
+$string['settingfullname'] = 'IMS Beschreibungs-Tag für den vollständigen Kursnamen';
 $string['settingfullnamedescription'] = 'Der Langtitel des Kurses ist ein Pflichtfeld. Das diesen enthaltende Beschreibungsfeld inder IMS Enterprise-Datei ist festzulegen.';
-$string['settingshortname'] = 'IMS Beschreibungs-Tag für den Kurztitel des Kurses';
+$string['settingshortname'] = 'IMS Beschreibungs-Tag für den kurzen Kursnamen';
 $string['settingshortnamedescription'] = 'Der Kurztitel des Kurses ist ein Pflichtfeld. Das diesen enthaltende Beschreibungsfeld inder IMS Enterprise-Datei ist festzulegen.';
 $string['settingsummary'] = 'IMS Beschreibungs-Tag für die Kursbeschreibung';
 $string['settingsummarydescription'] = 'Dies ist ein optionales Feld. Es kann auf Wunsch leer bleiben.';

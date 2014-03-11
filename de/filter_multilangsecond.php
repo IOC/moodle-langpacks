@@ -16,23 +16,16 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_birthday', language 'de', branch 'MOODLE_23_STABLE'
+ * Strings for component 'filter_multilangsecond', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   block_birthday
+ * @package   filter_multilangsecond
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['birthday'] = 'Geburtstag';
-$string['birthday:viewlist'] = 'Geburtstagsblock anzeigen';
-$string['blockhide'] = 'Block verbergen, wenn es gibt keine Geburtstage gibt';
-$string['blockname'] = 'Geburtstag';
-$string['blockshow'] = 'Block anzeigen, auch wenn es gibt keine Geburtstage gibt';
-$string['blocktitle'] = 'Heutige Geburtstage';
-$string['blockvisible'] = 'Blockverfügbarkeit';
-$string['blockvisible_info'] = 'Diese Option legt fest, ob der Block sichtbar oder verborgen ist, auch wenn es keine Geburtstage gibt. Sandardmäßig ist der Block in diesem Fall verborgen.';
-$string['daysahead'] = 'Tage voraus';
-$string['happybirthday'] = 'Glückwunsch zum Geburtstag!';
-$string['periodnminutes'] = 'letzte {$a} Minuten';
+$string['filtername'] = 'Mehrsprachiger Inhalt';
+$string['mode'] = 'HTML-Syntax nicht verwenden';
+$string['mode_desc'] = 'Wenn die HTML-Syntax nicht verwendet wird, kann folgender Texteintrag verwendet werden: {mlang en}English{mlang}{mlang bg}Bulgarian{mlang}. Die Auszeichnung erfolgt immer auf Absatzebene.
+Sonst wird das  lang="XX" Attribut für HTML Tags verwendet, um die Sprache zu identifieren:  &lt;p lang="en"&gt;English&lt;/p&gt;&lt;p lang="bg"&gt;Bulgarian&lt;/p&gt;.';

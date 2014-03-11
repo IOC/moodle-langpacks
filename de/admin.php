@@ -184,24 +184,7 @@ $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php n
 http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
 $string['configcurlcache'] = 'Speicherzeit für cURL Cache (in Sekunden)';
-$string['configcustommenuitems'] = 'Sie können ein eigenes Benutzermenü einrichten, das auf jeder Seite angezeigt wird.
-
-Jede Zeile besteht aus dem angezeigten Text, einer URL (optional), einem Tooltipp (optional) und der Sprachzuordnung (optional). Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Die Struktur wird über Bindestriche (-) geregelt.
-
-Für die Sprachzuordnung geben Sie nach einem dritten senkrechten Strich das Kürzel der Sprache an (oder eine kommagetrennte Liste). Ein solcher Menüeintrag wird nur angezeigt, wenn der Nutzer genau diese Sprache benutzt.
-
-Beispiel:
-<pre>
-Moodle Community|http://moodle.org
--Moodle Support|http://moodle.org/support
--Moodle Entwickler|http://moodle.org/development
---Moodle Tracker|http://tracker.moodle.org
---Moodle Docs|http://docs.moodle.org|Moodle-Dokumentation
---Deutsche Moodle Docs|http://docs.moodle.org/de|Moodle-Dokumentation in Deutsch|de
--Moodle News|http://moodle.org/Nachrichten von Moodle
--Moodle Commercial Hosting|http://moodle.com/hosting
--Moodle Commercial Support|http://moodle.com/support
-</pre>';
+$string['configcustommenuitems'] = 'Sie können ein eigenes, zusätzliches Menü einrichten, welches auf jeder Seite angezeigt wird. Jede Zeile besteht aus dem angezeigten Text, einer URL (optional), einem Tooltipp (optional) und der Sprachzuordnung (optional). Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Die Struktur wird über Bindestriche (-) geregelt. Für die Sprachzuordnung geben Sie nach einem dritten senkrechten Strich das Kürzel der Sprache an (oder eine kommagetrennte Liste). Ein solcher Menüeintrag wird nur angezeigt, wenn der Nutzer genau diese Sprache benutzt. Beispiel: <pre> Moodle Community|http://moodle.org -Moodle Support|http://moodle.org/support -Moodle Entwickler|http://moodle.org/development --Moodle Tracker|http://tracker.moodle.org --Moodle Docs|http://docs.moodle.org|Moodle-Dokumentation --Deutsche Moodle Docs|http://docs.moodle.org/de|Moodle-Dokumentation in Deutsch|de -Moodle News|http://moodle.org/Nachrichten von Moodle -Moodle Commercial Hosting|http://moodle.com/hosting -Moodle Commercial Support|http://moodle.com/support </pre>';
 $string['configdbsessions'] = 'Bei der Aktivierung dieser Einstellung wird die Datenbank unter anderem dazu verwendet, um Informationen über aktuelle Sitzungen abzuspeichern. Das ist sinnvoll bei sehr großen Anwendungen oder Anwendungen, die über mehrere Cluster von Servern verteilt arbeiten. Meist kann die Einstellung deaktiviert bleiben. Bei einer Einstellungsänderung werden alle aktuellen Nutzer/innen ausgeloggt (auch die Administrator/innen). Falls Sie MySQL benutzen, stellen Sie sicher, dass \'max_allowed_packet\' in der Datei my.cnf (oder my.ini) mindestens 4M ist.';
 $string['configdebug'] = 'Wenn Sie diese Funktion einschalten, werden die Fehlermeldungen von PHP erweitert, so dass mehr Warnungen ausgegeben werden. Dies ist nur für Entwickler nützlich.';
 $string['configdebugdisplay'] = 'Wenn diese Option aktiviert ist, werden Fehlermeldungen direkt auf der HTML-Seite angezeigt. Auftretende Fehler stören dann aber XHTML, JavaScript, Cookies und HTTP-Header. Wenn die Option deaktiviert ist, werden alle Fehlermeldungen in die Logdaten des Webservers geschrieben. Die PHP-Variable error_log enthält den Pfad zur Logdatei.';
@@ -256,7 +239,7 @@ $string['configfrontpagecourselimit'] = 'Max. Anzahl von Kursen';
 $string['configfrontpagecourselimithelp'] = 'Maximale Anzahl von Kursen, die in der Kursliste auf der Startseite gezeigt werden.';
 $string['configfrontpageloggedin'] = 'Die ausgewählten Elemente werden auf der Startseite angezeigt, nachdem Nutzer/innen eingeloggt sind.';
 $string['configfullnamedisplay'] = 'Diese Option legt fest, wie die Langform der Namen angezeigt werden soll. In den meisten Fällen ist die Grundeinstellung "Vorname + Nachname" geeignet, wobei Sie auch die Vor- oder die Nachnamen ausblenden können, falls das gewünscht sein sollte.';
-$string['configgeoipfile'] = 'Die Ortsdatenbank ist kein fester Bestandteil von Moodle und muss separat von <a href="http://www.maxmind.com/">MaxMind.com</a> bezogen werden. Die Ortsdatenbank GeoIP gibt es als kommerzielle Version oder als freie Version. Die freie Version kann unter <a href="http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz"> http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz </a> heruntergeladen und ins Verzeichnis \'{$a}\' auf Ihrem Server entpackt werden.';
+$string['configgeoipfile'] = 'Pfad zur binären GeoIPCity-Datei. Diese Datei ist kein Bestandteil von Moodle und muss separat von <a href="http://www.maxmind.com/">MaxMind</a> bezogen werden. Die Ortsdatenbank GeoIPCity gibt es als kommerzielle Version oder als freie Version. Die freie Version kann unter <a href="http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz"> http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz </a> heruntergeladen und ins Verzeichnis \'{$a}\' auf dem Server entpackt werden.';
 $string['configgetremoteaddrconf'] = 'Wenn Ihr Server hinter einem Reverse Proxy steht, können sie mit diesen Einträgen festlegen, welche HTTP-Header vertraut wird, dass sie die Remote-IP Adresse enthalten. Die Header werden in der angegebenen Reihenfolge ausgelesen. Die erste verfügbare wird verwandt.';
 $string['configgradebookroles'] = 'Diese Einstellung erlaubt Ihnen die Kontrolle, wer in den Bewertungen erscheint. Teilnehmer/innen müssen zuerst eine der Rollen in einem Kurs einnehmen, bevor sie in den Bewertungen dieses Kurses angezeigt werden.';
 $string['configgradeexport'] = 'Wählen Sie bitte, welches Exportformat Sie für die Bewertungen bevorzugen. Das gewählte Plugin wird dann das Feld "zuletzt exportiert" in jeder Bewertung setzen und benutzen. Dies wird beispielsweise die exportierten Daten als "neu" oder "geändert" markieren. Wenn Sie nicht sicher sind, wählen Sie nichts aus.';
@@ -422,8 +405,8 @@ $string['curltimeoutkbitrate'] = 'Bitrate für die Berechnung von curl Timeouts 
 $string['curltimeoutkbitrate_help'] = 'Beim Download von Dateien aus dem Internet wird ein Timeout ausgelöst, wenn die Geschwindigkeit zu gering wird. Als Teil der Berechnung wird die Dateigröße wird mit Hilfe von HTTP HEAD-Anfragen bestimmt. 0 deaktiviert alle HEAD-Anfragen.';
 $string['currenttheme'] = 'Aktuelles Design';
 $string['customcheck'] = 'Weitere Prüfungen';
-$string['custommenu'] = 'Benutzermenü';
-$string['custommenuitems'] = 'Benutzermenü';
+$string['custommenu'] = 'Zusätzliches Menü';
+$string['custommenuitems'] = 'Einträge im zusätzlichen Menü';
 $string['datarootsecurityerror'] = '<p><strong>Sicherheitswarnung!</strong></p><p>Ihr Verzeichnis dataroot liegt an der falschen Stelle auf dem Webserver, so dass sensible Dateien für alle im Internet zugänglich sind. Angreifer könnten dieses Problem ausnutzen, um unauthorisierten administrativen Zugriff auf Ihre Website zu erhalten!</p>
 <p>Sie <em>müssen</em> das Verzeichnis dataroot \'{$a}\' an eine andere Stelle bewegen, die nicht in Ihrem öffentlichen Webverzeichnis liegt, und anschließend die Einstellung <code>$CFG->dataroot</code> in der Datei config.php entsprechend anpassen.</p>';
 $string['datarootsecuritywarning'] = 'Ihre Einstellungen sind möglicherweise unsicher. Bitte stellen Sie sicher, dass das Verzeichnis dataroot \'{$a}\' nicht direkt aus dem Internet aufrufbar ist.';
@@ -665,7 +648,7 @@ $string['latexpreamble'] = 'LaTeX Präambel';
 $string['latexsettings'] = 'Einstellungen für das LaTeX-Rendering';
 $string['latinexcelexport'] = 'Excel-Kodierung';
 $string['legacyfilesinnewcourses'] = '\'Alte Kursdateien\' in neuen Kursen';
-$string['legacyfilesinnewcourses_help'] = 'Standardmäßig ist das Verzeichnis \'Alte Kursdateien\' nur in Kursen verfügbar, die aus Moodle 1.9.x importiert wurden. Einige Features (wie z.B. die Sicherung und Wiederherstellung einzelner Aktivitäten) sind zu dieser Einstellung nicht kompatibel.';
+$string['legacyfilesinnewcourses_help'] = 'Standardmäßig ist das Verzeichnis \'Alte Kursdateien\' nur in Kursen verfügbar, die aus Moodle 1.9.x importiert wurden. Beachten Sie bitte, dass einige Features (z.B. Sicherung und Wiederherstellung einzelner Aktivitäten) nicht zu dieser Option kompatibel sind.';
 $string['licensesettings'] = 'Lizenzeinstellungen';
 $string['linkadmincategories'] = 'Adminbereiche verlinken';
 $string['linkadmincategories_help'] = 'Wenn diese Option aktiviert ist, werden die Einstellungen für die verschiedenen Administrationsbereiche als Links auf den Übersichtsseiten bereitgestellt.';
@@ -782,7 +765,7 @@ $string['navshowfullcoursenames_help'] = 'Wenn diese Option aktiviert ist, werde
 $string['navshowmycoursecategories'] = 'Meine Kursbereiche anzeigen';
 $string['navshowmycoursecategories_help'] = 'Wenn diese Option aktiviert ist, werden Kurse auf der Seite \'Meine Startseite\' in Kategorien angezeigt.';
 $string['navsortmycoursessort'] = 'Meine Kurse anordnen';
-$string['navsortmycoursessort_help'] = 'Diese Option legt fest, ob Kurse im Bereich \'Meine Kurse\' gezeigt werden und wie sie angeordnet sind. Standardmäßig wird eine Sortierung vorgegeben (Einstellungen > Website-Administration > Kurse > Verwaltung).';
+$string['navsortmycoursessort_help'] = 'Diese Option legt fest, ob Kurse im Bereich \'Meine Kurse\' gezeigt werden und wie sie angeordnet sind. Standardmäßig wird eine alphabetische Sortierung vorgegeben (Einstellungen > Website-Administration > Kurse > Verwaltung).';
 $string['neverdeleteruns'] = 'Durchläufe nicht löschen';
 $string['nobookmarksforuser'] = 'Sie besitzen keinerlei Lesezeichen';
 $string['nodatabase'] = 'Keine Datenbank';
@@ -928,6 +911,7 @@ $string['questioncwqpfsok'] = 'Gut. Keine der \'Zufallsfragen\' in Ihren Tests i
 Fragen aus einem Mix von freigegebenen und nicht freigegebenen Fragenkategorien ausgewählt werden könnten.';
 $string['questiontype'] = 'Fragetyp';
 $string['questiontypes'] = 'Fragetypen';
+$string['quizattemptsupgradedmessage'] = 'In Moodle 2.1 gab es eine umfangreiche Aktualisierung für die Testfragen. Es war allerdings möglich, die Aktualisierung teilweise zu einem späteren Zeitpunkt auszuführen. Vor dem Upgrade auf Moodle 2.7 muss diese Aktualisierung abgeschlossen sein.';
 $string['recaptchaprivatekey'] = 'ReCaptcha: Private Key';
 $string['recaptchapublickey'] = 'ReCaptcha: Public Key';
 $string['register'] = 'Website registrieren';
@@ -1122,8 +1106,8 @@ Die Warnung kann auch bedeuten, dass bei einem unvollständigen Update über git
 
 Weitere Informationen: <a href="{$a}">{$a}</a>.';
 $string['upgradestart'] = 'Aktualisierung der Datenbank starten';
-$string['upgradesure'] = 'Die Serverdateien wurden verändert und Ihr Moodle wird auf die Version <strong>{$a}</strong> aktualisiert. Nach der Aktualisierung können Sie nicht zur älteren Version zurückkehren.</p>
-<p>Möchten Sie das Update wirklich ausführen?</p>';
+$string['upgradesure'] = '<p>Die installierten Moodle-Dateien wurden verändert. Ihr Moodle wird automatisch auf die Version <strong>{$a}</strong> aktualisiert. Nach der Aktualisierung können Sie nicht zu einer früheren Version zurückkehren. Beachten Sie bitte, dass der Prozess lange dauern könnte!</p>
+<p>Sind Sie sicher, dass Sie die Aktualisierung ausführen wollen?</p>';
 $string['upgradetimedout'] = 'Die Aktualisierung wurde wegen Zeitüberschreitung abgebrochen. Bitte starten Sie den Vorgang noch einmal.';
 $string['upgradingdata'] = 'Daten werden aktualisiert...';
 $string['upgradinglogs'] = 'Logdaten werden aktualisiert...';

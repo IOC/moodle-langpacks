@@ -746,7 +746,7 @@ $string['frontpagenews'] = 'Nachrichten';
 $string['frontpagesettings'] = 'Einstellungen der Startseite';
 $string['fulllistofcourses'] = 'Alle Kurse';
 $string['fullname'] = 'Vollständiger Name';
-$string['fullnamecourse'] = 'Vollständiger Name';
+$string['fullnamecourse'] = 'Vollständiger Kursname';
 $string['fullnamecourse_help'] = 'Der vollständige Kursname wird auf jeder Kursseite oben und in der Kursübersicht angezeigt.';
 $string['fullnamedisplay'] = '{$a->firstname} {$a->lastname}';
 $string['fullnameuser'] = 'Vollständiger Name';
@@ -1088,8 +1088,8 @@ $string['msnid'] = 'MSN';
 $string['mustchangepassword'] = 'Das neue Kennwort darf nicht mit dem alten Kennwort identisch sein.';
 $string['mustconfirm'] = 'Sie müssen Ihren Zugang bestätigen';
 $string['mycourses'] = 'Meine Kurse';
-$string['myfiles'] = 'Eigene Dateien';
-$string['myfilesmanage'] = 'Eigene Dateien verwalten';
+$string['myfiles'] = 'Meine Dateien';
+$string['myfilesmanage'] = 'Meine Dateien';
 $string['myhome'] = 'Meine Startseite';
 $string['mymoodledashboard'] = 'Mein Bereich';
 $string['myprofile'] = 'Mein Profil';
@@ -1467,13 +1467,12 @@ $string['searchagain'] = 'Erneut suchen';
 $string['searchbyemail'] = 'E-Mail-Adresse suchen';
 $string['searchbyusername'] = 'Über den Anmeldenamen suchen';
 $string['searchcourses'] = 'Kurse suchen';
-$string['searchhelp'] = 'Sie können nach mehreren Begriffen gleichzeitig suchen.
-
-Begriff: findet jeden Treffer des Begriffs im gesamten Text
-
-+Begriff: nur exakte Treffer werden gefunden
-
--Begriff: schließt Ergebnisse, die diesen Begriff enthalten, aus den Treffern aus';
+$string['searchhelp'] = '<p>Sie können nach mehreren Begriffen gleichzeitig suchen.</p>
+<ul>
+<li>Begriff - findet jeden Treffer des Begriffs im Text
+<li>+Begriff - nur exakte Treffer werden gefunden
+<li>-Begriff - schließt Treffer aus, die den Begriff enthalten
+</ul>';
 $string['search_help'] = 'Einfache Suche von einem oder mehreren Wörtern, die im Text vorkommen. Zwischen den Suchwörtern bitte Leerzeichen eingeben. Gesuchte Begriffe müssen mindestens drei Zeichen lang sein. ';
 $string['searchoptions'] = 'Suchoptionen';
 $string['searchresults'] = 'Suchergebnisse';
@@ -1523,7 +1522,7 @@ $string['setcategorytheme'] = 'Kategoriedesign festlegen';
 $string['settings'] = 'Einstellungen';
 $string['shortname'] = 'Kurzbezeichnung';
 $string['shortnamecollisionwarning'] = '[*] = Diese Kurzbezeichnung wird bereits für einen anderen Kurs genutzt. Bitte ändern Sie den Eintrag.';
-$string['shortnamecourse'] = 'Kursname (kurz)';
+$string['shortnamecourse'] = 'Kurzer Kursname';
 $string['shortnamecourse_help'] = 'Der kurze Kursname wird an verschiedenen Stellen genutzt, an denen der vollständige Kursname nicht passen würde ist (z.B. in der Navigation oder in der Betreffzeile von E-Mails).';
 $string['shortnametaken'] = 'Die Kurzbezeichnung wird bereits für einen anderen Kurs ({$a}) verwendet.';
 $string['shortnameuser'] = 'Nutzername (kurz)';

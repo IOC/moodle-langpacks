@@ -52,6 +52,7 @@ $string['hidepanel'] = 'Steuerung verbergen';
 $string['moveblock'] = 'Block \'{$a}\' bewegen';
 $string['moveblockafter'] = 'Block hinter {$a]-Block bewegen';
 $string['moveblockbefore'] = 'Block vor {$a}-Block bewegen';
+$string['moveblockhere'] = 'Block hierhin verschieben';
 $string['movingthisblockcancel'] = 'Block bewegen ({$a})';
 $string['onthispage'] = 'Auf dieser Seite';
 $string['pagetypes'] = 'Seitentypen';
