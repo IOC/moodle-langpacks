@@ -279,7 +279,7 @@ Hay 4 opciones:
 * Prohibir: se retira por completo el permiso y no se puede anular en ningún nivel más bajo (más específico).';
 $string['permissions'] = 'Permisos';
 $string['permissionsforuser'] = 'Permisos para {$a}';
-$string['permissionsincontext'] = 'Permissos en {$a}';
+$string['permissionsincontext'] = 'Permisos en {$a}';
 $string['portfolio:export'] = 'Exportar a portafolios';
 $string['potentialusers'] = '{$a} usuarios potenciales';
 $string['potusers'] = 'Usuarios potenciales';

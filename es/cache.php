@@ -84,6 +84,7 @@ $string['deletestoresuccess'] = 'Se eliminó exitosamente el almacén de caché'
 $string['editdefinitionmappings'] = 'Mapeos de almacén definiciones
 {$a}';
 $string['editmappings'] = 'Editar mapeos';
+$string['editsharing'] = 'Editar compartir';
 $string['editstore'] = 'Editar almacén';
 $string['editstoresuccess'] = 'Se editó exitosamente el almacén de caché';
 $string['ex_configcannotsave'] = 'No se pudo guardar la configuración del caché al archivo.';

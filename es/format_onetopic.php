@@ -16,13 +16,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_strawberry', language 'es', branch 'MOODLE_23_STABLE'
+ * Strings for component 'format_onetopic', language 'es', branch 'MOODLE_25_STABLE'
  *
- * @package   theme_strawberry
+ * @package   format_onetopic
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['mbcreditsdesc'] = 'Elija No para quitar la liga hacia MoodleBites al fondo de la página.';
+$string['currentsection'] = 'Este tema';
+$string['hidefromothers'] = 'Ocultar tema';
+$string['hidetabsbar'] = 'Ocultar barra de pestañas';
+$string['hidetabsbar_help'] = 'Oculta la barra de pestañas en la página principal del curso, la navegación se llevará a cabo con la barra de navegación entre temas.';
+$string['sectionname'] = 'Tema';
+$string['showfromothers'] = 'Mostrar tema';

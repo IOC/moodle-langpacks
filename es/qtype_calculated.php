@@ -29,6 +29,7 @@ $string['additem'] = 'Agregar ítem';
 $string['addmoreanswerblanks'] = 'Agregar otra respuesta en blanco.';
 $string['addsets'] = 'Agregar conjunto(s)';
 $string['answerdisplay'] = 'Mostrar';
+$string['answerformula'] = 'Fórmula para respuesta {$a}';
 $string['answerhdr'] = 'Respuesta';
 $string['answerstoleranceparam'] = 'Parámetros de tolerancia en las respuestas';
 $string['anyvalue'] = 'Cualquier valor';
