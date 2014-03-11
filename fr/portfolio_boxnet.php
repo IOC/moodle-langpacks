@@ -46,7 +46,7 @@ $string['password'] = 'Votre mot de passe box.net (ne sera pas enregistré)';
 $string['pluginname'] = 'Box.net';
 $string['sendfailed'] = 'Échec de l\'envoi de contenu vers box.net : {$a}';
 $string['setupinfo'] = 'Instructions';
-$string['setupinfodetails'] = 'Pour obtenir un ID client et un secret, connectez-vous sur Box.net et rendez-vous sur la <a href="{$a->servicesurl}">page de développement</a>. Suivez le lien « Create new application » et créez une nouvelle application pour votre site Moodle. L\'ID client et le secret sont affichés dans la section « OAuth2 parameters » du formulaire d\'édition de l\'application.
+$string['setupinfodetails'] = 'Pour obtenir un ID client et un secret, connectez-vous sur Box.net et rendez-vous sur la <a href="{$a->servicesurl}">page de développement de Box.net</a>. Suivez le lien « Create new application » et créez une nouvelle application pour votre site Moodle. L\'ID client et le secret sont affichés dans la section « OAuth2 parameters » du formulaire d\'édition de l\'application.
 Vous pouvez aussi fournir optionnellement d\'autres informations au sujet de votre site Moodle.';
 $string['sharedfolder'] = 'Partagé';
 $string['sharefile'] = 'Partager ce fichier ?';

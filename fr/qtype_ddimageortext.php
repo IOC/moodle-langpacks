@@ -33,6 +33,7 @@ $string['correctansweris'] = 'La réponse correcte est : {$a}';
 $string['draggableimage'] = 'Image déplaçable';
 $string['draggableitem'] = 'Élément déplaçable';
 $string['draggableitemheader'] = 'Élément déplaçable {$a}';
+$string['draggableitems'] = 'Éléments déplaçables';
 $string['draggableitemtype'] = 'Type';
 $string['draggableword'] = 'Texte déplaçable';
 $string['dropbackground'] = 'Image de fond pouvant être recouverte de marqueurs déplaçables';

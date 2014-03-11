@@ -55,7 +55,7 @@ $string['completed'] = 'terminé';
 $string['completed_feedbacks'] = 'Réponses envoyées';
 $string['complete_the_form'] = 'Répondre aux questions...';
 $string['completionsubmit'] = 'Afficher comme terminé quand l\'utilisateur a envoyé le feedback';
-$string['configallowfullanonymous'] = 'Si ce réglage est activé, le feedback pourra être rempli sans nécessiter d\'identification. N\'est valable que pour les sondages sur la page d\'accueil.';
+$string['configallowfullanonymous'] = 'Si ce réglage est activé, les activités feedback sur la page d\'accueil pourront être effectuées par les utilisateurs sans nécessiter d\'authentification.';
 $string['confirmdeleteentry'] = 'Voulez-vous vraiment supprimer cette saisie ?';
 $string['confirmdeleteitem'] = 'Voulez-vous vraiment supprimer cet élément ?';
 $string['confirmdeletetemplate'] = 'Voulez-vous vraiment supprimer ce modèle ?';
@@ -103,7 +103,8 @@ $string['emailteachermail'] = '{$a->username} a terminé l\'activité feedback �
 Vous pouvez la voir ici :
 
 {$a->url}';
-$string['emailteachermailhtml'] = '{$a->username} a terminé l\'activité feedback « <i>{$a->feedback}</i> »<br /><br />Vous pouvez la voir <a href="{$a->url}">ici</a>.';
+$string['emailteachermailhtml'] = '<p>{$a->username} a effectué l\'activité feedback « <i>{$a->feedback}</i> ».</p>
+<p>Vous pouvez la consulter <a href="{$a->url}">sur le site</a>.</p>';
 $string['entries_saved'] = 'Vos réponses ont été enregistrées. Merci.';
 $string['export_questions'] = 'Exporter les questions';
 $string['export_to_excel'] = 'Exporter vers Excel';

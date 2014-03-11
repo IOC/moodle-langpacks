@@ -188,7 +188,9 @@ $string['displayleftmenu_help'] = 'Si ce réglage est activé, une liste des pag
 $string['displayofgrade'] = 'Affichage de la note (pour l\'étudiant)';
 $string['displayreview'] = 'Offrir la possibilité de refaire une question';
 $string['displayreview_help'] = 'Si cette option est activée, lorsqu\'une question reçoit une réponse incorrecte, l\'étudiant a la possibilité de corriger celle-ci (sans obtenir de point) ou de continuer la leçon.';
-$string['displayscorewithessays'] = 'Vous avez obtenu un score de {$a->score} sur {$a->tempmaxgrade} aux questions notées automatiquement.<br />Les notes de votre(vos) {$a->essayquestions} composition(s) sera(ont) évaluée(s) et ajoutée(s)<br />au score final ultérieurement.<br /><br />Votre note actuelle sans la(les) composition(s) est de {$a->score} sur {$a->grade}.';
+$string['displayscorewithessays'] = '<p>Vous avez obtenu un score de {$a->score} sur {$a->tempmaxgrade} aux questions notées automatiquement.</p>
+<p>Les notes de votre(vos) {$a->essayquestions} composition(s) sera(ont) évaluée(s) et ajoutée(s) au score final ultérieurement.</p>
+<p>Votre note actuelle, sans la(les) composition(s), est de {$a->score} sur {$a->grade}.</p>';
 $string['displayscorewithoutessays'] = 'Votre score est de {$a->score} (sur {$a->grade}).';
 $string['edit'] = 'Modifier';
 $string['editingquestionpage'] = 'Modifier la page de question {$a}';

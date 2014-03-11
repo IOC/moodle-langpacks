@@ -59,7 +59,9 @@ $string['deleteselectedgroup'] = 'Supprimer le groupe sélectionné';
 $string['editgroupingsettings'] = 'Modifier les réglages du groupement';
 $string['editgroupsettings'] = 'Modifier les réglages du groupe';
 $string['enrolmentkey'] = 'Clef d\'inscription';
-$string['enrolmentkey_help'] = 'Une clef d\'inscription permet de donner accès à un cours aux seuls utilisateurs la détenant. Si  une clef d\'inscription de groupe est spécifiée, non seulement cette clef permettra l\'accès au cours, mais elle définira simultanément l\'utilisateur utilisant cette clef comme membre de ce groupe.';
+$string['enrolmentkey_help'] = 'Une clef d\'inscription permet de donner accès à un cours aux seuls utilisateurs la détenant. Si  une clef d\'inscription de groupe est spécifiée, non seulement cette clef permettra l\'accès au cours, mais elle inscrira simultanément l\'utilisateur utilisant cette clef comme membre de ce groupe.
+
+Remarque : le réglage pour les clefs d\'inscription de groupe doit être également activé dans les réglages d\'auto-inscription, et une clef d\'inscription doit en outre être spécifiée pour le cours.';
 $string['erroraddremoveuser'] = 'Erreur lors de l\'ajout ou du retrait de l\'utilisateur {$a} du groupe';
 $string['erroreditgroup'] = 'Erreur lors de la création ou de la modification du groupe {$a}';
 $string['erroreditgrouping'] = 'Erreur lors de la création ou de la modification du groupement {$a}';
@@ -91,7 +93,7 @@ $string['groupingsonly'] = 'Groupements seuls';
 $string['groupmember'] = 'Membre du groupe';
 $string['groupmemberdesc'] = 'Rôle par défaut pour un membre d\'un groupe.';
 $string['groupmembers'] = 'Membres du groupe';
-$string['groupmembersonly'] = 'Disponible uniquement pour les membres du groupe';
+$string['groupmembersonly'] = 'Disponible pour les seuls membres des groupes du groupement';
 $string['groupmembersonlyerror'] = 'Désolé, vous devez être membre d\'au moins un groupe utilisé dans cette activité.';
 $string['groupmembersonly_help'] = 'Si cette case est cochée, l\'activité (ou la ressource) ne sera disponible que pour les participants membres de groupes faisant partie du groupement sélectionné.';
 $string['groupmemberssee'] = 'Voir les membres du groupe';

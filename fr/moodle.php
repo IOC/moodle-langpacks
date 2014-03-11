@@ -1439,7 +1439,12 @@ $string['searchagain'] = 'Rechercher de nouveau';
 $string['searchbyemail'] = 'Récupération par adresse de courriel';
 $string['searchbyusername'] = 'Récupération par nom d\'utilisateur';
 $string['searchcourses'] = 'Rechercher des cours';
-$string['searchhelp'] = 'Vous pouvez introduire plusieurs termes comme critères de recherche.<br /><br />terme : rechercher toutes les occurrences du terme dans le texte.<br />+terme : seules les correspondances exactes du terme (mot entier) seront trouvées.<br />-terme : ne pas inclure les résultats contenant ce terme.';
+$string['searchhelp'] = '<p>Vous pouvez saisir plusieurs termes comme critères et affiner votre recherche de la façon suivante.<p>
+<ul>
+<li>terme : rechercher toutes les occurrences du terme dans le texte.</li>
+<li>+terme : seules les correspondances exactes du terme (mot entier) seront trouvées.</li>
+<li>-terme : ne pas inclure les résultats contenant ce terme.</li>
+</ul>';
 $string['search_help'] = 'Pour une recherche simple d\'un ou de plusieurs mots n\'importe où dans le texte, il suffit de les taper, en les séparant par des espaces. Les mots de moins de 3 caractères sont ignorés.
 
 Pour des critères de recherche plus pointus, cliquez sur le bouton sans taper quoi que ce soit dans les différents champs. Un formulaire complet s\'affichera, vous permettant de spécifier plus précisément votre recherche.';

@@ -35,7 +35,8 @@ $string['addarandomquestion'] = 'Ajouter une question aléatoire...';
 $string['addarandomquestion_help'] = 'Quand une question aléatoire est ajoutée, une question choisie au hasard dans la catégorie est insérée dans le test. Les étudiants auront une sélection de questions différentes. Quand un test permet plusieurs tentatives, chaque tentative pourra contenir une sélection différente de questions.';
 $string['adddescriptionlabel'] = 'Ajouter description/label';
 $string['addingquestion'] = 'Ajout d\'une question';
-$string['addingquestions'] = 'Vous gérez votre banque de questions dans cette partie de la page. Les questions sont réparties en catégories, afin de les organiser. Elles peuvent être utilisées dans n\'importe lequel de vos cours, ou même dans d\'autres cours si vous les « publiez ».<br /><br />Créez d\'abord une catégorie. Vous pourrez ensuite créer ou modifier des questions. Vous pouvez choisir une de ces questions pour l\'ajouter à votre test dans l\'autre partie de la page.';
+$string['addingquestions'] = '<p>Vous gérez votre banque de questions dans cette partie de la page. Les questions sont réparties en catégories, afin de les organiser. Elles peuvent être utilisées dans n\'importe lequel de vos cours, ou même dans d\'autres cours si vous les « publiez ».</p>
+<p>Créez d\'abord une catégorie. Vous pourrez ensuite créer ou modifier des questions. Vous pouvez choisir une de ces questions pour l\'ajouter à votre test dans l\'autre partie de la page.</p>';
 $string['addmoreoverallfeedbacks'] = 'Ajouter {no} champs de feedback';
 $string['addnewgroupoverride'] = 'Ajouter une dérogation de groupe';
 $string['addnewpagesafterselected'] = 'Ajouter de nouvelles pages après les questions sélectionnées';

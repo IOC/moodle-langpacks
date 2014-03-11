@@ -50,8 +50,8 @@ $string['cannotcallusgetselecteduser'] = 'Vous ne pouvez pas appeler user_select
 $string['cannotcreatebackupdir'] = 'Impossible de créer le dossier backupdata. Veuillez demander à l\'administrateur du site de corriger les droits d\'accès aux fichiers';
 $string['cannotcreatecategory'] = 'Erreur lors de la création de la catégorie';
 $string['cannotcreatedboninstall'] = '<p>Impossible de créer la base de données.</p>
-<p>La base de données indiquée n\'existe pas et le nom d\'utilisateur n\'a pas l\'autorisation de créer la base de données.</p>
-<p>L\'administrateur du site doit vérifier la configuration de la base de données.</p>';
+<p>La base de données indiquées n\'existe pas et l\'utilisateur spécifié n\'a pas les autorisations permettant de créer une base de données.</p>.
+<p>L\'administrateur du site doit revoir la configuration de la base de données.</p>';
 $string['cannotcreategroup'] = 'Erreur lors de la création du groupe';
 $string['cannotcreatelangbase'] = 'Erreur : création du dossier de base des langues impossible';
 $string['cannotcreatelangdir'] = 'Création du dossier lang impossible';
@@ -192,8 +192,8 @@ $string['csvweirdcolumns'] = 'Format de fichier CSV non valide : le nombre de c
 $string['dbconnectionfailed'] = '<p>Erreur : la connexion à la base de données a échoué.</p><p>Il est possible que la base de données soit surchargée ou qu\'elle ne fonctionne pas correctement.</p><p>L\'administrateur du site doit vérifier que les informations concernant la base de données sont indiquées correctement dans le fichier <i>config.php</i></p>';
 $string['dbdriverproblem'] = '<p>Erreur : problème avec le pilote de la base de données.</p><p>L\'administrateur du site doit vérifier la configuration du serveur.</p><p>{$a}</p>';
 $string['dbsessionbroken'] = 'Grave problème de session de base de données détecté.<br /><br />Veuillez en informer l\'administrateur du serveur.';
-$string['dbsessionhandlerproblem'] = 'Échec de la mise en place de la session de base de données.<br /><br />Veuillez en informer l\'administrateur du serveur.';
-$string['dbsessionmysqlpacketsize'] = 'Grave erreur de session détectée.<br /><br />Veuillez en informer l\'administrateur du serveur. Ce problème est très probablement causé par une valeur trop faible du réglage MySQL max_allowed_packet.';
+$string['dbsessionhandlerproblem'] = 'Échec de la mise en place de la session de base de données. Veuillez en informer l\'administrateur du serveur.';
+$string['dbsessionmysqlpacketsize'] = 'Grave erreur de session détectée. Veuillez en informer l\'administrateur du serveur. Ce problème est très probablement causé par une valeur trop faible du réglage MySQL max_allowed_packet.';
 $string['dbupdatefailed'] = 'Échec de la mise à jour de la base de données';
 $string['ddldependencyerror'] = '{$a->targettype} « {$a->targetname} » ne peut pas être modifié. Une dépendance a été trouvée avec {$a->offendingtype} « {$a->offendingname} »';
 $string['ddlexecuteerror'] = 'Erreur d\'exécution DDL sql';
@@ -444,7 +444,8 @@ $string['querystringcannotbeempty'] = 'La chaîne de requête ne peut pas être 
 $string['redirecterrordetected'] = 'Redirection non supportée. L\'exécution du script a été stoppée.';
 $string['refoundto'] = 'Peut être remboursé à {$a}';
 $string['refoundtoorigi'] = 'Remboursement au montant original : {$a}';
-$string['remotedownloaderror'] = 'Le téléchargement de composants sur votre serveur a échoué. Veuillez vérifier les réglages de proxy. L\'extension cURL de PHP est vivement recommandée.<br /><br />Vous devez télécharger manuellement le fichier <a href="{$a->url}">{$a->url}</a>, le copier sur votre serveur à l\'emplacement « {$a->dest} » et le décompresser à cet endroit';
+$string['remotedownloaderror'] = '<p>Le téléchargement du composant sur votre serveur a échoué. Veuillez vérifier les réglages de proxy. L\'extension cURL de PHP est vivement recommandée.</p>
+<p>Vous devez télécharger manuellement le fichier <a href="{$a->url}">{$a->url}</a>, le copier sur votre serveur à l\'emplacement « {$a->dest} » et le décompresser à cet endroit.</p>';
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href="{$a->url}">{$a->url}</a>, le copier vers « {$a->dest} » dans votre serveur et le décompresser';
 $string['reportnotavailable'] = 'Ce type de rapport n\'est disponible que pour le cours de site';
 $string['requirecorrectaccess'] = 'Port ou URL non valide.';
@@ -463,11 +464,12 @@ $string['sendmessage'] = 'Envoyer message';
 $string['serverconnection'] = 'Erreur lors de la connexion au serveur';
 $string['servicedonotexist'] = 'Le service n\'existe pas';
 $string['sessioncookiesdisable'] = 'Utilisation incorrecte de require_key_login(). Les cookies de session doivent être désactivés !';
-$string['sessiondiskfull'] = 'La partition de session du disque dur est pleine. Il n\'est actuellement pas possible de se connecter.<br /><br />Veuillez contacter l\'administrateur du serveur.';
+$string['sessiondiskfull'] = 'La partition de session du disque dur est pleine. Il n\'est actuellement pas possible de se connecter. Veuillez contacter l\'administrateur du serveur.';
 $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter à nouveau';
 $string['sessionerroruser2'] = 'Une erreur du serveur affectant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur';
 $string['sessionipnomatch'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site';
-$string['sessionipnomatch2'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Cette erreur peut survenir lors de l\'utilisation de réseaux sans fil ou si vous passez d\'un réseau à un autre (itinérance). Pour plus d\'informations, veuillez contacter votre administrateur.<br /><br />Si vous voulez continuer, veuillez actualiser l\'affichage de cette page.';
+$string['sessionipnomatch2'] = '<p>Votre adresse IP semble avoir changé depuis votre première connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Cette erreur peut survenir lors de l\'utilisation de réseaux sans fil ou si vous passez d\'un réseau à un autre (itinérance). Pour plus d\'informations, veuillez contacter votre administrateur.</p>
+<p>Si vous voulez continuer, veuillez actualiser l\'affichage de cette page.</p>';
 $string['sessionwaiterr'] = 'Durée dépassée au cours de l\'attente pour un verrouillage de session.<br />Veuillez attendre que vos requêtes actuelles se terminent et essayer plus tard.';
 $string['shortnametaken'] = 'Ce nom abrégé est déjà utilisé pour un autre cours';
 $string['socksnotsupported'] = 'Le proxy SOCKS5 n\'est pas supporté en PHP4';

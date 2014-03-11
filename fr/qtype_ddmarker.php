@@ -69,6 +69,7 @@ $string['marker'] = 'Marqueur';
 $string['marker_n'] = 'Marqueur {no}';
 $string['markers'] = 'Marqueurs';
 $string['nolabel'] = 'Pas d\'étiquette';
+$string['noofdrags'] = 'Nombre';
 $string['noquestionsfound'] = 'Aucune question trouvée à convertir ici.';
 $string['pleasedragatleastonemarker'] = 'Votre réponse est incomplète, vous devez placer au moins un marqueur sur l\'image.';
 $string['pluginname'] = 'Marqueurs à glisser-déposer';

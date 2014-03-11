@@ -51,7 +51,8 @@ $string['assignmentisdue'] = 'Devoir à effectuer';
 $string['assignmentmail'] = '{$a->grader} a donné un feedback pour le travail remis pour « {$a->assignment} ».
 
 Vous pouvez le consulter en annexe à votre travail : {$a->url}';
-$string['assignmentmailhtml'] = '{$a->grader} a donné un feedback pour le travail remis pour « <i>{$a->assignment}</i> ».<br /><br />Vous pouvez le consulter en annexe à <a href="{$a->url}">votre travail</a>.';
+$string['assignmentmailhtml'] = '<p>{$a->grader} a donné un feedback pour le travail remis pour « <i>{$a->assignment}</i> ».</p>
+<p>Vous pouvez le consulter en annexe à <a href="{$a->url}">votre travail</a>.</p>';
 $string['assignmentmailsmall'] = '{$a->grader} a donné un feedback pour le travail remis pour « {$a->assignment} ». Vous pouvez le consulter en annexe à votre travail';
 $string['assignmentname'] = 'Nom du devoir';
 $string['assignmentplugins'] = 'Plugins de devoir';
@@ -272,8 +273,8 @@ $string['sendsubmissionreceipts_help'] = 'Ce réglage permet d\'activer les accu
 $string['settings'] = 'Réglages du devoir';
 $string['showrecentsubmissions'] = 'Afficher les remises récentes';
 $string['submission'] = 'Devoir rendu';
-$string['submissioncopiedhtml'] = 'Vous avez copié votre travail remis précédent pour <i>{$a->assignment}</i>.<br /><br />
-Vous pouvez consulter l\'état de votre <a href="{$a->url}">travail remis</a>.';
+$string['submissioncopiedhtml'] = '<p>Vous avez copié votre travail remis précédent pour <i>{$a->assignment}</i>.</p>
+<p>Vous pouvez consulter l\'état de votre <a href="{$a->url}">travail remis</a>.</p>';
 $string['submissioncopiedsmall'] = 'Vous avez copié votre travail remis précédent pour <i>{$a->assignment}</i>.';
 $string['submissioncopiedtext'] = 'Vous avez copié votre travail remis précédent pour <i>{$a->assignment}</i>.
 
@@ -288,7 +289,8 @@ $string['submissionnotcopiedinvalidstatus'] = 'Le travail remis n\'a pas été c
 $string['submissionnoteditable'] = 'L\'étudiant ne peut pas modifier ce travail remis';
 $string['submissionnotready'] = 'Ce travail n\'est pas prêt à être remis :';
 $string['submissionplugins'] = 'Plugins de remise';
-$string['submissionreceipthtml'] = 'Vous avez remis un travail pour le devoir « <i>{$a->assignment}</i> »<br /><br />Vous pouvez consulter l\'état de votre <a href="{$a->url}">travail</a>.';
+$string['submissionreceipthtml'] = '<p>Vous avez remis un travail pour le devoir « <i>{$a->assignment}</i> »</p>
+<p>Vous pouvez consulter l\'état de votre <a href="{$a->url}">travail</a>.</p>';
 $string['submissionreceipts'] = 'Envoyer les accusés de réception';
 $string['submissionreceiptsmall'] = 'Vous avez remis votre travail pour le devoir {$a->assignment}';
 $string['submissionreceipttext'] = 'Vous avez remis un travail pour le devoir « {$a->assignment} ».

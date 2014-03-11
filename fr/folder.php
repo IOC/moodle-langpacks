@@ -50,5 +50,5 @@ $string['page-mod-folder-view'] = 'Page principale du module dossier';
 $string['page-mod-folder-x'] = 'Toute page du module dossier';
 $string['pluginadministration'] = 'Gestion des dossiers';
 $string['pluginname'] = 'Dossier';
-$string['showexpanded'] = 'Afficher les sous-dossiers développés';
+$string['showexpanded'] = 'Afficher développés les sous-dossiers';
 $string['showexpanded_help'] = 'Si ce réglage est activé, les sous-dossiers seront affichés avec leur contenu. Dans le cas contraire, seul leur nom sera affiché.';

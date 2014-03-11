@@ -164,7 +164,7 @@ laissez l\'autre valeur à zéro. Ex. pour avoir un minimum de 2 cases cochées 
 Si vous avez saisi pour l\'un ou l\'autre de ces paramètres une valeur différente de 0, si l\'étudiant ne respecte pas le nombre mini ou maxi imposé, un message d\'erreur sera affiché.
 Evidemment, il vous appartient de préciser vos exigences dans le texte de la question!';
 $string['misconfigured'] = 'Le cours est mal configuré.';
-$string['missingquestion'] = 'Veuillez répondre à la question obligatoire';
+$string['missingquestion'] = 'Veuillez répondre à la question obligatoire ';
 $string['missingquestions'] = 'Veuillez répondre aux questions obligatoires :';
 $string['modulename'] = 'Questionnaire';
 $string['modulename_help'] = 'Le module « questionnaire » vous permet de créer des enquêtes utilisant divers types de questions, afin de collecter l\'opinion des utilisateurs.';

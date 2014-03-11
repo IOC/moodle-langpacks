@@ -119,7 +119,8 @@ $string['deletecoursecategorywithquestions'] = 'La banque de questions associée
 $string['deleteqtypeareyousure'] = 'Voulez-vous vraiment supprimer le type de question type « {$a} »';
 $string['deleteqtypeareyousuremessage'] = 'Vous êtes sur le point de supprimer totalement le type de question « {$a} ». Voulez-vous vraiment désinstaller ce type de question ?';
 $string['deletequestioncheck'] = 'Voulez-vous vraiment supprimer « {$a} »?';
-$string['deletequestionscheck'] = 'Voulez-vous vraiment supprimer les questions ci-dessous ?<br /><br />{$a}';
+$string['deletequestionscheck'] = '<p>Voulez-vous vraiment supprimer les questions ci-dessous ?</p>
+<p>{$a}</p>';
 $string['deletingbehaviour'] = 'Suppression du comportement de question « {$a} »';
 $string['deletingqtype'] = 'Suppression du type de question « {$a} »';
 $string['didnotmatchanyanswer'] = '[Ne correspond à aucune réponse]';

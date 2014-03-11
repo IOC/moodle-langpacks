@@ -52,6 +52,7 @@ $string['hidepanel'] = 'Cacher le dock';
 $string['moveblock'] = 'Déplacer le bloc {$a}';
 $string['moveblockafter'] = 'Déplacer le bloc après le bloc {$a}';
 $string['moveblockbefore'] = 'Déplacer le bloc avant le bloc {$a}';
+$string['moveblockhere'] = 'Déplacer le bloc ici';
 $string['movingthisblockcancel'] = 'Déplacement de ce bloc ({$a})';
 $string['onthispage'] = 'Sur cette page';
 $string['pagetypes'] = 'Types de page';

@@ -25,5 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['multilangupgradeinfo'] = 'La syntaxe du filtre multilingue a été modifiée dans la version 1.8 de Moodle. La balise <lang> n\'est plus supportée.<br /><br />Exemple de la nouvelle syntaxe : &lt;span lang="en" class="multilang">Hello!&lt;/span&gt;&lt;span lang="fr" class="multilang">Bonjour !&lt;/span&gt;<br /><br /><strong>Voulez-vous mettre à jour maintenant la syntaxe dans tous les textes ?</strong>';
+$string['multilangupgradeinfo'] = '<p>La syntaxe du filtre multilingue a été modifiée dans la version 1.8 de Moodle. La balise <lang> n\'est plus supportée.</p>
+<p>Exemple de la nouvelle syntaxe : <span lang="en" class="multilang">Hello!</span><span lang="fr" class="multilang">Bonjour !</span></p>
+<p><strong>Voulez-vous mettre à jour maintenant la syntaxe dans tous les textes ?</strong></p>';
 $string['pluginname'] = 'Mise à jour syntaxe multilingue';

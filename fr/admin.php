@@ -243,7 +243,7 @@ $string['configfrontpagecourselimit'] = 'Nombre maximal de cours';
 $string['configfrontpagecourselimithelp'] = 'Ce réglage détermine le nombre maximal de cours à afficher dans les listes de cours sur la page d\'accueil du site.';
 $string['configfrontpageloggedin'] = 'Les éléments sélectionnés seront affichés sur la page d\'accueil pour les utilisateurs connectés.';
 $string['configfullnamedisplay'] = 'Ce réglage définit comment les noms sont affichés en format complet. Pour la plupart des sites monolingues, le réglage le plus efficace est le réglage par défaut « Prénom + Nom », mais vous pouvez choisir de cacher les noms de familles, ou de laisser le choix au paquetage de la langue d\'affichage (certaines langues ont des conventions différentes).';
-$string['configgeoipfile'] = 'Emplacement du fichier binaire GeoIP City. Ce fichier ne fait pas partie de la distribution de Moodle. Il doit être obtenu séparément chez <a href="http://www.maxmind.com/">MaxMind</a>. Vous pouvez soit en acheter une version commerciale, soit utiliser la version gratuite.<br />Téléchargez simplement le fichier <a href="http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz" >http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> et décompressez-le dans le dossier « {$a} » sur votre serveur.';
+$string['configgeoipfile'] = 'Emplacement du fichier binaire GeoIP City. Ce fichier ne fait pas partie de la distribution de Moodle. Il doit être obtenu séparément chez <a href="http://www.maxmind.com/">MaxMind</a>. Vous pouvez soit en acheter une version commerciale, soit utiliser la version gratuite. Téléchargez simplement le fichier <a href="http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz" >http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> et décompressez-le dans le dossier « {$a} » sur votre serveur.';
 $string['configgetremoteaddrconf'] = 'Si votre serveur est situé derrière un proxy inverse, vous pouvez utiliser ce réglage pour indiquer les entêtes HTTP dont on peut être sûr qu\'ils contiennent l\'adresse IP distante. Les entêtes sont lues dans l\'ordre indiqué, la première disponible étant utilisée.';
 $string['configgradebookroles'] = 'Ce réglage permet de configurer les rôles apparaissant dans le carnet de notes. Pour être mentionnés dans le carnet de notes d\'un cours, les utilisateurs doivent avoir au moins l\'un de ces rôles dans ce cours.';
 $string['configgradeexport'] = 'Sélectionnez les formats d\'exportation privilégiés du carnet de notes. Les sélections mettront en place et utiliseront ensuite un champ « dernière exportation » pour chaque note. Par exemple, cela permettra d\'identifier des notes exportées comme « nouvelles » ou « modifiées ». Si vous n\'êtes pas sûr à ce sujet, ne cochez rien.';
@@ -753,7 +753,7 @@ $string['navshowfullcoursenames_help'] = 'Si ce réglage est activé, les noms c
 $string['navshowmycoursecategories'] = 'Afficher mes catégories de cours';
 $string['navshowmycoursecategories_help'] = 'Si ce réglage est activé, les cours seront affichés dans leur catégorie, dans les listes des cours des utilisateurs.';
 $string['navsortmycoursessort'] = 'Trier mes cours';
-$string['navsortmycoursessort_help'] = 'Détermine si les cours dans Mes cours sont listés dans l\'ordre de tri actif (l\'ordre de tri indiqué dans Réglages -> Administration du site > Cours > Gestion des cours) ou suivant l\'ordre alphabétique.';
+$string['navsortmycoursessort_help'] = 'Détermine si les cours dans Mes cours sont listés dans l\'ordre de tri actif (l\'ordre de tri indiqué dans Administration du site > Cours > Gestion des cours) ou suivant l\'ordre alphabétique.';
 $string['neverdeleteruns'] = 'Ne jamais supprimer les profilages';
 $string['nobookmarksforuser'] = 'vous n\'avez pas de marque-page.';
 $string['nodatabase'] = 'Pas de base de données';
@@ -896,6 +896,7 @@ $string['questioncwqpfscheck'] = 'Une ou plusieurs questions aléatoires d\'un t
 $string['questioncwqpfsok'] = 'Il n\'y a dans vos tests aucune question aléatoire tirant ses questions de catégories partagées et de catégories non partagées.';
 $string['questiontype'] = 'Type de question';
 $string['questiontypes'] = 'Types de question';
+$string['quizattemptsupgradedmessage'] = 'Une mise à jour majeure des questions était comprise dans Moodle 2.1. Il était alors possible de retarder cette mise à niveau. Avant de passer à Moodle 2.7, cette mise à jour est désormais obligatoire.';
 $string['recaptchaprivatekey'] = 'Clef privée ReCAPTCHA';
 $string['recaptchapublickey'] = 'Clef publique ReCAPTCHA';
 $string['register'] = 'Enregistrer votre site';
@@ -1088,7 +1089,10 @@ L\'avertissement peut également être causé par la mise à jour incomplète d\
 
 Vous trouverez plus d\'informations à ce sujet dans la documentation de mise à jour ici : <a href="{$a}">{$a}</a>';
 $string['upgradestart'] = 'Mettre à jour la base de données maintenant';
-$string['upgradesure'] = 'Certains fichiers de votre Moodle ont été modifiés, et vous êtes sur le point<br />de lancer la procédure automatique de mise à jour de votre serveur vers cette version :<br /><br /><strong>{$a}</strong><br /><br />Une fois cette mise à jour effectuée, il sera impossible de revenir en arrière !<br /><br />Veuillez remarquer que le processus peut durer assez longtemps.<br /><br />Voulez-vous vraiment mettre à jour ce Moodle vers cette version ?';
+$string['upgradesure'] = '<p>Certains fichiers de votre Moodle ont été modifiés, et vous êtes sur le point de lancer la procédure automatique de mise à jour de votre serveur vers cette version :</p>
+<p><strong>{$a}</strong></p>
+<p>Une fois cette mise à jour effectuée, il sera impossible de revenir en arrière ! Veuillez remarquer que le processus peut durer assez longtemps.</p>
+<p>Voulez-vous vraiment mettre à jour ce Moodle vers cette version ?</p>';
 $string['upgradetimedout'] = 'La mise à jour a dépassé le temps imparti. Veuillez recommencer la mise à jour.';
 $string['upgradingdata'] = 'Mise à jour des données';
 $string['upgradinglogs'] = 'Mise à jour des fichiers d\'historique (logs)';

@@ -212,6 +212,7 @@ $string['error:clone'] = 'Impossible de dupliquer le badge.';
 $string['error:connectionunknownreason'] = 'La connexion a échoué sans qu\'aucune raison ne soit donnée.';
 $string['error:duplicatename'] = 'Un badge de ce nom existe déjà dans le système.';
 $string['error:externalbadgedoesntexist'] = 'Badge introuvable';
+$string['error:guestuseraccess'] = 'Vous consultez ce site comme utilisateur anonyme. Pour consulter les badges, veuillez vous connecter avec votre compte utilisateur.';
 $string['error:invalidbadgeurl'] = 'Format incorrect de l\'URL de l\'émetteur du badge';
 $string['error:invalidcriteriatype'] = 'Type de critère non valide';
 $string['error:invalidexpiredate'] = 'La date d\'échéance doit se situer dans le futur.';
@@ -270,7 +271,9 @@ $string['makeprivate'] = 'Rendre privé';
 $string['makepublic'] = 'Rendre public';
 $string['managebadges'] = 'Gérer les badges';
 $string['message'] = 'Corps du message';
-$string['messagebody'] = '<p>On vous a décerné le badge« %badgename% »!</p> <p>Plus d\'information sur ce badge est disponible ici : %badgelink%.</p> <p>S\'il n\'y a pas de badge en annexe à ce message, vous pouvez gérer et télécharger le badge sur la page {$a}.</p>';
+$string['messagebody'] = '<p>On vous a décerné le badge « %badgename% »!</p>
+<p>Plus d\'information sur ce badge est disponible ici : %badgelink%.</p>
+<p>Vous pouvez gérer et télécharger le badge sur la page {$a}.</p>';
 $string['messagesubject'] = 'Félicitations ! Vous venez de recevoir un badge !';
 $string['method'] = 'Ce critère est satisfait quand...';
 $string['mingrade'] = 'Note minimale requise';

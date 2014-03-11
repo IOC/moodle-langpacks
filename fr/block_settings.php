@@ -28,4 +28,4 @@ defined('MOODLE_INTERNAL') || die();
 $string['enabledock'] = 'Permettre à l\'utilisateur de placer ce bloc dans le dock';
 $string['pluginname'] = 'Administration';
 $string['settings:addinstance'] = 'Ajouter un bloc administration';
-$string['settings:myaddinstance'] = 'Ajouter un bloc réglages à Ma page';
+$string['settings:myaddinstance'] = 'Ajouter un bloc d\'administration à Ma page';
