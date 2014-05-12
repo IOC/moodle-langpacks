@@ -59,6 +59,6 @@ $string['popupheightexplain'] = 'Altezza di default per le finestre popup.';
 $string['popupwidth'] = 'Larghezza popup (in pixel)';
 $string['popupwidthexplain'] = 'Larghezza di default per le finestre popup.';
 $string['printheading'] = 'Visualizza il nome della pagina';
-$string['printheadingexplain'] = 'Consente di visualizzare il nome della pagina prima del contenuto.';
+$string['printheadingexplain'] = 'Consente di visualizzare il nome della pagina sopra il testo del contenuto.';
 $string['printintro'] = 'Visualizza la descrizione della pagina';
 $string['printintroexplain'] = 'Consente di visualizzare la descrizione della pagina prima del contenuto.';

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['alfresco_url'] = 'Alfresco URL';
-$string['alfrescourltext'] = 'L\'url delle API Alfresco dovrebbe essere http://tuosito.tld/alfresco/api';
+$string['alfrescourltext'] = 'L\'url delle API Alfresco dovrebbe essere http://tuosito.tld/alfresco/api oppure http://tuosito.com/alfresco/soapapi per Alfresco 2.4 o superiore.';
 $string['alfresco:view'] = 'Visualizzare repository Alfresco';
 $string['configplugin'] = 'Configurazione di Alfresco';
 $string['notitle'] = 'senza titolo';

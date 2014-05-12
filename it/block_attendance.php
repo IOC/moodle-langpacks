@@ -16,13 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_popup', language 'it', branch 'MOODLE_25_STABLE'
+ * Strings for component 'block_attendance', language 'it', branch 'MOODLE_25_STABLE'
  *
- * @package   message_popup
+ * @package   block_attendance
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Notifiche popup';
+$string['blockname'] = 'Presenze';
+$string['pluginname'] = 'Presenze';

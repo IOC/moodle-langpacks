@@ -85,6 +85,7 @@ $string['requires_grade_any'] = 'Disponibile dopo aver ottenuto una valutazione 
 $string['requires_grade_max'] = 'Disponibile dopo aver ottenuto un voto adeguato in <strong>{$a}</strong>.';
 $string['requires_grade_min'] = 'Disponibile dopo aver ottenuto il voto richiesto in <strong>{$a}</strong>.';
 $string['requires_grade_range'] = 'Disponibile dopo aver ottenuto uno specifico voto in <strong>{$a}</strong>.';
+$string['requires_grouping'] = 'Disponibile solo per il raggruppamento <strong>{$a}</strong>.';
 $string['requires_user_field_contains'] = 'Disponibile solo se il contenuto del campo <strong>{$a->field}</strong> del tuo profilo contiene  <strong>{$a->value}</strong>.';
 $string['requires_user_field_doesnotcontain'] = 'Disponibile solo se il contenuto del campo <strong>{$a->field}</strong> del tuo profilo non contiene  <strong>{$a->value}</strong>.';
 $string['requires_user_field_endswith'] = 'Disponibile solo se il contenuto del campo <strong>{$a->field}</strong> del tuo profilo termina con <strong>{$a->value}</strong>.';

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['apiv1migration_message_content'] = 'Per effetto dell\'aggiornamento a Moodle 2.5.3, il plugin portfolio Box.net è stato disabilitato. Per riabilitarlo, devi riconfigurarlo in accordo la istruzioni presenti nella documentazione {$a->docsurl}.';
+$string['apiv1migration_message_content'] = 'Per effetto dell\'aggiornamento a Moodle 2.5.3, il plugin portfolio Box è stato disabilitato. Per riabilitarlo, devi riconfigurarlo in accordo la istruzioni presenti nella documentazione {$a->docsurl}.';
 $string['apiv1migration_message_small'] = 'Il plugin è stato disabilitato poiché deve essere configurato in accordo alla documentazione di migrazione APIv1 Box.';
 $string['apiv1migration_message_subject'] = 'Informazioni importanti sul plugin portfolio Box';
 $string['clientid'] = 'Client ID';
@@ -35,7 +35,7 @@ $string['folderclash'] = 'la cartella che hai chiesto di creare è già esistent
 $string['foldercreatefailed'] = 'Non è stato possibile creare la cartella destinazione su Box';
 $string['folderlistfailed'] = 'Non è stato possibile ottenere l\'elenco delle cartella da Boz';
 $string['missinghttps'] = 'HTTPS obbligatorio';
-$string['missinghttps_help'] = 'Box.net funziona solo con siti che hanno abilitato HTTPS .';
+$string['missinghttps_help'] = 'Box funziona solo con siti con HTTPS abilitato.';
 $string['missingoauthkeys'] = 'Client ID and secret mancanti';
 $string['missingoauthkeys_help'] = 'Non sono presenti client ID o secret configurati per questo plugin. E\' possibile ottenerli nella development page di Box.net';
 $string['newfolder'] = 'Cartella da creare dove inserire file:';

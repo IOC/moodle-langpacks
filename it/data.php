@@ -82,7 +82,7 @@ $string['csvimport'] = 'Importa un file CSV';
 $string['csvimport_help'] = 'I record possono essere importati tramite un file di testo che abbia il nome del campo come intestazione di colonna ed un record per riga.';
 $string['csvwithselecteddelimiter'] = '<acronym title="Comma Separated Values">CSV</acronym> testo delimitato da:';
 $string['data:addinstance'] = 'Aggiungere attività database';
-$string['data:approve'] = 'Approvare tutti i record in attesa';
+$string['data:approve'] = 'Approvare record in attesa';
 $string['data:comment'] = 'Scrivere i commenti';
 $string['data:exportallentries'] = 'Esportare tutti i record del database';
 $string['data:exportentry'] = 'Esportare un record del database';

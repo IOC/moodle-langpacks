@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
-Questa impostazione non innalza significativamente la sicurezza del vostro sito, tuttavia riduce e limita i pericoli provenienti dai più comuni exploit.</p>';
+Questa impostazione non innalza significativamente la sicurezza del sito, tuttavia riduce e limita i pericoli provenienti dai più comuni exploit.</p>';
 $string['check_configrw_name'] = 'File config.php modificabile';
 $string['check_configrw_ok'] = 'Il file config.php non è modificabile da script PHP.';
 $string['check_configrw_warning'] = 'Il file config.php può essere modificato da script PHP.';
@@ -40,7 +40,7 @@ $string['check_defaultuserrole_error'] = 'Il Ruolo di default per tutti gli uten
 $string['check_defaultuserrole_name'] = 'Ruolo di default per tutti gli utenti';
 $string['check_defaultuserrole_notset'] = 'Il ruolo di default non è impostato.';
 $string['check_defaultuserrole_ok'] = 'Definizione del Ruolo di default per tutti gli utenti OK.';
-$string['check_displayerrors_details'] = '<p>Si consiglia vivamente di non abilitare l\'impostazione PHP <code>display_errors</code> nei server in produzione in quanto i messaggi di errore potrebbero fornire informazioni delicate sul vostro server.</p>';
+$string['check_displayerrors_details'] = '<p>Si consiglia vivamente di non abilitare l\'impostazione PHP <code>display_errors</code> nei server in produzione in quanto i messaggi di errore potrebbero fornire informazioni sensibili sul server.</p>';
 $string['check_displayerrors_error'] = 'La visualizzazione degli errori PHP è abilitata. Si raccomanda di disabilitarla.';
 $string['check_displayerrors_name'] = 'Visualizzazione errori PHP';
 $string['check_displayerrors_ok'] = 'La visualizzazione degli errori PHP è disabilitata.';
@@ -115,10 +115,10 @@ $string['check_riskxss_name'] = 'Utenti affidabili per XSS';
 $string['check_riskxss_warning'] = 'RISK_XSS - individuati {$a} utenti che devono essere affidabili.';
 $string['check_unsecuredataroot_details'] = '<p>Il folder dataroot non deve essere accessibile via web. La cosa migliore è creare il foder dataroot al di fuori dello spazio web.</p>
 <p>Se spostate il folder dataroot, ricordate di modificare l\'impostazione <code>$CFG->dataroot</code> nel file config.php.</p>';
-$string['check_unsecuredataroot_error'] = 'Il vostro folder dataroot <code>{$a}</code> è in un posto sbagliato ed è esposta pubblicamente sul web!';
+$string['check_unsecuredataroot_error'] = 'La cartella dataroot <code>{$a}</code> si trova in una posizione errata ed è esposta pubblicamente sul web!';
 $string['check_unsecuredataroot_name'] = 'Dataroot non sicura';
 $string['check_unsecuredataroot_ok'] = 'La Dataroot non deve essere accessibile via web.';
-$string['check_unsecuredataroot_warning'] = 'Il vostro folder dataroot <code>{$a}</code> è in un posto sbagliato e potrebbe anche essere esposta pubblicamente sul web!';
+$string['check_unsecuredataroot_warning'] = 'La cartella dataroot <code>{$a}</code> si trova in una posizione errata e potrebbe essere esposta pubblicamente sul web!';
 $string['configuration'] = 'Configurazione';
 $string['description'] = 'Descrizione';
 $string['details'] = 'Dettagli';

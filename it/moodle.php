@@ -318,7 +318,7 @@ $string['coursecategory_help'] = '<p>L\'amministratore di questo sito Moodle dov
 
 <p>Ad esempio "Scienze", "Lettere", "Medicina", eccetera.</p>
 
-<p>Scegliete la categoria che ritenete più adatta per il vostro corso: poiché il titolo del corso comparirà all\'interno della categoria, una scelta appropriata faciliterà gli studenti nel reperire il vostro corso.</p>';
+<p>Sceglie la categoria che riteni più adatta al tuo corso: poiché il titolo del corso comparirà all\'interno della categoria, una scelta appropriata faciliterà gli studenti nel reperire il corso.</p>';
 $string['coursecompletion'] = 'Completamento corso';
 $string['coursecompletions'] = 'Corsi completati';
 $string['coursecreators'] = 'Creatore di corsi';
@@ -1409,7 +1409,7 @@ $string['returntooriginaluser'] = 'Ritorna a {$a}';
 $string['revert'] = 'Ripristina';
 $string['role'] = 'Ruolo';
 $string['rolemappings'] = 'Mappatura dei ruoli';
-$string['rolerenaming'] = 'Ridenominazione ruolo';
+$string['rolerenaming'] = 'Personalizzazione nomi dei ruoli';
 $string['rolerenaming_help'] = 'Consente la personalizzazione dei nomi dei ruoli usati nel corso. I privilegi non vengono modificati, verrò cambiato solo il nome del ruolo. I nomi personalizzati dei ruoli verranno usati nella pagina con l\'elenco dei partecipanti al corso e nelle altre pagine del corso dove compaiono i  nomi dei ruoli. Se assegnate un nome personalizzato ad un ruolo che è stati definito dall\'Amministratore del sito come Gestore del corso, il nome personalizzato apparirà anche nella descrizione del corso disponibile all\'interno delle Categorie.';
 $string['roles'] = 'Ruoli';
 $string['rss'] = 'RSS';
@@ -1546,7 +1546,7 @@ $string['showonly'] = 'Visualizza solo';
 $string['showperpage'] = 'Visualizza {$a} per pagina';
 $string['showrecent'] = 'Visualizza le attività recenti';
 $string['showreports'] = 'Visualizza i report delle attività';
-$string['showreports_help'] = 'Per ciascun partecipanti sono disponibili i report delle attività svolte nel corso. Nei report, oltre all\'elenco delle attività svolte, è presente anche il log di accesso. Questa impostazione determina se uno studente può visualizzare i propri report dalla pagina del profilo personale.';
+$string['showreports_help'] = 'Per ciascun partecipante sono disponibili i report delle attività svolte nel corso. Nei report, oltre all\'elenco delle attività svolte, è presente anche il log di accesso. L\'impostazione determina se uno studente può visualizzare i propri report dalla pagina del profilo personale.';
 $string['showsettings'] = 'Visualizza impostazioni';
 $string['showtheselogs'] = 'Visualizza i log';
 $string['showthishelpinlanguage'] = 'Visualizza l\'help nella lingua: {$a}';
@@ -1560,6 +1560,7 @@ $string['sitefilesused'] = 'File del sito usati in questo corso';
 $string['sitehome'] = 'Home del sito';
 $string['sitelegacyfiles'] = 'File legacy del sito ';
 $string['sitelogs'] = 'Log del sito';
+$string['sitemessage'] = 'Invia messaggio agli utenti';
 $string['sitenews'] = 'News del sito';
 $string['sitepages'] = 'Pagine del sito';
 $string['sitepartlist'] = 'Non hai il privilegio per vedere l\'elenco dei partecipanti';
@@ -1647,8 +1648,8 @@ $string['summary_help'] = '<p>Il sommario dell\'argomento o della settimana è u
 
 <p>Il sommario dovrebbe essere breve per evitare che la pagina del corso divenga troppo lunga.</p>
 
-<p>Se nel vostro sommario desiderate utilizzare un testo più lungo, è forse preferibile
-valutare l\'utilizzo di una Risorsa, chiamate per esempio "Contenuto dell\'argomento" che illustri l\'argomento stesso con maggiore dettaglio.</p>';
+<p>Se nel sommario desideri utilizzare un testo più lungo, è forse preferibile
+valutare l\'utilizzo di una Risorsa, ad esempio chiamandola  "Contenuto dell\'argomento" che illustri l\'argomento stesso con maggiore dettaglio.</p>';
 $string['summaryof'] = 'Riassunto di {$a}';
 $string['supplyinfo'] = 'Inserisci i tuoi dati';
 $string['suspended'] = 'Sospeso';
@@ -1871,5 +1872,5 @@ $string['youneedtoenrol'] = 'Per effettuare questa operazione bisogna essere isc
 $string['yourlastlogin'] = 'Il tuo login più recente è stato:';
 $string['yourself'] = 'te stesso';
 $string['yourteacher'] = 'il tuo {$a}';
-$string['yourwordforx'] = 'Denomina il ruolo \'{$a}\' come';
+$string['yourwordforx'] = 'Per il ruolo \'{$a}\' usa';
 $string['zippingbackup'] = 'Compressione backup';

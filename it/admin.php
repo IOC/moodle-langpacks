@@ -42,7 +42,7 @@ $string['adminseesallevents'] = 'Gli amministratori visualizzano tutti gli event
 $string['adminseesownevents'] = 'Gli amministratori visualizzano solo i propri eventi';
 $string['advancedfeatures'] = 'Funzionalità avanzate';
 $string['allcountrycodes'] = 'Elenco codici nazione';
-$string['allowbeforeblock'] = 'L\'elenco degli indirizzi autorizzati sarà elaborato per primo';
+$string['allowbeforeblock'] = 'Elabora per primo l\'elenco degli IP autorizzati';
 $string['allowbeforeblockdesc'] = 'Per default l\'elenco degli IP bloccati verrà elaborato per primo. Abilitando questa opzione, sarà elaborato per primo l\'elenco degli IP autorizzati.';
 $string['allowblockstodock'] = 'Consenti ai blocchi di usare il dock';
 $string['allowcategorythemes'] = 'Consenti la scelta dei temi per le categorie';
@@ -265,8 +265,8 @@ $string['configlocale'] = 'Scegli la localizzazione del sito - L\'impostazione a
 Se non sai come impostare, lascia il campo vuoto.';
 $string['configloginhttps'] = 'Se attivata, questa impostazione consente a Moodle di utilizzare connessioni sicure di tipo https soltanto per la pagina di login (fornendo una login sicura), tornando successivamente ad una normale connessione http per il resto della navigazione degli altri URL.<br>
 PRUDENZA: questa impostazione RICHIEDE che https venga specificatamente attivato sul web server - Se non lo fosse VERRETE BLOCCATI AL DI FUORI DAL SITO!';
-$string['configloglifetime'] = 'L\'impostazione specifica la durata di conservazione dei log dell\'\'attività  degli utenti. I log antecedenti questa data verranno eliminati automaticamente.
-La cosa migliore è conservare i log il più a lungo possibile ma se disponi di un server sovraccarico o hai problemi di performance, è meglio abbreviare la durata di conservazione. Valori inferiori a 30 non sono consigliati in quanto le statistiche potrebbero non funzionare correttamente.';
+$string['configloglifetime'] = 'L\'impostazione specifica la durata di conservazione dei log dell\'attività degli utenti. I log più vecchi del numero di giorni impostato verranno eliminati automaticamente.
+Sebbene sia desiderabile conservare i log il più a lungo possibile, se si dispone di un server sovraccarico o in presenza di problemi di performance, è preferibile abbreviare la durata di conservazione. Impostazioni di 30 giorni o meno non sono consigliate in quanto le statistiche non funzionerebbero correttamente.';
 $string['configlookahead'] = 'Giorni futuri da controllare';
 $string['configmaxbytes'] = 'Imposta la dimensione massima per gli upload di file. Il valore massimo è limitato dalla variabile PHP  \'upload_max_filesize\' e \'post_max_size\'  e dal valore della variabile \'LimitRequestBody\' di Apache.
 L\'impostazione a sua volta limita la dimensione massima degli upload nei corsi e nei moduli. Scegliendo \'Limite server\', sarà usato il valore di upload massimo consentito.';
@@ -292,9 +292,9 @@ $string['confignavcourselimit'] = 'Limita il numero di corsi visibili agli utent
 $string['confignavshowallcourses'] = 'L\'impostazione stabilisce se gli utenti iscritti ad almeno un corso possano visualizzare la voce Corsi (elenco di tutti corsi)  nel blocco Navigazione. Tale voce sarà visualizzata in aggiunta alla voce I miei corsi (elenco dei corsi ai quali l\'utente è iscritto).';
 $string['confignavshowcategories'] = 'Visualizza le categorie di corso nelle briciole e nel blocco Navigazione. Le categorie non saranno visualizzate nei corsi dove l\'utente è iscritto, che saranno elencati nel link I miei corsi.';
 $string['confignotifyloginfailures'] = 'Se sono stati registrati accessi falliti, una mail di notifica può essere spedita. Chi deve ricevere queste notifiche?';
-$string['confignotifyloginthreshold'] = 'Se la notifica sugli accessi falliti è attiva, dopo quanti tentativi falliti per utente o per indirizzo IP la notifica deve essere inviata?';
+$string['confignotifyloginthreshold'] = 'Se è stata attivata la notifica dei login errati, l\'impostazione consente di definire il numero di login errati raggiunto il quale sarà inviata la mail di avviso.';
 $string['confignotloggedinroleid'] = 'Ai visitatori (utenti non autenticati nel contesto del sito) sarà attribuito il ruolo indicato. Per i visitatori non dovreste scegliere nulla di diverso dal ruolo di Ospite, in ogni caso avete la possibilità di creare nuovi ruoli per i visitatori, con autorizzazioni diverse. Alcune attività, come ad esempio intervenire in un forum, richiederanno comunque all\'utente di autenticarsi.';
-$string['configopentogoogle'] = 'Google potrà entrare nel tuo sito come Ospite. Inoltre, coloro che tramite Google raggiungeranno il vostro sito saranno autenticati automaticamente come Ospite. Da notare che l\'impostazione fornisce un accesso trasparente solo a quei corsi che già consentono l\'accesso agli ospiti.';
+$string['configopentogoogle'] = 'Google potrà entrare nel tuo sito come Ospite. Inoltre, coloro che tramite Google raggiungeranno il sito saranno autenticati automaticamente come Ospite. Da notare che l\'impostazione fornisce un accesso trasparente solo a quei corsi che già consentono l\'accesso agli ospiti.';
 $string['configoverride'] = 'Definito in config.php';
 $string['configpasswordpolicy'] = 'Attivando questa opzione Moodle verificherà le password degli utenti secondo le regole indicate. Le impostazioni seguenti servono a specificare tali regole (le regole password saranno ignorate se questa opzione non è selezionata).';
 $string['configpathtoclam'] = 'Percorso assoluto per Clam antivirus. Probabilmente usr/bin/clamscan oppure /usr/bin/clamdscan.
@@ -578,7 +578,7 @@ $string['generalsettings'] = 'Impostazioni generali';
 $string['geoipfile'] = 'File dati GeoIP City';
 $string['getremoteaddrconf'] = 'Sorgente degli indirizzi IP logged';
 $string['globalsquoteswarning'] = '<p><strong>Avviso per la Sicurezza</strong>: per funzionare correttamente, Moodle necessita<br />che vengano fatte alcune modifiche alle vostre impostazioni del PHP.</p><p><em>Dovete</em> impostare <code>register_globals=off</code> e/o <code>magic_quotes_gpc=on</code>.<br />Se possibile, dovete impostare <code>register_globals=off</code> per migliorare la sicurezza generale del server,<br /> anche impostare <code>magic_quotes_gpc=on</code> è raccomandato.<p/><p>Queste impostazioni sono controllate modificando il vostro <code>php.ini</code>, la configurazione di Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
-$string['globalswarning'] = '<p><strong>Avviso per la sicurezza</strong>: per funzionare correttamente, Moodle richiede <br />alcune modifiche alle attuali impostazioni del PHP.<p/><p><em>Bisogna</em> impostare <code>register_globals=off</code>.<p>Questa impostazione può essere modificata editando il vostro <code>php.ini</code>, la configurazione Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
+$string['globalswarning'] = '<p><strong>Avviso per la sicurezza</strong>: per funzionare correttamente, Moodle richiede <br />alcune modifiche alle attuali impostazioni del PHP.<p/><p><em>Bisogna</em> impostare <code>register_globals=off</code>.<p>Questa impostazione può essere modificata modificando il file <code>php.ini</code>, la configurazione di Apache/IIS <br />o il file <code>.htaccess</code>.</p>';
 $string['googlemapkey3'] = 'Google Maps API V3 key';
 $string['googlemapkey3_help'] = 'Per visualizzare con Google Maps le località corrispondenti agli indirizzi IP, è\' necessario inserire una chiave che può essere ottenuta gratuitamente su <a href="https://developers.google.com/maps/documentation/javascript/tutorial#api_key" target="_blank">https://developers.google.com/maps/documentation/javascript/tutorial#api_key</a>';
 $string['gotofirst'] = 'Vai alla prima stringa mancante';
@@ -613,19 +613,19 @@ $string['htmlsettings'] = 'Impostazioni HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Sicurezza HTTP';
 $string['hubs'] = 'Hub';
-$string['iconvrecommended'] = 'Installare la libreria opzionale ICONV è fortemente consigliato per migliorare le prestazioni, in particolare se il vostro sito usa lingue non latine.';
+$string['iconvrecommended'] = 'Installare la libreria opzionale ICONV è fortemente consigliato per migliorare le prestazioni, in particolare se il sito usa lingue non latine.';
 $string['iconvrequired'] = 'E\' necessario installare l\'estensione ICONV.';
 $string['ignore'] = 'Ignora';
 $string['includemoduleuserdata'] = 'Includi i dati utente presenti nei moduli';
 $string['incompatibleblocks'] = 'Blocchi non compatibili';
 $string['installhijacked'] = 'Spiacente, l\'installazione deve essere completata dallo stesso indirizzo IP dal quale è stata avviata.';
-$string['installsessionerror'] = 'Non è possibile inizializzare la sessione PHP, per favore verificate che il vostro browser accetti i cookie.';
+$string['installsessionerror'] = 'Non è possibile inizializzare la sessione PHP, per favore verifica che il browser accetti i cookie.';
 $string['intlrecommended'] = 'L\'estensione intl migliora il supporto all\'internazionalizzazione, come l\'ordinamento in accordo alle impostazioni locali';
 $string['invalidsection'] = 'Sezione non valida';
 $string['invaliduserchangeme'] = 'Il nome utente "changeme" è riservato - non è possibile creare utenti con quel nome utente.';
 $string['ipblocked'] = 'Questo sito non è al momento disponibile.';
 $string['ipblocker'] = 'Blocco IP';
-$string['ipblockersyntax'] = 'Inserisci un IP per ogni linea. E\' possibile inserire un indirizzo IP completo (ad esempio <b>192.168.10.1</b>) per un singolo host, oppure un indirizzo IP parziale (ad esempio <b>192.168.</b>) per tutti gli indirizzi che iniziano con questi numeri. E\' anche possibile usare la notazione CIDR (ad esempio <b>231.54.211.0/20</b>) oppure un intervallo (ad esempio <b>231.3.56.10-20</b>), dove l\'intervallo è specificato dalle ultime quattro cifre. I nomi a dominio non sono supportati. Le linee vuote non sono utilizzate.';
+$string['ipblockersyntax'] = 'Inserire un IP per ogni linea. E\' possibile inserire un indirizzo IP completo (ad esempio <b>192.168.10.1</b>) per un singolo host, oppure un indirizzo IP parziale (ad esempio <b>192.168.</b>) per includere tutti gli indirizzi che iniziano con questi numeri. E\' anche possibile usare la notazione CIDR (ad esempio <b>231.54.211.0/20</b>) oppure un intervallo (ad esempio <b>231.3.56.10-20</b>), dove l\'intervallo è specificato dalle ultime quattro cifre. I nomi di dominio non sono supportati. Le linee lasciate vuote non saranno utilizzate.';
 $string['iplookup'] = 'Ricerca indirizzo IP';
 $string['iplookupgeoplugin'] = 'Per ricavare le informazioni geografiche viene utilizzato il servizio <a href="http://www.geoplugin.com">geoPlugin</a>. Per informazioni più accurate si raccomanda di installare una copia locale del database MaxMind GeoLite.';
 $string['iplookupinfo'] = 'Per default Moodle usa il server online gratuito NetGeo (The Internet Geographic Database) per cercare le località degli indirizzi IP. Sfortunatamente questo server non è più aggiornato e può rispondere con dati <em>non corretti</em>. Si raccomanda di installare localmente una copia del database gratuito GeoLite City da MaxMind.<br/>
@@ -672,8 +672,8 @@ $string['lockoutthreshold_desc'] = 'E\' possibile impostare la soglia di login e
 $string['lockoutwindow'] = 'Finestra temporale di osservazione per il blocco del profilo utente';
 $string['lockoutwindow_desc'] = 'Il tempo di osservazione per la soglia di blocco, in assenza di login errati il contatore della soglia viene azzerato non appena trascorso il tempo impostato';
 $string['log'] = 'Log';
-$string['logguests'] = 'Log di accesso ospite';
-$string['logguests_help'] = 'L\'impostazione abilita il log delle azioni svolte dall\'account ospite e dagli utenti non autenticati. Siti molto trafficati potrebbero disabilitare il log per motivi di performance.Nei siti di produzione si raccomanda di mantenere log di accesso ospite abilitato.';
+$string['logguests'] = 'Log accesso ospite';
+$string['logguests_help'] = 'L\'impostazione abilita il log delle azioni svolte dall\'account ospite e dagli utenti non autenticati. Siti molto trafficati possono disabilitare il logo di queste azioni per motivi di performance. Nei siti di produzione si raccomanda di mantenere log accesso ospite abilitato.';
 $string['loginhttps'] = 'Usa HTTPS per i login';
 $string['loginpageautofocus'] = 'Focus automatico nella maschera di autenticazione';
 $string['loginpageautofocus_help'] = 'L\'impostazione migliora l\'usabilità della maschera di autenticazione, tuttavia il focus automatico dei campi può essere considerato un problema per l\'accessibilità.';
@@ -775,7 +775,7 @@ $string['nonexistentbookmark'] = 'Il segnalibro richiesto non esiste';
 $string['noresults'] = 'Nessun risultato';
 $string['noroles'] = 'Nessun ruolo';
 $string['notifications'] = 'Avvisi';
-$string['notifyloginfailures'] = 'Indirizzo di email per gli avvisi sui tentativi falliti di login';
+$string['notifyloginfailures'] = 'Destinatari degli avvisi sui login errati';
 $string['notifyloginthreshold'] = 'Soglia per l\'invio di avvisi tramite email';
 $string['notloggedinroleid'] = 'Ruolo per i visitatori';
 $string['numberofmissingstrings'] = 'Numero stringhe mancanti: {$a}';
@@ -796,10 +796,10 @@ $string['pathtodot'] = 'Percorso per dot';
 $string['pathtodot_help'] = 'Percorso assoluto per l\'eseguibile dot, del tipo /usr/bin/dot. Per generare grafici a partire dai file DOT, è necessario installare l\'eseguibile dot e configurare il percorso. Da notare che per il momento dot è usato solamente per le funzioni di profilazione presenti in Moodle (Sviluppo->Profilazione)';
 $string['pathtodu'] = 'Percorso per du';
 $string['pathtopgdump'] = 'Percorso per pg_dump';
-$string['pathtopgdumpdesc'] = 'Questo è solamente necessario se avete più di un pg_dump sul vostro sistema (per esempio avete più versioni di postgresql installate)';
+$string['pathtopgdumpdesc'] = 'E\' nescessario solo se hai più di un pg_dump sul sistema (per esempio hai più versioni di postgresql installate)';
 $string['pathtopgdumpinvalid'] = 'Percorso non valido per pg_dump - percorso errato o non eseguibile';
 $string['pathtopsql'] = 'Path per psql';
-$string['pathtopsqldesc'] = 'Questo è solamente necessario se avete più di un pgsql sul vostro sistema (per esempio avete più versioni di postgresql installate)';
+$string['pathtopsqldesc'] = 'E\' nescessario solo se hai più di un psql sul sistema (per esempio hai più versioni di postgresql installate)';
 $string['pathtopsqlinvalid'] = 'Percorso non valido per pgsql - percorso errato o non eseguibile';
 $string['pcreunicodewarning'] = 'Si raccomanda di utilizzare l\'estensione PHP PCRE che è compatibile con i caratteri Unicode.';
 $string['perfdebug'] = 'Visualizza prestazioni';
@@ -810,7 +810,7 @@ $string['php50restricted'] = 'PHP 5.0.x ha diversi problemi conosciuti, si prega
 $string['php533warning'] = 'Si raccomanda l\'uso di PHP 5.3.3 o versione successiva';
 $string['phpfloatproblem'] = 'E\' stato rilevato un problema inatteso durante l\'utilizzo di numeri a virgola mobile tramite PHP - {$a}';
 $string['pleaserefreshregistration'] = 'Questo sito è stato registrato con moodle.org. Ricorda di aggiornare la registrazione se sono state apportate modifiche significative dall\'ultimo aggiornamento, avvenuto il {$a}';
-$string['pleaseregister'] = 'Registrando il vostro sito questo pulsante verrà  rimosso';
+$string['pleaseregister'] = 'Registrando il sito questo pulsante verrà  rimosso';
 $string['plugin'] = 'Plugin';
 $string['plugins'] = 'Plugin';
 $string['pluginscheck'] = 'Controllo dipendenze plugin';
@@ -884,7 +884,7 @@ $string['profilingexcluded_help'] = 'Elenco di URL (separato da virgole, esclusi
 $string['profilingimportprefix'] = 'Prefisso importazione profiling';
 $string['profilingimportprefix_desc'] = 'Per una più facile identificazione, tutti i profiling run importati avranno il prefisso specificato.';
 $string['profilingincluded'] = 'Profila questi';
-$string['profilingincluded_help'] = 'Elenco di URL (assolute, senza wwwroot, raggiungibili, ) separato da virgole da profilare automaticamente. Esempio: /index.php, /course/view.php. E\' anche possibile specificare il carattere jolly * in qualsiasi posizione. Esempio: mod/forum/*, /mod/*/view.php.';
+$string['profilingincluded_help'] = 'Elenco di URL (assolute, senza wwwroot, raggiungibili) separato da virgole da profilare automaticamente. Esempio: /index.php, /course/view.php. E\' anche possibile specificare il carattere jolly * in qualsiasi posizione. Esempio: mod/forum/*, /mod/*/view.php.';
 $string['profilinglifetime'] = 'Mantieni profiling run';
 $string['profilinglifetime_help'] = 'Imposta il periodo di conservazione dei profiling run precedenti. I run più vecchi saranno periodicamente eliminati. Da notare che i run di riferimento non saranno eliminati.';
 $string['protectusernames'] = 'Proteggi gli username';
@@ -1005,7 +1005,7 @@ $string['statsruntimedays'] = 'Giorni da elaborare';
 $string['statsruntimestart'] = 'Eseguire alle';
 $string['statsuserthreshold'] = 'Soglia utenti';
 $string['stickyblocks'] = 'Blocchi permanenti';
-$string['stickyblockscourseview'] = 'Pagina del Corso';
+$string['stickyblockscourseview'] = 'Pagina del corso';
 $string['stickyblocksduplicatenotice'] = 'Se aggiungete blocchi permanenti che sono già presenti in una data pagina, tali blocchi risulteranno duplicati.<br />Se riscontrate questa situazione, tenete presente che solo i blocchi permanenti non potranno essere modificati, mentre i blocchi duplicati potranno essere spostati o eliminati.';
 $string['stickyblocksmymoodle'] = 'Il mio Moodle';
 $string['stickyblockspagetype'] = 'Tipo di pagina da configurare';
@@ -1075,7 +1075,7 @@ $string['upgrade197noticesubject'] = 'Moodle 1.9.7 upgrade - Note sulla sicurezz
 $string['upgrade197salt'] = 'Per ridurre il rischio di furto di password, si consiglia vivamente di impostare un password salt. Per maggiori informazioni consultare <a href="{$a}" target="_blank">la documentazione sul password salting</a>.';
 $string['upgradeerror'] = 'Si è verificato un errore sconosciuto durante l\'aggiornamento del plugin {$a->plugin} alla versione {$a->version}, non è possibile proseguire.';
 $string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare gli interventi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href="{$a}">aggiornare le vostre tabelle</a>.';
-$string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
+$string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
 $string['upgradelogs'] = 'Per la piena funzionalità, i vostri vecchi log devono essere aggiornati. <a href="{$a}">Ulteriori informazioni</a>';
 $string['upgradelogsinfo'] = 'Alcune modifiche hanno cambiato il modo in cui vengono salvati alcuni log. Per poter visualizzare tutti i vecchi log su una base di per-attività , è necessario aggiornarli. In base al tuo sito questa operazione può richiedere molto tempo (es alcune ore) e può essere grosso lavoro per la base dati dei siti grandi. Una volta che l\'aggiornamento è iniziato devi lasciarlo terminare (mantenendo la finestra del browser aperta). Non preoccuparti - il tuo sito continuerà  a lavorare correttamente mentre i log vengono aggiornati.<br /><br />Vuoi aggiornare i log ora?';
 $string['upgradepluginsfirst'] = 'Si consiglia di scaricare ed installare manualmente tutti gli aggiornamenti disponibili';

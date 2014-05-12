@@ -712,6 +712,7 @@ $string['style_dlg:visibility'] = 'Visibilità';
 $string['style_dlg:width'] = 'Larghezza';
 $string['style_dlg:zindex'] = 'Z-index';
 $string['subplugindeleteconfirm'] = 'Stai per rimuovere il subplugin TinyMCE \'{$a}\'. Saranno anche eliminati tutti i dati presenti nel database relativi a questo plugin. Sei sicuro ?';
+$string['subplugintype_tinymce'] = 'Plugin';
 $string['subplugintype_tinymce_plural'] = 'Plugin';
 $string['table:cell'] = 'Cella';
 $string['table:cell_desc'] = 'Proprietà cella';

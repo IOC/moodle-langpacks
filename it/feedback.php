@@ -136,7 +136,6 @@ $string['insufficient_responses_help'] = 'Questo gruppo ha fornito un numero di 
 Per mantenere il questionario anonimo, devono pervenire almeno due risposte.';
 $string['item_label'] = 'Etichetta';
 $string['item_name'] = 'Testo della domanda';
-$string['items_are_required'] = 'L\'asterisco indica che la risposta è obbligatoria.';
 $string['label'] = 'Etichetta';
 $string['line_values'] = 'Valutazione';
 $string['mapcourse'] = 'Associa feedback ai corsi';

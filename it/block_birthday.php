@@ -16,13 +16,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_popup', language 'it', branch 'MOODLE_25_STABLE'
+ * Strings for component 'block_birthday', language 'it', branch 'MOODLE_23_STABLE'
  *
- * @package   message_popup
+ * @package   block_birthday
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Notifiche popup';
+$string['birthday'] = 'Cumpleanno';
+$string['blockhide'] = 'Nasconde il blocco quando non ci sono compleanni';
+$string['blockname'] = 'Cumpleanno';
+$string['blockshow'] = 'Mostra il blocco quando non ci sono compleanni';
+$string['blockvisible_info'] = 'Mostra il blocco quando non ci sono compleanni?';
+$string['happybirthday'] = 'Tanti Auguri. Buon compleanno.';
+$string['periodnminutes'] = 'Gli ultimi {$a} minuti';

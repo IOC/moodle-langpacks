@@ -16,13 +16,26 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'message_popup', language 'it', branch 'MOODLE_25_STABLE'
+ * Strings for component 'attendanceregister', language 'it', branch 'MOODLE_25_STABLE'
  *
- * @package   message_popup
+ * @package   attendanceregister
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Notifiche popup';
+$string['comments'] = 'Commenti';
+$string['duration'] = 'Durata';
+$string['end'] = 'Fine';
+$string['fullname'] = 'Nome';
+$string['grandtotal_time'] = 'Tempo totale';
+$string['last_session_logout'] = 'Fine dell\'ultima sessione';
+$string['login_must_be_before_logout'] = 'L\'inizio è successivo alla fine!';
+$string['never'] = '(mai)';
+$string['no_session'] = 'Nessuna sessione';
+$string['offline'] = 'Offline';
+$string['offline_session_comments'] = 'Commenti';
+$string['offline_session_end'] = 'Fine';
+$string['online'] = 'Online';
+$string['online_offline'] = 'Online/Offline';

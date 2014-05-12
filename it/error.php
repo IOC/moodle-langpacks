@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alreadyloggedin'] = 'Sei già collegato come {$a}, per collegarti come un utente diverso devi prima effettuare il logout.';
+$string['alreadyloggedin'] = 'Sei già autenticato come {$a}, per autenticarti con un altro account devi effettuare il logout.';
 $string['authnotexisting'] = 'Il plugin di autenticazione non esiste';
 $string['backupcontainexternal'] = 'Questo file di backup contiene host Moodle Network che non sono definiti in questo sito';
 $string['backuptablefail'] = 'Non è stato possibile impostare le tabelle del backup';
@@ -450,7 +450,7 @@ $string['refoundto'] = 'Può essere restituito a {$a}';
 $string['refoundtoorigi'] = 'Ammontare pagato restituito a {$a}';
 $string['remotedownloaderror'] = '<p>Lo scaricamento delle componenti non è andato a buon fine. Verificare le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.</p>
 <p>Devi scaricare manualmente il file <a href="{$a->url}">{$a->url}</a>, copiarlo in "{$a->dest}" e decomprimerlo.</p>';
-$string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href="{$a->url}">{$a->url}</a>, copiarlo in "{$a->dest}" sul vostro server e scompattarlo la.';
+$string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti sul  server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href="{$a->url}">{$a->url}</a>, copiarlo in "{$a->dest}" sul server e scompattarlo.';
 $string['reportnotavailable'] = 'Questo tipo di report è disponibile solamente nel corso della pagina home';
 $string['requirecorrectaccess'] = 'URL o porta non valido';
 $string['requireloginerror'] = 'L\'accesso al corso o attività non è consentito.';

@@ -34,4 +34,4 @@ $string['missingqtypewarning'] = 'Questa domanda e di un tipo non installato. No
 $string['pluginname'] = 'Domanda di tipo mancante';
 $string['pluginnameadding'] = 'Aggiunta di una domanda di tipo non installato';
 $string['pluginnameediting'] = 'Modifica domanda di tipo non installato su questo sistema.';
-$string['warningmissingtype'] = '<b>Questa domanda è di un tipo non  installato sul vostro Moodle.<br />Per favore avvertite il vostro amministratore.</b>';
+$string['warningmissingtype'] = '<b>Questa domanda è di un tipo non  installato sul vostro Moodle.<br />Per favore avverti il tuo amministratore.</b>';

@@ -63,21 +63,19 @@ $string['awardoncron'] = 'L\'accesso al badge è stato abilitato correttamente. 
 $string['awards'] = 'Destinatari';
 $string['backpackavailability'] = 'Verifica esterna badge';
 $string['backpackavailability_help'] = 'Affinché i destinatari dei badge ne possano provare il conseguimento, un servizio backpack esterno deve essere in grado di accedere al tuo sito per verificarne il rilascio.
-Il tuo sito sembra che non sia accessibile, quindi non è possibile verificare né i badge già rilasciati né i badge che saranno rilasciati in futuro.
+Il tuo sito sembra che non sia raggiungibile, quindi non è possibile verificare né i badge già rilasciati né i badge che saranno rilasciati in futuro.
 
-##Perché visualizzo questo messaggio ?
+**Perché visualizzo questo messaggio ?**
 
-E\' possibile che un firewall impedisca l\'ascesso da un rete esterna, che lo spazio web sia protetto da password oppure che il sito giri su un computer che non può essere acceduto da internet (ad esempio una macchina locale di sviluppo).
+E\' possibile che un firewall impedisca l\'accesso da un rete esterna, che lo spazio web sia protetto da password oppure che il sito giri su un computer che non può essere acceduto da internet (ad esempio una macchina locale di sviluppo).
 
-##E\' un problema ?
+**E\' un problema ?**
 
-Se nel tuo sito di produzione vuoi rilasciare badge, allora devi risolvere il problema altrimenti i destinatari dei badge non ne potranno provare il conseguimento.
+Se nel tuo sito di produzione vuoi rilasciare badge, allora devi risolvere il problema altrimenti i destinatari dei badge non ne potranno provare il conseguimento. Se il tuo sito non è ancora in produzione, puoi creare e rilasciare badge di test prima che il tuo sito passi in produzione.
 
-Se il tuo sito non è ancora in produzione, puoi creare e rilasciare badge di test prima che il tuo sito passi in produzione.
+**Come posso fare qualora non fosse possibile pubblicare l\'intero sito ?**
 
-##Come posso fare qualora non fosse possibile pubblicare l\'intero sito ?
-
-L\'unico URL necessario per la verifica è [your-site-url]/badges/assertion.php. Per la sola verifica dei badge è sufficiente l\'ascesso a quell\'URL.';
+L\'unico URL necessario per la verifica è [your-site-url]/badges/assertion.php. Per la sola verifica dei badge è sufficiente l\'accesso a quell\'URL.';
 $string['backpackbadges'] = 'Hai  {$a->totalbadges} badge visualizzati provenienti da {$a->totalcollections} raccolte. <a href="mybackpack.php">Modifica impostazioni backpack</a>.';
 $string['backpackconnection'] = 'Connessione backpack';
 $string['backpackconnection_help'] = 'E\' possibile impostare una connessione con backpack provider esterni. La connessione ad un backpack consente di visualizzare badge conseguiti su altri siti e di inviare al backpack i badge conseguiti in questo sito.
