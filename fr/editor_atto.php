@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Éditeur Atto';
+$string['pluginname'] = 'Éditeur HTML Atto';

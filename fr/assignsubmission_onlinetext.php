@@ -34,6 +34,6 @@ $string['nosubmission'] = 'Aucun travail n\'a encore été remis pour ce devoir'
 $string['numwords'] = '({$a} mots)';
 $string['numwordsforlog'] = 'Nombre de mot du devoir : {$a} mots';
 $string['onlinetext'] = 'Texte en ligne';
-$string['onlinetextfilename'] = 'onlinetext.html';
+$string['onlinetextfilename'] = 'texteenligne.html';
 $string['onlinetextsubmission'] = 'Permettre la remise de texte en ligne';
 $string['pluginname'] = 'Remise de textes en ligne';

@@ -64,15 +64,15 @@ $string['awards'] = 'Détenteurs';
 $string['backpackavailability'] = 'Vérification externe des badges';
 $string['backpackavailability_help'] = 'Afin que les utilisateurs qui reçoivent des badges puissent démontrer qu\'ils ont obtenus leurs badges sur ce site, un service de sac à badges externe doit pouvoir accéder à votre site et vérifier les badges y étant décernés. Votre site semble ne pas être actuellement accessible, ce qui a pour conséquence que les badges que vous avez décernés ou que vous décernerez ne peuvent pas être vérifiés.
 
-##Pourquoi ce message est-il affiché ?
+**Pourquoi ce message est-il affiché ?**
 
 Il se peut que votre pare-feu empêche l\'accès à des utilisateurs en dehors de votre réseau, que votre site soit protégé par un mot de passe ou que votre site tourne sur un ordinateurs qui n\'est pas accessible depuis l\'internet (par exemple sur une machine de développement).
 
-##Est-ce que c\'est un problème ?
+**Est-ce que c\'est un problème ?**
 
 Vous devez régler ce problème si votre site et en production et que vous planifiez d\'y décerner des badges. Sans cela, les utilisateurs qui reçoivent des badges ne pourront pas prouver qu\'ils ont obtenu leurs badges sur ce site. Si votre site n\'est pas encore en production, vous pouvez créer et décerner des badges de test. L\'important est que le site soit accessible quand vous partez en production.
 
-##Que faire si je ne peux pas rendre le site publiquement accessible ?
+**Que faire si je ne peux pas rendre le site publiquement accessible ?**
 
 La seule URL requise pour la vérification est <votre-URL-de-site>/badges/assertion.php. Si vous pouvez donc modifier les réglages de votre pare-feu pour permettre l\'accès externe à ce fichier, la vérification des badges fonctionnera.';
 $string['backpackbadges'] = 'Vous avez {$a->totalbadges} badge(s) affichés de {$a->totalcollections} collection(s). <a href="mybackpack.php">Modifier les réglages du sac à badges</a>.';
@@ -234,6 +234,7 @@ $string['error:personaneedsjs'] = 'Javascript est actuellement requis pour la co
 $string['error:requesterror'] = 'La requête de connexion a échoué (erreur {$a}).';
 $string['error:requesttimeout'] = 'La requête de connexion est arrivée à échéance avant de pouvoir se terminer.';
 $string['error:save'] = 'Impossible d\'enregistrer le badge';
+$string['error:userdeleted'] = '{$a->user} (ce compte utilisateur n\'existe plus dans {$a->site})';
 $string['evidence'] = 'Preuve';
 $string['existingrecipients'] = 'Détenteurs de badges';
 $string['expired'] = 'Échu';

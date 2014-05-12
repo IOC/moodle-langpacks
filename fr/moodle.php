@@ -1539,6 +1539,7 @@ $string['sitefilesused'] = 'Fichiers du site utilisés dans ce cours';
 $string['sitehome'] = 'Accueil du site';
 $string['sitelegacyfiles'] = 'Fichiers de site obsolètes';
 $string['sitelogs'] = 'Historiques du site';
+$string['sitemessage'] = 'Envoyer un message aux utilisateurs';
 $string['sitenews'] = 'Brèves';
 $string['sitepages'] = 'Pages du site';
 $string['sitepartlist'] = 'Vous n\'avez pas les autorisations nécessaires pour voir la liste des participants';

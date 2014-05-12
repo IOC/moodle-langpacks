@@ -231,7 +231,7 @@ $string['strategy_help'] = 'La stratégie d\'évaluation détermine le formulair
 
 * Évaluation cumulative : des commentaires et une note sont donnés sur différents aspects spécifiés
 * Commentaires : des commentaires sont donnés sur différents aspects spécifiés, mais sans note
-* Numbre d\'erreurs : des commentaires sont donnés ainsi qu\'une évaluation oui/non sur des affirmations spécifiées
+* Nombre d\'erreurs : des commentaires sont donnés ainsi qu\'une évaluation oui/non sur des affirmations spécifiées
 * Critères : des évaluations de niveau sont donnés sur différents critères spécifiés';
 $string['submission'] = 'Travail remis';
 $string['submissionattachment'] = 'Annexe';

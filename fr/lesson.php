@@ -481,6 +481,7 @@ $string['savechanges'] = 'Enregistrer les modifications';
 $string['savechangesandeol'] = 'Enregistrer tous les changements et aller à la fin de la leçon.';
 $string['savepage'] = 'Enregistrer la page';
 $string['score'] = 'Score';
+$string['score_help'] = 'Le score n\'est utilisé que si l\'évaluation personnalisée est activée. Chaque réponse peut alors recevoir un nombre de points (positif ou négatif).';
 $string['scores'] = 'Scores';
 $string['secondpluswrong'] = 'Pas tout à fait. Voulez-vous essayer à nouveau ?';
 $string['selectaqtype'] = 'Sélectionner un type de question';

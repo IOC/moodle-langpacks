@@ -141,7 +141,6 @@ $string['insufficient_responses_help'] = 'Il n\'y a pas assez de réponses dans 
 Pour que ce feedback reste anonyme, un minimum de 2 réponses doit être donné.';
 $string['item_label'] = 'Étiquette';
 $string['item_name'] = 'Question';
-$string['items_are_required'] = 'Veuillez répondre obligatoirement aux questions marquées d\'un astérisque.';
 $string['label'] = 'Étiquette';
 $string['line_values'] = 'Évaluation';
 $string['mapcourse'] = 'Associer les feedbacks aux cours';

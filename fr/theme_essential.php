@@ -46,7 +46,7 @@ $string['allmodules'] = 'Tous les modules';
 $string['allunits'] = 'Toutes les unités';
 $string['alwaysdisplay'] = 'Toujours afficher';
 $string['analyticsclean'] = 'Envoyer des URL réécrites';
-$string['analyticscleandesc'] = 'Cette fonctionnalité fantastique a été créé par <a href="https://moodle.org/user/profile.php?id=281671" target="_blank">Gavin Henrick</a> et <a href="https://moodle.org/user/view.php?id=907814" target="_blank">Bas Brands</a> et est mis en œuvre dans ce thème. Plutôt que des URLs standard de Moodle le thème enverra des URLs réécrites, ce qui rend plus facile l\'identification de la page et un reporting avancé. Plus d\'informations sur cette fonction et ses utilisations peuvent être <a href="http://www.somerandomthoughts.com/blog/2012/04/18/ireland-uk-moodlemoot-analytics-to-the-front/" target="_blank"><b>trouvées ici</b></a> .';
+$string['analyticscleandesc'] = 'Cette fonctionnalité fantastique a été créée par <a href="https://moodle.org/user/profile.php?id=281671" target="_blank">Gavin Henrick</a> et <a href="https://moodle.org/user/view.php?id=907814" target="_blank">Bas Brands</a> et est mise en œuvre dans ce thème. Plutôt que des URLs standard de Moodle le thème enverra des URLs réécrites, ce qui rend plus facile l\'identification de la page et un reporting avancé. Plus d\'informations sur cette fonction et ses utilisations peuvent être <a href="http://www.somerandomthoughts.com/blog/2012/04/18/ireland-uk-moodlemoot-analytics-to-the-front/" target="_blank"><b>trouvées ici</b></a> .';
 $string['analyticsdesc'] = 'Ici vous pouvez activer Google Analytics pour votre site Moodle. Vous aurez besoin de créer un compte gratuit sur le site Google Analytics ( <a href="http://analytics.google.com" target="_blank">http://analytics.google.com</a> )';
 $string['analyticsheading'] = 'Google Analytics';
 $string['analyticsheadingsub'] = 'Des outils analytiques puissants de Google';
@@ -59,7 +59,23 @@ $string['autohidedesc'] = 'La fonctionnalité de masquage automatique est conçu
 $string['backtotop'] = 'Retour en haut de page';
 $string['bootstrapcdn'] = 'Police Awesome de CDN';
 $string['bootstrapcdndesc'] = 'Si activé, cela va charger la police Awesome à partir de la source CDN Bootstrap en ligne. Activez cette option si vous rencontrez des problèmes d\'affichage avec les icônes de la police Awesome sur votre site.';
-$string['choosereadme'] = '<div class="clearfix"><div class="well"><h2> Clean </h2><p><img class=img-polaroid src="clean/pix/screenshot.jpg" /></p></div><div class="well"><h3> À propos de Essential </h3><p> Essential est un thème modifié Bootstrap de Moodle  qui hérite des styles et des moteurs de rendus de son thème parent. </p><h3> Parents </h3><p> Ce thème est basé sur le thème  Bootstrap, qui a été créé pour Moodle 2.5, avec l\'aide de: <br> Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans. </p><h3> Crédits du thème </h3><p> Auteurs: Julian Ridden <br> Contact: julian@moodleman.net <br> Site Web: <a href="http://www.moodleman.net">www.moodleman.net</a> </p></div></div>';
+$string['choosereadme'] = '<div class="clearfix">
+<div class="well">
+<h2> Essential </h2>
+<p><img class=img-polaroid src="essential/pix/screenshot.jpg" />
+</p>
+</div>
+<div class="well">
+<h3>À propos de Essential</h3>
+<p>Essential est un thème Bootstrap modifié de Moodle qui hérite des styles et des moteurs de rendus de son thème parent.</p>
+<h3>Parents</h3>
+<p>Ce thème est basé sur le thème Bootstrap, qui a été créé pour Moodle 2.5, avec l\'aide de :<br>
+Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans. </p>
+<h3>Crédits du thème</h3>
+<p>Auteurs : Julian Ridden <br>
+Contact : julian@moodleman.net<br>
+Site Web : <a href="http://www.moodleman.net">www.moodleman.net</a> </p>
+</div></div>';
 $string['colordesc'] = 'Ici vous pouvez trouver différents réglages pour changer de nombreuses couleurs présentes dans ce thème.';
 $string['colorheading'] = 'Paramètres des couleurs';
 $string['colorheadingsub'] = 'Définissez les couleurs utilisées dans votre thème';
@@ -70,17 +86,17 @@ $string['copyright'] = 'Droits d\'auteur';
 $string['copyrightdesc'] = 'Le nom de votre organisation';
 $string['customcss'] = 'CSS personnalisées';
 $string['customcssdesc'] = 'Toutes les règles CSS que vous ajoutez à cette zone de texte seront reflétées dans chaque page, ce qui rend plus facile la personnalisation de ce thème.';
-$string['custommenudesc'] = 'Les réglages ici vous permette d\'ajouter une nouvelle fonctionnalité dynamique au menu personnalisé (également connu sous le terme menu déroulant)';
+$string['custommenudesc'] = 'Les réglages définis ici vous permettent d\'ajouter une nouvelle fonctionnalité dynamique au menu personnalisé (également connu sous le terme menu déroulant)';
 $string['custommenuheading'] = 'Menu personnalisé';
-$string['custommenuheadingsub'] = 'Ajoute des fonctionnalités à votre menu personnalisé.';
-$string['displayafterlogin'] = 'Afficher après connexion';
-$string['displaybeforelogin'] = 'N\'afficher qu\'avant la connexion';
+$string['custommenuheadingsub'] = 'Ajouter des fonctionnalités à votre menu personnalisé.';
+$string['displayafterlogin'] = 'Afficher après authentification uniquement';
+$string['displaybeforelogin'] = 'Afficher avant authentification uniquement';
 $string['displaymycourses'] = 'Afficher les cours des utilisateurs';
-$string['displaymycoursesdesc'] = 'Affiche les cours des utilisateurs dans le menu personnalisé';
+$string['displaymycoursesdesc'] = 'Afficher les cours des utilisateurs dans le menu personnalisé';
 $string['displaymydashboard'] = 'Afficher le tableau de bord';
-$string['displaymydashboarddesc'] = 'Affiche un tableau des liens de l\'utilisateur dans le menu personnalisé';
+$string['displaymydashboarddesc'] = 'Afficher un tableau des liens de l\'utilisateur dans le menu personnalisé';
 $string['dontdisplay'] = 'Ne pas afficher';
-$string['editicons'] = 'Modifier des icônes V2';
+$string['editicons'] = 'Icônes de modification V2';
 $string['editiconsdesc'] = 'Ceci utilise la police Awesome pour afficher des icônes colorées et plus nettes dans les pages de cours et les blocs. Veuillez noter qu\'actuellement ceci n\'est pas compatible avec la fonctionnalité de masquage automatique.';
 $string['enablealert'] = 'Activer l\'alerte';
 $string['enablealertdesc'] = 'Active ou désactive les alertes';
@@ -105,7 +121,7 @@ $string['footerurlcolordesc'] = 'Définissez la couleur de vos hyperliens dans l
 $string['footnote'] = 'Note de bas de page';
 $string['footnotedesc'] = 'Le texte ajouté dans cette zone de texte sera affiché dans le pied de page sur tout votre site Moodle.';
 $string['frontcontentarea'] = 'Contenu de la page d\'accueil';
-$string['frontcontentareadesc'] = 'Tout ce qui est écrit ici dans cette zone de texte sera affiché sur toute la largeur de la page entre le diaporama et les annonces marketing';
+$string['frontcontentareadesc'] = 'Tout ce qui est écrit dans cette zone de texte sera affiché sur toute la largeur de la page entre le diaporama et les annonces marketing';
 $string['frontcontentdesc'] = 'Ceci ajoute un contenu personnalisé entre le diaporama et les annonces marketing';
 $string['frontcontentheading'] = 'Contenu de la page d\'accueil';
 $string['frontcontentheadingsub'] = 'Ajoute de l\'information pour les utilisateurs sur la page d\'accueil';
@@ -115,31 +131,31 @@ $string['googleplusdesc'] = 'Entrez l\'URL de votre profil Google+. (ex. http://
 $string['headerprofilepic'] = 'Afficher l\'image de profil de l\'utilisateur';
 $string['headerprofilepicdesc'] = 'Si cochée, affiche l\'image de profil de l\'utilisateur dans l\'en-tête de la page.';
 $string['hideonphone'] = 'Diaporama sur les mobiles';
-$string['hideonphonedesc'] = 'Choisissez si vous souhaitez avoir le diaporama qui s\'afficher sur les mobiles ou non';
+$string['hideonphonedesc'] = 'Choisissez si vous souhaitez que le diaporama s\'affiche sur les mobiles ou non';
 $string['ie7message'] = '<p id="ie7message">Désolé, ce site requiert <strong>Internet Explorer 8</strong> ou plus récent pour s\'afficher et fonctionner correctement. SVP, mettez à jour votre navigateur via Windows Update, ou <a href="http://windows.microsoft.com/fr-fr/internet-explorer/download-ie" target="_blank">téléchargez la dernière version ici</a>. Sinon, vous pouvez essayer d\'installer <a href="http://www.google.com/chromeframe" target="_blank">le plugin ChromeFrame</a> qui peut résoudre certains des problèmes rencontrés avec les navigateurs anciens. Si vous utilisez IE8 ou plus récent peut-être le mode de compatibilité est-il activé, désactivez ce mode pour afficher le site correctement. Si vous continuez à avoir des problèmes pour l\'accès à ce site ou pour les mises à jour mentionnées ci-dessus, s\'il vous plait contactez votre Helpdesk pour plus d\'assistance.</p>';
 $string['instagram'] = 'URL Instagram';
 $string['instagramdesc'] = 'Entrez l\'URL de votre page Instagram. (ex. http://instagram.com/mycollege)';
 $string['invert'] = 'Inverser la barre de navigation';
 $string['invertdesc'] = 'Échange le texte et le fond de la barre de navigation en haut de la page entre le noir et le blanc.';
-$string['ios'] = 'iPhone/iPad (App Store)';
+$string['ios'] = 'iPhone/iPad/iPod Touch (App Store)';
 $string['iosdesc'] = 'Indiquez l\'URL vers votre application pour mobiles sur le App Store. Si vous ne disposez pas de la vôtre, vous pouvez envisager de pointer vers l\'application officielle gratuite Moodle pour mobiles.';
 $string['iosicon'] = 'Icônes d\'écran d\'accueil iOS';
 $string['iosicondesc'] = 'Le thème fournit une icône par défaut pour les écrans d\'accueil d\'iOS et Android. Vous pouvez déposer vos icônes personnalisées si vous le souhaitez.';
 $string['ipadicon'] = 'Icône iPad (Non Retina)';
-$string['ipadicondesc'] = 'L\'icône devrait être un fichier PNG d\'une définition de 72px par 72px';
+$string['ipadicondesc'] = 'L\'icône devrait être un fichier PNG d\'une définition de 72 px par 72 px';
 $string['ipadretinaicon'] = 'Icône iPad (Retina)';
-$string['ipadretinaicondesc'] = 'L\'icône devrait être un fichier PNG d\'une définition de 144px par 144px';
+$string['ipadretinaicondesc'] = 'L\'icône devrait être un fichier PNG d\'une définition de 144 px par 144 px';
 $string['iphoneicon'] = 'Icône iPhone/iPod Touch (Non Retina)';
-$string['iphoneicondesc'] = 'L\'icône devrait être un fichier PNG d\'une dimension de 57px par 57px';
+$string['iphoneicondesc'] = 'L\'icône devrait être un fichier PNG d\'une dimension de 57 px par 57 px';
 $string['iphoneretinaicon'] = 'Icône iPhone/iPod Touch (Retina)';
-$string['iphoneretinaicondesc'] = 'L\'icône devrait être un fichier PNG d\'une dimension de 114px par 114px';
+$string['iphoneretinaicondesc'] = 'L\'icône devrait être un fichier PNG d\'une dimension de 114 px par 114 px';
 $string['layout'] = 'Utilisez une disposition de cours standard';
 $string['layoutdesc'] = 'Ce thème est conçu pour mettre les deux colonnes de blocs sur le côté. Si vous préférez la disposition standard des cours Moodle, vous pouvez cocher cette case et retourner à l\'ancienne et ennuyeuse disposition en trois colonnes.';
 $string['linkedin'] = 'URL LinkdIn';
-$string['linkedindesc'] = 'Entrez l\'URL de votre profil LinkedIn. (C. http://www.linkedin.com/company/mycollege)';
+$string['linkedindesc'] = 'Entrez l\'URL de votre profil LinkedIn. (ex. http://www.linkedin.com/company/mycollege)';
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Déposez votre logo personnalisé ici si vous voulez l\'ajouter à l\'en-tête. <br> Si vous déposez un logo, il remplacera l\'icône standard et le nom qui a été affiché par défaut.';
-$string['marketing1'] = 'Annonce marketing  Une - Titre';
+$string['marketing1'] = 'Annonce marketing Une - Titre';
 $string['marketing2'] = 'Annonce marketing Deux - Titre';
 $string['marketing3'] = 'Annonce marketing Trois - Titre';
 $string['marketingbuttontext'] = 'Texte du lien';
@@ -154,13 +170,13 @@ $string['marketingheadingsub'] = 'Trois emplacements sur la première page pour 
 $string['marketingheight'] = 'Hauteur des images marketing';
 $string['marketingheightdesc'] = 'Si vous souhaitez afficher des images dans les annonces marketing, vous pouvez spécifier leur hauteur ici.';
 $string['marketingicon'] = 'Icône';
-$string['marketingicondesc'] = 'Nom de l\'icône que vous souhaitez utiliser. La liste est <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_new">ici</a> . Il suffit d\'entrer ce qui est après le "icon-".';
+$string['marketingicondesc'] = 'Nom de l\'icône que vous souhaitez utiliser. La liste est <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_new">ici</a>. Il suffit d\'entrer ce qui est après le "icon-".';
 $string['marketingimage'] = 'Image';
 $string['marketingimagedesc'] = 'Ceci donne la possibilité d\'afficher une image au-dessus du texte dans l\'annonce marketing';
 $string['marketinginfodesc'] = 'Entrez les réglages de votre annonce marketing.';
 $string['marketingtitle'] = 'Titre';
 $string['marketingtitledesc'] = 'Titre à afficher dans cette annonce marketing';
-$string['mobileappsdesc'] = 'Avez-vous une web app sur l\'App Store ou Google Play Store? Fournissez un lien ici afin que vos utilisateurs puissent se procurer l\'application en ligne';
+$string['mobileappsdesc'] = 'Avez-vous une web app sur l\'App Store ou Google Play Store ? Fournissez un lien ici afin que vos utilisateurs puissent se procurer l\'application en ligne';
 $string['mobileappsheading'] = 'Apps pour mobiles';
 $string['mobileappsheadingsub'] = 'Lien vers votre application pour vos étudiants qui utilisent des mobiles';
 $string['myclasses'] = 'Mes classes';
@@ -168,7 +184,7 @@ $string['mycourses'] = 'Mes cours';
 $string['mycoursesinfo'] = 'Liste dynamique des cours des utilisateurs';
 $string['mycoursesinfodesc'] = 'Affiche une liste dynamique des cours des utilisateurs.';
 $string['mycoursetitle'] = 'Terminologie';
-$string['mycoursetitledesc'] = 'Change la terminologie pour le lien "Mes cours" dans le menu déroulant';
+$string['mycoursetitledesc'] = 'Changer la terminologie pour le lien "Mes cours" dans le menu déroulant';
 $string['mydashboard'] = 'Mon tableau de bord';
 $string['mydashboardinfo'] = 'Tableau de bord utilisateur personnalisé';
 $string['mydashboardinfodesc'] = 'Affiche une liste de fonctionnalités communes utilisées par les utilisateurs.';
@@ -189,7 +205,7 @@ $string['perfinfodesc'] = 'De nombreux sites n\'ont pas besoin d\'indications de
 $string['perf_max'] = 'Détaillé';
 $string['perf_min'] = 'Minimal';
 $string['pinterest'] = 'URL Pinterest';
-$string['pinterestdesc'] = 'Entrez l\'URL de votre page Pinterest. (C. http://pinterest.com/mycollege)';
+$string['pinterestdesc'] = 'Entrez l\'URL de votre page Pinterest. (ex. http://pinterest.com/mycollege)';
 $string['pluginname'] = 'Essential';
 $string['profilebarcustomtitle'] = 'Titre du bloc personnalisé de la barre de profil';
 $string['profilebarcustomtitledesc'] = 'Titre du bloc personnalisé de la barre de profil';
@@ -201,17 +217,17 @@ $string['region-hidden-dock'] = 'Caché aux utilisateurs';
 $string['region-side-post'] = 'Droite';
 $string['region-side-pre'] = 'Gauche';
 $string['siteicon'] = 'Icône du site';
-$string['siteicondesc'] = 'Vous n\'avez pas de logo? Entrez le nom de l\'icône que vous souhaitez utiliser. La liste est ici <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_new">ici</a> . Il suffit d\'entrer ce qui est après le "icon-".';
+$string['siteicondesc'] = 'Vous n\'avez pas de logo ? Entrez le nom de l\'icône que vous souhaitez utiliser. La liste est ici <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/" target="_new">ici</a>. Il suffit d\'entrer ce qui est après le "icon-".';
 $string['skype'] = 'Compte Skype';
 $string['skypedesc'] = 'Entrez le nom d\'utilisateur Skype du compte de votre organisation';
 $string['slide1'] = 'Diapositive Une : Titre';
 $string['slide2'] = 'Diapositive Deux : Titre';
 $string['slide3'] = 'Diapositive Trois : Titre';
-$string['slide4'] = 'Diapositive Quatre : Image';
+$string['slide4'] = 'Diapositive Quatre : Titre';
 $string['slidecaption'] = 'Légende de la diapositive';
 $string['slidecaptiondesc'] = 'Entrez le texte de la légende à utiliser pour la première diapositive';
 $string['slideimage'] = 'Image de la diapositive';
-$string['slideimagedesc'] = 'L\'image s\'affiche mieux si elle est transparente. (Les dimensions de l\'image devraient être de 256px par 256px)';
+$string['slideimagedesc'] = 'L\'image s\'affiche mieux si elle est transparente. (Les dimensions de l\'image devraient être de 256 px par 256 px)';
 $string['slideinfodesc'] = 'Entrez les réglages pour votre diaporama';
 $string['slideshowdesc'] = 'Ceci crée un diaporama dynamique avec jusqu\'à 4 diapositives pour vous permettre de promouvoir des éléments importants de votre site.';
 $string['slideshowheading'] = 'Diaporama de la page d\'accueil';
@@ -246,4 +262,4 @@ $string['website'] = 'URL du site Web';
 $string['websitedesc'] = 'Entrez l\'URL de votre propre site. (ex. http://www.pukunui.com)';
 $string['yourprofile'] = 'Vous';
 $string['youtube'] = 'URL Youtube';
-$string['youtubedesc'] = 'Entrez l\'URL de votre chaîne YouTube. (C. http://www.youtube.com/mycollege)';
+$string['youtubedesc'] = 'Entrez l\'URL de votre chaîne YouTube. (ex. http://www.youtube.com/mycollege)';

@@ -49,5 +49,5 @@ $string['issue'] = 'Problème';
 $string['morehelp'] = 'plus d\'aide';
 $string['performancereportdesc'] = 'Ce rapport liste les problèmes pouvant affecter la performance du site {$a}';
 $string['performance:view'] = 'Consulter le rapport de performance';
-$string['pluginname'] = 'Vue d\'ensemble de la performance';
+$string['pluginname'] = 'Panorama de performance';
 $string['value'] = 'Valeur';

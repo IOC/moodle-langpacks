@@ -16,19 +16,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'report_configlog', language 'fr', branch 'MOODLE_25_STABLE'
+ * Strings for component 'hotpotsource_qedoc', language 'fr', branch 'MOODLE_24_STABLE'
  *
- * @package   report_configlog
+ * @package   hotpotsource_qedoc
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['configlog'] = 'Modifications de configuration';
-$string['oldvalue'] = 'Valeur d\'origine';
-$string['plugin'] = 'Plugin';
-$string['pluginname'] = 'Modifications de configuration';
-$string['setting'] = 'Réglage';
-$string['timemodified'] = 'Date';
-$string['value'] = 'Nouvelle valeur';
+$string['pluginname'] = 'Fichiers source Qedoc';

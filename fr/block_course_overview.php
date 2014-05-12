@@ -60,4 +60,4 @@ $string['showwelcomeareadesc'] = 'Si ce réglage est activé, la zone de bienven
 $string['view_edit_profile'] = '(Afficher et modifier votre profil)';
 $string['welcome'] = 'Bienvenue {$a}';
 $string['youhavemessages'] = 'Vous avez un (des) {$a} non lu(s)';
-$string['youhavenomessages'] = 'Vous n\'avez pas de nouveaux';
+$string['youhavenomessages'] = 'Vous n\'avez pas de nouveaux&nbsp;';

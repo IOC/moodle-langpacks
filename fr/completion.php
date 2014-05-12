@@ -107,6 +107,7 @@ $string['criteriarequiredany'] = 'Un des critères ci-dessous est requis';
 $string['csvdownload'] = 'Télécharger en format CSV (UTF-8)';
 $string['datepassed'] = 'Date échue';
 $string['days'] = 'Jours';
+$string['daysoftotal'] = '{$a->days} de {$a->total}';
 $string['deletecompletiondata'] = 'Supprimer les données d\'achèvement';
 $string['dependencies'] = 'Dépendances';
 $string['dependenciescompleted'] = 'Achèvement d\'autres cours';

@@ -54,7 +54,7 @@ $string['doesnotcontain'] = 'ne contient pas';
 $string['enableavailability'] = 'Activer la disponibilité conditionnelle';
 $string['endswith'] = 'se termine par';
 $string['fielddeclaredmultipletimes'] = 'Vous ne pouvez pas déclarer le même champ plus d\'une fois par activité.';
-$string['grade_atleast'] = 'doit être supérieur à';
+$string['grade_atleast'] = 'doit être au moins égal à';
 $string['gradecondition'] = 'Condition de note';
 $string['gradecondition_help'] = 'Ce réglage détermine les conditions sur les notes pour que l\'activité soit rendue disponible.
 
@@ -85,6 +85,7 @@ $string['requires_grade_any'] = 'Non disponible avant que vous receviez une note
 $string['requires_grade_max'] = 'Non disponible tant que vous n\'obtenez pas une note adéquate dans <strong>{$a}</strong>.';
 $string['requires_grade_min'] = 'Non disponible avant que vous obteniez une note requise dans <strong>{$a}</strong>.';
 $string['requires_grade_range'] = 'Non disponible tant que vous n\'obtenez pas une note spécifique dans <strong>{$a}</strong>.';
+$string['requires_grouping'] = 'Uniquement disponible pour le groupement <strong>{$a}</strong>.';
 $string['requires_user_field_contains'] = 'Non disponible à moins que votre <strong>{$a->field}</strong> ne contienne <strong>{$a->value}</strong>.';
 $string['requires_user_field_doesnotcontain'] = 'Non disponible si votre <strong>{$a->field}</strong> contient <strong>{$a->value}</strong>.';
 $string['requires_user_field_endswith'] = 'Non disponible à moins que votre <strong>{$a->field}</strong> ne se termine par <strong>{$a->value}</strong>.';
