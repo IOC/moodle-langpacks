@@ -755,7 +755,7 @@ $string['reviewoptionsheading_help'] = 'Estas opciones controlan qué informaci�
 ** Posteriormente, cuando el intento aún está abierto: los ajustes se aplican después de esto, y antes de la fecha de cierre del cuestionario
 
 ** Después de que el intento esté cerrado: los ajustes se aplican después de que a fecha de cierre del cuestionario haya pasado. Si la prueba no tiene una fecha de cierre, este estado no se alcanza nunca.';
-$string['reviewoverallfeedback'] = 'Retroalimentación general';
+$string['reviewoverallfeedback'] = 'Retroalimentación global';
 $string['reviewoverallfeedback_help'] = 'La retroalimentación que se da al final del intento, según la puntuación final del alumno.';
 $string['reviewresponse'] = 'Revisar respuesta';
 $string['reviewresponsetoq'] = 'Revisar respuesta (pregunta {$a})';

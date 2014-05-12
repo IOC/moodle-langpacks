@@ -139,7 +139,6 @@ $string['insufficient_responses_help'] = 'El número de respuestas para este gru
 Para mantener los comentarios anónimos debe haber un mínimo de 2 respuestas realizadas.';
 $string['item_label'] = 'Etiqueta';
 $string['item_name'] = 'Pregunta';
-$string['items_are_required'] = 'Es obligatorio responder a las preguntas señaladas con un asterisco.';
 $string['label'] = 'Etiqueta';
 $string['line_values'] = 'Clasificación';
 $string['mapcourse'] = 'Asignar encuesta a cursos';
