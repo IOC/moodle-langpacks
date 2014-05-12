@@ -16,17 +16,27 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'filter_botr', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'assignsubmission_onlinepoodll', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   filter_botr
+ * @package   assignsubmission_onlinepoodll
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['botr_defaultplayer'] = 'Standard Player';
-$string['botr_defaultplayer_desc'] = 'Der <a href="http://dashboard.bitsontherun.com/players/">Player-Code</a> für die eingebauten Videos. Wenn Sie die Standard-Playerwahl überschreiben möchten, fügen Sie einen Bindestrich und den Qicktag des Players von der Bits-On-The-Run Seite an.Beispiel: <code>[botr MdkflPz7-35rdi1pO]</code>';
-$string['botr_dnsmask'] = 'DNS-Maske';
-$string['botr_information'] = 'Tragen Sie Ihre Zugangsdaten und Parameter für den Bits-On-The-Run Zugang ein.';
-$string['botr_key'] = 'API-Schlüssel';
+$string['allowedrecorders'] = 'Recorder zum Aktivieren';
+$string['allowonlinepoodllsubmissions'] = 'Aktiviert';
+$string['backimage'] = 'PoodLL Whiteboard Hintergrund';
+$string['boardsize'] = 'PoodLL Whiteboard Größe';
+$string['no'] = 'Nein';
+$string['placeholderonly'] = 'Kein Videorecorder';
+$string['replymp3voice'] = 'Audiorecorder MP3';
+$string['replysnapshot'] = 'Bildschirmfoto';
+$string['replyvideo'] = 'Videorecorder';
+$string['replyvoice'] = 'Audiorecorder Red5';
+$string['replywhiteboard'] = 'Whiteboard';
+$string['showcurrentsubmission'] = 'Aktuelle Abgabe anzeigen';
+$string['timelimit'] = 'PoodLL Aufnahmezeit (max.)';
+$string['videoplaceholder'] = '[Video wird nicht angezeigt]';
+$string['yes'] = 'ja';

@@ -63,7 +63,7 @@ $string['searchtemplate_help'] = 'Sie können ein Bewertungsformular suchen und 
 
 Die Grundeinstellung erlaubt die Suche in veröffentlichten Formularen. Sie können zusätzlich Ihre eigenen Formulare in die Suche einbeziehen. Somit können Sie ihre eigenen Formulare wiederverwenden, ohne sie veröffentlichen zu müssen. Nur Formulare, die als \'Fertig zum Gebrauch\' gekennzeichnet wurden, können verwandt werden.';
 $string['statusdraft'] = 'Entwurf';
-$string['statusready'] = 'Bereit für Einsatz';
+$string['statusready'] = 'Bereit für den Einsatz';
 $string['templatedelete'] = 'Löschen';
 $string['templatedeleteconfirm'] = 'Sie sind dabei die Vorlage \'{$a}\' zu löschen. Das löschen der Vorlage wirkt sich nicht auf bestehende Formulare, die aus der Vorlage erstellt wurden aus.';
 $string['templateedit'] = 'Bearbeiten';

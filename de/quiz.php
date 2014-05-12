@@ -35,7 +35,7 @@ $string['addarandomquestion'] = 'Zufallsfrage hinzufügen...';
 $string['addarandomquestion_help'] = 'Eine Zufallsfrage wird zufällig aus allen Fragen der gewählten Kategorie ausgewählt. Das führt dazu, dass verschiedene Teilnehmer/iinen eine unterschiedliche Auswahl von Fragen im Test zur Beantwortung erhalten. Falls mehrere Versuche beim Test erlaubt sind, werden bei jedem Versuch die Fragen erneut zufällig gewählt.';
 $string['adddescriptionlabel'] = 'Textfeld hinzufügen';
 $string['addingquestion'] = 'Frage hinzufügen';
-$string['addingquestions'] = 'Diese Spalte der Seite dient der Verwaltung der Testfragen. Fragen werden zwecks besseren Überblicks in Kategorien gespeichert und können von jedem Test Ihres Kurses oder sogar von anderen Kursen (wenn die Option "Veröffentlichen" ausgewählt ist) benutzt werden. <br /><br />Nachdem Sie eine Kategorie eingerichtet haben, können Sie Fragen erzeugen oder bearbeiten. Sie können jede einzelne dieser Fragen auswählen und Ihrem Test in der anderen Spalte hinzufügen.';
+$string['addingquestions'] = '<p>Diese Spalte der Seite dient der Verwaltung der Testfragen. Fragen werden zwecks besseren Überblicks in Kategorien gespeichert und können von jedem Test Ihres Kurses oder sogar von anderen Kursen (wenn die Option "Veröffentlichen" ausgewählt ist) benutzt werden. </p><p>Nachdem Sie eine Kategorie eingerichtet haben, können Sie Fragen erzeugen oder bearbeiten. Sie können jede einzelne dieser Fragen auswählen und Ihrem Test in der anderen Spalte hinzufügen.</p>';
 $string['addmoreoverallfeedbacks'] = '{no} weitere Feedbackfelder hinzufügen';
 $string['addnewgroupoverride'] = 'Gruppenänderung hinzufügen';
 $string['addnewpagesafterselected'] = 'Neue Seite nach markierter Frage hinzufügen';
@@ -262,7 +262,7 @@ $string['editqcats'] = 'Kategorien bearbeiten';
 $string['editquestions'] = 'Fragen bearbeiten';
 $string['editquiz'] = 'Testinhalt bearbeiten';
 $string['editquizquestions'] = 'Testfragen bearbeiten';
-$string['emailconfirmbody'] = 'Hallo {$a->username},
+$string['emailconfirmbody'] = 'Guten Tag {$a->username},
 
 vielen Dank für die Abgabe Ihrer Antworten zu \'{$a->quizname}\' im Kurs \'{$a->coursename}\' am {$a->submissiontime}.
 
@@ -271,9 +271,12 @@ Diese E-Mail bestätigt, dass Ihre Abgabe sicher angekommen ist.
 Sie können auf den Test zugreifen unter {$a->quizurl}.';
 $string['emailconfirmsmall'] = 'Danke für die Übermittlung Ihrer Antworten zu \'{$a->quizname}\'';
 $string['emailconfirmsubject'] = 'Bestätigung der Testlösungen für {$a->quizname}';
-$string['emailnotifybody'] = 'Hallo {$a->username},
+$string['emailnotifybody'] = 'Guten Tag {$a->username},
 
-{$a->studentname} hat den Test \'{$a->quizname}\' ({$a->quizurl}) im Kurs \'{$a->coursename}\' beendet.
+{$a->studentname} hat den Test
+
+\'{$a->quizname}\' ({$a->quizurl})
+im Kurs \'{$a->coursename}\' beendet.
 
 Sie können diesen Versuch unter {$a->quizreviewurl} ansehen.';
 $string['emailnotifysmall'] = '{$a->studentname} hat {$a->quizname} abgeschlossen. Siehe {$a->quizreviewurl}';
@@ -553,7 +556,12 @@ $string['overridegroupeventname'] = '{$a->quiz} - {$a->group}';
 $string['overrides'] = 'Änderungen';
 $string['overrideuser'] = 'Nutzer/in ändern';
 $string['overrideusereventname'] = '{$a->quiz} - Änderung';
+$string['page-mod-quiz-attempt'] = 'Seite des Testversuchs';
 $string['page-mod-quiz-edit'] = 'Testbearbeitungsseite';
+$string['page-mod-quiz-report'] = 'Jede Seite des Testberichts';
+$string['page-mod-quiz-review'] = 'Seite des Testversuchs neu bewertet';
+$string['page-mod-quiz-summary'] = 'Übersicht des Testversuchs';
+$string['page-mod-quiz-view'] = 'Informationsseite des Tests';
 $string['page-mod-quiz-x'] = 'Jede Testseite';
 $string['pagesize'] = 'Seitengröße';
 $string['parent'] = 'Übergeordnete Kategorie';
@@ -616,7 +624,7 @@ $string['quizavailable'] = 'Der Test ist verfügbar bis {$a}';
 $string['quizclose'] = 'Testschließung';
 $string['quizclosed'] = 'Dieser Test schließt am {$a}';
 $string['quizcloses'] = 'Testschließung';
-$string['quizcloseson'] = 'Dieser Test läuft nur bis {$a}';
+$string['quizcloseson'] = 'Der Test ist verfügbar bis {$a}';
 $string['quiz:deleteattempts'] = 'Testversuche löschen';
 $string['quiz:emailconfirmsubmission'] = 'Bei Abgaben eine E-Mail-Bestätigung versenden';
 $string['quiz:emailnotifysubmission'] = 'Bei Abgaben eine E-Mail-Mitteilung versenden';

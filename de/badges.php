@@ -27,22 +27,22 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['actions'] = 'Aktivitäten';
 $string['activate'] = 'Zugriff erlauben';
-$string['activatesuccess'] = 'Zugriff auf Auszeichnungen wurde erfolgreich aktviert';
+$string['activatesuccess'] = 'Zugriff auf Auszeichnungen wurde erfolgreich aktiviert';
 $string['addbadgecriteria'] = 'Kriterium hinzufügen';
 $string['addcourse'] = 'Kurse hinzufügen';
-$string['addcourse_help'] = 'Wählen Sie alle Kurse, die zu dieser Auszeichnungsanfordderung hinzugefügt werden sollen. <Nutzen Sie die Strg-Taste, um mehrere Kurse auszuwählen.';
+$string['addcourse_help'] = 'Wählen Sie alle Kurse, die zu dieser Auszeichnungsanforderung hinzugefügt werden sollen. Nutzen Sie die Strg-Taste, um mehrere Kurse auszuwählen.';
 $string['addcriteria'] = 'Kriterium hinzufügen';
 $string['addcriteriatext'] = 'Wählen Sie eine Option aus dem Auswahlmenü, um ein Kriterium für die Verleihung dieser Auszeichnung hinzuzufügen.';
-$string['addtobackpack'] = 'Zum Backpack hinzufügen.';
+$string['addtobackpack'] = 'Zum Backpack hinzufügen';
 $string['adminonly'] = 'Diese Seite ist nur für Administrator/innen erlaubt!';
-$string['after'] = 'nach der Verleihung';
+$string['after'] = 'nach der Verleihung.';
 $string['aggregationmethod'] = 'Methode der Zusammenfassung';
 $string['all'] = 'Alle';
-$string['allmethod'] = 'Alle gewählten Bedingungen erfüllt sind.';
-$string['allmethodactivity'] = 'Alle gewählten Aktivitäten abgeschlossen sind.';
-$string['allmethodcourseset'] = 'Alle gewählten Kurse abgeschlossen sind.';
-$string['allmethodmanual'] = 'Alle gewählten Rollen die Auszeichnung verleihen.';
-$string['allmethodprofile'] = 'Alle gewählten Nutzerprofilfelder vollständig sind.';
+$string['allmethod'] = 'Alle gewählten Bedingungen erfüllt sind';
+$string['allmethodactivity'] = 'Alle gewählten Aktivitäten abgeschlossen sind';
+$string['allmethodcourseset'] = 'Alle gewählten Kurse abgeschlossen sind';
+$string['allmethodmanual'] = 'Allen gewählten Rollen die Auszeichnung verleihen';
+$string['allmethodprofile'] = 'Alle gewählten Nutzerprofilfelder vollständig sind';
 $string['allowcoursebadges'] = 'Kursspezifische Auszeichnungen aktivieren';
 $string['allowcoursebadges_desc'] = 'Erlaubt das Hinzufügen und Verleihen von kursspezifischen Auszeichnungen.';
 $string['allowexternalbackpack'] = 'Verbindung zu externen Backpacks erlauben';
@@ -59,22 +59,22 @@ $string['attachment'] = 'Auszeichnung an Mitteilung anhängen';
 $string['attachment_help'] = 'Wenn Sie diese Checkbox markieren, dann wird die Auszeichnung als Anhang zur E-Mail hinzugefügt, die an den Ausgezeichneten versendet wird. Dieser kann sich dann die Auszeichnung herunterladen.';
 $string['award'] = 'Auszeichnung verleihen';
 $string['awardedtoyou'] = 'An mich verliehen';
-$string['awardoncron'] = 'Die Auszeichnung ist zur Verleihung verfügbar. Zu viele Nutzer/innen haben diese Auszeichnung erhalten. Die Aktion benötigt einige Zeit.';
+$string['awardoncron'] = 'Die Auszeichnung ist zur Verleihung verfügbar. Viele Nutzer/innen haben diese Auszeichnung erhalten. Der Vorgang wird einige Zeit dauern.';
 $string['awards'] = 'Empfänger/innen';
 $string['backpackavailability'] = 'Verifizierung externer Auszeichnungen';
-$string['backpackavailability_help'] = 'Für die Verifizierung von Auszeichnungen müssen externe Backpack-Dienste auf Ihre Moodle-Site zugreifen können. Derzeit scheint Ihre Moodle-Site diese Verbindung nicht zu erlauben. Damit können Auszeichnungen, die Ihre Moodle-Site verleiht, nicht von extern verifiziert werden.
+$string['backpackavailability_help'] = 'Für die Verifizierung von Auszeichnungen müssen externe Backpack-Dienste auf Ihre Website zugreifen können. Im Moment scheint diese Verbindung nicht erlaubt zu sein und bereits verliehene Auszeichnungen Ihrer Website können nicht von extern verifiziert werden.
 
-##Warum sehe ich diese Mitteilung?
+**Warum sehe ich diese Mitteilung?**
 
-Es kann sein, dass Ihre Firewall verhindert, dass Nutzer/innen von außerhalb zugreifen, oder Ihre Site ist kennwortgeschützt oder Ihre Site ist nicht über das Internet erreichbar (weil es sich z.B. um eine lokale Entwicklerinstallation handelt).
+Es kann sein, dass Ihre Firewall verhindert, dass Nutzer/innen von außerhalb zugreifen. Eventuell ist Ihre Website ist kennwortgeschützt oder ist nicht über das Internet erreichbar (weil es sich z.B. um eine lokale Entwicklerinstallation handelt).
 
-##Ist das ein Problem?
+**Ist das ein Problem?**
 
-Auf einer produktiven Moodle-Site sollten Sie das zutreffende Problem lösen. Andernfalls können Nutzer/innen nicht verifizieren, dass die Auszeichnung von Ihnen verliehen wurde.
+Auf einer produktiven Website sollten Sie das Problem lösen. Andernfalls können Nutzer/innen nicht erkennen, dass die Auszeichnung von Ihnen verliehen wurde.
 
-##Was kann ich tun, wenn meine Moodle-Site nicht für jeden öffentlich erreichbar sein soll?
+**Was muss ich tun, wenn meine Website nicht für jeden öffentlich erreichbar sein soll?**
 
-Die einzige URL, die für die Verifizierung benötigt wird, ist [ihre-site-url]/badges/assertion.php. Wenn Sie Ihre Firewall also so konfigurieren, dass der Zugriff von extern auf dieses Skript erlaubt ist, dann funktioniert die Verifizierung von Auszeichnungen.';
+Die einzige URL, die für die Verifizierung benötigt wird, ist [website]/badges/assertion.php. Wenn Sie Ihre Firewall so konfigurieren, dass der Zugriff auf dieses Skript erlaubt ist, dann funktioniert die Verifizierung von Auszeichnungen.';
 $string['backpackbadges'] = 'Sie haben {$a->totalbadges} Auszeichnung(en), die aus {$a->totalcollections} Sammlung(en) angezeigt werden. <a href="mybackpack.php">Backpack-Einstellungen ändern</a>.';
 $string['backpackconnection'] = 'Verbindung zum Backpack';
 $string['backpackconnection_help'] = 'Auf dieser Seite können Sie Verbindungen zu externen Backpack-Diensten konfigurieren. Eine Verbindung zu einem externen Backpack-Dienst ermöglicht es, externe Auszeichnungen in Moodle anzuzeigen und in Moodle erworbene Auszeichnungen in das externe Backpack zu exportieren.
@@ -91,7 +91,7 @@ $string['badgedetails'] = 'Grundeinstellungen';
 $string['badgeimage'] = 'Bild';
 $string['badgeimage_help'] = 'Dieses Bild wird verwendet, wenn die Auszeichnung verliehen wird.
 
-Fügen Sie ein Bild im JPG oder PNG Format hinzu.
+Fügen Sie ein Bild im Format jpg oder png hinzu.
 
 Das Bild wird in quadratische Form und geeignete Größe skaliert.';
 $string['badgeprivacysetting'] = 'Einstellungen zur Privatsphäre';
@@ -162,7 +162,7 @@ $string['criteria_descr_bydate'] = 'bis <em>{$a}</em>';
 $string['criteria_descr_grade'] = 'mit minimaler Bewertung von <em>{$a}</em>';
 $string['criteria_descr_short0'] = 'Abschluss / Vervollständigung von <strong>{$a}</strong>:';
 $string['criteria_descr_short1'] = 'Abschluss / Vervollständigung von <strong>{$a}</strong>:';
-$string['criteria_descr_short2'] = 'wird vereleiht durch <strong>{$a}</strong>:';
+$string['criteria_descr_short2'] = 'Verliehen durch <strong>{$a}</strong>:';
 $string['criteria_descr_short4'] = 'Kurs abschließen';
 $string['criteria_descr_short5'] = 'Abschluss / Vervollständigung von <strong>{$a}</strong>:';
 $string['criteria_descr_short6'] = 'Abschluss / Vervollständigung von <strong>{$a}</strong>:';
@@ -187,9 +187,9 @@ $string['dateearned'] = 'Datum: {$a}';
 $string['day'] = 'Tag(e)';
 $string['deactivate'] = 'Zugriff verhindern';
 $string['deactivatesuccess'] = 'Der Zugriff auf die Auszeichnung wurde erfolgreich deaktiviert.';
-$string['defaultissuercontact'] = 'Name des standardmäßigen Verleihers';
+$string['defaultissuercontact'] = 'Kontaktdaten des standardmäßigen Verleihers';
 $string['defaultissuercontact_desc'] = 'Tragen Sie hier eine E-Mail-Adresse ein, die standardmäßig mit dem Verleiher von Auszeichnungen auf Ihrer Moodle-Site verknüpft ist.';
-$string['defaultissuername'] = 'Kontaktdaten des standardmäßigen Verleihers';
+$string['defaultissuername'] = 'Name des standardmäßigen Verleihers';
 $string['defaultissuername_desc'] = 'Tragen Sie hier einen Namen ein, der standardmäßig als Verleiher von Auszeichnungen auf Ihrer Moodle-Site verwendet wird (z.B. den Namen der verleihenden Institution).';
 $string['delbadge'] = 'Auszeichnung löschen';
 $string['delconfirm'] = 'Sind Sie sicher, dass Sie die Auszeichnung \'{$a}\' löschen wollen?';
@@ -212,6 +212,7 @@ $string['error:clone'] = 'Die Auszeichnung kann nicht dupliziert werden.';
 $string['error:connectionunknownreason'] = 'Die Verbindung ist fehlgeschlagen, aber es wurde kein Grund angegeben.';
 $string['error:duplicatename'] = 'Eine Auszeichnung mit diesem Namen existiert bereits.';
 $string['error:externalbadgedoesntexist'] = 'Auszeichnung nicht gefunden';
+$string['error:guestuseraccess'] = 'Sie sind derzeit als Gast angemeldet. Um Auszeichnungen zu sehen, melden Sie sich bitte mit Ihren Nutzerdaten an.';
 $string['error:invalidbadgeurl'] = 'Unzulässige URL für Auszeichnungsverleiher';
 $string['error:invalidcriteriatype'] = 'Falscher Kriteriumstyp';
 $string['error:invalidexpiredate'] = 'Das Ablaufdatum muss in der Zukunft liegen.';
@@ -227,12 +228,13 @@ $string['error:nosuchfield'] = 'Warnung: Dieses Nutzerprofilfeld existiert nicht
 $string['error:nosuchmod'] = 'Warnung: Diese Aktivität existiert nicht mehr.';
 $string['error:nosuchrole'] = 'Warnung: Diese Rolle existiert nicht mehr.';
 $string['error:nosuchuser'] = 'Der/die Nutzer/in mit dieser E-Mail-Adresse hat kein Nutzerkonto beim aktuellen Backpack-Dienst.';
-$string['error:notifycoursedate'] = 'Warnung: Auszeichnungen, die mit dem Abschluss von Aktivitäten bzw. Kursen verbunden sind,  werden nicht verliehen, bevor der Kurs startet.';
+$string['error:notifycoursedate'] = 'Warnung: Auszeichnungen, die mit dem Abschluss von Aktivitäten bzw. Kursen verbunden sind, werden nicht verliehen, bevor der Kurs startet.';
 $string['error:parameter'] = 'Warnung: Mindestens ein Parameter sollte gewählt werden, damit die Verleihung der Auszeichnung reibungslos funktioniert.';
 $string['error:personaneedsjs'] = 'Für die Verbindung zu Ihrem Backpack ist Javascript notwendig. Aktivieren Sie Javascript und laden Sie die Seite neu.';
 $string['error:requesterror'] = 'Die Verbindung ist fehlgeschlagen. (Fehlercode {$a})';
 $string['error:requesttimeout'] = 'Die Verbindung ist fehlgeschlagen (Timeout)';
-$string['error:save'] = 'Die Auszeichnung kann nicht gespeichert werden.';
+$string['error:save'] = 'Die Auszeichnung kann nicht gesichert werden.';
+$string['error:userdeleted'] = '{$a->user} (Dieses Nutzerkonto wurde in {$a->site} gelöscht)';
 $string['evidence'] = 'Evidenz';
 $string['existingrecipients'] = 'Vorhandene Empfänger/innen';
 $string['expired'] = 'Abgelaufen';
@@ -271,8 +273,8 @@ $string['makepublic'] = 'anzeigen';
 $string['managebadges'] = 'Verwaltung';
 $string['message'] = 'Mitteilung';
 $string['messagebody'] = '<p>Ihnen wurde die Auszeichnung "%badgename%" verliehen.</p>
-<p>Detaillierte Informationen zu dieser Auszeichnung finden Sie unter%badgelink%.</p>
-<p>Wenn die Auszeichnung nicht als Anhang in dieser E-Mail hinzugefügt ist, können Sie sie auf der Seite {$a} herunterladen.</p>';
+<p>Weitere Informationen zu dieser Auszeichnung finden Sie unter %badgelink%.</p>
+<p>Sie können die Auszeichnung über die Seite {$a} verwalten und herunterladen.</p>';
 $string['messagesubject'] = 'Herzlichen Glückwunsch! Sie haben eine Auszeichnung erhalten!';
 $string['method'] = 'Dieses Kriterium ist erfüllt, wenn ...';
 $string['mingrade'] = 'Mindestbewertung notwendig';

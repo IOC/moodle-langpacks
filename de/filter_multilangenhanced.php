@@ -16,13 +16,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpotreport_scores', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'filter_multilangenhanced', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   hotpotreport_scores
+ * @package   filter_multilangenhanced
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Bewertungsübersicht';
+$string['filtername'] = 'Erweiterte Mehrsprachigkeit';
+$string['multilangenchanced'] = 'Erweiterte Mehrsprachigkeit';

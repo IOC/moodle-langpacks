@@ -648,8 +648,7 @@ Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
 Viel Erfolg!
 {$a->admin}';
 $string['emailpasswordconfirmationsubject'] = '{$a}: Kennwort-Änderung bestätigen';
-$string['emailpasswordconfirmmaybesent'] = '<p>Wenn Sie Ihren Anmeldenamen oder Ihre E-Mail-Adresse korrekt angegeben haben, wird eine automatische Mitteilung per E-Mail an Sie gesendet.</p>
-<p>Die Mitteilung enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>';
+$string['emailpasswordconfirmmaybesent'] = '<p>Wenn Sie Ihren Anmeldenamen bzw. Ihre E-Mail-Adresse richtig angegeben haben, wird eine automatische E-Mail an Sie gesendet.</p><p>Die Mitteilung enthält eine Anleitung, wie Sie das Zurücksetzen des Kennwortes abschließen.</p>';
 $string['emailpasswordconfirmsent'] = '<p>Eine E-Mail zur Bestätigung der Kennwortänderung sollte an Ihre Adresse <b>{$a}</b> gesendet worden sein. <br />Sie enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>';
 $string['emailpasswordsent'] = 'Danke für die Bestätigung der Kennwortänderung.
 Eine E-Mail mit Ihrem neuen Kennwort wurde an Ihre Adresse <b>{$a->email}</b> gesendet.
@@ -1257,7 +1256,7 @@ $string['passwordconfirmchange'] = 'Kennwortänderung bestätigen';
 $string['passwordextlink'] = 'Der folgende Link erlaubt, ein vergessenes Kennwort durch ein neues zu ersetzen. Sie verlassen damit Moodle.';
 $string['passwordforgotten'] = 'Kennwort vergessen';
 $string['passwordforgotteninstructions'] = 'Ihre Daten müssen zuerst in der Moodle-Datenbank gesucht werden. Tragen Sie entweder Ihren Anmeldenamen <strong>oder </strong> Ihre in Moodle registrierte E-Mail-Adresse im entsprechenden Textfeld ein. Es ist nicht erforderlich, beide einzutragen.';
-$string['passwordforgotteninstructions2'] = 'Um Ihr Kennwort zurückzusetzen, tragen Sie bitte Ihren Anmeldenamen oder Ihre E-Mail-Adresse ein. Falls Sie in unserer Datenbank zu finden sind, wird eine E-Mail an Ihre E-Mail-Adresse verschickt, die eine Anleitung für Ihren Zugang enthält.';
+$string['passwordforgotteninstructions2'] = 'Um Ihr Kennwort zurückzusetzen, tragen Sie bitte entweder Ihren Anmeldenamen oder Ihre E-Mail-Adresse ein. Wenn Sie in unserer Datenbank zu finden sind, wird eine automatische Mitteilung an Ihre E-Mail-Adresse verschickt. Diese Mitteilung enthält eine Anleitung für die weiteren Schritte.';
 $string['passwordnohelp'] = 'Leider ist keine Hilfe vorhanden, um das vergessene Kennwort wiederherzustellen. Bitte wenden Sie sich an Ihre Administrator/innen.';
 $string['passwordrecovery'] = 'Ja, bitte beim Login helfen';
 $string['passwordsdiffer'] = 'Die Kennworte stimmen nicht überein';
@@ -1566,6 +1565,7 @@ $string['sitefilesused'] = 'In diesem Kursen benutzte Dateien der Website';
 $string['sitehome'] = 'Website-Start';
 $string['sitelegacyfiles'] = 'Alte Kursdateien';
 $string['sitelogs'] = 'Logdaten der Website';
+$string['sitemessage'] = 'Nutzer/innen benachrichtigen';
 $string['sitenews'] = 'Nachrichten';
 $string['sitepages'] = 'Website';
 $string['sitepartlist'] = 'Sie besitzen nicht die notwendigen Rechte, um die Teilnehmerliste zu sehen.';
@@ -1687,7 +1687,7 @@ $string['todaylogs'] = 'Heutige Logdaten';
 $string['toeveryone'] = 'Für alle';
 $string['toomanybounces'] = 'Mit dieser E-Mail-Adresse sind zu viele Fehler aufgetreten. Sie <b>müssen</b> die E-Mail-Adresse ändern, um fortzufahren.';
 $string['toomanytoshow'] = 'Zu viele Nutzer/innen, um alle anzuzeigen';
-$string['toomanyusersmatchsearch'] = 'Zu viele Nutzer/innen ({$a->count}) passen zu \'{$a->search}\'';
+$string['toomanyusersmatchsearch'] = 'Zu viele Nutzer/innen ({$a->count}) passend zu \'{$a->search}\'';
 $string['toomanyuserstoshow'] = 'Zu viele Nutzer/innen ({$a}), um alle anzuzeigen';
 $string['toonly'] = 'Nur für {$a}';
 $string['top'] = 'Oberste Ebene (top level)';

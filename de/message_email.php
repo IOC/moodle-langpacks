@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['allowusermailcharset'] = 'Zeichensatz für E-Mails wählbar';
-$string['configallowusermailcharset'] = 'Wenn diese Option aktiviert ist, dürfen allen Nutzer/innen den Zeichensatz für E-Mails selbst festlegen.';
+$string['configallowusermailcharset'] = 'Wenn diese Option aktiviert ist, darf der Zeichensatz für E-Mails selbst festgelegt werden.';
 $string['configmailnewline'] = 'Zeichen für Zeilenschaltung in E-Mails. CRLF ist gemäß RFC 822bis notwendig. Einige Mailserver wandeln LF automatisch in CRLF um, andere konvertieren CRLF falsch in CRCRLF und wieder andere weisen Mails mit reinem LF zurück (z.B. qmail). Probieren Sie unterschiedliche Einstellungen aus, falls Probleme mit dem Mailversand auftreten oder doppelte Zeilenschaltungen angezeigt werden.';
 $string['confignoreplyaddress'] = 'Tragen Sie hier die E-Mail-Adresse ein, die als Absender beim Versand von Nachrichten (z.B. aus Foren) genutzt werden soll, wenn die E-Mail-Adresse des Absenders nicht für Rückantworten genutzt werden kann.';
 $string['configsitemailcharset'] = 'Alle E-Mails aus diesem Moodle werden mit dem hier eingetragen Zeichensatz versandt. Wenn Sie die nächste Einstellung aktivieren, können alle Nutzer/innen diese Vorgabe für sich selber ändern.';

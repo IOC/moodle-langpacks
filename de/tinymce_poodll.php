@@ -16,13 +16,26 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_spam_deletion', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'tinymce_poodll', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   block_spam_deletion
+ * @package   tinymce_poodll
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['reportasspam'] = 'Als \'Spam\' melden';
+$string['poodll:audiomp3_desc'] = 'MP3 aufnehmen';
+$string['poodll:audiored5_desc'] = 'Audio aufnehmen';
+$string['poodll:desc'] = 'PoodLL Anywhere';
+$string['poodll:nothingtoinsert'] = 'Nichts zum Einfügen!';
+$string['poodll:snapshot_desc'] = 'Bild aufnehmen';
+$string['poodll:video_desc'] = 'Video aufnehmen';
+$string['poodll:visible'] = 'Sichtbar';
+$string['poodll:whiteboard_desc'] = 'Bild zeichnen';
+$string['recorderstoshow'] = 'Recorder zum Anzeigen';
+$string['show_audiomp3'] = 'Audiorecorder (MP3) anzeigen';
+$string['show_audiored5'] = 'Audiorecorder (Red5) anzeigen';
+$string['show_video'] = 'Videorecorder anzeigen';
+$string['show_whiteboard'] = 'Whiteboard anzeigen';
+$string['title'] = 'Mediendatei anlegen';

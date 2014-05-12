@@ -54,6 +54,6 @@ $string['popupheightexplain'] = 'Standardhöhe von Popup-Fenstern festlegen';
 $string['popupwidth'] = 'Breite des Popups (Pixel)';
 $string['popupwidthexplain'] = 'Standardbreite von Popup-Fenstern festlegen';
 $string['printheading'] = 'Seitenname anzeigen';
-$string['printheadingexplain'] = 'Soll der Seitenname über dem Inhalt angezeigt werden?';
+$string['printheadingexplain'] = 'Name der Seite über dem Inhalt anzeigen';
 $string['printintro'] = 'Beschreibung über dem Seiteninhalt anzeigen';
 $string['printintroexplain'] = 'Soll die einleitende Beschreibung über dem Seiteninhalt angezeigt werden?';

@@ -16,13 +16,26 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpotsource_qedoc', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'filter_poodll', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   hotpotsource_qedoc
+ * @package   filter_poodll
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Quedoc-Quelldateien';
+$string['activate'] = 'PoodLL aktivieren?';
+$string['audioheight'] = 'Audioplayer Höhe';
+$string['audiowidth'] = 'Audioplayer Breite';
+$string['defaultplayer'] = 'Standardmäßiger A/V Player';
+$string['defaultwhiteboard'] = 'Standardmäßiges Whiteboard';
+$string['filename'] = 'Standardmäßiger Dateiname';
+$string['filtername'] = 'PoodLL Filter';
+$string['usecourseid'] = 'Kurs-ID benutzen?';
+$string['videoheight'] = 'Videoplayer-Höhe';
+$string['videotranscode'] = 'Automatisch als MP4 konvertieren';
+$string['videowidth'] = '-Videoplayer Breite';
+$string['wboardheight'] = 'Standardmäßige Whiteboard-Höhe';
+$string['wboardwidth'] = 'Standardmäßige Whiteboard-Breite';
+$string['whiteboardsave'] = 'Bild sichern';

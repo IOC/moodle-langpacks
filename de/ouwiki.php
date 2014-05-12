@@ -159,7 +159,6 @@ $string['feedtitle'] = '{$a->course} Wiki: {$a->name} - {$a->subtitle}';
 $string['format_html'] = 'Online anzeigen';
 $string['format_rtf'] = 'Im Textformat herunterladen';
 $string['format_template'] = 'Als Wikivorlage herunterladen';
-$string['format_template_file_warning'] = 'Hinweis: Dieses Wiki enthält Anhänge, die nicht in die Wikivorlage einbezogen werden.';
 $string['frompage'] = 'von {$a}';
 $string['frompages'] = 'von {$a}';
 $string['gradesupdated'] = 'Bewertungen aktualisiert';

@@ -37,8 +37,8 @@ $string['chooselanguagehead'] = 'Sprache wählen';
 $string['chooselanguagesub'] = 'Wählen Sie eine Sprache, die Sie während der Installation verwenden wollen. Die ausgewählte Sprache wird nach der Installation als Standardsprache der Instanz benutzt, aber Sie dürfen die Sprache jederzeit ändern.';
 $string['cliadminpassword'] = 'Neues Admin-Kennwort';
 $string['cliadminusername'] = 'Admin-Nutzername ';
-$string['clialreadyconfigured'] = 'Die Datei config.php existiert bereits. Bitte benutzen Sie admin/cli/install_database.php, wenn sie diese Website installieren möchten.';
-$string['clialreadyinstalled'] = 'Die Datei config.php existiert bereits. Bitte benutzen Sie admin/cli/upgrade.php, wenn Sie diese Website aktualisieren möchten.';
+$string['clialreadyconfigured'] = 'Die Datei config.php existiert bereits. Bitte benutzen Sie admin/cli/install_database.php, wenn Sie diese Site installieren möchten.';
+$string['clialreadyinstalled'] = 'Die Datei config.php existiert bereits. Bitte benutzen Sie admin/cli/install_database.php, wenn Sie diese Site aktualisieren möchten.';
 $string['cliinstallfinished'] = 'Die Installation wurde erfolgreich abgeschlossen';
 $string['cliinstallheader'] = 'Installation von Moodle {$a} über die Kommandozeile';
 $string['climustagreelicense'] = 'Im nicht-interaktiven Modus müssen Sie der Lizenz über die Option --agree-license zustimmen';
@@ -234,11 +234,12 @@ $string['mysqliextensionisnotpresentinphp'] = 'PHP ist nicht richtig konfigurier
 $string['nativemssql'] = 'SQL*Server FreeTDS (native/mssql)';
 $string['nativemssqlhelp'] = 'Sie müssen die Datenbank für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank muss bereits angelegt sein. Ein Nutzername und das zugehörige Kennwort  für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist verbindlich.';
 $string['nativemysqli'] = 'Verbessertes MySQL (native/mysqli)';
-$string['nativemysqlihelp'] = 'Sie müssen die Datenbankeinstellungen für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank wird angelegt, wenn der angegebene Datenbank-Nutzer die dafür notwendigen Rechte besitzt. Ein Nutzername und das zugehörige Kennwort für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist optional.';
+$string['nativemysqlihelp'] = '<p>Sie müssen die Datenbankeinstellungen für die Speicherung der Moodle-Daten konfigurieren. </p><p>Die Datenbank kann automatisch angelegt werden, wenn das angegebene Nutzerkonto bereits existiert und die nötigen Rechte besitzt. Die Feldeinträge Name, Nutzername und Passwort sind Pflichtfelder. Der Tabellenpräfix ist optional.</p>
+<p>Wenn die Datenbank noch nicht existert und de eingetragenen Nutzer über die Rechte zum Anlegen der Datenbank verfügt, versucht Moodle die Datenbank selber anzulegen</p>';
 $string['nativeoci'] = 'Oracle (native/oci)';
 $string['nativeocihelp'] = 'Sie müssen die Datenbank für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank muss bereits angelegt sein. Ein Nutzername und das zugehörige Kennwort  für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist verbindlich.';
 $string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
-$string['nativepgsqlhelp'] = 'Sie müssen die Datenbank für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank muss bereits angelegt sein. Ein Nutzername und das zugehörige Kennwort  für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist verbindlich.';
+$string['nativepgsqlhelp'] = '<p>Sie müssen die Datenbank für die Speicherung der Moodle-Daten konfigurieren. in ihr weden die meisten Daten von Moodle abgespeichert.</p><p>Die Datenbank muss bereits angelegt sein. Ein Nutzername und das zugehörige Kennwort  für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist verbindlich.</p><p>DieDatenbank muss bereits existieren und der angegebene Nutzer muß sowohl über Lese- also auch Schreibrechte verfügen.</p>';
 $string['nativesqlsrv'] = 'SQL*Server Microsoft (native/sqlsrv)';
 $string['nativesqlsrvhelp'] = 'Sie müssen die Datenbank für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank muss bereits angelegt sein. Ein Nutzername und das zugehörige Kennwort  für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist verbindlich.';
 $string['nativesqlsrvnodriver'] = 'Die Microsoft-Treiber zum SQL Server für PHP sind nicht installiert oder nicht richtig konfiguriert.';
@@ -254,11 +255,11 @@ $string['pathshead'] = 'Pfade bestätigen';
 $string['pathsrodataroot'] = 'Das Verzeichnis dataroot ist schreibgeschützt.';
 $string['pathsroparentdataroot'] = 'Das Verzeichnis ({$a->parent}) ist schreibgeschützt. Deswegen kann das Datenverzeichnis ({$a->dataroot})  vom Installer nicht angelegt werden.';
 $string['pathssubadmindir'] = 'Einige Webserver benutzen /admin als speziellen Link, um auf Einstellungsseiten oder Ähnliches zu verweisen. Unglücklicherweise kollidiert dies mit dem standardmäßigen Verzeichnis für die Moodle-Administration. Sie können dieses Problem beheben, indem Sie das Verzeichnis admin in Ihrer Moodle-Installation umbenennen und den neuen Namen hier eingeben (z.B. <em>moodleadmin</em>). Mit dieser Änderung werden alle Admin-Links korrigiert.';
-$string['pathssubdataroot'] = 'Sie benötigen einen Platz, wo Moodle hochgeladene Dateien abspeichern kann. Dieses Verzeichnis muss Lese- und Schreibrechte für das Nutzerkonto besitzen, mit dem Ihr Webservers läuft (üblicherweise \'nobody\', \'apache\' oder \'www\'). Außerdem sollte das Verzeichnis nicht direkt aus dem Internet erreichbar sein. Das Intallationsskript wird versuchen, ein solches Verzeichnis zu erstellen, falls es nicht existiert.</p>';
-$string['pathssubdirroot'] = 'Vollständiger Pfad der Moodle-Installation';
-$string['pathssubwwwroot'] = 'Vollständige Webadresse für den Zugriff auf Moodle. Es ist nicht möglich, über unterschiedliche Adressen auf Moodle zuzugreifen. Sollte Ihre Website mehrere öffentliche Adressen verwenden, so müssen Sie eine Adresse festlegen und für die übrigen Adressen dauerhafte Weiterleitungen dorthin einrichten.
-<p>Falls Ihre Website gleichzeitig im Intranet und im Internet erreichbar ist, so tragen Sie die öffentliche Adresse ein. Konfigurieren Sie den DNS so, dass Moodle auch aus dem Intranet über die öffentliche Adresse erreichbar ist.
-<p>Führen Sie Ihre Moodle-Installation unbedingt mit der richtigen Adresse durch, weil es andernfalls zu Problemen kommen könnte.';
+$string['pathssubdataroot'] = '<p>Sie benötigen einen Platz, wo Moodle hochgeladene Dateien abspeichern kann. </p><p>Dieses Verzeichnis muss Lese- und Schreibrechte für das Nutzerkonto besitzen, mit dem Ihr Webservers läuft (üblicherweise \'nobody\', \'apache\' oder \'www-data).</p><p>  Außerdem sollte das Verzeichnis nicht direkt aus dem Internet erreichbar sein. </p><p>Das Intallationsskript wird versuchen, ein solches Verzeichnis zu erstellen, falls es nicht existiert.</p>';
+$string['pathssubdirroot'] = '<p>Vollständiger Pfad der Moodle-Installation.</p>';
+$string['pathssubwwwroot'] = '<p>Webadresse, die ein Nutzer im Browser eingibt, um auf Moodle zuzugreifen.</p><p> Es ist nicht möglich, über unterschiedliche Adressen auf Moodle zuzugreifen. Sollte Ihre Website mehrere öffentliche Adressen verwenden, so müssen Sie eine Adresse festlegen und für die übrigen Adressen dauerhafte Weiterleitungen dorthin einrichten.</p>
+<p>Falls Ihre Website gleichzeitig im Intranet und im Internet erreichbar ist, so tragen Sie die öffentliche Adresse ein. Konfigurieren Sie den DNS so, dass Moodle auch aus dem Intranet über die öffentliche Adresse erreichbar ist.</p>
+<p>Führen Sie Ihre Moodle-Installation unbedingt mit der richtigen Adresse durch, weil es andernfalls zu Problemen kommen könnte.</p>';
 $string['pathsunsecuredataroot'] = 'Der Speicherort des Verzeichnisses \'dataroot\' ist unsicher';
 $string['pathswrongadmindir'] = 'Das Admin-Verzeichnis existiert nicht';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP ist nicht richtig konfiguriert, um über die PHP-Extension PGSQL mit der PostgreSQL-Datenbank zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';

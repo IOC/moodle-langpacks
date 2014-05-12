@@ -47,11 +47,7 @@ $string['uploadpicture_cannotunzip'] = 'Die Bilddateien können nicht entpackt w
 $string['uploadpicture_invalidfilename'] = 'Die Bilddatei {$a} enthält ungültige Zeichen im Namen und wird nicht benutzt.';
 $string['uploadpicture_overwrite'] = 'Vorhandene Nutzerbilder überschreiben?';
 $string['uploadpictures'] = 'Nutzerbilder hochladen';
-$string['uploadpictures_help'] = '<h2>Nutzerbilder gepackt hochladen</h2>
-
-<p>Nutzerbilder können als gezipptes Paket mit mehreren Dateien hochgeladen werden. Moodle kann dann die darin enthaltenen Dateien den einzelnen Nutzern als Portrait zuordnen. Die Bilddateien müssen dazu in geeigneter Weise benannt sein <i>gewählte Nutzerattribut-Erweiterung</i>. Wenn Sie als Nutzerattribut den Nutzernammen gewählt haben und dieser lautet nutzer1234, dann muss die Bilddatei nutzer1234.jpg heißen.</p>
-<p>zulässige Bilddateitypen sind gif, jpg und png.</p>
-<p>Groß- und Kleinschreibung bei den Dateinamen wird nicht berücksichtigt.</p>';
+$string['uploadpictures_help'] = 'Nutzerbilder können als ZIP-Paket mit mehreren Bilddateien hochgeladen werden. Moodle ordnet die enthaltenen Dateien den Nutzerkonten als Portrait zu, wenn die Bilddateien geeignet benannt sind. Wenn Sie als Nutzerattribut den Nutzernamen gewählt haben, wird die Bilddatei nutzer1234.jpg für das Nutzerkonto nutzer1234 verwendet. Zulässige Bilddateitypen sind gif, jpg und png.';
 $string['uploadpicture_userfield'] = 'Nutzereigenschaft, die fürdie Zuordnung der Nutzerbilder verwandt werden soll:';
 $string['uploadpicture_usernotfound'] = 'Nutzer/in mit \'{$a->userfield}\'-Wert von \'{$a->uservalue}\' existiert nicht. Wird übersprungen.';
 $string['uploadpicture_userskipped'] = 'Nutzerbild {$a} exitiert bereits und wird nicht überschrieben.';

@@ -25,9 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['logsformat'] = 'Log-Format';
-$string['log:view'] = 'Logdaten der Kurse ansehen';
-$string['log:viewtoday'] = 'Heutige Logdaten ansehen';
+$string['logsformat'] = 'Logdaten-Format';
+$string['log:view'] = 'Logdaten von Kursen anzeigen';
+$string['log:viewtoday'] = 'Heutige Logdaten anzeigen';
 $string['page'] = 'Seite {$a}';
 $string['page-report-log-index'] = 'Kurs-Logbericht';
 $string['page-report-log-user'] = 'Nutzer-Kurs-Logbericht';

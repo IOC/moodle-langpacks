@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['multilangupgradeinfo'] = 'Die syntax des Multilang-Filters wurde mit Version 1.8 geändert.  Der &lt;lang&gt; Tag wird nicht mehr unterstützt. <br /><br />Beispiel: &lt;span lang="en" class="multilang">Hello!&lt;/span&gt;&lt;span lang="es" class="multilang">Hola!&lt;/span&gt;<br /><br /><strong>Wollen Sie bestehende Codierungen nun upgraden?</strong>';
+$string['multilangupgradeinfo'] = '<p>Die Syntax des Multilang-Filters wurde mit Version 1.8 geändert.  Der <lang> Tag wird nicht mehr unterstützt. </p><p>Beispiel: <span lang="en" class="multilang">Hello!</span><span lang="es" class="multilang">Hola!</span></p><p><p>Wollen Sie bestehende Codierungen nun upgraden?</p>';
 $string['pluginname'] = 'Mehrsprachigkeit Upgrade';

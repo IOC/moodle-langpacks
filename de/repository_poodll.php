@@ -16,13 +16,20 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'hotpotsource_hp', language 'de', branch 'MOODLE_24_STABLE'
+ * Strings for component 'repository_poodll', language 'de', branch 'MOODLE_25_STABLE'
  *
- * @package   hotpotsource_hp
+ * @package   repository_poodll
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'HotPotatoes-Quelldateien';
+$string['audio'] = 'Audiorecorder Red5';
+$string['mp3recorder'] = 'Audiorecorder MP3 standalone';
+$string['name'] = 'Name';
+$string['pluginname'] = 'PoodLL';
+$string['pluginname_help'] = 'PoodLL Repository';
+$string['recordnew'] = 'Neue Aufnahme';
+$string['repositoryname'] = 'PoodLL';
+$string['save'] = 'Sichern';

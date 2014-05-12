@@ -49,7 +49,7 @@ $string['assign:grade'] = 'Aufgabe bewerten';
 $string['assign:grantextension'] = 'Erweiterung zulassen';
 $string['assignmentisdue'] = 'Der Abgabetermin ist vorbei';
 $string['assignmentmail'] = '{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für  \'{$a->assignment}\' bereitgestellt. Mit dem folgenden Link können Sie direkt darauf zugreifen: {$a->url}';
-$string['assignmentmailhtml'] = '{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für \'<i>{$a->assignment}</i>\' bereitgestellt.<br /><br /> Mit dem folgenden Link können Sie direkt darauf zugreifen: <a href="{$a->url}">Link zu Ihrer Lösung und zum Feedback</a>.';
+$string['assignmentmailhtml'] = '<p>{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für \'<i>{$a->assignment}</i>\' bereitgestellt.</p> <p>Mit dem folgenden Link können Sie direkt darauf zugreifen: <a href="{$a->url}">Link zu Ihrer Lösung und zum Feedback</a>.</p>';
 $string['assignmentmailsmall'] = '{$a->grader} hat Ihnen ein Feedback zur Ihrer Aufgabenlösung für  \'{$a->assignment}\' bereitgestellt. Mit dem folgenden Link können Sie direkt darauf zugreifen: {$a->url}';
 $string['assignmentname'] = 'Name der Aufgabe';
 $string['assignmentplugins'] = 'Aufgabentypen';
@@ -125,7 +125,7 @@ $string['editsubmission_help'] = 'Lösung ändern';
 $string['enabled'] = 'Aktiviert';
 $string['errornosubmissions'] = 'Keine Abgaben zum Herunterladen verfügbar';
 $string['errorquickgradingvsadvancedgrading'] = 'Die Aufgabe verwendet das erweiterte Bewertungsschema. Daher werden diese Bewertungen nun nicht abgespeichert.';
-$string['errorrecordmodified'] = 'Bevor Sie die Seite aufgerufen haben, hat jemand anders einen oder mehrere Daten geändert. Daher werden Ihre Einträge nun nicht gespeichert.';
+$string['errorrecordmodified'] = 'Bevor Sie die Seite aufgerufen haben, hat jemand anders einen oder mehrere Daten geändert. Deswegen können Ihre Einträge nun nicht gesichert werden.';
 $string['extensionduedate'] = 'Erweiterung des Abgabdatums';
 $string['extensionnotafterduedate'] = 'Das erweiterte Abgabedatum muss nach dem (normalen) Abgabedatum liegen.';
 $string['extensionnotafterfromdate'] = 'Das erweiterte Abgabedatum muss nach Abgabedatum liegen.';
@@ -163,7 +163,7 @@ Die Abgabe ist auf der Website verfügbar
 $string['gradestudent'] = 'Bewertung für Teilnehmer/in: (id={$a->id}, Name={$a->fullname}).';
 $string['gradeuser'] = 'Bewertung {$a}';
 $string['grading'] = 'Wird bewertet';
-$string['gradingchangessaved'] = 'Die geänderten Bewertungen wurden gesichert.';
+$string['gradingchangessaved'] = 'Die geänderten Bewertungen wurden gespeichert.';
 $string['gradingmethodpreview'] = 'Bewertungskriterium';
 $string['gradingoptions'] = 'Optionen';
 $string['gradingstatus'] = 'Bewertungsstatus';
@@ -233,7 +233,7 @@ $string['preventsubmissions'] = 'Verhindert die Abgabe von Lösungen für diese 
 $string['preventsubmissionsshort'] = 'Abgabeänderung verhindern';
 $string['previous'] = 'Zurück';
 $string['quickgrading'] = 'Schnellbewertung';
-$string['quickgradingchangessaved'] = 'Die Änderungen in der Bewertung wurden gesichert';
+$string['quickgradingchangessaved'] = 'Die Änderungen in der Bewertung wurden gespeichert';
 $string['quickgrading_help'] = 'Die Schnellbewertung ermöglicht Ihnen direkt in der Übersichtstabelle Bewertungen vorzunehmen. Diese Möglichkeit steht nicht bei erweiterten Bewertungen (Rubrics) zur Verfügung.';
 $string['quickgradingresult'] = 'Schnellbewertung';
 $string['recordid'] = 'ID';
@@ -260,13 +260,15 @@ $string['sendlatenotifications'] = 'Bewerter/innen über verspätete Abgaben von
 $string['sendlatenotifications_help'] = 'Mit der Aktivierung werden die Bewerter (meist die Trainer/innen) benachrichtigt wenn eine Lösung verspätet abgegeben wird. Die Zustellung der Benachrichtigung ist individuell einstellbar.';
 $string['sendnotifications'] = 'Mitteilungen an bewertende Personen senden';
 $string['sendnotifications_help'] = 'Mit der Aktivierung werden die Bewerter (meist die Trainer/innen) benachrichtigt wenn eine Lösung zeitgerecht oder verspätet abgegeben wird. Die Zustellung der Benachrichtigung ist individuell einstellbar.';
+$string['sendstudentnotifications'] = 'Teilnehmer/innen benachrichtigen';
+$string['sendstudentnotifications_help'] = 'Wenn aktiviert erhalten Teilnehmer/innen eine Benachrichtigung über aktualisierte Bewertungen oder Feedbacks.';
 $string['sendsubmissionreceipts'] = 'Abgabebestätigung an Teilnehmer/innen versenden';
 $string['sendsubmissionreceipts_help'] = 'Diese Option aktiviert Abgabestätigungen, die für eingereichte Aufgabenlösungen an die Teilnehmer/innen versandt werden.';
 $string['settings'] = 'Aufgabeneinstellungen';
 $string['showrecentsubmissions'] = 'Neue Abgaben anzeigen';
 $string['submission'] = 'Abgabe';
-$string['submissioncopiedhtml'] = 'Sie haben eine Kopie der früheren Lösung für die Aufgabe \'<i>{$a->assignment} erstellt</i>\'<br /><br />.
-Dies ist der Status  <a href="{$a->url}"> für Ihre Aufgabenlösung</a>.';
+$string['submissioncopiedhtml'] = '<p>Sie haben eine Kopie der früheren Lösung für die Aufgabe \'<i>{$a->assignment} erstellt</i>\'</p><p>.
+Sehen sehen hier den Status  <a href="{$a->url}"> für Ihre Aufgabenlösung</a>.</p>';
 $string['submissioncopiedsmall'] = 'Sie haben Ihre bisherige Aufgabenlösung für {$a->assignment} kopiert.';
 $string['submissioncopiedtext'] = 'Sie haben Ihre bisherige Aufgabenlösung für {$a->assignment} kopiert.
 
@@ -280,7 +282,7 @@ $string['submissionnotcopiedinvalidstatus'] = 'Die Abgabe wurde nicht kopiert, w
 $string['submissionnoteditable'] = 'Teilnehmer/innen können eingereichte Lösung nicht bearbeiten';
 $string['submissionnotready'] = 'Diese Aufgabe ist nicht zur Abgabe fertig';
 $string['submissionplugins'] = 'Plugins zur Abgabe';
-$string['submissionreceipthtml'] = 'Sie haben eine Lösung zur Aufgabe \'<i>{$a->assignment}</i>\' abgegeben.<br /><br /> Den Bewertungsstatus für die Aufgabe können Sie <a href="{$a->url}">hier</a> einsehen.';
+$string['submissionreceipthtml'] = '<p>Sie haben eine Lösung zur Aufgabe \'<i>{$a->assignment}</i>\' abgegeben.</p><p> Den Bewertungsstatus für die Aufgabe können Sie <a href="{$a->url}">hier</a> einsehen.</p>';
 $string['submissionreceipts'] = 'Abgabebestätigungen versenden';
 $string['submissionreceiptsmall'] = 'Sie haben eine Lösung für {$a->assignment} abgegeben.';
 $string['submissionreceipttext'] = 'Sie haben eine Lösung für \'{$a->assignment}\' abgegeben.
@@ -316,6 +318,10 @@ $string['submitted'] = 'Abgegeben';
 $string['submittedearly'] = 'Aufgabe wurde {$a} vor dem Termin abgegeben';
 $string['submittedlate'] = 'Aufgabe wurde {$a} verspätet abgegeben';
 $string['submittedlateshort'] = '{$a} später';
+$string['subplugintype_assignfeedback'] = 'Feedback Plugin';
+$string['subplugintype_assignfeedback_plural'] = 'Feedback Plugins';
+$string['subplugintype_assignsubmission'] = 'Abgabe Plugin';
+$string['subplugintype_assignsubmission_plural'] = 'Abgabe Plugins';
 $string['teamsubmission'] = 'Teilnehmer/innen arbeiten in Gruppen';
 $string['teamsubmissiongroupingid'] = 'Bildung von Gruppen';
 $string['teamsubmissiongroupingid_help'] = 'Diese Gruppierung wird für die Gruppen zur Bearbeitung der Aufgabe genutzt. Wird keine Gruppierung ausgewählt, werden die vorhandenen Gruppen verwendet.';

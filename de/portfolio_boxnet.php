@@ -25,14 +25,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['apiv1migration_message_small'] = 'Dieses Pluigin wurde deaktiviert. Eine neue Konfiguration ist erforderlich. Sie ist beschrieben in der Box.net APIv1 migration-Doku.';
+$string['apiv1migration_message_small'] = 'Dieses Pluigin wurde deaktiviert. Eine neue Konfiguration ist erforderlich. Sie ist beschrieben in der Box.net APIv1 Migrations-Doku.';
 $string['apiv1migration_message_subject'] = 'Wichtige Informationen zum box.net Portfolio-Plugin.';
 $string['clientid'] = 'Client-ID';
 $string['clientsecret'] = 'Schlüssel';
 $string['existingfolder'] = 'Vorhandenes Dateiverzeichnis';
 $string['folderclash'] = 'Das anzulegende Verzeichnis existiert bereits!';
 $string['foldercreatefailed'] = 'Fehler beim Anlegen Ihres Zielverzeichnisses bei box.net';
-$string['folderlistfailed'] = 'Fehler bei der Abfrage einer Dateiliste von box.net';
+$string['folderlistfailed'] = 'Fehler bei der Abfrage einer Verzeichnisliste von box.net';
 $string['missinghttps'] = 'HTTPS erforderlich';
 $string['missinghttps_help'] = 'box.net kann nur auf Sites mit HTTPS-Verschlüsselung genutzt werden.';
 $string['missingoauthkeys'] = 'Client-ID und Schlüssel fehlen.';
@@ -46,9 +46,7 @@ $string['pluginname'] = 'Box.net
 ';
 $string['sendfailed'] = 'Fehler beim Senden von Daten an box.net: {$a}';
 $string['setupinfo'] = 'Einstellungsanleitung';
-$string['setupinfodetails'] = 'Sie erhalten Ihre Client-ID und den Schlüssel für Box.net über die <a href="{$a->servicesurl} "> Entwicklerseite </ a>. Bei den \'Developer Tools\' gehen Sie zu \'Create new application\' und legen eine neue Anwendung für Ihre Moodle-Instanz an. Der Client-ID und der Schlüssel (secret) werden im Abschnitt \'PAuth2 parameters\' angezeigt. <br />
-
-Optional können Sie weitere Informationen über Ihre Moodle-Instanz angeben.';
+$string['setupinfodetails'] = 'Sie erhalten Ihre Client-ID und den Schlüssel für Box.net über die <a href="{$a->servicesurl} "> Box-Entwicklerseite </ a>. Bei den \'Developer Tools\' gehen Sie zu \'Create new application\' und legen eine neue Anwendung für Ihre Moodle-Instanz an. Die Client-ID und der Schlüssel (secret) werden im Abschnitt \'OAuth2 parameters\' angezeigt. Optional können Sie weitere Informationen über Ihre Moodle-Instanz angeben.';
 $string['sharedfolder'] = 'Freigegeben';
 $string['sharefile'] = 'Diese Datei freigeben?';
 $string['sharefolder'] = 'Dieses Verzeichnis freigeben?';

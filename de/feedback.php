@@ -107,8 +107,8 @@ $string['emailteachermail'] = '{$a->username} hat das Feedback \'{$a->feedback}\
 Sie können es hier anschauen:
 
 {$a->url}';
-$string['emailteachermailhtml'] = '{$a->username} hat das Feedback \'{$a->feedback}\' abgeschlossen<br /><br />
-Sie können es <a href="{$a->url}">auf der Webseite</a> anschauen.';
+$string['emailteachermailhtml'] = '<p>{$a->username} hat das Feedback \'{$a->feedback}\' abgeschlossen</p><p>
+Das Feedback ist <a href="{$a->url}">auf der Webseite</a> verfügbar.';
 $string['entries_saved'] = 'Einträge wurden gespeichert';
 $string['export_questions'] = 'Fragen exportieren';
 $string['export_to_excel'] = 'Nach Excel exportieren';
@@ -145,7 +145,6 @@ $string['insufficient_responses_help'] = 'Es gibt unzulängliche Antworten für 
 Um das Feedback anonym zu halten, müssen mindestens zwei Antworten abgegeben werden.';
 $string['item_label'] = 'Beschriftung';
 $string['item_name'] = 'Name des Elementes';
-$string['items_are_required'] = 'Elemente sind erforderlich';
 $string['label'] = 'Textfeld';
 $string['line_values'] = 'Werte';
 $string['mapcourse'] = 'Kurs zuordnen';

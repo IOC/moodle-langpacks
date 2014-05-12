@@ -125,7 +125,7 @@ $string['clitypevalue'] = 'Wert eingeben';
 $string['clitypevaluedefault'] = 'Wert eingeben oder Standardwert benutzen ({$a})';
 $string['cliunknowoption'] = 'Nicht erkannte Optionen:
   {$a}
-Hilfe wird über die Option -help angezeigt.';
+Hilfe wird über die Option --help angezeigt.';
 $string['cliupgradefinished'] = 'Die Aktualisierung wurde erfolgreich beendet';
 $string['cliupgradenoneed'] = 'Für die installierte Version {$a} ist kein Upgrade notwendig. Danke für den Versuch!';
 $string['cliyesnoprompt'] = 'y (yes=ja) oder n (no=nein) eingeben';
@@ -184,7 +184,19 @@ $string['configcronremotepassword'] = 'Dies bedeutet, dass das Script cron.php n
 http://www.beispiel.de/admin/cron.php?password=geheim
 </pre>Falls das Feld leer bleibt, wird kein Kennwort benötigt.';
 $string['configcurlcache'] = 'Speicherzeit für cURL Cache (in Sekunden)';
-$string['configcustommenuitems'] = 'Sie können ein eigenes, zusätzliches Menü einrichten, welches auf jeder Seite angezeigt wird. Jede Zeile besteht aus dem angezeigten Text, einer URL (optional), einem Tooltipp (optional) und der Sprachzuordnung (optional). Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Die Struktur wird über Bindestriche (-) geregelt. Für die Sprachzuordnung geben Sie nach einem dritten senkrechten Strich das Kürzel der Sprache an (oder eine kommagetrennte Liste). Ein solcher Menüeintrag wird nur angezeigt, wenn der Nutzer genau diese Sprache benutzt. Beispiel: <pre> Moodle Community|http://moodle.org -Moodle Support|http://moodle.org/support -Moodle Entwickler|http://moodle.org/development --Moodle Tracker|http://tracker.moodle.org --Moodle Docs|http://docs.moodle.org|Moodle-Dokumentation --Deutsche Moodle Docs|http://docs.moodle.org/de|Moodle-Dokumentation in Deutsch|de -Moodle News|http://moodle.org/Nachrichten von Moodle -Moodle Commercial Hosting|http://moodle.com/hosting -Moodle Commercial Support|http://moodle.com/support </pre>';
+$string['configcustommenuitems'] = 'Sie können ein eigenes, zusätzliches Menü einrichten, welches auf jeder Seite angezeigt wird. Jeder (Unter-)Menupunkt wird in eine eigene Zeile geschrieben.Jede Zeile besteht aus dem angezeigten Text, einer URL (optional), einem Tooltipp (optional) und der Sprachzuordnung (optional). Die Trennung erfolgt jeweils durch einen senkrechten Strich (|). Die Struktur wird über Bindestriche (-) geregelt. Für die Sprachzuordnung geben Sie nach einem dritten senkrechten Strich das Kürzel der Sprache an (oder eine kommagetrennte Liste). Ein solcher Menüeintrag wird nur angezeigt, wenn der Nutzer genau diese Sprache benutzt. Beispiel:
+<pre>
+Moodle Community|http://moodle.org
+-Moodle Support|http://moodle.org/support
+-Moodle Entwickler|http://moodle.org/development
+--Moodle Tracker|http://tracker.moodle.org
+--Moodle Docs|http://docs.moodle.org|Moodle-Dokumentation
+--Deutsche Moodle Docs|http://docs.moodle.org/de|Moodle
+-Dokumentation in Deutsch|de
+-Moodle News|http://moodle.org/Nachrichten von Moodle
+-Moodle Commercial Hosting|http://moodle.com/hosting
+-Moodle Commercial Support|http://moodle.com/support
+</pre>';
 $string['configdbsessions'] = 'Bei der Aktivierung dieser Einstellung wird die Datenbank unter anderem dazu verwendet, um Informationen über aktuelle Sitzungen abzuspeichern. Das ist sinnvoll bei sehr großen Anwendungen oder Anwendungen, die über mehrere Cluster von Servern verteilt arbeiten. Meist kann die Einstellung deaktiviert bleiben. Bei einer Einstellungsänderung werden alle aktuellen Nutzer/innen ausgeloggt (auch die Administrator/innen). Falls Sie MySQL benutzen, stellen Sie sicher, dass \'max_allowed_packet\' in der Datei my.cnf (oder my.ini) mindestens 4M ist.';
 $string['configdebug'] = 'Wenn Sie diese Funktion einschalten, werden die Fehlermeldungen von PHP erweitert, so dass mehr Warnungen ausgegeben werden. Dies ist nur für Entwickler nützlich.';
 $string['configdebugdisplay'] = 'Wenn diese Option aktiviert ist, werden Fehlermeldungen direkt auf der HTML-Seite angezeigt. Auftretende Fehler stören dann aber XHTML, JavaScript, Cookies und HTTP-Header. Wenn die Option deaktiviert ist, werden alle Fehlermeldungen in die Logdaten des Webservers geschrieben. Die PHP-Variable error_log enthält den Pfad zur Logdatei.';
@@ -207,14 +219,14 @@ $string['configeditordictionary'] = 'Dieser Wert wird verwendet, wenn aspell kei
 $string['configeditorfontlist'] = 'Zeichensätze auswählen, die im Editormenü erscheinen sollen';
 $string['configemailchangeconfirmation'] = 'Wenn Nutzer/innen in ihrem Profil die E-Mail-Adresse ändern, dann ist eine E-Mail-Bestätigung notwendig';
 $string['configenableajax'] = 'Diese Einstellung aktiviert die Nutzung von Ajax für die Website. Ajax ist für bestimmte Funktionen wie Drag&Drop erforderlich.';
-$string['configenableblogs'] = 'Diese Umstellung gibt allen Nutzer/innen Zugriff auf ihren eigenen Blog.';
+$string['configenableblogs'] = 'Diese Option aktiviert für alle Nutzer/innen einen eigenen Blog.';
 $string['configenablecalendarexport'] = 'Exportieren oder Abonnieren von Kalendern erlauben';
 $string['configenablecomments'] = 'Kommentare erlauben';
 $string['configenablecourserequests'] = 'Erlaubt es allen Nutzer/innen, Anfragen zur Einrichtung von Kursen zu stellen.';
 $string['configenabledevicedetection'] = 'Diese Option erlaubt die Erkennung von Mobiltelefonen, Smartphones, Tablets oder Standardgeräten (PCs, Laptops, usw.), um spezielle Designs und andere Funktionen zu aktivieren.
 ';
 $string['configenablegroupmembersonly'] = 'Die Einstellung aktiviert die Funktion \'nur für Gruppenmitglieder verfügbar\'. Die Funktion wirkt sich auf die Serverbelastung aus. Sie ist erforderlich, um einige erweiterte Optionen im Bewertungsbereich zu verwenden. Bewertungskategorien müssen so eingerichtet werden, dass diese Aktivitäten für Nichtmitglieder der Gruppen auch dort unsichtbar bleiben.';
-$string['configenablemobilewebservice'] = 'Aktivieren Sie den Webservice für die Moodle Mobile App und andere Apps, die diesen Webservice ebenfalls brauchen. Weitere Informationen: {$a}';
+$string['configenablemobilewebservice'] = 'Aktivieren Sie den Webservice für Moodle Mobile und andere Apps, die diesen Webservice ebenfalls benötigen. Weitere Informationen: {$a}';
 $string['configenablerssfeeds'] = 'Diese Option aktiviert RSS-Feeds für die gesamte Website. Zusätzlich ist erforderlich, die RSS-Feeds in den einzelnen Modulen zu aktivieren. Öffnen Sie dazu in der Administration die Moduleinstellungen.';
 $string['configenablerssfeedsdisabled'] = 'Diese Option ist nicht verfügbar, weil RSS-Feeds für alle Seiten deaktiviert sind. Um diese zu aktivieren, öffnen Sie die Variableneinstellung in der Administration.';
 $string['configenablerssfeedsdisabled2'] = 'RSS Feeds sind auf Serverebene deaktiviert. Sie müssen zuerst unter server/RSS aktiviert werden.';
@@ -276,7 +288,7 @@ $string['configminpasswordlength'] = 'Kennworte müssen mindestens die angegeben
 $string['configminpasswordlower'] = 'Kennworte müssen mindestens die angegebene Anzahl von Kleinbuchstaben enthalten.';
 $string['configminpasswordnonalphanum'] = 'Kennworte müssen mindestens die angegebene Anzahl von Sonderzeichen enthalten.';
 $string['configminpasswordupper'] = 'Kennworte müssen mindestens die angegebene Anzahl von Großbuchstaben enthalten.';
-$string['configmobilecssurl'] = 'CSS-Datei zur Anpassung der Oberfläche für mobile Geräte';
+$string['configmobilecssurl'] = 'CSS-Datei zur Anpassung vom Moodle Mobile';
 $string['configmodchooserdefault'] = 'Soll die Aktivitätenauswahl den Nutzer/innen als Standardeinstellung gezeigt werden?';
 $string['configmycoursesperpage'] = 'Maximale Zahl der gezeigten Kurse in Übersicht \'Meine Kurse\'';
 $string['configmymoodleredirect'] = 'Die Einstellung führt Nicht-Admins beim Login automatisch zu \'Meine Startseite\' und ersetzt die Navigation zur Startseite durch \'Meine Startseite\'';
@@ -502,7 +514,7 @@ $string['enabledevicedetection'] = 'Geräteerkennung';
 $string['enablegravatar'] = 'Gravatar aktivieren';
 $string['enablegravatar_help'] = 'Wenn diese Option aktiviert ist, versucht Moodle ein Profilbild von Gravatar anzuzeigen, falls Nutzer/innen kein eigenes Profilbild hochgeladen haben.';
 $string['enablegroupmembersonly'] = 'Gruppierungen aktivieren';
-$string['enablemobilewebservice'] = 'Webservice für mobile Geräte';
+$string['enablemobilewebservice'] = 'Webservice für Moodle Mobile';
 $string['enablerecordcache'] = 'Zwischenspeicherung erlauben';
 $string['enablerssfeeds'] = 'RSS-Feeds';
 $string['enablesafebrowserintegration'] = '\'Safe Exam Browser\' vorsehen';
@@ -769,7 +781,7 @@ $string['navsortmycoursessort_help'] = 'Diese Option legt fest, ob Kurse im Bere
 $string['neverdeleteruns'] = 'Durchläufe nicht löschen';
 $string['nobookmarksforuser'] = 'Sie besitzen keinerlei Lesezeichen';
 $string['nodatabase'] = 'Keine Datenbank';
-$string['nohttpsformobilewarning'] = 'Es wird empfohlen, HTTPS mit einem gültigen Zertifikat zu aktivieren. Die Moodle Mobile App versucht vorrangig eine gesicherte Verbindung zu benutzen.';
+$string['nohttpsformobilewarning'] = 'Es wird empfohlen, HTTPS mit einem gültigen Zertifikat zu aktivieren. Moodle Mobile versucht vorrangig eine gesicherte Verbindung zu benutzen.';
 $string['nomissingstrings'] = 'Keine fehlenden Texte';
 $string['nonewsettings'] = 'Bei dieser Aktualisierung wurden keine neuen Einstellungen hinzugefügt.';
 $string['nonexistentbookmark'] = 'Das gesuchte Lesezeichen existiert nicht.';
@@ -954,8 +966,8 @@ $string['riskxssshort'] = 'XSS-Gefahr';
 $string['roleswithexceptions'] = '{$a->roles}, mit {$a->exceptions}';
 $string['rssglobaldisabled'] = 'Auf Serverebene deaktiviert';
 $string['runclamavonupload'] = 'ClamAV auf hochgeladene Dateien anwenden';
-$string['save'] = 'Speichern';
-$string['savechanges'] = 'Änderungen speichern';
+$string['save'] = 'Sichern';
+$string['savechanges'] = 'Änderungen sichern';
 $string['search'] = 'Suchen';
 $string['searchinsettings'] = 'In den Einstellungen suchen';
 $string['searchresults'] = 'Suchergebnisse';
@@ -1025,8 +1037,8 @@ $string['supportpage'] = 'Support-Seite';
 $string['suspenduser'] = 'Nutzerkonto sperren';
 $string['switchlang'] = 'Verzeichnis wechseln';
 $string['systempaths'] = 'Systempfade';
-$string['tablenosave'] = 'Änderungen in der obigen Tabelle werden automatisch gesichert';
-$string['tablesnosave'] = 'Änderungen in den obigen Tabellen werden automatisch gesichert';
+$string['tablenosave'] = 'Änderungen in der obigen Tabelle werden automatisch gesichert.';
+$string['tablesnosave'] = 'Änderungen in den obigen Tabellen werden automatisch gesichert.';
 $string['tabselectedtofront'] = 'Tabellen mit Tabs: Soll die Reihe mit dem aktiven Tabulator im Vordergrund platziert werden?';
 $string['tabselectedtofronttext'] = 'Bringe die ausgewählte Reihe in den Vordergrund';
 $string['testsiteupgradewarning'] = '';
@@ -1088,7 +1100,7 @@ $string['upgradepluginsfirst'] = 'Es wird empfohlen, die verfügbaren Aktualisie
 $string['upgradepluginsinfo'] = 'Plugins aktualisieren';
 $string['upgradepluginsinfo_help'] = 'Für Ihre Plugins sind teilweise neuere Versionen verfügbar! Moodle aktualisiert diese Plugins nicht automatisch. Sie müssen die verfügbaren Aktualisierungen manuell herunterladen und auf Ihrem Server installieren. Erst danach sollten Sie die Aktualisierung der Datenbank starten.';
 $string['upgradesettings'] = 'Neue Einstellungen';
-$string['upgradesettingsintro'] = 'Die unten gezeigten Einstellungen wurden während der letzten Moodle-Aktualisierung hinzugefügt. Ändern Sie falls nötig diese Einstellungen und klicken Sie danach auf die Taste "Einstellungen speichern" am Ende der Seite.';
+$string['upgradesettingsintro'] = 'Die unten gezeigten Einstellungen wurden während der letzten Moodle-Aktualisierung hinzugefügt. Ändern Sie falls nötig diese Einstellungen und klicken Sie danach auf die Taste \'Einstellungen sichern\' am Ende der Seite.';
 $string['upgradestalefiles'] = 'Das Moodleverzeichnis enthält noch alte Dateien. Das Upgrade kann nicht fortgesetzt werden.';
 $string['upgradestalefilesinfo'] = 'Die Aktualisierung wurde angehalten, weil PHP-Skripte aus unterschiedlichen Moodle-Versionen gefunden wurden. Dies könnte zu erheblichen Problemen im Betrieb führen.
 

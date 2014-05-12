@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['livelogs'] = 'Aktuelle Logdaten der letzten Stunde';
-$string['loglive:view'] = 'Aktuelle Live-Logdaten';
+$string['loglive:view'] = 'Aktuelle Logdaten anzeigen';
 $string['page'] = 'Seite {$a}';
 $string['pluginname'] = 'Live-Logdaten';
