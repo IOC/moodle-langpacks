@@ -141,7 +141,6 @@ $string['insufficient_responses_help'] = 'No hi ha prou respostes per a aquest g
 Per mantindre la realimentació anònima, cal un mínim de 2 respostes.';
 $string['item_label'] = 'Etiqueta';
 $string['item_name'] = 'Pregunta';
-$string['items_are_required'] = 'Calen respostes per les preguntes';
 $string['label'] = 'Etiqueta';
 $string['line_values'] = 'Valoració';
 $string['mapcourse'] = 'Fes el mapa de les re-alimentacions dels cursos';
