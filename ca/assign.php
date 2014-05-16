@@ -318,6 +318,7 @@ $string['submissionstatus_marked'] = 'Qualificada';
 $string['submissionstatus_new'] = 'Nova tramesa';
 $string['submissionstatus_reopened'] = 'Reoberta';
 $string['submissionstatus_submitted'] = 'S\'ha tramès per a qualificar';
+$string['submissionstatus_submitted_deleted'] = 'però l\'estudiant ha esborrat la tramesa';
 $string['submissionsummary'] = '{$a->status}. Darrera modificació en {$a->timemodified}';
 $string['submissionteam'] = 'Grup';
 $string['submissiontypes'] = 'Tipus de tramesa';
