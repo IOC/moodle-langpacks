@@ -323,6 +323,7 @@ $string['submissionstatus_marked'] = 'Calificado';
 $string['submissionstatus_new'] = 'Nueva entrega';
 $string['submissionstatus_reopened'] = 'Reabierto';
 $string['submissionstatus_submitted'] = 'Enviado para calificar';
+$string['submissionstatus_submitted_deleted'] = 'pero el estudiante ha borrado la entrega';
 $string['submissionsummary'] = '{$a->status}. Última modificación  {$a->timemodified}';
 $string['submissionteam'] = 'Grupo';
 $string['submissiontypes'] = 'Tipos de entrega';
